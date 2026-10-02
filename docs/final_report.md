@@ -33,10 +33,16 @@ code `src/mycoswarm_abm_3d.py`; params `docs/parameter_ledger.md`.
   claim matrix 9/9 valid; stats audit 19 verified / 0 missing. Absolute times
   are dt-sensitive (p = .012) — ratios only are claimed (same-dt 10.6x,
   p < .0001).
+- **Grain-aware field (`results_pub/grainfield.json`, fixed no-flux solver +
+  source carve)**: network solver-field 3.8 vs analytic 2.2 min (~15x vs
+  passive) — band holds; edge 9.5 vs 5.8 (~8.6x, borderline). Grains cost
+  ~1.6–1.7x. First attempt with absorbing grains + a NaN event was discarded
+  as flawed, fixed, and rerun clean.
 - **DQN controller (`src/dqn_chemotaxis.py`, isolated torch 2.14.1 env, 2,000
   episodes)**: learned policy captures in 7.36 min mean (median 7.30, worst
   seed 8.0) vs greedy 8.84 — wins on all 10 eval seeds (`results_dqn/`).
-  Supersedes the failed tabular proxy.
+  Supersedes the failed tabular proxy. Multi-source 3-D policy
+  (`src/dqn3d_chemotaxis.py`): 21.0 vs greedy 24.9, wins all 10 seeds.
 
 ## What the numbers do and do not prove
 

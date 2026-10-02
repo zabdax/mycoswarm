@@ -24,7 +24,7 @@
     "inoc": "edge",
     "field": "solver",
     "chi": 1.0,
-    "mean_tall": 9.28125,
+    "mean_tall": 9.49375,
     "frac": 1.0
   },
   {
@@ -52,7 +52,7 @@
     "inoc": "network",
     "field": "solver",
     "chi": 1.0,
-    "mean_tall": 3.8916666666666666,
+    "mean_tall": 3.7500000000000004,
     "frac": 1.0
   }
 ]
