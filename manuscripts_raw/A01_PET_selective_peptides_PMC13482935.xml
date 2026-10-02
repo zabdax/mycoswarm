@@ -1,0 +1,759 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="advs77104" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style superscripted?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="iso-abbrev">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="pmc-domain-id">2933</journal-id><journal-id journal-id-type="pmc-domain">advsci</journal-id><journal-id journal-id-type="nlm-id">101664569</journal-id><journal-id journal-id-type="publisher-id">ADVS</journal-id><journal-title-group><journal-title>Advanced Science</journal-title></journal-title-group><issn pub-type="epub">2198-3844</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13482935</article-id><article-id pub-id-type="pmcid-ver">PMC13482935.1</article-id><article-id pub-id-type="pmcaid">13482935</article-id><article-id pub-id-type="pmcaiid">13482935</article-id><article-id pub-id-type="pmid">42610506</article-id><article-id pub-id-type="doi">10.1002/advs.77104</article-id><article-id pub-id-type="publisher-id">ADVS77104</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Toward Material‐Specific Peptides From in Silico Guided Peptide Engineering to Target PET in the Presence of PS</article-title></title-group><contrib-group><contrib id="advs77104-cr-0001" contrib-type="author"><name name-style="western"><surname>Luka</surname><given-names initials="J">Julian</given-names></name><xref rid="advs77104-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs77104-cr-0002" contrib-type="author"><name name-style="western"><surname>Bienstein</surname><given-names initials="M">Marian</given-names></name><xref rid="advs77104-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs77104-cr-0003" contrib-type="author"><name name-style="western"><surname>Berger</surname><given-names initials="J">Jonas</given-names></name><xref rid="advs77104-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="advs77104-cr-0004" contrib-type="author" corresp="yes"><name name-style="western"><surname>Schwaneberg</surname><given-names initials="U">Ulrich</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4026-701X</contrib-id><xref rid="advs77104-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="advs77104-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>u.schwaneberg@biotec.rwth-aachen.de</email></address></contrib></contrib-group><aff id="advs77104-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Lehrstuhl für Biotechnologie</named-content>
+<institution>RWTH Aachen University</institution>
+<city>Aachen</city>
+<country country="DE">Germany</country>
+</aff><aff id="advs77104-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>DWI‐Leibniz Institut für Interaktive Materialien</institution>
+<city>Aachen</city>
+<country country="DE">Germany</country>
+</aff><pub-date pub-type="epub"><day>18</day><month>8</month><year>2026</year></pub-date><issue-id pub-id-type="pmc-issue-id">516819</issue-id><elocation-id>e77104</elocation-id><history>
+<date date-type="rev-recd"><day>13</day><month>7</month><year>2026</year></date>
+<date date-type="received"><day>14</day><month>4</month><year>2026</year></date>
+<date date-type="accepted"><day>30</day><month>7</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>18</day><month>08</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>19</day><month>08</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-08-26 01:25:18.823"><day>26</day><month>08</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Advanced Science</italic> published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ADVS-9999-e77104.pdf"><?pdf-name ADVS-9999-e77104.pdf?><?pdf-size 4159087?><?pdf-md5 8a25883300ebb0d222fbd13a9549490d?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:2b7c/13482935/8a25883300eb/ADVS-9999-e77104.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ADVS-9999-e77104.pdf"/><abstract><title>ABSTRACT</title><p>Synthetic polymers are indispensable but pose major recycling challenges, particularly in mixed plastic waste streams. Enzymatic recycling offers a promising route to specific polymer depolymerization into oligomers and monomers. This requires controlling molecular recognition at polymer interfaces. Material‐binding peptides (MBPs) can enhance catalytic degradation by directing catalysts to specific polymer surfaces, yet strategies for engineering polymer specificity remain limited. Here, we introduce a computational–experimental workflow for designing polymer‐selective MBPs. Molecular dynamics simulations identified aromatic tyrosine residues as key contributors to polystyrene (PS) binding in the MBP MacHis, while polyethylene terephthalate (PET) interactions were unaffected. Guided by these insights, targeted tyrosine‐to‐glutamate substitutions were introduced, yielding variants with an 85% reduction in PS binding while maintaining PET affinity. Steered molecular dynamics simulations confirmed the reduced PS interaction, predicting a comparable 69% decrease in binding free energy. This design principle generalized to the structurally distinct peptides LCI and Tachystatin A2, where analogous substitutions reduced PS binding by 67% or 74%, respectively. Practical application was shown by fusing peptide variants to the LCC<sub>ICCG</sub> enzyme and characterizing PET degradation in mixed plastics. This workflow provides a strategy for engineering polymer‐selective binding peptides and enables programmable molecular recognition at synthetic polymer interfaces.</p></abstract><abstract id="advs77104-abs-0001" abstract-type="graphical"><p>This work presents a computational–experimental strategy to engineer material‐binding peptides toward polymer specificity. Molecular dynamics simulations identified residues driving polystyrene binding, enabling targeted substitutions that greatly reduced polystyrene affinity while preserving PET binding. The approach generalized across multiple peptides and was validated in enzyme fusions, providing a route to molecular recognition for enzymatic recycling of mixed plastic waste. 
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ADVS-9999-e77104-g005.jpg"><?image-name ADVS-9999-e77104-g005.jpg?><?image-size 45560?><?image-md5 d4c974ae952bb15a5313a118b42d9054?><?image-image-server-status NEVER_LOAD?><?image-original-height 300?><?image-original-width 300?><?image-scaled-height 300?><?image-scaled-width 300?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/d4c974ae952b/ADVS-9999-e77104-g005.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="advs77104-kwd-0001">material binding peptides</kwd><kwd id="advs77104-kwd-0002">molecular dynamics simulations</kwd><kwd id="advs77104-kwd-0003">polymer interfaces</kwd><kwd id="advs77104-kwd-0004">polymer recycling</kwd><kwd id="advs77104-kwd-0005">protein engineering</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Werner Siemens Foundation</institution></institution-wrap>
+</funding-source><award-id>catalaix</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="1"/><page-count count="15"/><word-count count="10197"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>edited-state</meta-name><meta-value>corrected-proof</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:18.08.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="advs77104-sec-0010"><label>1</label><title>Introduction</title><p>Synthetic polymers are bulk products produced at an annual scale of 400 Mt [<xref rid="advs77104-bib-0001" ref-type="bibr">1</xref>]. Due to their excellent properties, including light weight, rigidity, and the ability to be formed into any shape cost‐effectively, they have become the materials of choice for many applications. Synthetic polymer products range from disposable everyday items such as food containers, cups, and cutlery to textiles and parts/devices used in transportation, building construction, and consumer goods manufacturing [<xref rid="advs77104-bib-0002" ref-type="bibr">2</xref>, <xref rid="advs77104-bib-0003" ref-type="bibr">3</xref>]. Among synthetic polymers, mixed‐plastics containing polystyrene (PS) and polyethylene terephthalate (PET) are widely used in food packaging, including rigid clamshells, thermoformed trays, and transparent films; production of multilayer plastic packaging has been reported on a 100 Mt scale in 2018 [<xref rid="advs77104-bib-0004" ref-type="bibr">4</xref>]. PET and PS polymers are also commonly found in the same recycling fraction as NIR spectrometers can misclassify PS as PET [<xref rid="advs77104-bib-0005" ref-type="bibr">5</xref>]. Polymer recycling with respect to defined monomers and oligomers faces many challenges in sorting [<xref rid="advs77104-bib-0006" ref-type="bibr">6</xref>], managing food waste or other contaminants [<xref rid="advs77104-bib-0007" ref-type="bibr">7</xref>], and achieving economies of scale [<xref rid="advs77104-bib-0008" ref-type="bibr">8</xref>] so that only 9% of the produced polymers are recycled. Enzymatic polymer recycling on an industrial scale is limited by the challenges that enzymes generally do not perform well with crystalline synthetic polymers, and that melting temperatures of &gt;240°C for PET, are beyond the thermal resistance of most PETases. As a result, industrial enzymatic PET degradation has so far been limited to pretreated mono‐material products composed of PET [<xref rid="advs77104-bib-0009" ref-type="bibr">9</xref>, <xref rid="advs77104-bib-0010" ref-type="bibr">10</xref>, <xref rid="advs77104-bib-0011" ref-type="bibr">11</xref>, <xref rid="advs77104-bib-0012" ref-type="bibr">12</xref>] (commercialized CARBIOS process in 50 kt scale) [<xref rid="advs77104-bib-0013" ref-type="bibr">13</xref>].</p><p>Resource‐efficient recycling processes with a low carbon footprint can be envisioned through stepwise mixed‐polymer hydrolysis, yielding defined monomers and oligomers for each targeted polymer. A prerequisite for such a stepwise process is the material‐specific targeting of each polymer with a material‐specific binding peptide conjugated or fused to a chemical or enzymatic depolymerization catalyst. A stepwise depolymerization of a PET/PS mixture, for example, would start with targeted enzymatic hydrolysis of the PET polymer to recover high‐value monomers from the mixed plastic fraction before applying pyrolysis to the remaining material to depolymerize PS. Targeting of polymers with fused material‐binding peptides has been successfully reported for a cutinase [<xref rid="advs77104-bib-0014" ref-type="bibr">14</xref>] and inorganic Cobalt catalysts [<xref rid="advs77104-bib-0015" ref-type="bibr">15</xref>]. In detail, immobilization of a cutinase using the material binding peptide Tachystatin A2 enhanced the depolymerization of polyester‐polyurethan by 6.6‐fold [<xref rid="advs77104-bib-0014" ref-type="bibr">14</xref>] and fusing a cobalt catalyst to the material‐binding peptide LCI increased PS oxidation by 15‐fold [<xref rid="advs77104-bib-0015" ref-type="bibr">15</xref>] when compared to the freely supplemented cutinase or Co‐catalyst.</p><p>The interfacial design of molecular interactions between synthetic polymers and the material‐binding peptide is a key challenge for enabling sustainable processes for the recovery of defined oligomers and monomers. Computational tools can provide insights into atomic‐level interactions with all‐atom models of crystalline and amorphous PET [<xref rid="advs77104-bib-0016" ref-type="bibr">16</xref>, <xref rid="advs77104-bib-0017" ref-type="bibr">17</xref>, <xref rid="advs77104-bib-0018" ref-type="bibr">18</xref>, <xref rid="advs77104-bib-0019" ref-type="bibr">19</xref>, <xref rid="advs77104-bib-0020" ref-type="bibr">20</xref>] and PS [<xref rid="advs77104-bib-0021" ref-type="bibr">21</xref>, <xref rid="advs77104-bib-0022" ref-type="bibr">22</xref>, <xref rid="advs77104-bib-0023" ref-type="bibr">23</xref>, <xref rid="advs77104-bib-0024" ref-type="bibr">24</xref>] already reported. One option for generating these models is the Charmm‐GUI polymer builder, which provides a generalized process for generating a variety of relaxed polymer systems from over 150 monomers, that has already been use for PS and PET models [<xref rid="advs77104-bib-0025" ref-type="bibr">25</xref>]. Bulk structures of synthetic polymers such as PS and PET are composed of long covalently bound macromolecular chains that become physically entangled. Entanglements are not chemical crosslinks, but topological constraints that restrict chain motion. In the amorphous phase, polymer chains typically adopt disordered, randomly coiled conformations with no long‐range periodic packing. In semi‐crystalline polymers, portions of the chains locally align and pack into ordered lamellae. Notably, entanglements are largely retained in the amorphous regions and often connect crystalline domains through tie molecules [<xref rid="advs77104-bib-0026" ref-type="bibr">26</xref>]. Interfacial design to develop material‐specific binding peptides for synthetic polymers such as PS and PET must account for these topological differences as well as the fundamental polymer properties.</p><p>Polystyrene (PS) is a vinyl polymer composed of repeating styrene monomers, forming a polydisperse backbone with aromatic phenyl groups as side groups. In most commercial applications, polystyrene is atactic, meaning its substituents (phenyl groups) are randomly arranged along the PS backbone. Atactic randomness disrupts chain packing and prevents regular crystallinity, resulting in an amorphous material [<xref rid="advs77104-bib-0027" ref-type="bibr">27</xref>]. In the amorphous state, PS molecules form a disordered structure, in which the chains interpenetrate but do not align into any long‐range, periodic arrangement. The glass transition temperature for PS generally lies around 100°C, which is above the temperature at which the polymer transitions from a rigid, glassy state to a rubbery, more malleable form [<xref rid="advs77104-bib-0028" ref-type="bibr">28</xref>].</p><p>Polyethylene terephthalate (PET) is a thermoplastic polyester, synthesized by the esterification of terephthalic acid and ethylene glycol. When cooled rapidly or cast into thin films, PET can exist in a purely amorphous form, exhibiting high transparency and good thermoformability. PET can also form semi‐crystalline structures if given sufficient time or thermal treatment for crystallites to grow. In its amorphous state, PET is transparent, and no long‐range order is present; polymer chains are randomly arranged with a lower modulus compared to semi‐crystalline PET [<xref rid="advs77104-bib-0029" ref-type="bibr">29</xref>].</p><p>Both PS and PET primarily rely on van der Waals forces and occasional π‐π interactions or dipole interactions to keep individual chains in close proximity to one another [<xref rid="advs77104-bib-0030" ref-type="bibr">30</xref>, <xref rid="advs77104-bib-0031" ref-type="bibr">31</xref>]. In PS, the phenyl rings engage in aromatic stacking (π–π) with neighboring chains, which contributes to the polymer's relatively high glass transition temperature and stiffness [<xref rid="advs77104-bib-0031" ref-type="bibr">31</xref>, <xref rid="advs77104-bib-0032" ref-type="bibr">32</xref>]. Since there is no possibility of hydrogen bonding in a pure hydrocarbon backbone with phenyl side groups, polystyrene's chain connectivity is largely governed by dispersion forces. In PET, carbonyl and ether groups in the backbone introduce dipole–dipole attractions, which strengthen intermolecular cohesion [<xref rid="advs77104-bib-0033" ref-type="bibr">33</xref>]. Under certain conditions, there can be limited hydrogen bonding with terminal hydroxyl or carboxyl end groups; however, the ester linkages might be more important due to their robust dipolar interactions [<xref rid="advs77104-bib-0034" ref-type="bibr">34</xref>]. Dipoles contribute to PET's relatively higher barrier properties compared to PS or other non‐polar polymers such as PP or PE. In PET's amorphous state, disordered entanglements benefit from dipolar and dispersion forces, contributing to strength and moderate thermal stability.</p><p>PET‐PS mixtures were selected, in addition to their broad applications in everyday products, for specific differences in their molecular interactions (van der Waals/π–π (PS) vs. additional dipole interactions (PET)) and in their backbone composition, which influences possible interactions and recycling options. MD simulations can elucidate molecular interactions and determine whether a specific amino acid composition can distinguish between PS and PET, which would be crucial for the interfacial design of material‐specific binding peptides.</p><p>Material binding peptides (MBPs) present a broadly applicable technology platform for the functionalization and degradation of synthetic polymers as described in a recent review by our group [<xref rid="advs77104-bib-0035" ref-type="bibr">35</xref>]. Binding of MBPs to polymers has been reported for PET (LCI [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>], Tachystatin A2 [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>], Dermaseptin S1 [<xref rid="advs77104-bib-0037" ref-type="bibr">37</xref>]), PS (Cecropin A<sup>36</sup>, LCI [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>], Tachystatin A2 [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>]), and several other polymers such as polylactic acid (PLA) (LCI [<xref rid="advs77104-bib-0038" ref-type="bibr">38</xref>], Cg‐Def [<xref rid="advs77104-bib-0038" ref-type="bibr">38</xref>], spinigerin [<xref rid="advs77104-bib-0038" ref-type="bibr">38</xref>]), polypropylene (PP) (Cecropin A<sup>36</sup>, LCI [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>], Tachystatin A2 [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>]), polyurethane (PU) (Tachystatin A2 [<xref rid="advs77104-bib-0014" ref-type="bibr">14</xref>]). Enhanced degradation by a fusion protein (MBP‐Depolymerase), composed of a material‐binding peptide and polymer‐degrading enzyme, has been reported for PET (Thc‐Cut1‐PBM, 3.75‐fold improved [<xref rid="advs77104-bib-0039" ref-type="bibr">39</xref>]; Dermaseptin S1‐Tfuc2, 22.7‐fold improved [<xref rid="advs77104-bib-0037" ref-type="bibr">37</xref>]; Tfuc2‐LCI, 34.5‐fold improved [<xref rid="advs77104-bib-0040" ref-type="bibr">40</xref>]), Polyester‐PU (Tachystatin, 6.6‐fold improved [<xref rid="advs77104-bib-0014" ref-type="bibr">14</xref>]), and PLA (ICCG‐Cg‐def YH, 1.4‐fold improved [<xref rid="advs77104-bib-0041" ref-type="bibr">41</xref>]). The fusion protein concept (MBP‐Depolymerase) is inspired by naturally occurring enzymes such as cellulases, in which a cellulose‐binding domain (CBD) is often used for sugar‐specific binding and efficient cellulose degradation (amorphous and crystalline) [<xref rid="advs77104-bib-0042" ref-type="bibr">42</xref>]. Interestingly, CBDs have also been reported to bind to PET, with hydrogen‐bond formation important for interfacial recognition [<xref rid="advs77104-bib-0043" ref-type="bibr">43</xref>]. In only one report, an engineered MBP has been reported to accelerate mix‐plastic degradation via engineered MBP‐Fusions proteins (PLA over PS; 1.4‐fold improved) [<xref rid="advs77104-bib-0041" ref-type="bibr">41</xref>].</p><p>A class of short peptides (&lt;20 amino acids [<xref rid="advs77104-bib-0035" ref-type="bibr">35</xref>]) that bind to PS and PET originates from phage display experiments. Several small PS‐binding peptides have been reported, characterized by enrichment of aromatic residues at the N‐terminus or a high occurrence of hydrophobic residues [<xref rid="advs77104-bib-0044" ref-type="bibr">44</xref>, <xref rid="advs77104-bib-0045" ref-type="bibr">45</xref>]. Phage display peptides binding to PET were generally characterized by a low net charge in another study, and the best binding results were achieved with the sequence DEYCCNN [<xref rid="advs77104-bib-0046" ref-type="bibr">46</xref>]. In contrast to PS, aromatic residues are less important for strong PET interactions. In addition to phage display studies, small peptides for PS and PET binding have recently also been designed purely in silico with improved predicted binding characteristics [<xref rid="advs77104-bib-0047" ref-type="bibr">47</xref>, <xref rid="advs77104-bib-0048" ref-type="bibr">48</xref>]. Molecular simulations that elucidate the interactions between larger MBPs and synthetic polymers have, to our knowledge, only been performed in two reports (PS [<xref rid="advs77104-bib-0049" ref-type="bibr">49</xref>] and PLA [<xref rid="advs77104-bib-0041" ref-type="bibr">41</xref>]). Lessons learned from the first report include increased PS binding resulting from the introduction of aromatic amino acids, which can improve binding strength directly, via polymer interactions, or indirectly, via structural changes. The other study highlighted a change in contact frequency of interfacial residues, mostly caused by structural changes induced by amino acid substitutions.</p><p>Based on peptides reported to bind PS [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>, <xref rid="advs77104-bib-0044" ref-type="bibr">44</xref>, <xref rid="advs77104-bib-0045" ref-type="bibr">45</xref>, <xref rid="advs77104-bib-0047" ref-type="bibr">47</xref>, <xref rid="advs77104-bib-0049" ref-type="bibr">49</xref>] and PET [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>, <xref rid="advs77104-bib-0037" ref-type="bibr">37</xref>, <xref rid="advs77104-bib-0043" ref-type="bibr">43</xref>, <xref rid="advs77104-bib-0046" ref-type="bibr">46</xref>, <xref rid="advs77104-bib-0048" ref-type="bibr">48</xref>], we hypothesize that aromatic residues, especially tyrosine, might be the amino acids of choice to achieve material‐specific PET over PS binding.</p><p>In this study, a computationally driven approach based on amorphous PET and PS models was used to achieve material‐specific PET over PS binding. Interfacial design of material‐specific binding peptides was attempted by studying aromatic interactions between the MBP MacHis and amorphous PS‐ and PET‐surfaces via MD simulations. MacHis was selected for its high flexibility and ability to adapt to molecular interactions without being restricted by a rigid fold. The high percentage (26%) of histidine residues with a pKa of 6.0 in the peptide structure is a unique feature that promises regeneration of the bound peptide by switching its charge via a pH shift. MacHis has been used to functionalize synthetic polymers for thin film coating, including PET, PA, PP, PE and PVC [<xref rid="advs77104-bib-0050" ref-type="bibr">50</xref>]. The computational investigation identified Tyrosine as the prime amino acid for achieving PET binding over PS binding. Based on computational studies, systematic experiments were conducted in which Tyrosine residues in MBP MacHis were replaced with negatively charged Glutamate; the Tyrosine‐to‐Glutamate substitution was based on simulation results indicating that Glu did not interact with PS or PET. In total, three Tyrosine residues in MacHis were targeted and recombined, and the resulting peptide variants were biophysically characterized by quartz crystal microbalance with dissipation monitoring (QCM‐D) analysis (determination of binding kinetics; recording of adsorption isotherms; confirmation by MacHis‐eGFP fluorescence screening). Finally, the best‐performing variant, MacHis‐Y30E‐Y34E‐Y36E, achieved a 69% reduction in PS binding compared to the MacHis wildtype; steered MD simulations confirmed the role of Tyrosine in PS and PET binding in silico. General applicability was subsequently confirmed by replacing two Tyrosine residues with Glutamate in the material‐binding peptide LCI.</p></sec><sec id="advs77104-sec-0020"><label>2</label><title>Results and Discussion</title><p>The results and discussion section is divided into three parts. First, interactions of MacHis WT with amorphous PS and PET surfaces were simulated in silico to determine the positions and amino acid interactions that govern PS and PET binding; subsequent wet‐lab characterization using QCM‐D was performed to verify or refute the MD simulations. In the second part, the best‐performing recombination MacHis variant, MacHis_Y30E_Y34E_Y36E, was further characterized by recording adsorption isotherms on both polymers, and results were compared to steered MD simulations to challenge the simulation systems and to validate the amorphous PS and PET surface models. In the third part, the general applicability of the Tyr‐MD workflow was investigated using a structurally distinct material‐binding peptide, LCI, which was also biophysically characterized by QCM‐D.</p><sec id="advs77104-sec-0030"><label>2.1</label><title>Interfacial Molecular Interactions of MacHis With Amorphous PS and PET Surfaces</title><p>Interfacial molecular interactions between MacHis and amorphous models of PS and PET were investigated by performing 16 independent MD simulations for each polymer. Amorphous models of PS and PET were generated using the CHARMM‐GUI polymer builder, which has been used previously to generate PS and PET polymers. Models were generated and equilibrated to achieve realistic polymer densities of 1.09 g/mL for PS and 1.30 g/mL for amorphous PET. Each simulation run was performed for 200 ns under constant temperature (300 K) and pressure (1 bar). The simulation box was composed of the peptide MacHis, a square amorphous polymer surface (10 × 10 nm (PS), 24 × 24 nm (PET)), and ions to control ionic strength, solvated in TIP3P water (up to 450.000 atoms). Starting with random initial rotations of the peptide, its attraction to the polymer surface was observed (Figure <xref rid="advs77104-fig-0001" ref-type="fig">1A</xref>). Contact points between MacHis and the two polymers were identified by tracking the MacHis to polymer distance per residue over time (see Methods section), exposing interaction areas of MacHis in a contact map (Figure <xref rid="advs77104-fig-0001" ref-type="fig">1B</xref>). The C‐Terminal region of the MacHis showed stable attachment to the PS polymer early in the simulation (after 40 ns) while residues toward the N‐terminus attached after 160 ns. Further analysis was performed by calculating the contact frequency per residue across all 16 simulations on both polymers. A distance between a residue and the polymer below 0.4 nm was defined as a contact. A contact frequency of 1 would indicate a residue that was below the threshold over all simulation datasets, while a frequency of 0 would indicate no contact in any of the MD‐simulations. The region from residue 33 to 36 is pivotal for interactions with PS with additional but weaker contributions at position 10 and 30 (see contact frequency heatmap Figure <xref rid="advs77104-fig-0001" ref-type="fig">1C</xref>). MacHis interactions with the amorphous PET model surface yielded 14 residues with contact frequencies between 0.5 and 0.8, which indicate, as a general trend, multiple binding configurations to PET in contrast to the one main interaction area for PS binding (Figure <xref rid="advs77104-fig-0001" ref-type="fig">1C</xref>). Involvement of the C‐terminal region for PS binding indicates that Tyrosine 34 and 36 are main contributors to the binding; the latter observation is further fostered by Tyrosine 30, which was identified as further main interaction point using the heat map. MD simulations and literature reports provided the foundation for the proposed hypothesis that Tyrosines 34 and 36 mediate PS contact via π‐π interactions and bring Asparagine 33 and Leucine 35 into close proximity to PS. Interaction patterns of PET binding are more diverse (Figure <xref rid="advs77104-fig-0001" ref-type="fig">1C</xref>) and are governed by residues such as Histidine or Arginine (Figure <xref rid="advs77104-fig-0001" ref-type="fig">1C</xref>), which are capable of establishing hydrogen bridges. A summary of all interacting residues per polymer is given in Figure <xref rid="advs77104-fig-0001" ref-type="fig">1D</xref>. The interaction with PS is primarily governed by six residues, half of which are Tyrosine, with small contributions from a polar, a positively charged, and a non‐polar amino acid. PET binding showed a high frequency of contact for positively charged residues (53,8% of all residues in close contact). 40% of all positively charged amino acids in MacHis were observed to establish contact with the PET surface, while aromatic residues played a lesser role (16.7% of all binding residues). Interestingly, no negatively charged amino acid fell below the 0.4 nm cutoff, which classifies contacts in all 16 simulations on either polymer. This indicates that negatively charged residues are of least importance for binding to PS and PET. These trends imply that PS interactions of MacHis are mainly guided by aromatic interactions, whereas PET interactions rely on positively charged residues, possibly via dipole‐dipole interactions or hydrogen bonds. Negatively charged residues did not seem to facilitate any interactions. Extensive MD simulations yielded the results that Tyrosine residues at positions 30, 34 and 36 in the MacHis peptide present main interaction points with the PS polymer and that the binding is predominantly governed by aromatic interactions. PET binding is mainly shaped by seven positively charged amino acids, which account for 40% of all positively charged residues in MacHis, resulting in a broader patch of the peptide that establishes contact with PET. A comparison to experimental results and a discussion on simulation accuracy can be found in the next section on experimental validation of the role of Tyrosine residues in PS binding.</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(a) Visual representation of the role of MacHis positions in binding to polystyrene (PS). Interacting Tyrosine residues are shown in green. (b) Contact map for MacHis WT binding to PS over 200 ns of MD simulations. The distance of each residue to the PS polymer over time is indicated by the color shift from dark blue to light green. (c) Contact frequency map for the MacHis WT peptide binding to PS and PET. A contact point is defined by a distance closer than 0.4 nm between any atom of the protein and polymer group. The contact frequency per residue is indicated by the shift from dark blue to light green and represents the mean value calculated from 16 individual simulations for PS and PET. The x‐axis shows the residue number as well as the one letter code for the corresponding amino acid at each position. The color of the letters indicates the chemical type of each amino acid. Red: negatively charged, Blue: positively charged, Green: polar, Black: non‐polar; classification of amino acids type is according to Taylor, 1986 [<xref rid="advs77104-bib-0051" ref-type="bibr">51</xref>]. (d) Aggregated interactions of MacHis WT residues with PS and PET as percentage of all interactions. Interestingly, aromatic interactions are the main interactions in PS and negatively charged amino acid did not show any interactions. In PET aromatic interactions are fewer, in contrast to PS positively charged amino acids are main interactions drivers. Interestingly, also no negative charged amino acid in MacHis (in total five amino acids) showed binding interactions to PET.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ADVS-9999-e77104-g006.jpg"><?image-name ADVS-9999-e77104-g006.jpg?><?image-size 145429?><?image-md5 a774ffe85b3d899f8f6f3501254a2a10?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 978?><?image-original-width 723?><?image-scaled-height 978?><?image-scaled-width 723?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/a774ffe85b3d/ADVS-9999-e77104-g006.jpg?><?thumb-name ADVS-9999-e77104-g006.gif?><?thumb-size 8296?><?thumb-md5 c557a544fbf62c82dfc8b23d4b40aabb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 135?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/c557a544fbf6/ADVS-9999-e77104-g006.gif?></graphic></fig></sec><sec id="advs77104-sec-0040"><label>2.2</label><title>Experimental Validation of the Role of Tyrosine in PS Binding of MacHis</title><p>MD simulation identified the stretch from 30 to 36 as the main interaction region between MacHis and PS, with a key role played by three Tyrosine residues at positions 30, 34, and 36. Site‐directed mutagenesis at these positions in the MacHis‐WT was performed to experimentally confirm that replacing Tyrosine with a non‐interacting amino acid reduces PS binding without, ideally, affecting PET binding. Based on the MD simulation results in Figure <xref rid="advs77104-fig-0001" ref-type="fig">1D</xref>, negatively charged amino acids did not appear to be involved in MacHis binding to PS or PET. Therefore, the MacHis variants, MacHis‐Y30E, MacHis‐Y34E, and MacHis‐Y36E, were generated in a tag‐free manner (Figure <xref rid="advs77104-supinfo-0001" ref-type="">S1</xref>), and their binding compared to the MacHis‐WT was analysed through QCM‐D (Figure <xref rid="advs77104-fig-0002" ref-type="fig">2</xref>). The QCM‐D measures the resonance of a polymer‐coated swinging quartz crystal and detects increased mass by a decrease in frequency. The decrease in frequency is proportional to the mass of the bound peptide.</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>QCM‐D characterization of MacHis variants binding to PS‐ and PET‐coated sensors. a) Frequency shift over time for the direct comparison of variants with increasing number of Y to E substitutions. Peptides were applied for 15 min after a stable baseline was established, and the sample was then washed with binding buffer to remove loosely bound peptides. Measurements were run for 1 h or until a stable plateau was reached during wash. b) Comparison of all single‐, double‐, and triple substitutions possible with positions 30, 34, and 36. The binding was quantified using QCM‐D and the frequency shift was normalized to a wild‐type control that was run in parallel. The bar for each variant shows the average of triplicate measurements. Error bars indicate the standard error. Bars sharing the same letter as WT are not significantly different from the WT. Bars labelled with a different letter from WT are significantly different from the WT (two‐tailed t‐test, <italic toggle="yes">p</italic> &lt;0.05). c) Adsorption isotherms for MacHis WT and the MacHis‐Y30E‐Y34E‐Y36E variant on PS (left) and PET (right) recorded by varying the peptide concentration and measuring the resulting frequency shift on QCM‐D. Data is fitted using a rectangular Hyperbola function that resembles a Langmuir isotherm fit. The parameters F<sub>max</sub> and b are used to describe the maximum frequency shift and the peptide affinity, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ADVS-9999-e77104-g007.jpg"><?image-name ADVS-9999-e77104-g007.jpg?><?image-size 115979?><?image-md5 8ade7e88eaa8ec0b2fd391222acc8017?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 878?><?image-original-width 700?><?image-scaled-height 878?><?image-scaled-width 700?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/8ade7e88eaa8/ADVS-9999-e77104-g007.jpg?><?thumb-name ADVS-9999-e77104-g007.gif?><?thumb-size 7062?><?thumb-md5 ce3e3e7e162477a31e15539bad32f823?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 125?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/ce3e3e7e1624/ADVS-9999-e77104-g007.gif?></graphic></fig><p>All three single‐substituted variants, MacHis‐Y30E, MacHis‐Y34E, and MacHis‐Y36E, show weaker binding to PS than the WT as determined by QCM‐D measurements. The observed difference in frequency shift confirms the key role of the three Tyrosine residues in PS binding; (see MacHis‐Y34E in Figure <xref rid="advs77104-fig-0002" ref-type="fig">2a</xref>; MacHis‐Y30E &amp; MacHis‐Y36E in Figure <xref rid="advs77104-supinfo-0001" ref-type="">S2a and b</xref>). Substitutions to Aspartic Acid were generated and characterized with the same procedure (Figure <xref rid="advs77104-supinfo-0001" ref-type="">S3</xref>). The binding to both polymers was affected in a similar way; PS binding reduced upon introducing the negative charge, while PET binding remained unchanged. The difference in the frequency shift for these MacHis variants was less pronounced compared to Glutamate substitutions, so all subsequent experiments were performed with substitution of Tyrosine by Glutamate. Interestingly, all three double substitutions (MacHis‐Y30E‐Y34E, MacHis‐Y30E‐Y36E, MacHis‐Y34E‐Y36E) show further reduced binding to PS compared to the MacHis‐WT and single substitutions (see MacHis‐Y34E‐Y36E in Figure <xref rid="advs77104-fig-0002" ref-type="fig">2a</xref>; MacHis‐Y30E‐Y34E &amp; MacHis‐Y30E‐Y36E in Figure <xref rid="advs77104-supinfo-0001" ref-type="">S4a</xref> and <xref rid="advs77104-supinfo-0001" ref-type="">b</xref>). The triple substitutions variant (MacHis‐Y30E‐Y34E‐Y36E) has the weakest binding affinity to PS (see Figure <xref rid="advs77104-fig-0002" ref-type="fig">2a</xref>) when compared to MacHis‐WT and all other six MacHis variants. Figure <xref rid="advs77104-fig-0002" ref-type="fig">2b</xref> (left) summarizes the reduced binding of all variants compared to MacHis‐WT (set to 100%). The relative binding of each variant was determined by dividing the obtained frequency shift after 1 h of QCM‐D measurement by the frequency shift obtained for the MacHis WT within the same round of measurement. This way, all substitutions and their effects on binding performance can be compared in a single overview. The QCM‐D results confirm that the Tyr‐MD workflow is well suited to identify the main amino acids that interact with amorphous PS in MD simulations, and that substituting with the negatively charged Glutamate is an excellent approach to reduce PS‐binding. In addition, the experimental QCM‐D data on PET binding of all seven MacHis variants show no or minor reduction (Only up to 20% reduction for MacHis‐Y34E‐Y36E) of PET binding (Figure <xref rid="advs77104-fig-0002" ref-type="fig">2b</xref> right). The experimental QCM‐D data for the PET polymer also align well with computational predictions, which indicate a less important role for aromatic interactions in governing PET binding. The abundance of polar and positively charged residues among the binding residues identified in the simulation, along with the small impact of Tyrosine‐to‐Glutamate substitutions on PET binding, suggests that PET binding is primarily governed by polar interactions, given the dipole nature of the PET polymer. Aromatic interactions with PET are still expected, but the high percentage of polar and positively charged residues in MacHis is thought to compensate for lost aromatic interactions in the generated MacHis variants. In summary, the Tyr‐MD workflow with the amorphous PS and PET models reliably and robustly identifies amino acid positions in MacHis that govern binding to PS. These residues can efficiently be replaced by ‘non‐interacting’ Glutamates without significantly compromising PET binding capacity.</p><p>Figure <xref rid="advs77104-fig-0002" ref-type="fig">2c</xref> shows the obtained frequency shift at varied concentrations (up to 10 µM) of MacHis‐WT and MacHis‐Y30E‐Y34E‐Y36E on PS (left) and PET (right). Data points were fit using a rectangular hyperbola in the form of a Langmuir adsorption model. The parameters F<sub>max</sub> and b were determined from the fits for all four peptide‐polymer combinations (see methods section) and are listed in Table <xref rid="advs77104-tbl-0001" ref-type="table">1</xref>. The obtained adsorption isotherms show a 69% reduction in binding affinity, which is indicated by the flattening of the isotherm slope (see Tab. <xref rid="advs77104-tbl-0001" ref-type="table">1</xref> F<sub>max</sub> from 35.4 to 27.3 Hz and b values reduced from 0.51 to 0.16 for PS). The slope of the adsorption isotherms is nearly unchanged for PET (see Tab. <xref rid="advs77104-tbl-0001" ref-type="table">1</xref>; Fmax from 18.7 to 17.3 Hz and b values from 0.99 to 1.08). This implies unchanged binding affinity to the PET polymer between the MacHis‐WT and the MacHis‐Y30E‐Y34E‐Y36E variant. Interestingly, for MacHis‐WT and MacHis‐Y30E‐Y34E‐Y36E, saturation is approximately reached at 5 µM, indicating a high affinity for PET. (see. Figure <xref rid="advs77104-fig-0002" ref-type="fig">2c</xref> right and Table <xref rid="advs77104-tbl-0001" ref-type="table">1</xref>). The obtained values for Fmax and b were used to calculate ΔG of the binding process of each peptide polymer pair which is also included in Table <xref rid="advs77104-tbl-0001" ref-type="table">1</xref>.</p><table-wrap position="float" id="advs77104-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Resulting parameters from fitting adsorption isotherms to QCM‐D data. F<sub>max</sub>: Maximum frequency shift. b: Affinity parameter describing curve slope.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Peptide‐polymer pair</th><th align="center" rowspan="1" colspan="1">F<sub>max</sub> (Hz)</th><th align="center" rowspan="1" colspan="1">b (µM<sup>−1</sup>)</th><th align="center" rowspan="1" colspan="1">ΔG (kcal/mol)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">WT PS</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">35.39</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">0.51</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">−7.84</td></tr><tr><td align="left" rowspan="1" colspan="1">Y30E‐Y34E‐Y36E PS</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">27.27</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">0.16</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">−7.15</td></tr><tr><td align="left" rowspan="1" colspan="1">WT PET</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">18.68</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">0.99</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">−8.28</td></tr><tr><td align="left" rowspan="1" colspan="1">Y30E‐Y34E‐Y36E PET</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">17.31</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">1.08</td><td style="background-color:#FFFFFF" align="center" rowspan="1" colspan="1">−8.24</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>A further validation of the QCM‐D data for the MacHis‐WT and the MacHis‐Y30E‐Y34E‐Y36E variant was performed by genetic fusion of the genes encoding MacHis WT and the Y30E‐Y34E‐Y36E variant to enhanced green fluorescent protein eGFP with a 17‐amino acid helix spacer, which is reported to efficiently separate the material‐peptide binding domain from the eGFP protein [<xref rid="advs77104-bib-0052" ref-type="bibr">52</xref>]. The eGFP fluorescence was used, as previously reported, to quantitatively compare MBP binding [<xref rid="advs77104-bib-0049" ref-type="bibr">49</xref>, <xref rid="advs77104-bib-0053" ref-type="bibr">53</xref>]. Purified eGFP alone was used as a negative control to quantify PS and PET binding. Figure <xref rid="advs77104-fig-0003" ref-type="fig">3</xref> summarizes the obtained fluorescence signals for MacHis‐WT and the MacHis‐Y30E‐Y34E‐Y36E on PS (Figure <xref rid="advs77104-fig-0003" ref-type="fig">3</xref> left) and PET (Figure <xref rid="advs77104-fig-0003" ref-type="fig">3</xref> right). In case of PS, a fluorescence intensity drop of 77% (from 1561.66 rfu to 351.33 rfu) is observed, which correlates well with the QCM‐D data (85% drop; Figure <xref rid="advs77104-fig-0002" ref-type="fig">2b</xref>). In case of PET, a slightly higher unspecific eGFP adsorption was observed, and the fluorescence intensity values did not change within error‐bars, which also confirms the QCM‐D data (Figure <xref rid="advs77104-fig-0002" ref-type="fig">2b</xref> right).</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Characterization of MacHis binding to PS (left) and PET (right) using eGFP as a fluorescent reported protein. eGFP and MacHis were produced as a fusion protein and were applied to polymer‐coated MTPs directly from the cell lysate. The cell lysate was diluted to a normalized fluorescence intensity to account for differences in expression. Both polymers were washed five times using Tris/HCl buffer (50 mM, pH 8.0) before the residual fluorescence was recorded. eGPF alone served as a control for binding introduced by the eGFP fusion. Background from buffer and polymer autofluorescence was subtracted in all samples. Bars labelled with the same letter are not significantly different from each other. Bars with different letters are significantly different from each other (two‐tailed t‐test, <italic toggle="yes">p</italic> &lt;0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ADVS-9999-e77104-g008.jpg"><?image-name ADVS-9999-e77104-g008.jpg?><?image-size 20739?><?image-md5 2051c7cb62ca222cd92bdf7ca6ad7e3a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 368?><?image-original-width 820?><?image-scaled-height 245?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/2051c7cb62ca/ADVS-9999-e77104-g008.jpg?><?thumb-name ADVS-9999-e77104-g008.gif?><?thumb-size 5620?><?thumb-md5 aa8991f8561555efdbd058a2a4864fb9?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 178?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/aa8991f85615/ADVS-9999-e77104-g008.gif?></graphic></fig><p>As a final challenge, for the amorphous PS and PET models and the role of Tyrosine in PS binding, steered MD simulations were performed for MacHis‐WT and the MacHis‐Y30E‐Y34E‐Y36E and the PS and PET polymers (see. Figure <xref rid="advs77104-fig-0004" ref-type="fig">4a,b</xref>). The radius of gyration obtained from binding simulations with PS indicates that the two peptides adopt distinct bound conformations (Figure <xref rid="advs77104-supinfo-0001" ref-type="">S5</xref>). This can result from altered peptide conformation due to the triple substitution or from the inherently high flexibility of the coiled peptide, which can adapt to the encountered surface topology. The peptides were pulled from the surface to generate structures for umbrella sampling, with the z‐position of the peptide serving as the reaction coordinate (Figure <xref rid="advs77104-fig-0004" ref-type="fig">4a</xref>). The applied forces and the resulting peptide movement over time are shown in Figure <xref rid="advs77104-supinfo-0001" ref-type="">S6</xref>. A significant difference in the force required to achieve the desired pulling rate was noted on the PS polymer (Figure <xref rid="advs77104-supinfo-0001" ref-type="">S6</xref> left). Interestingly, the C‐terminal region of the MacHis‐WT peptide containing residues Y34 and Y36 stayed in contact with the PS polymer the longest (Figure <xref rid="advs77104-supinfo-0001" ref-type="">S7</xref>). A pulling force of 1000 kJ/mol/nm was observed for the MacHis‐WT on PS at maximum (Figure <xref rid="advs77104-supinfo-0001" ref-type="">S6a</xref>), which resembles a force scale of breaking 10–30 hydrogen bonds at once, for intuition. Umbrella sampling was performed to quantify the free energy of binding indicated by the potential of mean force along the z position of the peptide in the simulation box (Figure <xref rid="advs77104-fig-0004" ref-type="fig">4B</xref>); the obtained results for MacHis‐WT (green line) in comparison to the MacHis‐Y30E‐Y34E‐Y36E (black line) on PS show the binding energy loss caused by the three Tyrosine substitutions to Glutamates. A reduction of binding free energy from 23 to 5 kCal/mol corresponds to a reduction by 69%. The similarity of binding free energy on PET for MacHis‐WT and MacHis‐Y30E‐Y34E‐Y36E underlines the negligible influence of the Tyrosine to Glutamate substitutions on PET interaction. The observed binding free energies from all SMD simulations are consistent with previous studies that simulated binding peptides and their interactions with synthetic polymers [<xref rid="advs77104-bib-0048" ref-type="bibr">48</xref>].</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Steered molecular dynamics simulation of MacHis interaction with PS and PET polymers. a) Overview of structures along the pulling trajectory for MacHis WT on PS. Time steps are indicated next to each structure. Frames from this trajectory were isolated at center of mass intervals of 0.2 nm to generate umbrella sampling windows. b) PMF profiles calculated from umbrella sampling for MacHis WT and MacHis‐Y30E‐Y34E‐Y36E on PS (above) and PET (below).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ADVS-9999-e77104-g003.jpg"><?image-name ADVS-9999-e77104-g003.jpg?><?image-size 117414?><?image-md5 a50d24f801ed95737a8655835128d756?><?image-image-server-status NEVER_LOAD?><?image-original-height 541?><?image-original-width 700?><?image-scaled-height 541?><?image-scaled-width 700?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/a50d24f801ed/ADVS-9999-e77104-g003.jpg?><?thumb-name ADVS-9999-e77104-g003.gif?><?thumb-size 7203?><?thumb-md5 f762b1062385e8018b94ca8305c342db?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 103?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/f762b1062385/ADVS-9999-e77104-g003.gif?></graphic></fig><p>The results from umbrella sampling match the trend observed in adsorption isotherm measurements (Figure <xref rid="advs77104-fig-0002" ref-type="fig">2C</xref>). The 69% decrease in binding affinity to PS between MacHis‐WT and MacHis‐Y30E‐Y34E‐Y36E, indicated by the curve slope, can be correlated with the observed reduction in binding strength by 69% calculated in the SMD simulation. The PET model accuracy was confirmed by similar performance of MacHis‐WT and MacHis‐Y30E‐Y34E‐Y36E, which correlates well with the recorded adsorption isotherms on PET (Figure <xref rid="advs77104-fig-0002" ref-type="fig">2C</xref>). The combined results from both methods imply that the reduction in Tyrosine content in MacHis drastically reduces the peptide's affinity to PS. This phenomenon highlights the importance of aromatic interactions in addressing the PS polymer. The ΔG shift predicted by MD simulation is much more pronounced compared with the calculated ΔG from QCM‐D experiments. The simulation system is able to predict a change in binding affinity qualitatively, but the computation‐experiment loop is not closed quantitatively.</p><p>The obtained results for MacHis‐WT and Tyrosine‐to‐Glutamate substituted variants correlate well with a recently published experimental approach in which the material binding peptide LCI was subjected to site‐saturation mutagenesis at all 47 positions and screened for PS binding [<xref rid="advs77104-bib-0049" ref-type="bibr">49</xref>]. LCI has a very different structure than Mac‐His composed of four anti‐parallel ß‐sheet, whereas MacHis presents a mostly coiled or helical structure. Interestingly, substitutions of aromatic residues were reported to improve PS binding, highlighting the importance of aromatic interactions for PS binding.</p></sec><sec id="advs77104-sec-0050"><label>2.3</label><title>Characterization of Tyrosine‐to‐Glutamate Substitutions in Other Peptides</title><p>The structurally distinct material‐binding peptide LCI was selected as a use case to assess whether the Tyr‐MD workflow is generally applicable to structurally diverse material‐binding peptides. The binding of LCI‐WT to PS was previously reported to be stronger than to PET [<xref rid="advs77104-bib-0036" ref-type="bibr">36</xref>]. However, a reduction in PS binding without altering PET binding will still elucidate transferability of the engineering approach to another protein fold. In total, 4 MD simulations under the same conditions as those presented for MacHis were performed to identify Tyrosine residues in LCI important for PS binding. Applying the MacHis‐defined selection parameters (contact: d &lt;0.4 nm) identified two out of four Tyrosine residues at positions 29 and 30 as important for PS binding. Tyrosine residues at positions 29 and 30 are located at the end of the longest β‐sheet close to the third loop region of the peptide (Figure <xref rid="advs77104-fig-0005" ref-type="fig">5a</xref>). Tyrosine residues 29 and 30 came into proximity of the PS surface in three of four simulations (Figure <xref rid="advs77104-fig-0005" ref-type="fig">5a</xref>). The fourth simulation only revealed the contact of Tyrosine 30 with an axial rotation of the β‐sheet, turning Tyrosine 29 away from the PS‐polymer. Based on the MD simulations, both Tyrosine residues were substituted for negatively charged Glutamate (LCI‐Y29E‐Y30E). The LCI WT and LCI‐Y29E‐Y30E were produced and purified as previously described for MacHis, and the binding performances to PS and PET were measured using QCM‐D (Figure <xref rid="advs77104-fig-0005" ref-type="fig">5b</xref>).</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Transfer of Y to E substitutions to the LCI peptide. a) Visualization of Y residues in close contact with the PS polymer. Tyrosines closer than 0.4 nm are shown in green; residues farther away are shown in red. Y29 and Y30 were identified as important Tyrosines. b) Peptide binding to PS and PET measured using QCM‐D. The frequency change indicating binding of the wild‐type peptide was normalized to 100%. The frequency change achieved with the LCI‐Y29E‐Y30E variant is shown relative to the wildtype. All measurements were performed in triplicate. Error bars indicate the standard error of mean. Bars labelled with the same letter are not significantly different from each other. Bars with different letters are significantly different from each other (two‐tailed t‐test, <italic toggle="yes">p</italic> &lt;0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ADVS-9999-e77104-g004.jpg"><?image-name ADVS-9999-e77104-g004.jpg?><?image-size 45425?><?image-md5 c786e781ac4618a0fe1044500aac6e32?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 424?><?image-original-width 820?><?image-scaled-height 282?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/c786e781ac46/ADVS-9999-e77104-g004.jpg?><?thumb-name ADVS-9999-e77104-g004.gif?><?thumb-size 7692?><?thumb-md5 44312ac5e71c74c2d35122377290a029?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 154?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/44312ac5e71c/ADVS-9999-e77104-g004.gif?></graphic></fig><p>Figure <xref rid="advs77104-fig-0005" ref-type="fig">5b</xref> shows a similar trend for LCI as it was found for MacHis, validating the Tyr‐MD workflow for the structurally distinct LCI peptide. In detail, for PS, a 67% reduced binding affinity of the LCI‐Y29E‐Y30E in comparison to LCI‐WT was obtained. The reduced LCI‐PS binding correlates well with MacHis, which showed a reduction in binding by 50% on average for double Tyrosine substitutions (see Figure <xref rid="advs77104-fig-0002" ref-type="fig">2b</xref> left), and an 85% reduction for MacHis Y30E‐Y34E‐Y36E.</p><p>The approach was extended to a third peptide to assess generality. Tachystatin A2 (TA2) was chosen because it combines long loops with β‐sheets, structural elements present in MacHis and LCI individually. Three MD simulations were performed to characterize the molecular interactions between TA2 and the PS polymer surface. The characterization yielded Tyrosines 16 and 38 as important tyrosine residues for the interaction, as they remained in close contact with the PS surface throughout the simulation (Figure <xref rid="advs77104-fig-0006" ref-type="fig">6a</xref>). Both structural elements played a role in binding, as Tyrosine 16 is located in a long loop area and Tyrosine 38 is located at the N‐terminal end of the third β‐sheet in TA2. Both positions were subjected to site‐directed mutagenesis to obtain the variant TA2‐Y16E‐Y38E. TA2‐WT and TA2‐Y16E‐Y38E were produced in fusion with eGFP as previously described for eGFP‐MacHis, since tag‐free purification would disrupt intramolecular disulfide bridges. The binding of both variants to PS and PET was quantified through eGFP fluorescence.</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Transfer of Y to E substitutions to the Tachystatin A2. a) Visualization of Y residues in close contact with the PS polymer. Tyrosines closer than 0.4 nm are shown in green; residues farther away are shown in red. Y16 and Y38 were identified as important Tyrosines. b) Peptide binding to PS and PET measured using eGFP fluorescence. All measurements were performed in triplicate. Error bars indicate the standard error of mean. Bars labelled with the same letter are not significantly different from each other. Bars with different letters are significantly different from each other (two‐tailed t‐test, <italic toggle="yes">p</italic> &lt;0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="ADVS-9999-e77104-g001.jpg"><?image-name ADVS-9999-e77104-g001.jpg?><?image-size 106790?><?image-md5 62afd24b994bdbd48c32d0f5006c72e7?><?image-image-server-status NEVER_LOAD?><?image-original-height 589?><?image-original-width 700?><?image-scaled-height 589?><?image-scaled-width 700?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/62afd24b994b/ADVS-9999-e77104-g001.jpg?><?thumb-name ADVS-9999-e77104-g001.gif?><?thumb-size 6568?><?thumb-md5 24679472d6d54d8916f8184a7698b64e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 84?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/24679472d6d5/ADVS-9999-e77104-g001.gif?></graphic></fig><p>Figure <xref rid="advs77104-fig-0006" ref-type="fig">6b</xref> shows a similar trend to the fluorescence quantification in Figure <xref rid="advs77104-fig-0003" ref-type="fig">3</xref>. The TA2‐Y16E‐Y38E variant shows 74% reduction in PS binding, while PET binding is reduced by 5%. These results are comparable to the 77% reduction in binding that were obtained with the MacHis triple substitution. This correlation underlines the transferability of the Tyr‐MD workflow. By substituting the interfacial Tyrosine residues, the reduced interactions with the PS polymer cause lower peptide attachment, the same effect that was described for the MacHis peptide.</p></sec><sec id="advs77104-sec-0060"><label>2.4</label><title>PET Degradation in the Presence of PS</title><p>The practical application of the engineered material‐binding peptides was tested by PET degradation in the presence of PS. The MacHis‐WT and MacHis‐Y30E‐Y34E‐Y36E peptides were fused to the ICCG variant of the leaf‐branch compost cutinase (LCC) that was engineered for enhanced thermostability and catalytic activity [<xref rid="advs77104-bib-0013" ref-type="bibr">13</xref>]. The fusion proteins were used to degrade 6 mm PET disks punched from PET film. PET degradation was measured by quantifying the produced terephthalic acid (TPA) using a TPA hydroxylation assay [<xref rid="advs77104-bib-0054" ref-type="bibr">54</xref>]. The influence of PS on the reaction was characterized by adding equal amounts of PET and PS to the reaction and comparing the resulting TPA concentration with that of a reaction containing only one polymer (Figure <xref rid="advs77104-fig-0007" ref-type="fig">7</xref>). Samples without protein served as a negative control. The activity of ICCG‐MacHis‐WT in the polymer mixture was reduced by 66% compared with the reaction with PET alone. The PET degradation activity of ICCG‐MacHis‐Y30E‐Y34E‐Y36E was in contrast reduced by 31%. These results indicate greater tolerance to the competing PS polymer for the MacHis‐Y30E‐Y34E‐Y36E, as its binding affinity to PS was reduced. The loss of degradation activity in ICCG‐MacHis‐Y30E‐Y34E‐Y36E is likely due to unproductive adsorption onto the PS polymer. The practical applicability of the engineered material‐binding peptide was thereby demonstrated by reduced loss of PET degradation activity in mixed plastic samples compared to pure PET samples.</p><fig position="float" fig-type="FIGURE" id="advs77104-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Enzymatic activity analysis of ICCG‐MacHis fusion proteins in pure and mixed plastics. PET film degradation was measured by the terephthalic acid (TPA) produced. TPA formation was detected through TPA hydroxylation. ICCG‐MacHis‐WT and ICCG‐MacHis‐Y30E‐Y34E‐Y36E were compared in their degradation activity in a polymer mixture of equal parts PS and PET as well as in pure polymer samples. Samples without fusion proteins served as negative controls. The degradation reaction was performed at 65°C and 800 rpm for 20 h. One disk of polymer was added to each reaction. Error bars represent standard error of mean of three technical replicates.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="ADVS-9999-e77104-g002.jpg"><?image-name ADVS-9999-e77104-g002.jpg?><?image-size 48378?><?image-md5 610a32a35508007f70e8a1f4919dc6a7?><?image-image-server-status NEVER_LOAD?><?image-original-height 536?><?image-original-width 600?><?image-scaled-height 536?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/610a32a35508/ADVS-9999-e77104-g002.jpg?><?thumb-name ADVS-9999-e77104-g002.gif?><?thumb-size 5017?><?thumb-md5 9059d464464d68a25fb0c8c82a2354aa?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 89?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/2b7c/13482935/9059d464464d/ADVS-9999-e77104-g002.gif?></graphic></fig></sec></sec><sec id="advs77104-sec-0070"><label>3</label><title>Conclusion</title><p>The presented MD workflow is suitable for identifying amino acids that govern binding interactions on amorphous PS and PET model surfaces in structurally diverse material‐binding peptides. Initial MD simulations lead to the hypothesis that the aromatic Tyrosine residues are the main driver for PS binding, while PET binding was mediated by polar or positively charged residues. Interestingly, negatively charged amino acids did not form any binding interactions with PS or PET in MD simulations. The hypothesis that the Tyr‐MD workflow generates material‐binding peptides that favor PET binding over PS binding was confirmed in wet‐lab experiments, which showed an 85% reduction in PS binding and a &lt;20% reduction in PET binding. Adsorption isotherms obtained by QCM‐D measurements confirmed the predicted MD‐simulation results, and subsequent umbrella sampling of MacHis‐Y30E‐Y34E‐Y36E, compared with MacHis‐WT, confirmed the reliability and robustness of the simulation systems. Substitution of three Tyrosine residues for Glutamate in the MacHis peptide led to a decrease in binding free energy to PS, which correlated qualitatively with a reduction in binding free energy of 69% observed in SMD simulations. The general applicability of the workflow was tested with the structurally diverse material‐binding peptides LCI and Tachystatin A2, in which the substitution of two MD‐identified Tyrosine residues reduced PS binding by 67% and 74%, respectively. The effect of peptide engineering on PET degradation was shown in an enzymatic depolymerization experiment. Fusing the enzyme LCC<sub>ICCG</sub> to the MacHis‐Y30E‐Y34E‐Y36E peptide led to a higher residual degradation activity in mixed plastics as compared to MacHis‐WT. In essence, the Tyr‐MD workflow enables the design of binding peptides with improved specificity via MD simulation to target synthetic polymers. The newly generated binding domains for targeting synthetic polymers mimic natural carbohydrate‐binding modules (CBMs), which are used in nature for specific carbohydrate recognition. Binding peptides with improved material specificity that deliver fused enzymes or conjugated chemical catalysts to synthetic polymers are a prerequisite for mixed‐plastic recycling and, more generally, for a circular plastic economy.</p></sec><sec id="advs77104-sec-0080"><label>4</label><title>Experimental section</title><sec id="advs77104-sec-0090"><label>4.1</label><title>Materials</title><p>All chemicals were purchased from AppliChem GmbH (Darmstadt, Germany), Carl Roth GmbH (Karlsruhe, Germany), Fluka (Ulm, Germany), Macherey‐Nagel (Düren, Germany), or Sigma Aldrich Corp. (St. Louis, MO and Deisenhofen, Germany), unless specified. Salt‐free oligonucleotides were obtained from Eurofins Scientific SE (Ebersberg, Germany) and Enzymes from New England Biolabs GmbH (Frankfurt am Main, Germany). Plasmid extraction and polymerase chain reaction (PCR) purification kits were purchased from Macherey‐Nagel GmbH &amp; Co. KG (Düren, Germany). The IMPACT purification kit including the pTXB1 Vector and the chitin resin were purchased from New England Biolabs GmbH (Frankfurt am Main, Germany). The <italic toggle="yes">Escherichia coli</italic> strain BL21‐ Gold (DE3) (Agilent Technologies, Santa Clara, CA) was used for protein expression.</p></sec><sec id="advs77104-sec-0100"><label>4.2</label><title>MD Simulation</title><p>Molecular dynamics simulations were carried out using GROMACS (version 2021). The CHARMM36 force field was used for peptides and polymers in all simulations. The initial structures of MacHis, LCI and the generated variants were predicted using AlphaFold2 version 2.3.0 with all parameters set to default. To represent experimental conditions, the peptide charge at pH 8 was determined using PROPKA, assigning protonation states. The results were introduced to the peptides representation using the pdb2gmx command in GROMACS. Each peptide structure underwent a two‐part preparation process. First, the structure was simulated in water by solvating it in a triclinic box and minimizing the system's energy using the steepest‐descent algorithm. This was followed by an equilibration in two stages. An NVT ensemble was run for 1 ns with a 1 fs time step and the V‐rescale thermostat at a target temperature of 300 K. An NPT ensemble was run for 100 ps afterward, with pressure maintained at 1 bar using the Parrinello‐Rahman barostat. The production MD run was performed for 100 ns under NVT conditions. In a second step, the resulting structure underwent the same process with the addition of 0.05 <sc>m</sc> Na and Cl ions to mimic experimental conditions. The final structures from the second production run were extracted and used as input for simulations of both peptides and polymers.</p><p>Polymer surfaces were generated using the CHARMM‐Gui polymer builder. This tool provided a method to generate disordered, amorphous polymer melts of PS and PET. The PS structure consisted of 100 oligomeric chains, each with 30 styrene repeats. Atactic polystyrene chains were used as typically found in amorphous PS. The PET structure consisted of 183 chains, each comprising 20 monomeric units.</p><p>Peptide‐polymer contacts were studied by placing the peptide 10 Å from the polymer in different orientations. The simulations were performed by running the protocol described above for the peptide. Visualization of the initial and final structures was done using Visual Molecular Dynamics (VMD, Version 1.9.2) [<xref rid="advs77104-bib-0055" ref-type="bibr">55</xref>]. The contact analysis was performed using GROMACS commands <italic toggle="yes">mindist</italic> and <italic toggle="yes">trjconv</italic>.</p><p>Pulling simulations were performed by extracting representative bound structure of the peptide from one of the binding simulations. The pull code was added to the simulation parameters with the reaction coordinate being the distance between peptide and polymer along the z‐axis of the simulation box. A pulling rate of 0.01 nm/ps was fixed and the spring constant of the pulling force was set to 1000 kJ/(mol ∙ nm<sup>2</sup>). The pulling force was always applied to the peptide's N‐terminus.</p><p>Umbrella sampling was performed by generating a peptide polymer configuration every 0.2 nm along the pulling trajectory. A total of 20 individual simulations were performed along the reaction coordinate for each peptide‐polymer combination. The weighted histogram analysis method (WHAM) [<xref rid="advs77104-bib-0056" ref-type="bibr">56</xref>] implemented to GROMACS was used to calculate the PMF profile along the reaction coordinate.</p></sec><sec id="advs77104-sec-0110"><label>4.3</label><title>Variant Generation</title><p>Peptide variants were obtained by performing Site‐directed‐mutagenesis. The SDM protocol included the steps described before [<xref rid="advs77104-bib-0057" ref-type="bibr">57</xref>]. Before transformation into <italic toggle="yes">E. coli</italic> BL21‐Gold (DE3), the parental DNA was digested with 20 U of DpnI, and the PCR product was recovered using a PCR extraction kit. Colonies were picked, and successful mutagenesis was confirmed by DNA sequencing.</p></sec><sec id="advs77104-sec-0120"><label>4.4</label><title>Protein Production and Purification</title><p>Protein expression was performed in 200 mL scale as described before [<xref rid="advs77104-bib-0058" ref-type="bibr">58</xref>]. To increase the production yield, the induction was performed by adding IPTG to a final concentration of 0.4 mM at an OD600 of 0.6 followed by 18‐h incubation at 25°C. Cell were harvested using centrifugation at 3,220 <italic toggle="yes">g</italic> and 4°C for 30 min. The sedimented cells were resuspended in column buffer (20 mM HEPES, 500 mM NaCl, pH 8.5) and after incubation for 30 min at room temperature, cell disruption was achieved by sonication (Vibracell sonicator, 45% Amplitude, 5 min, 10 s on / 10 s off). The lysate was centrifuged at 12,000 <italic toggle="yes">g</italic> and 4°C for 30 min and filtered through a 0.45 µm syringe filter. The clarified lysate was loaded onto a chitin resin column, and the IMPACT‐kit protocol was followed. The column was washed with 10 column volumes of column buffer after the lysate was loaded. Self‐cleavage of the bound protein was induced by washing with 3 column volumes of cleavage buffer (50 mM DTT in column buffer). The flow was stopped overnight, and the target protein was eluted the next day by washing with 3 column volumes of column buffer. Protein samples from the chromatography were checked for purity by sodium dodecyl sulfate‐polyacrylamide gel electrophoresis (SDS‐PAGE). The buffer of pure fractions was exchanged to QCM‐D buffer (50 mM MOPS, pH 7.9) using PD‐10 columns (Cytiva, MA, USA). Protein samples were flash‐frozen in liquid nitrogen and then stored at ‐20°C in frozen aliquots. Protein samples were freshly thawed for analysis and protein concentration was measured using Bradford assay (Pierce Coomassie Plus, ThermoFisher Scientific, Wesel, Germany).</p></sec><sec id="advs77104-sec-0130"><label>4.5</label><title>Quartz Crystal Microbalance With Dissipative Monitoring</title><p>QCM‐D gold sensors were coated with polymers to measure peptide polymer binding. Residual organic matter was stripped from the chips by 30 min of incubation in a mixture of three parts concentrated sulfuric acid and one part 30% WT hydrogen peroxide. The sensors were rinsed with water and dried with a stream of nitrogen. The sensors were coated by spin coating, for which PS was dissolved at 0.2% (w/v) in chloroform, and PET was dissolved at 1% (w/v) in a mixture of equal parts of chloroform and TFA. The spin‐coating process was performed at 3000 rpm for 1 min, with 150 µL of dissolved polymer added to each sensor. Sensors were dried for 1 h at 23°C or 30°C for PS and PET respectively. Measurements in air before and after coating served as a quality control to ensure consistent film thickness for peptide binding analysis. The peptide concentration was adjusted to 5 µM for every binding experiment. Every QCM‐D experiment was started by flowing binding buffer through the measurement chamber at 1 mL/min until a stable baseline was reached. Measurements were started by applying the peptide solution which reached the measurements chambre after about 5 min at this flowrate. For comparison of peptide variants, the peptide was applied for 15 min followed by washing with binding buffer to remove unbound or weakly bound peptides. The wash phase continued for at least 1 h, or until the frequency shift reached a stable plateau. Since all experiments were run on a four‐channel QCM‐D, each variant was tested alongside a wild‐type sample as a reference to minimize the influence of experimental conditions. Adsorption isotherms were recorded by applying 4 different concentrations of the same peptide to the four sensors during the same run. This time, the peptide application was not limited to 15 min; it continued until the frequency shift reached a plateau. Data from QCM‐D measurements was analysed with the shipped QSense Dfind application.</p></sec><sec id="advs77104-sec-0140"><label>4.6</label><title>Adsorption Isotherms</title><p>To determine peptide affinity, the QCM‐D adhesion data were plotted against peptide concentration in OriginPro 2024. The curves were fitted with a rectangular hyperbola, similar to the fit used in Langmuir adsorption isotherms (Equation <xref rid="advs77104-disp-0001" ref-type="disp-formula">1</xref>). The parameters F and b can be used to describe the maximum frequency shift and the curve slope, respectively, where f is the observed frequency shift and c is the peptide concentration. The frequency shift was seen proportionally to the amount of bound protein, and a steep slope indicated high peptide affinity.
+<disp-formula id="advs77104-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mo linebreak="badbreak">=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:mi>b</mml:mi><mml:mo>·</mml:mo><mml:mi>c</mml:mi></mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>·</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:mfenced></mml:mfrac></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec><sec id="advs77104-sec-0150"><label>4.7</label><title>eGFP Binding Assay</title><p>Binding peptides fused to enhanced green fluorescent protein (eGFP) to measure binding through residual fluorescence. The protein fusion included a 17x helix to provide spatial separation of binding peptide and fluorescent reporter protein. Fluorescent screening was performed in MTPs coated with the polymer. The MTPs were coated by adding 200 µL of polymer solution to the well and evaporating the solvent at 50°C. The coated plate was dried overnight and rinsed with binding buffer (50 mM Tris/HCl, pH 8.0). The eGFP fusion proteins were produced as described above and binding experiments were performed with crude cell extract. For this, a section of the cell pellet was taken and resuspended in 40 µL per 100 mg of cells. Sonication was performed as described above and cell debris was removed by centrifugation. The fluorescence of the bright green supernatant was measured at 520 nm using the CLARIOstar plate reader (BMG LABTECH, Germany). The supernatant samples were diluted in binding buffer to achieve a unified fluorescence signal of 15,000 rfu. 100 µL of the dilution was applied to the coated MTP for each sample in triplicate. The MTP was incubated at room temperature and 600 rpm for 10 min. The wells were washed four times with 200 µL of binding buffer with an incubation of 5 min at 600 rpm and room temperature after each buffer application. The liquid was removed from the well and residual fluorescence was measured at 520 nm. Genetically unfused eGPF was used as a negative control.</p></sec><sec id="advs77104-sec-0160"><label>4.8</label><title>PET Degradation Assay</title><p>The degradation of amorphous PET film was measured by quantifying the TPA produced. The PET and PS films were punched into 6 mm disks with a weight of 5 mg using a pneumatically aided manual press. The disks were washed with ethanol and water and incubated for 10 min in a sonication bath before drying them at 37°C. The degradation reactions were performed by combining one disk per polymer with 500 nM of protein in 500 µL of 0.1 <sc>m</sc> sodium phosphate buffer with pH 8. The reaction mixture was incubated at 65°C and 800 rpm for 20 h. The produced TPA was quantified by fluorescence measurements of hydroxylated TPA (2‐hydroxyterephthalate (2‐HOTP)). Hydroxylation of TPA was achieved through a Fenton‐like reaction as reported elsewhere [<xref rid="advs77104-bib-0054" ref-type="bibr">54</xref>]. 2‐HOTP fluorescence can be excited at 318 nm, and emission can be recorded at 420 nm. The final TPA concentration was determined from the fluorescence intensity using a TPA calibration curve from 0,01 to 1 mM.</p></sec></sec><sec id="advs77104-sec-0170"><title>Author Contributions</title><p>
+<bold>Julian Luka</bold>: conceptualization, Writing – original draft, investigation, methodology, validation, visualization, Writing – review and editing, software, project administration, data curation. <bold>Jonas Berger</bold>: methodology, validation, software, writing – review and editing, data curation, investigation. <bold>Marian Bienstein</bold>: supervision, project administration, writing – review and editing, funding acquisition, conceptualization. <bold>Ulrich Schwaneberg</bold>: conceptualization, writing – original draft, funding acquisition, project administration, supervision, resources, writing – review and editing.</p></sec><sec sec-type="COI-statement" id="advs77104-sec-0190"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interests.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="advs77104-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="advs77104-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting File</bold>: advs77104‐sup‐0001‐SuppMat.docx.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ADVS-9999-e77104-s001.docx" position="float" orientation="portrait"><?suppdata-name ADVS-9999-e77104-s001.docx?><?suppdata-size 1702644?><?suppdata-md5 b660e314e99e3232d7d18d5190d96a70?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:2b7c/13482935/b660e314e99e/ADVS-9999-e77104-s001.docx?></media></supplementary-material></sec></body><back><ack id="advs77104-sec-0180"><title>Acknowledgements</title><p>We would like to thank Vincent Emann for his support in setting up the in‐house computational infrastructure. Computations were performed with computing resources granted by RWTH Aachen University under project rwth1608. We also acknowledge support of the Werner Siemens Foundation in the frame of the WSS Research Centre “catalaix”.</p><p>Open access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="advs77104-sec-0210"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list id="advs77104-bibl-0001"><title>References</title><ref id="advs77104-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="advs77104-cite-0001">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Houssini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Tan</surname>
+</string-name>, “<article-title>Complexities of the Global Plastics Supply Chain Revealed in a Trade‐Linked Material Flow Analysis</article-title>,” <source>Communications Earth &amp; Environment</source>
+<volume>6</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>257</fpage>, <pub-id pub-id-type="doi">10.1038/s43247-025-02169-5</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="advs77104-cite-0002">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Geyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Jambeck</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Law</surname>
+</string-name>, “<article-title>Production, Use, and Fate of all Plastics Ever Made</article-title>,” <source>Science Advances</source>
+<volume>3</volume>, no. <issue>7</issue> (<year>2017</year>): <elocation-id>1700782</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.1700782</pub-id>.<pub-id pub-id-type="pmcid">PMC5517107</pub-id><pub-id pub-id-type="pmid">28776036</pub-id></mixed-citation></ref><ref id="advs77104-bib-0003"><label>3</label><mixed-citation publication-type="book" id="advs77104-cite-0003">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chanda</surname>
+</string-name> and <string-name name-style="western">
+<given-names>S. K.</given-names>
+<surname>Roy</surname>
+</string-name>, <source>Plastics Technology Handbook</source>, <edition>Fourth ed</edition> (<publisher-name>CRC Press</publisher-name>, <year>2006</year>), <pub-id pub-id-type="doi">10.1201/9781420006360</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="advs77104-cite-0004">
+<string-name name-style="western">
+<given-names>T. W.</given-names>
+<surname>Walker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Frelka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Shen</surname>
+</string-name>, et al., “<article-title>Recycling of Multilayer Plastic Packaging Materials by Solvent‐Targeted Recovery and Precipitation</article-title>,” <source>Science Advances</source>
+<volume>6</volume>, no. <issue>47</issue> (<year>2020</year>): <elocation-id>aba7599</elocation-id>, <pub-id pub-id-type="doi">10.1126/sciadv.aba7599</pub-id>.<pub-id pub-id-type="pmcid">PMC7679168</pub-id><pub-id pub-id-type="pmid">33219017</pub-id></mixed-citation></ref><ref id="advs77104-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="advs77104-cite-0005">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Van Hoorn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Pourmohammadi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. W.</given-names>
+<surname>De Leeuw</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vasulkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>De Vos</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Van Den Berg</surname>
+</string-name>, “<article-title>Machine Learning‐Based Identification of Plastic Types Using Handheld Spectrometers</article-title>,” <source>Sensors</source>
+<volume>25</volume>, no. <issue>12</issue> (<year>2025</year>): <elocation-id>3777</elocation-id>, <pub-id pub-id-type="doi">10.3390/s25123777</pub-id>.<pub-id pub-id-type="pmid">40573663</pub-id>
+<pub-id pub-id-type="pmcid">PMC12196715</pub-id></mixed-citation></ref><ref id="advs77104-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="advs77104-cite-0006">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Feil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Kroell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Pretz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Greiff</surname>
+</string-name>, “<article-title>Anforderungen an Eine Effiziente Technologische Behandlung von Post‐Consumer Verpackungsmaterialien in Sortieranlagen</article-title>,” <source>Müll Abfall</source>
+<volume>4</volume>, no. <issue>7</issue> (<year>2021</year>): <fpage>362</fpage>–<lpage>370</lpage>, <pub-id pub-id-type="doi">10.37307/j.1863-9763.2021.07.04</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="advs77104-cite-0007">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Tretsiakova‐McNally</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lubarsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vennard</surname>
+</string-name>, et al., “<article-title>Separation and Characterization of Plastic Waste Packaging Contaminated With Food Residues</article-title>,” <source>Polymers</source>
+<volume>15</volume>, no. <issue>13</issue> (<year>2023</year>): <elocation-id>2943</elocation-id>, <pub-id pub-id-type="doi">10.3390/polym15132943</pub-id>.<pub-id pub-id-type="pmid">37447588</pub-id>
+<pub-id pub-id-type="pmcid">PMC10346690</pub-id></mixed-citation></ref><ref id="advs77104-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="advs77104-cite-0008">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Uekert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>DesVeaux</surname>
+</string-name>, et al., “<article-title>Technical, Economic, and Environmental Comparison of Closed‐Loop Recycling Technologies for Common Plastics</article-title>,” <source>ACS Sustainable Chemistry &amp; Engineering</source>
+<volume>11</volume>, no. <issue>3</issue> (<year>2023</year>): <fpage>965</fpage>–<lpage>978</lpage>, <pub-id pub-id-type="doi">10.1021/acssuschemeng.2c05497</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="advs77104-cite-0009">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Brinch‐Pedersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Keller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dorau</surname>
+</string-name>, et al., “<article-title>Discovery and Surface Charge Engineering of Fungal Cutinases for Enhanced Activity on Poly(Ethylene Terephthalate)</article-title>,” <source>ACS Sustainable Chemistry &amp; Engineering</source>
+<volume>12</volume>, no. <issue>19</issue> (<year>2024</year>): <fpage>7329</fpage>–<lpage>7337</lpage>, <pub-id pub-id-type="doi">10.1021/acssuschemeng.4c00060</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="advs77104-cite-0010">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Sun</surname>
+</string-name>, et al., “<article-title>Computational Redesign of a Hydrolase for Nearly Complete PET Depolymerization at Industrially Relevant High‐Solids Loading</article-title>,” <source>Nature Communications</source>
+<volume>15</volume>, no. <issue>1</issue> (<year>2024</year>): <fpage>1417</fpage>, <pub-id pub-id-type="doi">10.1038/s41467-024-45662-9</pub-id>.<pub-id pub-id-type="pmcid">PMC10869840</pub-id><pub-id pub-id-type="pmid">38360963</pub-id></mixed-citation></ref><ref id="advs77104-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="advs77104-cite-0011">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Diaz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Czarnecki</surname>
+</string-name>, et al., “<article-title>Machine Learning‐Aided Engineering of Hydrolases for PET Depolymerization</article-title>,” <source>Nature</source>
+<volume>604</volume>, no. <issue>7907</issue> (<year>2022</year>): <fpage>662</fpage>–<lpage>667</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-022-04599-z</pub-id>.<pub-id pub-id-type="pmid">35478237</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="advs77104-cite-0012">
+<string-name name-style="western">
+<given-names>E. L.</given-names>
+<surname>Bell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Smithson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kilbride</surname>
+</string-name>, et al., “<article-title>Directed Evolution of an Efficient and Thermostable PET Depolymerase</article-title>,” <source>Nature Catalysis</source>
+<volume>5</volume>, no. <issue>8</issue> (<year>2022</year>): <fpage>673</fpage>–<lpage>681</lpage>, <pub-id pub-id-type="doi">10.1038/s41929-022-00821-3</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="advs77104-cite-0013">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Tournier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. M.</given-names>
+<surname>Topham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Gilles</surname>
+</string-name>, et al., “<article-title>An Engineered PET Depolymerase to Break Down and Recycle Plastic Bottles</article-title>,” <source>Nature</source>
+<volume>580</volume>, no. <issue>7802</issue> (<year>2020</year>): <fpage>216</fpage>–<lpage>219</lpage>, <pub-id pub-id-type="doi">10.1038/s41586-020-2149-4</pub-id>.<pub-id pub-id-type="pmid">32269349</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="advs77104-cite-0014">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Islam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Apitius</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jakob</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>Targeting Microplastic Particles in the Void of Diluted Suspensions</article-title>,” <source>Environment International</source>
+<volume>123</volume> (<year>2019</year>): <fpage>428</fpage>–<lpage>435</lpage>, <pub-id pub-id-type="doi">10.1016/j.envint.2018.12.029</pub-id>.<pub-id pub-id-type="pmid">30622067</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="advs77104-cite-0015">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. A.</given-names>
+<surname>Ingram</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Luka</surname>
+</string-name>, et al., “<article-title>Engineered Anchor Peptide LCI With a Cobalt Cofactor Enhances Oxidation Efficiency of Polystyrene Microparticles</article-title>,” <source>Angewandte Chemie International Edition</source>
+<volume>63</volume>, no. <issue>13</issue> (<year>2024</year>): <elocation-id>202317419</elocation-id>, <pub-id pub-id-type="doi">10.1002/anie.202317419</pub-id>.<pub-id pub-id-type="pmid">38251394</pub-id></mixed-citation></ref><ref id="advs77104-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="advs77104-cite-0016">
+<string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Polêto</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Lemkul</surname>
+</string-name>, “<article-title>Structural and Electronic Properties of Poly(Ethylene Terephthalate) (PET) From Polarizable Molecular Dynamics Simulations</article-title>,” <source>Macromolecules</source>
+<volume>58</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>403</fpage>–<lpage>414</lpage>, <pub-id pub-id-type="doi">10.1021/acs.macromol.4c02109</pub-id>.<pub-id pub-id-type="pmid">39831292</pub-id>
+<pub-id pub-id-type="pmcid">PMC11741139</pub-id></mixed-citation></ref><ref id="advs77104-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="advs77104-cite-0017">
+<string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Lightfoot</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Buchard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Castro‐Dominguez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Parker</surname>
+</string-name>, “<article-title>Comparative Study of Oxygen Diffusion in Polyethylene Terephthalate and Polyethylene Furanoate Using Molecular Modeling: Computational Insights Into the Mechanism for Gas Transport in Bulk Polymer Systems</article-title>,” <source>Macromolecules</source>
+<volume>55</volume>, no. <issue>2</issue> (<year>2022</year>): <fpage>498</fpage>–<lpage>510</lpage>, <pub-id pub-id-type="doi">10.1021/acs.macromol.1c01316</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="advs77104-cite-0018">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chen</surname>
+</string-name>, et al., “<article-title>Exploring Pyrolysis Mechanism of Waste PET in Different Degrees of Polymerization to Regulate the Pyrolysis Products</article-title>,” <source>Polymer Degradation and Stability</source>
+<volume>233</volume> (<year>2025</year>): <elocation-id>111175</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.polymdegradstab.2025.111175</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="advs77104-cite-0019">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Paiva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Ippoliti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Carloni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Fernandes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Ramos</surname>
+</string-name>, “<article-title>Atomistic Adsorption of PETase Onto Large‐Scale PET 3D‐Models That Mimic Reality</article-title>,” <source>Physical Chemistry Chemical Physics</source>
+<volume>27</volume>, no. <issue>4</issue> (<year>2025</year>): <fpage>2139</fpage>–<lpage>2150</lpage>, <pub-id pub-id-type="doi">10.1039/D4CP03488K</pub-id>.<pub-id pub-id-type="pmid">39775626</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="advs77104-cite-0020">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sahihi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Fayon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Nauton</surname>
+</string-name>, et al., “<article-title>Probing Enzymatic PET Degradation: Molecular Dynamics Analysis of Cutinase Adsorption and Stability</article-title>,” <source>Journal of Chemical Information and Modeling</source>
+<volume>64</volume>, no. <issue>10</issue> (<year>2024</year>): <fpage>4112</fpage>–<lpage>4120</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jcim.4c00079</pub-id>.<pub-id pub-id-type="pmid">38703106</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="advs77104-cite-0021">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sahihi</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Faraudo</surname>
+</string-name>, “<article-title>Molecular Dynamics Simulations of Adsorption of SARS‐CoV‐2 Spike Protein on Polystyrene Surface</article-title>,” <source>Journal of Chemical Information and Modeling</source>
+<volume>62</volume>, no. <issue>16</issue> (<year>2022</year>): <fpage>3814</fpage>–<lpage>3824</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jcim.2c00562</pub-id>.<pub-id pub-id-type="pmid">35926227</pub-id>
+<pub-id pub-id-type="pmcid">PMC9364975</pub-id></mixed-citation></ref><ref id="advs77104-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="advs77104-cite-0022">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Jiménez‐Serratos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Herdes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Haslam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Jackson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Müller</surname>
+</string-name>, “<article-title>Group Contribution Coarse‐Grained Molecular Simulations of Polystyrene Melts and Polystyrene Solutions in Alkanes Using the SAFT‐γ Force Field</article-title>,” <source>Macromolecules</source>
+<volume>50</volume>, no. <issue>12</issue> (<year>2017</year>): <fpage>4840</fpage>–<lpage>4853</lpage>, <pub-id pub-id-type="doi">10.1021/acs.macromol.6b02072</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="advs77104-cite-0023">
+<string-name name-style="western">
+<given-names>G. G.</given-names>
+<surname>Vogiatzis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. C. A.</given-names>
+<surname>Van Breemen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hütter</surname>
+</string-name>, “<article-title>Response of Elementary Structural Transitions in Glassy Atactic Polystyrene to Temperature and Deformation</article-title>,” <source>The Journal of Physical Chemistry B</source>
+<volume>126</volume>, no. <issue>39</issue> (<year>2022</year>): <fpage>7731</fpage>–<lpage>7744</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jpcb.2c04199</pub-id>.<pub-id pub-id-type="pmid">36129780</pub-id>
+<pub-id pub-id-type="pmcid">PMC9549470</pub-id></mixed-citation></ref><ref id="advs77104-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="advs77104-cite-0024">
+<string-name name-style="western">
+<given-names>D. Y.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Zhong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z. M.</given-names>
+<surname>Li</surname>
+</string-name>, “<article-title>Molecular Dynamics Simulation of Stretching‐Induced Ductility for Polystyrene</article-title>,” <source>Polymer</source>
+<volume>305</volume> (<year>2024</year>): <elocation-id>127182</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.polymer.2024.127182</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="advs77104-cite-0025">
+<string-name name-style="western">
+<given-names>Y. K.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐J.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Park</surname>
+</string-name>, et al., “<article-title>CHARMM‐GUI Polymer Builder for Modeling and Simulation of Synthetic Polymers</article-title>,” <source>Journal of Chemical Theory and Computation</source>
+<volume>17</volume>, no. <issue>4</issue> (<year>2021</year>): <fpage>2431</fpage>–<lpage>2443</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jctc.1c00169</pub-id>.<pub-id pub-id-type="pmid">33797913</pub-id>
+<pub-id pub-id-type="pmcid">PMC8078172</pub-id></mixed-citation></ref><ref id="advs77104-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="advs77104-cite-0026">
+<string-name name-style="western">
+<given-names>C. J. M.</given-names>
+<surname>Van Den Heuvel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Heuvel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Fassen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Veurink</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Lucas</surname>
+</string-name>, “<article-title>Molecular Changes of PET Yarns During Stretching Measured With Rheo‐optical Infrared Spectroscopy and Other Techniques</article-title>,” <source>Journal of Applied Polymer Science</source>
+<volume>49</volume>, no. <issue>5</issue> (<year>1993</year>): <fpage>925</fpage>–<lpage>934</lpage>, <pub-id pub-id-type="doi">10.1002/app.1993.070490518</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="advs77104-cite-0027">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Xu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Cebe</surname>
+</string-name>, “<article-title>Thermal and Structural Properties of Blends of Isotactic With Atactic Polystyrene</article-title>,” <source>Polymer</source>
+<volume>48</volume>, no. <issue>21</issue> (<year>2007</year>): <fpage>6404</fpage>–<lpage>6414</lpage>, <pub-id pub-id-type="doi">10.1016/j.polymer.2007.08.006</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0028"><label>28</label><mixed-citation publication-type="book" id="advs77104-cite-0028">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Feldman</surname>
+</string-name> and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Barbalata</surname>
+</string-name>, <source>Synthetic Polymers: Technology, Properties, Applications</source>, <edition>First Ed</edition> (<publisher-name>Chapman &amp; Hall</publisher-name>, <year>1996</year>).</mixed-citation></ref><ref id="advs77104-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="advs77104-cite-0029">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Awaja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Pavel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. E. T.</given-names>
+<surname>Recycling of</surname>
+</string-name>, “<article-title>Recycling of PET</article-title>,” <source>European Polymer Journal</source>
+<volume>41</volume>, no. <issue>7</issue> (<year>2005</year>): <fpage>1453</fpage>–<lpage>1477</lpage>, <pub-id pub-id-type="doi">10.1016/j.eurpolymj.2005.02.005</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0030"><label>30</label><mixed-citation publication-type="book" id="advs77104-cite-0030">
+<string-name name-style="western">
+<given-names>L. H.</given-names>
+<surname>Sperling</surname>
+</string-name>, <source>Introduction to Physical Polymer Science</source>, <edition>First Ed</edition> (<publisher-name>Wiley</publisher-name>, <year>2005</year>), <pub-id pub-id-type="doi">10.1002/0471757128</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="advs77104-cite-0031">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ketema</surname>
+</string-name> and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Worku</surname>
+</string-name>, “<article-title>Review on Intermolecular Forces Between Dyes Used for Polyester Dyeing and Polyester Fiber</article-title>,” <source>Journal of Chemistry</source>
+<volume>2020</volume> (<year>2020</year>): <fpage>1</fpage>–<lpage>7</lpage>, <pub-id pub-id-type="doi">10.1155/2020/6628404</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="advs77104-cite-0032">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Fang</surname>
+</string-name>, et al., “<article-title>Regulation of the Interfacial Effects of Thin Polystyrene Films by Changing the Aromatic Group Structure on Substrate Surfaces</article-title>,” <source>The Journal of Physical Chemistry C</source>
+<volume>123</volume>, no. <issue>32</issue> (<year>2019</year>): <fpage>19715</fpage>–<lpage>19724</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jpcc.9b05391</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="advs77104-cite-0033">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yamamoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Hoshina</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Sato</surname>
+</string-name>, “<article-title>Differences in Intermolecular Interactions and Flexibility Between Poly(Ethylene Terephthalate) and Poly(Butylene Terephthalate) Studied by Far‐Infrared/Terahertz and Low‐Frequency Raman Spectroscopy</article-title>,” <source>Macromolecules</source>
+<volume>54</volume>, no. <issue>2</issue> (<year>2021</year>): <fpage>1052</fpage>–<lpage>1062</lpage>, <pub-id pub-id-type="doi">10.1021/acs.macromol.0c02049</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="advs77104-cite-0034">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Saiz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Hummel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. J.</given-names>
+<surname>Flory</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Plavsic</surname>
+</string-name>, “<article-title>Direction of the Dipole Moment in the Ester Group</article-title>,” <source>The Journal of Physical Chemistry</source>
+<volume>85</volume>, no. <issue>22</issue> (<year>1981</year>): <fpage>3211</fpage>–<lpage>3215</lpage>, <pub-id pub-id-type="doi">10.1021/j150622a002</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="advs77104-cite-0035">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ahrens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Luka</surname>
+</string-name>, et al., “<article-title>Material‐Specific Binding Peptides Empower Sustainable Innovations in Plant Health</article-title>,” <source>Biocatalysis, Medicine and Microplastic Quantification</source>
+<volume>53</volume>, no. <issue>12</issue> (<year>2024</year>): <fpage>6445</fpage>–<lpage>6510</lpage>, <pub-id pub-id-type="doi">10.1039/D2CS00991A</pub-id>.<pub-id pub-id-type="pmid">38747901</pub-id></mixed-citation></ref><ref id="advs77104-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="advs77104-cite-0036">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Dedisch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wiens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Davari</surname>
+</string-name>, et al., “<article-title>Matter‐ tag: A universal immobilization platform for enzymes on polymers, metals, and silicon‐based materials</article-title>,” <source>Biotechnology and Bioengineering</source>
+<volume>117</volume>, no. <issue>1</issue> (<year>2020</year>): <fpage>49</fpage>–<lpage>61</lpage>, <pub-id pub-id-type="doi">10.1002/bit.27181</pub-id>.<pub-id pub-id-type="pmid">31549734</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="advs77104-cite-0037">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wu</surname>
+</string-name>, “<article-title>Enhancement of PET Biodegradation by Anchor Peptide‐Cutinase Fusion Protein</article-title>,” <source>Enzyme and Microbial Technology</source>
+<volume>156</volume> (<year>2022</year>): <elocation-id>110004</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.enzmictec.2022.110004</pub-id>.<pub-id pub-id-type="pmid">35217214</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="advs77104-cite-0038">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Hintzen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kurkina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ji</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>A Competitive High‐Throughput Screening Platform for Designing Polylactic Acid‐Specific Binding Peptides</article-title>,” <source>Advanced Science</source>
+<volume>10</volume>, no. <issue>29</issue> (<year>2023</year>): <elocation-id>2303195</elocation-id>, <pub-id pub-id-type="doi">10.1002/advs.202303195</pub-id>.<pub-id pub-id-type="pmid">37612817</pub-id>
+<pub-id pub-id-type="pmcid">PMC10582454</pub-id></mixed-citation></ref><ref id="advs77104-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="advs77104-cite-0039">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ribitsch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. O.</given-names>
+<surname>Yebra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zitzenbacher</surname>
+</string-name>, et al., “<article-title>Fusion of Binding Domains to Thermobifida Cellulosilytica Cutinase to Tune Sorption Characteristics and Enhancing PET Hydrolysis</article-title>,” <source>Biomacromolecules</source>
+<volume>14</volume>, no. <issue>6</issue> (<year>2013</year>): <fpage>1769</fpage>–<lpage>1776</lpage>, <pub-id pub-id-type="doi">10.1021/bm400140u</pub-id>.<pub-id pub-id-type="pmid">23718548</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="advs77104-cite-0040">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Guo</surname>
+</string-name>, et al., “<article-title>Enhanced Degradation Activity of PET Plastics by Fusion Protein of Anchor Peptide LCI and Thermobifida Fusca Cutinase</article-title>,” <source>Enzyme and Microbial Technology</source>
+<volume>184</volume> (<year>2025</year>): <elocation-id>110562</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.enzmictec.2024.110562</pub-id>.<pub-id pub-id-type="pmid">39653629</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="advs77104-cite-0041">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Hintzen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kurkina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ji</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>Directed Evolution of Material Binding Peptide for Polylactic Acid‐Specific Degradation in Mixed Plastic Wastes</article-title>,” <source>ACS Catalysis</source>
+<volume>13</volume>, no. <issue>19</issue> (<year>2023</year>): <fpage>12746</fpage>–<lpage>12754</lpage>, <pub-id pub-id-type="doi">10.1021/acscatal.3c02142</pub-id>.<pub-id pub-id-type="pmid">37822861</pub-id>
+<pub-id pub-id-type="pmcid">PMC10564037</pub-id></mixed-citation></ref><ref id="advs77104-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="advs77104-cite-0042">
+<string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Gilbert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Knox</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A. B.</given-names>
+<surname>Boraston</surname>
+</string-name>, “<article-title>Advances in Understanding the Molecular Basis of Plant Cell Wall Polysaccharide Recognition by Carbohydrate‐Binding Modules</article-title>,” <source>Current Opinion in Structural Biology</source>
+<volume>23</volume>, no. <issue>5</issue> (<year>2013</year>): <fpage>669</fpage>–<lpage>677</lpage>, <pub-id pub-id-type="doi">10.1016/j.sbi.2013.05.005</pub-id>.<pub-id pub-id-type="pmid">23769966</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="advs77104-cite-0043">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Weber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Petrovic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Strodel</surname>
+</string-name>, et al., “<article-title>Interaction of Carbohydrate‐Binding Modules With Poly(Ethylene Terephthalate)</article-title>,” <source>Applied Microbiology and Biotechnology</source>
+<volume>103</volume>, no. <issue>12</issue> (<year>2019</year>): <fpage>4801</fpage>–<lpage>4812</lpage>, <pub-id pub-id-type="doi">10.1007/s00253-019-09760-9</pub-id>.<pub-id pub-id-type="pmid">30993383</pub-id>
+<pub-id pub-id-type="pmcid">PMC6536475</pub-id></mixed-citation></ref><ref id="advs77104-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="advs77104-cite-0044">
+<string-name name-style="western">
+<given-names>N. B.</given-names>
+<surname>Adey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. H.</given-names>
+<surname>Mataragnon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Rider</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Carter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>B. K.</given-names>
+<surname>Kay</surname>
+</string-name>, “<article-title>Characterization of Phage That Bind Plastic From Phage‐Displayed Random Peptide Libraries</article-title>,” <source>Gene</source>
+<volume>156</volume>, no. <issue>1</issue> (<year>1995</year>): <fpage>27</fpage>–<lpage>31</lpage>, <pub-id pub-id-type="doi">10.1016/0378-1119(95)00058-E</pub-id>.<pub-id pub-id-type="pmid">7737512</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="advs77104-cite-0045">
+<string-name name-style="western">
+<given-names>K. A.</given-names>
+<surname>Günay</surname>
+</string-name> and <string-name name-style="western">
+<given-names>H. A.</given-names>
+<surname>Klok</surname>
+</string-name>, “<article-title>Identification of Soft Matter Binding Peptide Ligands Using Phage Display</article-title>,” <source>Bioconjugate Chemistry</source>
+<volume>26</volume>, no. <issue>10</issue> (<year>2015</year>): <fpage>2002</fpage>–<lpage>2015</lpage>, <pub-id pub-id-type="doi">10.1021/acs.bioconjchem.5b00377</pub-id>.<pub-id pub-id-type="pmid">26275106</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="advs77104-cite-0046">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Swaminathan</surname>
+</string-name> and <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cui</surname>
+</string-name>, “<article-title>A Mild Deposition of Metallic Materials on a Plastic Film Enabled by Phage Display Peptides</article-title>,” <source>RSC Advances</source>
+<volume>6</volume>, no. <issue>18</issue> (<year>2016</year>): <fpage>14589</fpage>–<lpage>14592</lpage>, <pub-id pub-id-type="doi">10.1039/C5RA25429A</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="advs77104-cite-0047">
+<string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Bergman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Xiao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Hall</surname>
+</string-name>, “<article-title>In Silico Design and Analysis of Plastic‐Binding Peptides</article-title>,” <source>The Journal of Physical Chemistry B</source>
+<volume>127</volume>, no. <issue>39</issue> (<year>2023</year>): <fpage>8370</fpage>–<lpage>8381</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jpcb.3c04319</pub-id>.<pub-id pub-id-type="pmid">37735840</pub-id>
+<pub-id pub-id-type="pmcid">PMC10591858</pub-id></mixed-citation></ref><ref id="advs77104-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="advs77104-cite-0048">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Bergman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. K.</given-names>
+<surname>Hall</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. D. N. D. M. M.‐B. P. P. L. M.‐G. G. A. N.</given-names>
+<surname>You</surname>
+</string-name>, “<article-title>De Novo Design of Multiple Microplastic‐Binding Peptides With a Protein Language Model‐Guided Generative Adversarial Network</article-title>,” <source>Journal of Chemical Information and Modeling</source>
+<volume>65</volume>, no. <issue>16</issue> (<year>2025</year>): <fpage>8527</fpage>–<lpage>8537</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jcim.5c01401</pub-id>.<pub-id pub-id-type="pmid">40765481</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="advs77104-cite-0049">
+<string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Singab</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Meng</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>LCI Engineering for Improved Polystyrene Binding: The Impact of Aromatic Amino Acid Substitutions</article-title>,” <source>ACS Omega</source>
+<volume>10</volume>, no. <issue>40</issue> (<year>2025</year>): <fpage>47227</fpage>–<lpage>47236</lpage>, <pub-id pub-id-type="doi">10.1021/acsomega.5c06026</pub-id>.<pub-id pub-id-type="pmid">41114275</pub-id>
+<pub-id pub-id-type="pmcid">PMC12529122</pub-id></mixed-citation></ref><ref id="advs77104-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="advs77104-cite-0050">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Nenninger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Contreras</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Vorobii</surname>
+</string-name>, et al., “<article-title>Surface‐Confined Enzymatic Method for Scalable Thin Film Generation</article-title>,” <source>Surface Interfaces</source>
+<volume>60</volume> (<year>2025</year>): <elocation-id>106046</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.surfin.2025.106046</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="advs77104-cite-0051">
+<string-name name-style="western">
+<given-names>W. R.</given-names>
+<surname>Taylor</surname>
+</string-name>, “<article-title>The Classification of Amino Acid Conservation</article-title>,” <source>Journal of Theoretical Biology</source>
+<volume>119</volume>, no. <issue>2</issue> (<year>1986</year>): <fpage>205</fpage>–<lpage>218</lpage>, <pub-id pub-id-type="doi">10.1016/S0022-5193(86)80075-3</pub-id>.<pub-id pub-id-type="pmid">3461222</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="advs77104-cite-0052">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Ji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Puetz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>Anchor Peptides Promote Degradation of Mixed Plastics for Recycling</article-title>,” <source>In Methods in Enzymology</source>
+<volume>648</volume> (<year>2021</year>): <fpage>271</fpage>–<lpage>292</lpage>, <pub-id pub-id-type="doi">10.1016/bs.mie.2020.12.027</pub-id>.<pub-id pub-id-type="pmid">33579408</pub-id></mixed-citation></ref><ref id="advs77104-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="advs77104-cite-0053">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Rübsam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Weber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jakob</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>Directed Evolution of Polypropylene and Polystyrene Binding Peptides</article-title>,” <source>Biotechnology and Bioengineering</source>
+<volume>115</volume>, no. <issue>2</issue> (<year>2018</year>): <fpage>321</fpage>–<lpage>330</lpage>, <pub-id pub-id-type="doi">10.1002/bit.26481</pub-id>.<pub-id pub-id-type="pmid">29064564</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="advs77104-cite-0054">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Oeser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Billig</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zimmermann</surname>
+</string-name>, “<article-title>A high‐throughput assay for enzymatic polyester hydrolysis activity by fluorimetric detection</article-title>,” <source>Biotechnology Journal</source>
+<volume>7</volume>, no. <issue>12</issue> (<year>2012</year>): <fpage>1517</fpage>–<lpage>1521</lpage>, <pub-id pub-id-type="doi">10.1002/biot.201200119</pub-id>.<pub-id pub-id-type="pmid">22623363</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="advs77104-cite-0055">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Humphrey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Dalke</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Schulten</surname>
+</string-name>, “<article-title>VMD: Visual Molecular Dynamics</article-title>,” <source>Journal of Molecular Graphics</source>
+<volume>14</volume>, no. <issue>1</issue> (<year>1996</year>): <fpage>33</fpage>–<lpage>38</lpage>, <pub-id pub-id-type="doi">10.1016/0263-7855(96)00018-5</pub-id>.<pub-id pub-id-type="pmid">8744570</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="advs77104-cite-0056">
+<string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Hub</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. L.</given-names>
+<surname>De Groot</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Van Der Spoel</surname>
+</string-name>, “<article-title>g_wham A Free Weighted Histogram Analysis Implementation Including Robust Error and Autocorrelation Estimates</article-title>,” <source>Journal of Chemical Theory and Computation</source>
+<volume>6</volume>, no. <issue>12</issue> (<year>2010</year>): <fpage>3713</fpage>–<lpage>3720</lpage>, <pub-id pub-id-type="doi">10.1021/ct100494z</pub-id>.</mixed-citation></ref><ref id="advs77104-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="advs77104-cite-0057">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Dittrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Brethauer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Goncharenko</surname>
+</string-name>, et al., “<article-title>Rational Design Yields Molecular Insights on Leaf‐Binding of Anchor Peptides</article-title>,” <source>ACS Applied Materials &amp; Interfaces</source>
+<volume>14</volume>, no. <issue>25</issue> (<year>2022</year>): <fpage>28412</fpage>–<lpage>28426</lpage>, <pub-id pub-id-type="doi">10.1021/acsami.2c00648</pub-id>.<pub-id pub-id-type="pmid">35604777</pub-id>
+</mixed-citation></ref><ref id="advs77104-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="advs77104-cite-0058">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Rübsam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Stomps</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Böker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jakob</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Schwaneberg</surname>
+</string-name>, “<article-title>Anchor Peptides: A Green and Versatile Method for Polypropylene Functionalization</article-title>,” <source>Polymer</source>
+<volume>116</volume> (<year>2017</year>): <fpage>124</fpage>–<lpage>132</lpage>, <pub-id pub-id-type="doi">10.1016/j.polymer.2017.03.070</pub-id>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">4063</journal-id><journal-id journal-id-type="pmc-domain">jacsau</journal-id><journal-title-group><journal-title>JACS Au</journal-title><abbrev-journal-title>JACS Au</abbrev-journal-title></journal-title-group><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13417171</article-id><article-id pub-id-type="pmcaid">13417171</article-id><article-id pub-id-type="pmcaiid">13417171</article-id><article-id pub-id-type="pmid">42529350</article-id><article-id pub-id-type="doi">10.1021/jacsau.6c00594</article-id><title-group><article-title>Advancing Protein
+Display on Bacterial Spores through
+an Extensive Survey of Coat Components</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Chappell</surname><given-names initials="TC">Todd C</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Nicks</surname><given-names initials="TB">Trevor B</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Lee</surname><given-names initials="JA">Jessica A</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Cheng</surname><given-names initials="JF">Jan-Fang</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Tarver</surname><given-names initials="A">Angela</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Kalia</surname><given-names initials="A">Arushi</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Nair</surname><given-names initials="NU">Nikhil U</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+Department
+of Chemical &amp; Biological Engineering, Tufts University, Medford, Massachusetts
+02155, United States
+</aff><aff id="aff2">
+<label>‡</label>
+US
+Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California
+94720, United States
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>nikhil.nair@tufts.edu</email>.</p></fn></author-notes><pub-date><day>11</day><month>6</month><year>2026</year></pub-date><volume>6</volume><issue>7</issue><fpage>4073</fpage><page-range>4073–4084</page-range><pub-history><event event-type="pmc-release"><date><day>30</day><month>7</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY-NC-ND 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="au6c00594.pdf" content-type="pmc-pdf"><?cloudpmc-path 651b/13417171/c12a0766aee5/au6c00594.pdf?><?cloudpmc-bucket app?><?size 6280275?></self-uri><related-article related-article-type="preprint"><bold>Previous version available:</bold> This article is based on a previously available preprint posted on bioRxiv on November 24, 2024: "<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11601641">
+Advancing protein display on bacterial spores through an extensive survey of coat components
+</ext-link>".</related-article><abstract id="abstract1"><title>Abstract</title><p>The profound stability
+of bacterial spores makes them
+a promising
+platform for biotechnological applications like biocatalysis, bioremediation,
+drug delivery, etc. However, though the <italic>Bacillus subtilis</italic> spore is composed of &gt;40 types of proteins, only ∼12 have
+been explored as fusion carriers for protein display. Here, we assessed
+the suitability of 33 spore proteins (SPs) as enzyme display carriers
+by direct allele tagging at native genomic loci. Of the 33 SPs investigated,
+26 formed functional fusions with β-glucuronidase (GUS)a
+∼272 kDa homotetramer. This almost triples the number of SPs
+assessed for enzyme display and doubles the number of functional fusions
+documented in the literature. We quantitatively assessed 1) SP promoter
+activation dynamics, 2) GUS activity on spores, 3) surface availability,
+and 4) protection from thermal and proteolytic degradation. Multicopy
+expression and pairwise coexpression of the most promising SP-GUS
+fusions highlighted the complexity of spore structure/assembly and
+the difficulty in predicting compatibility between different SP fusions.
+We also assessed the suitability of engineered spores to degrade PET
+(polyethylene terephthalate) films and found that surface-exposed
+SPs were most effective. Beyond the broad survey, a key outcome of
+our work was the identification of SscA (<underline>s</underline>mall <underline>s</underline>pore <underline>c</underline>oat assembly protein <underline>A</underline>) as an effective spore display carrier. SscA supported
+enzyme activity at least 4-fold higher than any other SP, including
+the well-established anchor, CotY. We attribute this to its promoter,
+which demonstrated early and sustained activation relative to other
+SPs and its small size (∼3 kDa), which likely minimally interferes
+with enzyme folding, oligomerization, and activity. Labeling and genetic
+studies, its hydrophobic nature, and low surface availability suggest
+that SscA assembles within the inner spore coat, which makes it stabilizing
+and suitable for many biocatalytic applications. Overall, this work
+serves as a knowledge base to advance the biotechnological utility
+of <italic>B. subtilis</italic> spores.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> biocatalysis, immobilization, Bacillus
+subtilis, cotransformation, genome editing</p></sec></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="agr1" xlink:href="au6c00594_0010.jpg"><?cloudpmc-path blobs/651b/13417171/4e8462356486/au6c00594_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 554?><?original-width 954?><?scaled-height 369?><?scaled-width 636?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="au6c00594_0008.jpg"><?cloudpmc-path blobs/651b/13417171/4e8462356486/au6c00594_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 554?><?original-width 954?><?scaled-height 369?><?scaled-width 636?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2026 Apr 16; Accepted 2026 Jun 5; Revised 2026 Jun 5; Collection date 2026 Jul 27.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><title>Introduction</title><p>Surface display technologies are highly
+versatile, genetically
+encoded protein presentation platforms used to characterize, engineer,
+and deliver proteins.<italic>
+−
+
+
+
+</italic> In addition to simplifying manipulation and substrate/target accessibility,
+surface fusion can enhance the stability of the displayed protein
+against a variety of denaturants, making surface display attractive
+for a range of biotechnological applications, including biocatalysis,
+drug delivery, bioremediation, etc. In particular, bacterial (endo)­spore
+display has garnered interest for the deployment of proteins in more
+challenging or extreme conditions due to the robust nature of spores. Spores remain intact and viable under intense
+thermal, pH, protease, and solvent stresses, and some of this stability
+can be passed on to displayed proteins.<italic>
+,
+</italic>
+</p><p>To enable
+spore display, the protein of interest is genetically
+fused to a component of the proteinaceous shell that surrounds the
+spore core.<italic>
+−
+
+</italic> One of the most studied sporulating microbes is the
+model Gram-positive bacterium<italic>B. subtilis</italic> Detailed localization and interaction studies of proteins expressed
+during sporulation have revealed the<italic>B. subtilis</italic>spore to be a complex structure of more than 40 proteins organized
+into morphologically distinct layers, including the (i) basement layer,
+(ii) inner coat, (iii) outer coat, and (iv) crust.<italic>
+,−
+
+</italic> While many spore proteins (SPs) have been successfully
+fused to fluorophores to determine protein localization, only a limited number have been investigated
+for functional applications of spore display. Most SPs investigated
+for display applications are crust (CgeA, CotV, CotW, CotX, CotY,
+CotZ) or outer coat proteins (CotA, CotB, CotC, CotD, CotG), while
+a limited number of studies have also explored the use of the inner
+coat protein OxdD.<italic>
+,−
+
+</italic> Although these
+studies hint at the robustness of spores and the versatility of different
+components to support display, most SPs remain unexplored for their
+suitability for spore display.</p><p>In this study, we sought to provide
+a broad, functional characterization
+of SPs as fusion partners in order to provide guidance on the design
+of spore display systems. After a thorough analysis of potential SP
+fusion partners, we developed a plate-based screening method for allelic
+tagging of SPs with an enzyme reporter at their native loci via natural
+cotransformation/congression. We characterized the most active fusions’
+ability to (i) assemble onto spores, (ii) support enzymatic activity,
+(iii) be surface-accessible, (iv) stabilize fusion partners against
+thermal and proteolytic inactivation, (v) express in multicopy and
+coexpress together, and (vi) sporulate efficiently. Our initial results
+highlighted a previously understudied protein, SscA, as a highly promising candidate for spore display. By exploring
+the activity of combinations of the most active fusions, we also show
+that optimal combinations of spore-display fusions cannot be determined
+by simply selecting the most active individual fusions. Finally, we
+explored the accessibility of our top fusion partners to larger substrates
+by displaying the plastic-degrading enzyme DuraPETase on the spore
+surface and demonstrating functional degradation of PET films. Cumulatively, this work describes the most extensive
+and direct comparison of different SPs for their suitability to spore
+display and will aid in the design of better spore display constructs
+for a variety of biotechnological applications.</p></sec><sec id="sec2" disp-level="1"><title>Results</title><sec id="sec2.1" disp-level="2"><title>A Plate-Based
+Screening Method Facilitates Identification of
+Scarless Allelic Fusions of Spore Proteins (SPs)</title><p>Most<italic>B. subtilis</italic> spore display studies integrate fusion
+constructs at neutral genomic loci (e.g., <italic>amyE</italic>, <italic>lacA</italic>, <italic>thrC</italic>, etc.), which result in two
+copies of the SPthe fusion and the wild-type (WT). However, spores assembled from such designs
+may not accurately reflect SP fusion potential due to competition
+between copies of SPs and expression from non-native genomic contextsboth
+of which can alter spore coat composition and/or integrity. To mitigate
+these issues, we decided to assess the suitability of each SP (the
+carrier) by directly tagging it at its native genetic locus with a
+reporter (the cargo). After identifying more than 50 known spore coat
+proteins, we narrowed the candidate field by removing any SPs previously
+identified as critical for proper spore assembly or known to impede
+sporulation as a fusion (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Table S1</ext-link>). For
+the remaining 44 SP candidates identified (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S1</ext-link>), we designed a theoretical spore display library of 88
+N- and C-terminal integration cassettes that consist of 2 kb homology
+arms flanking the β-glucuronidase gene (<italic>uidA</italic>, GUS), a GSSSG spacer linking <italic>uidA</italic> to the SP, and
+a His<sub>6</sub> tag on the free terminus of <italic>uidA</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_001.pdf" ext-link-type="uri">Supplementary Data File 1</ext-link>). To ensure
+scarless tagging, we leveraged congression during natural transformation
+in<italic>B. subtilis</italic>. After cotransforming
+the fusion constructs along with an unlinked selectable marker (linearized
+pBS1K/C) that integrates at an unlinked locus (<italic>amyE</italic>), we directly plated the cells on sporulation agar containing X-gluc
+(5-bromo-4-chloro-3-indolyl-β-<sc>d</sc>-glucuronic acid) for
+blue/white screening (<xref rid="fig1" ref-type="fig">Figure 
+</xref>A,B, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S2</ext-link>).</p><fig id="fig1" position="float"><?disp-level 3?><label>1</label><caption><p>Construction of GUS-tagged
+spore protein (SP) library using cotransformation. <bold>A)</bold> Schematic of the cotransformation process and integration
+vector design. Linearized plasmid P1 carries a selectable antibiotic
+cassette with flanking homology to target integration at the <italic>amyE</italic> locus. Linearized plasmid P2 encodes N- or C-terminal
+fusions of <italic>gusA</italic> to the SP gene with 2 kb homology
+arms for scarless allelic tagging. <bold>B)</bold> Screen for GUS<sup>+</sup> colonies where blue colonies in the plate screen indicate
+functional expression of SP-GUS fusion. <bold>C)</bold> Location of
+the 33 unique spore proteins for which constructs were made: crust
+(blue), outer coat (yellow), inner coat (green), cortex/basement layer
+(orange), and unknown location (black). <bold>D)</bold> Cotransformation
+frequencies ranged between 1.5% and 6% for the 8 loci used to assess
+factors affecting congression. The locations of <italic>amyE</italic> and <italic>ter</italic> are also indicated for reference. The locations
+of all 44 loci under investigation are in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S1</ext-link>.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="au6c00594_0001.jpg"><?cloudpmc-path blobs/651b/13417171/933fb28a274f/au6c00594_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1055?><?original-width 1679?><?scaled-height 422?><?scaled-width 671?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0001.gif"><?cloudpmc-path blobs/651b/13417171/5cf4929a4b53/au6c00594_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Of the 88 possible constructs
+designed, we were
+able to successfully
+synthesize 52 integration vectors, which represented at least one
+N- or C-terminal fusion for 33 of the original 44 SPs (<xref rid="fig1" ref-type="fig">Figure 
+</xref>C). On screening these 52 vectors
+for GUS activity on sporulation plates, we found that 34 constructs
+(∼65%) produced blue colonies and could be verified as integrated
+at the expected locus by PCR. This corresponds to 26 unique spore
+proteins, of which 9 have uncharacterized localization, and the remaining
+are distributed across the 4 distinct layers of the spore: (i) cortex/basement
+layer, (ii) inner coat, (iii) outer coat, and (iv) crust. C-terminal
+fusions accounted for 23 of the 34 active GUS fusions, and 16 were
+fused to SPs that have not been previously used for spore-display
+of enzymes (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Table S2</ext-link>). Two constructs (N-
+and C-terminal fusions of PdaB) generated blue colonies on plates
+but did not yield spores with functional GUS, indicating a functional
+fusion protein that failed to correctly load onto spores.</p><p>Collectively,
+cotransformation efficiency (efficiency = blue colonies/Ab<sup>R</sup> colonies) ranged considerably for the 34 integration vectors.
+We further evaluated 8 of these constructs (targeting loci spread
+throughout the <italic>B. subtilis</italic> genome)
+to identify any features that may contribute to the differences in
+the observed cotransformation efficiencies (<xref rid="fig1" ref-type="fig">Figure 
+</xref>D). Although congression has previously been
+reported to correlate with the distance from the selected marker and
+replication fork, we did not find any such trend in our studies. We
+also found no correlation with the size of the spore protein being
+targeted or the gene orientation. Analysis of the sense DNA strand
+suggested that the cotransformation efficiency was modestly correlated
+positively to the A (adenosine) content (<italic>R</italic>
+<sup>2</sup> = 0.38) and negatively to the G (guanosine) content (<italic>R</italic>
+<sup>2</sup> = 0.67) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S3A–B</ext-link>). Further, it was strongly positively correlated to the A+C content
+(<italic>R</italic>
+<sup>2</sup> = 0.91) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S3C</ext-link>). Since altering the A+C content of the sense strand does
+not affect annealing interactions with its complementary strand, we
+investigated the Gibbs free energy of the most stable predicted secondary
+structure formed by the integration cassette and found that it correlated
+negatively with cotransformation efficiency (<italic>R</italic>
+<sup>2</sup> = 0.68) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S3D</ext-link>). Since DNA
+enters the cytoplasm in single-stranded form, our data suggest that
+highly stable secondary structure formation may adversely affect integration
+efficiency. Given that these observations are based on an analysis
+of a small subset of constructs, additional work will need to be conducted
+in the future to assess the role of locus, composition, direction,
+and sequence on congression efficiency.</p></sec><sec id="sec2.2" disp-level="2"><title>Allelic Tags Provide Insight
+into SP Promoter Dynamics</title><p>To determine the relative expression
+and activation timing of the
+different SP promoters, we performed time-course studies of GUS activity
+on sporulation plates for all 34 fusion constructs that produced blue
+colonies (<xref rid="fig2" ref-type="fig">Figure 
+</xref>A–F).
+Though the observed activity of N- and C-terminal fusions of PdaBthe
+only SP from the cortex/basement layerwas relatively weak,
+strong GUS expression could be detected from protein within all other
+layers of the spore. SPs could be generally divided into three main
+categories: (I) very low activity, which are either poorly expressed
+and/or form inactive fusions with GUS; (II) late expression/low activity,
+which exhibit activity after an extended incubation; (III) early expression/high
+activity, which shows significant activity early that is retained
+during extended incubation (<xref rid="fig2" ref-type="fig">Figure 
+</xref>G). Half (17) of the tested constructs fall within
+(III). Interestingly, the location within the spore did not correlate
+with any of these three categoriziess, which suggests that promoter
+strength and tolerance to GUS fusion are stronger determinants of
+activity than localization within the spore.</p><fig id="fig2" position="float"><?disp-level 3?><label>2</label><caption><p>Activity dynamics of
+SP-GUS fusions under screen conditions. <bold>A)</bold> Time-course
+images of colonies of the 34 <italic>B. subtilis</italic> strains with confirmed GUS-tagged SP
+alleles (WT: gray; cortex/basement: orange; inner coat: green; outer
+coat: yellow; crust: blue; unknown location: black). Quantified time-course
+GUS activity determined by image analysis of microcolonies in (A)
+for <bold>B)</bold> cortex/basement, <bold>C)</bold> inner coat, <bold>D)</bold> outer coat, <bold>E)</bold> crust, <bold>F)</bold> unknown
+location SP-GUS fusions. Data points are the average of 2 biological
+replicates, and error bars are SEM. <bold>G)</bold> Scatter plot of
+24 and 48 h average GUS activity. SP-GUS fusions can demonstrate (I)
+low activity, (II) activity during late sporulation, and (III) activity
+during early and late sporulation. The five most active fusions are
+listed in the inset “Top 5” for both 24 and 48 h time
+points.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="au6c00594_0002.jpg"><?cloudpmc-path blobs/651b/13417171/a54a37895800/au6c00594_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1718?><?original-width 1680?><?scaled-height 687?><?scaled-width 672?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0002.gif"><?cloudpmc-path blobs/651b/13417171/a103bb6442e3/au6c00594_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.3" disp-level="2"><title>Characterization of GUS
+Activity on Spores Identifies SscA as
+a Promising Carrier for Biocatalysis</title><p>While the plate assay
+effectively determined relative promoter activation and expression
+of active SP fusions, it did not indicate whether the fusions were
+properly incorporated into spores. Detectable GUS activity can be
+attributed to enzyme derived from vegetative cells, actively differentiating
+cells, and/or lysed mother cells that were not incorporated into spores.
+To assess spore-specific GUS activity, we generated spores in liquid
+cultures and thoroughly washed them to remove nonspecifically bound
+proteins. We found that basement/cortex fusions were inactive on spores
+as well, whereas all other fusions yielded some degree of activity
+(<xref rid="fig3" ref-type="fig">Figure 
+</xref>A). The highest
+activity fusion partners with known locations are in the outer coat
+and crust of the spore. Specifically, CotY, CotG, CotX, and CgeA were
+4 of the 5 best-performing fusion partners, which supports their general
+popularity as fusion partners in the published literature.<italic>
+,
+</italic> Interestingly, SscAa small protein of ∼3 kDa with
+an unknown location that has not previously been assessed as a carrier
+for spore displayyielded the highest activity among all SPs
+tested, with more than 4-fold higher activity relative to the next
+most active fusion partner, CotY.</p><fig id="fig3" position="float"><?disp-level 3?><label>3</label><caption><p>Relative activity of spore displayed SP-GUS
+fusions. <bold>A)</bold> Activity of SP-GUS fusions that have assembled
+onto spores determined
+using the NPG substrate. WT spores were used for background subtraction
+and, therefore, set to 0 activity. Data represent an average of 6
+biological replicates, and error bars are SEM. * SscA-C activity is
+higher than all other fusions (ANOVA, <italic>P</italic> &lt; 0.0001).
+Activity data are OD-normalized. <bold>B)</bold> Correlational plot
+of relative GUS activity on solid and liquid media. Activity on agar
+plates is the slope of the average activity of fusions from 15 to
+27 h indicated in <xref rid="fig2" ref-type="fig">Figure 
+</xref>B–G, and that from liquid culture is the end data point
+shown in <xref rid="fig2" ref-type="fig">Figure 
+</xref>D.
+NC are negative candidates, WC are weak candidates, and SC are strong
+candidates. <bold>C)</bold> Plot of liquid culture activity per the
+activity categories defined in <xref rid="fig2" ref-type="fig">Figure 
+</xref>G. Both WC and SC exhibit activity designated as category
+(III) on plate assays. ** SC and WC population liquid activity are
+significantly different (Lognormal Welch’s <italic>t</italic> test, <italic>P</italic> &lt; 0.0001).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="au6c00594_0003.jpg"><?cloudpmc-path blobs/651b/13417171/8ad5779dec00/au6c00594_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1201?><?original-width 1631?><?scaled-height 480?><?scaled-width 652?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0003.gif"><?cloudpmc-path blobs/651b/13417171/859c092d403e/au6c00594_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To determine the effectiveness of the plate assay
+to identify candidates
+for spore display, we compared the GUS activity on plates (determined
+using the slope during early growth, 15–27 h) and that of isolated
+spores (derived from liquid cultures). Both data sets were normalized
+to the maximum, and values below the limit of detection were set to
+0.0001 to accommodate the log scale. From this analysis, fusions could
+be categorized into 3 groups: (i) strong candidates (SC), which have
+high activity in both plate and washed spore preparations; (ii) weak
+candidates (WC), which demonstrate high activity on plates but low
+activity as isolated spores; and (iii) negative candidates (NC), which
+have low activity as both colonies on plates and as washed spores
+(<xref rid="fig3" ref-type="fig">Figure 
+</xref>B). We did
+not find any candidates that demonstrated low activity on plates but
+high activity as spores, highlighting the robustness of the plate-based
+screening. We found that all SC and WC are category (III) of the plate
+screen (<xref rid="fig3" ref-type="fig">Figure 
+</xref>C),
+which represents 50% (17/34) of the fusion candidates, 47% (8/17)
+of which are SC. This demonstrates that the plate-based screen is
+a reliable approach to eliminate inactive or low-activity fusion proteins.</p></sec><sec id="sec2.4" disp-level="2"><title>Crust Protein Fusions Are Most Surface-Accessible</title><p>Surface
+accessibility is an important metric for certain spore display applications,
+such as antigen presentation and polymer degradation.<italic>
+−
+
+
+</italic> To assess surface accessibility using immunostaining, we wanted
+to isolate highly pure spores. However, when we attempted to purify
+spores from cultures using the standard lysozyme treatment approach, we found that it produced insoluble aggregates
+of cell debris that bound the secondary antibody and distorted results
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S4</ext-link>). Therefore, we developed an
+alternative spore purification method that relies on the separation
+of spores and cells via differential centrifugation. Our method makes
+use of the differences in the spore and vegetative cell size and densities.
+Centrifugation generates a layer of loosely packed spores on top of
+a tightly packed bed of cells and forespores (<xref rid="fig4" ref-type="fig">Figure 
+</xref>A, inset). Using purified spores, we characterized
+the surface accessibility of the SP-GUS spores by labeling them with
+two different primary antibodies that target the His<sub>6</sub> tag
+or GUS, respectively, in independent experiments (<xref rid="fig4" ref-type="fig">Figure 
+</xref>A and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S5</ext-link>). In general, the polyclonal anti-GUS antibody provided
+higher surface detection levels than the monoclonal anti-His<sub>6</sub> antibody, likely due to its ability to probe multiple epitopes in
+a complex spore assembly where any single epitope could be occluded
+due to packing/steric hindrances. Our results indicate that CotY-C
+was by far the most surface-accessible of the fusions, while SscA-C
+was largely undetectable. In general, we found that the measured surface
+availability correlated well with our expectations based on the published
+spore structure. Specifically, crust and outer coat proteins yielded
+stronger signals than basement and cortex proteins (<xref rid="fig4" ref-type="fig">Figure 
+</xref>B). However, there were several
+notable exceptions. For example, CotW and CotG, which have been proposed
+to comprise the outermost layers of the spore, had the lowest signals. Conversely, the inner coat protein OxdD was
+highly detectable. These results are consistent with observations
+of Potot et al., who noted that an OxdD fusion was more surface-exposed
+than CotG. This suggests that OxdD may
+not only be confined to the inner coat. Proteins with previously uncharacterized
+locations generally exhibited moderate to low surface availability.
+Interestingly, EcsB-C, PrtG-C, YqfQ-C, and YtrH-C exhibited surface
+detection equivalent to that of crust and outer coat proteins, suggesting
+that they may also assemble at the periphery of spores.</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>Surface accessibility
+of SP-GUS fusions. <bold>A)</bold> Mean fluorescence
+of purified, immunostained spores normalized to WT. Immunostaining
+was performed using two primary antibodies that target different antigens:
+anti-His<sub>6</sub> (bottom) and anti-GUS (top). In both cases, a
+fluorescent secondary antibody was used for detection, and spores
+were analyzed via flow cytometry. Samples are arranged in order from
+lowest to highest combined fluorescence. * indicates a mean population
+fluorescence significantly greater than WT, <italic>P</italic> &lt;
+0.05 (Kruskal–Wallis one-way ANOVA). All strains that have
+a mean fluorescent signal ≥2× WT are indicated with **.
+The inset shows layering of spores on top of cells in sporulation
+cultures and validation of spore purity in the top layer using phase
+microscopy at 100× magnification. <bold>B)</bold> Relative fluorescence
+of samples shown in (A) organized by location in the spore. Bars indicate
+the median value for the spore layer and show a trend of decreasing
+detectability when GUS is fused to spore proteins located in deeper
+spore layers.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="au6c00594_0004.jpg"><?cloudpmc-path blobs/651b/13417171/5c6c26ef98fa/au6c00594_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 770?><?original-width 1704?><?scaled-height 308?><?scaled-width 681?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0004.gif"><?cloudpmc-path blobs/651b/13417171/b1da723d5dc9/au6c00594_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.5" disp-level="2"><title>Several SP Fusions Stabilize
+GUS against Inactivating Agents
+but Do Not Significantly Affect Sporulation Efficiency</title><p>Thermal
+denaturation and proteolytic degradation are common challenges encountered
+by enzymes during biocatalysis. We investigated how resilient our
+15 most active spore fusions were against these challenges using washed
+spores in suspension. For the thermostability challenge, we incubated
+purified GUS and SP-GUS spores for 15 min at 37, 50, and 60 °C.
+While the free enzyme control showed no significant loss of activity
+at 37 °C, incubation at 50 and 60 °C resulted in only 27%
+residual activity and complete loss of activity, respectively (<xref rid="fig5" ref-type="fig">Figure 
+</xref>A, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S6</ext-link>). In contrast, all the SP-GUS fusions retained at
+least 78% activity after the 50 °C incubation, with most (CgeA-C,
+CotY-C, CotX-C, CotW-C, CotC-C, CotG-C, CotU-C, EcsB-C, SscA-C) exhibiting
+elevated activitya phenomenon commonly observed due to stabilization
+by surface display.<italic>
+−
+
+
+</italic> Even after the 60 °C challenge, 6 fusions exhibited greater
+than 50% residual activity. CgeA-C retained the most relative activity
+(85%) at 60 °C, though SscA still retained more than 5-fold higher
+total GUS activity compared to CgeA-C. Upon challenge with 0.1 mg
+mL<sup>–1</sup> trypsin, we also saw elevated activity for
+most SP-GUS fusions (<xref rid="fig5" ref-type="fig">Figure 
+</xref>B, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S7</ext-link>). Increasing trypsin
+concentrations to 1.0 mg mL<sup>–1</sup> generally resulted
+in a loss of activity, though most fusions still retained at least
+50% activity relative to control untreated spores. Further, SscA retained
+the highest activity at all trypsin concentrations, retaining 91%
+relative activity even when treated with 1.0 mg mL<sup>–1</sup> trypsin.</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>Assessing GUS stability against inactivating challenges. <bold>A)</bold> Residual activity of SP-GUS fusions after 15 min incubation
+at the indicated temperatures. The free enzyme rapidly inactivates
+at elevated temperatures, whereas most fusionsespecially those
+on the crustdemonstrate modest thermal activation at 37 and
+50 °C, and inactivation at 60 °C. Individual data points
+are shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S6</ext-link>. <bold>B)</bold> The free enzyme rapidly inactivates on protease treatment, whereas
+most spore coat-displayed fusions are protected. Fusions to crust
+proteins are the least protective, as expected, given their solvent
+accessibility. Individual data points are shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S7</ext-link>. For both (A) and (B), activity is relative to the
+initial activity at 37 °C for each construct. Activity data are
+OD-normalized. <bold>C)</bold> Flow cytometric, <bold>D)</bold> fluorescence,
+and <bold>E)</bold> phase-contrast images demonstrating the isolation
+of purified spores. SYBR Safe stains only mother and vegetative cells
+and does not label spores. Conversely, <bold>F)</bold> flow cytometric, <bold>G)</bold> fluorescence, and <bold>H)</bold> phase-contrast images
+of unpurified samples show unlabeled spores and labeled cells. <bold>I)</bold> Sporulation efficiency of all constructs was approximately
+even. U = unknown location, IC = inner crust, OC = outer crust. Temperature
+and protease challenge values are the mean of three biological replicates.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="au6c00594_0005.jpg"><?cloudpmc-path blobs/651b/13417171/570e818f0899/au6c00594_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1254?><?original-width 2092?><?scaled-height 418?><?scaled-width 697?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0005.gif"><?cloudpmc-path blobs/651b/13417171/3c1e9a680a2e/au6c00594_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To assess whether modification of spores at their
+native locus
+alters sporulation efficiency, we developed a method of differential
+staining using the DNA-binding dye SYBR Safe. The difference in permeability
+of the spore and cell membranes permits staining of vegetative and
+mother cells, while leaving spores unstained (<xref rid="fig5" ref-type="fig">Figure 
+</xref>C–H). Wild-type spores purified using
+our previously described purification protocol showed no fluorescence
+and are phase-bright (<xref rid="fig5" ref-type="fig">Figure 
+</xref>C–E). Unpurified samples revealed the selective staining
+of remaining phase dark cells following sporulation (<xref rid="fig5" ref-type="fig">Figure 
+</xref>F–H). This demonstrates
+that the centrifugation-based approach is effective at isolating highly
+pure spores. Since spore and cell fractions can be efficiently distinguished,
+we assessed the sporulation efficiency of SP-GUS fusions using flow
+cytometry. In all cases, sporulation efficiency ranged from ∼45%
+to 55%, indicating only minor changes in sporulation efficiency for
+SP-GUS-expressing strains (<xref rid="fig5" ref-type="fig">Figure 
+</xref>I).</p></sec><sec id="sec2.6" disp-level="2"><title>Coexpression of Select SP-GUS Fusions Highlights
+the Complexity
+of Their Assembly on Spores</title><p>Coexpression of multiple fusions
+could increase the display density of GUS and provide insights into
+the compatibility of different SPs for engineering applications. We
+first investigated the locus dependence and coloading potential by
+comparing the activity of the five most active SP-GUS fusions (SscA-C,
+CotX-C, CotY-C, CotG-C, and CgeA-C) when integrated at: (i) <italic>amyE</italic> only (<italic>amyEΔ::sp-gusA sp</italic>
+<sup>
+<italic>+</italic>
+</sup>), (ii) <italic>amyE</italic> only with the
+native SP copy knocked out (<italic>amyEΔ::sp-gusA spΔ::erm</italic>), (iii) the native locus only (<italic>amyE</italic>
+<sup>
+<italic>+</italic>
+</sup>
+<italic>sp:sp-gusA</italic>), and (iv) both the <italic>amyE</italic> and native loci (<italic>amyEΔ::sp-gusA sp:sp-gusA</italic>) (<xref rid="fig6" ref-type="fig">Figure 
+</xref>A). All
+constructs expressed genes using their native promoters, and assays
+were performed using purified spores in suspension. Interestingly,
+we found that the fusions exhibited quite varied responses depending
+on the integration locus and the presence of a second copy of the
+SP gene. The CgeA-C fusion was slightly more active when integrated
+at the native locus and was not affected by an additional copy of
+unmodified or <italic>gusA</italic>-tagged <italic>cgeA</italic>.
+Conversely, the activity of the CotG-C fusion was higher when integrated
+at the <italic>amyE</italic> locus relative to its native locus. It
+was not affected by the presence of unmodified <italic>cotG</italic>, and, surprisingly, the activity of the double integrant was lower
+when compared to a single integrant. The activity of CotX-C was improved
+in the presence of WT <italic>cotX</italic>, did not differ measurably
+based on the integration locus, and improved markedly when integrated
+at two loci. The activity of the CotY-C fusion was also higher when
+present in two copies. However, unlike that of CotX-C, its activity
+was higher from the native locus relative to that from <italic>amyE</italic>. Interestingly, activity from the <italic>amyE</italic> locus improved
+when the WT copy was knocked out. Compared to other spore carriers,
+SscA-C demonstrated the least variation based on locus and copy number
+and retained high activity with all constructs tested.</p><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>Coexpression analysis
+of promising spore display candidates. <bold>A)</bold> Assessing the
+genetic context dependence of SP-GUS fusion
+activity. The <italic>sp-gusA</italic> fusion gene was expressed after
+integration at the <italic>amyE</italic> locus only, the native locus
+of the SP, or both. In the first case, the native copy of the SP gene
+was left intact or knocked out. Only fusions to CotX-C and CotY-C
+showed higher activity when expressed from two different loci. SscA-C
+fusions demonstrated high activity in all configurations. The locus
+dependence on the presence of a second WT or tagged SP gene copy was
+gene-dependent. <bold>B)</bold> Coexpression of two GUS fusions: one
+from the native locus (<italic>sp</italic>) and the other from <italic>amyE.</italic> SscA-C and CotX-C fusions (at their native loci) generally
+yielded higher activity when coexpressed with fusions of other proteins
+expressed from the <italic>amyE</italic> locus. Activities are represented
+relative to the SscA-C fusion at its native locus. Individual data
+points are shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S8</ext-link>. Activity
+data are OD-normalized.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="au6c00594_0006.jpg"><?cloudpmc-path blobs/651b/13417171/338d6d986585/au6c00594_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 591?><?original-width 1629?><?scaled-height 236?><?scaled-width 651?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0006.gif"><?cloudpmc-path blobs/651b/13417171/feb6ce9750b2/au6c00594_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We next tested the coexpression
+of two of the top
+five GUS fusionsone
+at the native SP locus and the other at <italic>amyE</italic> (<xref rid="fig6" ref-type="fig">Figure 
+</xref>B, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S8</ext-link>). In general, fusions expressed from the <italic>amyE</italic> locus often yielded higher activity when coexpressed
+with CotX-C and SscA-C fusions from their native loci. Specifically,
+CotX-C and CotG-C were the most synergistic as were SscA-C with CotG-C
+and CotY-C. Overall, the behavior and interactions of the fusions
+were very SP-dependent, further highlighting the complexity of spore
+assembly, structure, and the genetic context of associated gene expression.</p></sec><sec id="sec2.7" disp-level="2"><title>Spore-Displayed PETase Is Most Active When Surface-Accessible</title><p>Although SscA is a promising display anchor for GUSan enzyme
+with a small, freely diffusible substratewe wanted to assess
+how it and other SPs would support the activity of an enzyme with
+a large, insoluble substrate. We selected the PET (polyethylene terephthalate)
+depolymerizing enzyme, DuraPETase, and
+generated fusions with the five most promising GUS fusion carriers
+and integrated them at <italic>amyE</italic>. When we first estimated
+PETase activity using the small molecule substrate analog <italic>p-</italic>nitrophenol acetate (pNPA), we found that the SscA-C fusion
+displayed the highest activity (<xref rid="fig7" ref-type="fig">Figure 
+</xref>A, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S9</ext-link>). However,
+when we tested the enzymatic activity of the same five engineered
+spores on PET films, we found that the CotY-C fusion was the most
+active (<xref rid="fig7" ref-type="fig">Figure 
+</xref>B).
+This is consistent with the high surface accessibility relative to
+other SPs. The CgeA-C fusion demonstrated relatively low activity,
+consistent with prior reports by Bartels et al., who found fusion
+of laccases to this protein to not be very active. A closer inspection of the PET disks by scanning electron
+microscopy illustrates that those treated with purified and CotY-fused
+DuraPETase show etch and/or pit marks, suggesting they are being enzymatically
+hydrolyzed (<xref rid="fig7" ref-type="fig">Figure 
+</xref>B). Interestingly, SscA still demonstrated moderately high activity,
+equivalent to, or higher than, other crust proteins like CgeA and
+CotXindicating that it may still present enzymes to the surface
+and a highly versatile anchor for spore display. Overall, it seems
+that expression level and surface accessibility are both major determinants
+of activity on insoluble PET. To contextualize our results, we evaluated
+the genetic dependence of SscA-C-mEYFP on morphogenic proteins for
+the inner coat (SafA), outer coat (CotE), and crust (CotX/Y/Z) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S10</ext-link>). We found that SscA-mEYFP loading
+is greatly hindered in the <italic>safA</italic> deletion strainits
+localization is primarily isolated to one or both poles of the spores.
+This <italic>safA-</italic>dependent loading is characteristic of
+other inner coat spore proteins, including OxdD and YeeK. The limited surface accessibility of SscA, as
+well as its <italic>safA</italic>-dependent coat loading, strongly
+indicates that SscA is an inner coat protein.</p><fig id="fig7" position="float"><?disp-level 3?><label>7</label><caption><p>Assessing the activity
+of SP-PETase fusions using pNPA and PET
+disks. C-terminal fusions of DuraPETase to CgeA, CotG, CotX, CotY,
+and SscA were active on <bold>A)</bold> the soluble substrate pNPA
+(<italic>p</italic>-nitrophenol acetate) and an end-use PET disk.
+The SscA-C fusion was the most active on the soluble substrate, whereas
+the CotY fusion was the most active on insoluble PET. Data are averages
+of three replicates with standard deviation. Columns are the means
+of three biological replicates, and error bars are SEM. <bold>B)</bold> Scanning electron microscopy images of PET films treated with control
+WT <italic>B. subtilis</italic> spores (left), purified
+DuraPETase (middle), and <italic>B. subtilis</italic> spores expressing the CotY-DuraPETase fusion (right). The unmodified
+spores were unable to etch the disks, whereas the purified enzyme
+and recombinant spores visibly modified the PET surface. Activity
+data are OD-normalized.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="au6c00594_0007.jpg"><?cloudpmc-path blobs/651b/13417171/8a47af423d19/au6c00594_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 608?><?original-width 1667?><?scaled-height 243?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="au6c00594_0007.gif"><?cloudpmc-path blobs/651b/13417171/0ea48cee3d42/au6c00594_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec3" disp-level="1"><title>Discussion</title><p>The
+profound stability of bacterial endospores
+and unique ability
+to combine protein expression with surface immobilization independent
+from secretion or soluble-protein purification positions spores as
+a powerful tool for diverse applications. In this work, we almost
+triple the number of SPs tested as carriers for display to 33 and
+identify 26 functional fusions, of which 16 had not previously been
+used as display carriers. Although our goal was to assess 44 coat
+proteins, 9 protein fusions could not be characterized due to technical
+difficulties with DNA synthesis and strain construction. We selected
+GUS as the reporter to evaluate SPs as potential fusion partners for
+two major reasons: (i) ease of characterization and (ii) because as
+a &gt;270 kDa tetrameric enzyme, it is more representative of fusion
+proteins used in biocatalysis than model monomeric fluorescent proteins
+and enzymes. One of our key findings was the discovery of SscA as
+a spore protein (SP) carrier, which is poorly characterized and not
+documented for engineering applications. The SscA fusion was approximately
+4-fold more active than other well-characterized best-in-class SPs
+like CotY and CotG. This could partly be attributed to the small size
+of SscA, being a 28 aa long peptide, which may minimally interfere
+with the folding and activity of enzymes like GUS. The early and sustained
+activation of the SscA promoter may also be a contributor to the high
+level of activity seen for its GUS fusion. A prior transcriptomic
+analysis of spores reported that SscA was the only spore coat protein
+in the top 46 of most abundant mRNAs, which also supports our assessment
+that it is highly expressed. Additionally,
+CotB, CotG, and CotH were previously found to be significantly reduced
+in spores derived from a <italic>sscA</italic>Δ background,
+suggesting SscA may play a key role in spore coat assembly. Its presence in several other <italic>Bacillus</italic> sp. (e.g., <italic>B. tequilensis</italic>, <italic>B. spizizenii</italic>, <italic>B.
+inaquosorum</italic>, <italic>B. halotolerans</italic>, etc.) indicates that it could have similar potential utility in
+other bacterial spores.</p><p>In addition to significantly expanding
+the number of spore display
+carriers, we used allelic tagging to fuse SPs to GUS rather than choosing
+to create merodiploid strains. We constructed our strains by leveraging
+congression during natural transformation, whereby unlinked cassettes
+are concurrently integrated at different sites in the chromosome.
+This also allowed us to briefly assess factors affecting congression.
+We found that the melting temperature of the strongest secondary structure
+within the sense strand of the 2 kb long homology arms was inversely
+proportional to congression frequency. Although this work does not
+provide any specific proof for this assertion, it provides a hypothesis
+that could be tested more rigorously in future studies. In any case,
+allelic tagging has previously not been used for spore display applications.
+Based on our results, we found that direct modification of SPs at
+their native loci can be beneficial in certain cases, like for SscA
+and CotY, but in other cases, expression from <italic>amyE</italic> was preferred (e.g., CgeA, CotG, CotX). In either case, locus-specific
+effects could contribute to differential activities since neither
+the native locus nor the <italic>amyE</italic> locus is transcriptionally
+insulated from neighboring genes. Allelic tagging also enabled us
+to assess the promoter activation dynamics of all SPs. In general,
+the best carriers were characterized by early-activating promoters
+with prolonged expression. Late-activating promotersidentified
+as those with low GUS activity within the first 24 hgenerally
+yielded spores with relatively low GUS activity. While we cannot altogether
+preclude that GUS fusions may alter protein stability, folding, etc.,
+and therefore, our assessment of promoter dynamics, our results are
+nevertheless consistent with the limited literature on the comparative
+strengths of SP promoters and the resulting loading density of spore-displayed
+cargo proteins.<italic>
+,
+</italic>
+</p><p>An analysis of all fusion
+proteins using immunostaining and flow
+cytometry using anti-His<sub>6</sub> and anti-GUS antibodies revealed
+that CotY was the most surface-exposed protein of those tested. Overall,
+the signals were higher with the polyclonal anti-GUS antibody. This
+may be because it is able to bind to several epitopes and would therefore
+be less sensitive to steric hindrances. Many known crust and outer
+coat proteins like CotC, CotV, and CotX also demonstrated high surface
+availability, whereas the basement/cortex protein PdaB and others
+did not. But not all crust and outer coat proteins were highly surface-available,
+and inner coat proteins like OxdD seemed to be more surface-exposed
+than would be expected from their documented location. However, our
+results are consistent with other spore-display studies that have
+shown many noncrust proteins can result in surface-display of antigens
+for spore-based vaccines and prior reports that inner proteins like
+OxdD can load late since spores remain relatively permeable.<italic>
+,,,,,
+</italic> Given that
+information about SP localization is largely based on analyzing microscopy
+images of fluorescently tagged proteins, results from our work and
+from others highlight the need to reevaluate the accepted dogma that
+SPs and SP-cargo fusions are confined to a single coat layereither
+natively or during spore-display.<italic>
+−
+
+</italic> It is possible, and
+likely, based on our data, that spore coats are heterogeneous, and
+SPs can localize to multiple layers during assembly. It may also be
+that spore-display may result in unexpected protein interaction or
+adsorption and lead to “misincorporation” of the native
+SP into multiple layers. In any case, in recombinant systems like
+ours (especially when modified with a large reporter like GUS), total
+biocatalytic activity and surface availability are complex functions
+of promoter dynamics, protein folding, spore assembly, and permeability.
+Given that, our conclusions about localization were internally consistent
+with the outcomes from the challenge studies. When we challenged 15
+of the highest activity SP-GUS fusions to thermal and proteolytic
+inactivation, we found that most conferred significant resistance
+to loss in activity, especially compared to the free enzyme. As expected,
+crust proteins were most susceptible to proteolytic degradation, whereas
+proteins found internally were more stabilizing. Conversely, the crust
+protein
+fusions were some of the most stabilized against thermal inactivation.</p><p>We found that SscA was generally poorly surface-available when
+fused to GUS. This, combined with the fact that it is hydrophobic,
+its promoter is expressed relatively early, and that it is dependent
+on <italic>safA</italic> for complete coat loading, suggests that
+it may assemble at high copy numbers within the inner protein layers
+of spores. Based on these results, our expectations were that surface-exposed
+proteins would be more suitable fusion partners for enzymes that act
+on insoluble substrates. When we fused DuraPETase to several spore
+proteins, the highly surface-exposed CotY was found to be superior
+in aiding in the degradation of PET disks than SscA. Thus, while the
+small size and strong expression level of SscA make it an excellent
+candidate for most proteins, its benefit is diminished when surface
+accessibility is essential for activity. However, the SscA-DuraPETase
+fusion was able to degrade PET (equivalently to another crust protein
+fusion, CotX), indicating that under some genetic contexts, it may
+also be surface-accessibleagain highlighting the putative
+heterogeneity of spore assembly, especially in genetically engineered
+contexts. However, it is worth noting that our analysis on PETase
+activity is preliminary, and future studies may be needed to evaluate
+the true potential of spore display and different SP carriers for
+this application.</p><p>Our DNA constructs and data on promoter strength
+and timing, total
+activity, surface availability, stability, and combinatorial loading
+should enable future users to make informed decisions when developing
+vaccines, biocatalysts, and other products using spore display. Overall,
+our extensive survey of spore proteins serves as a key resource for
+applied scientists and engineers interested in leveraging spores for
+biotechnological applications.</p></sec><sec id="sec4" disp-level="1"><title>Materials and Methods</title><sec id="sec4.1" disp-level="2"><title>Bacterial
+Strains and Culture Conditions</title><p>
+<italic>B. subtilis</italic> 168 (Δ<italic>trpC</italic>) and
+its derivatives were used for all experiments unless noted otherwise. <italic>E. coli</italic> DH5α or NEB5α was used for general
+plasmid construction and propagation. General strain propagation was
+performed in Luria–Bertani (LB) at 37 °C with 225 rpm
+shaking or on LB agar (1.5%) plates. Chloramphenicol (5 μg mL<sup>–1</sup>) or kanamycin (10 μg mL<sup>–1</sup>) was added for selection in <italic>B. subtilis</italic> as required, and ampicillin (100 μg mL<sup>–1</sup>) for <italic>E. coli</italic>.</p></sec><sec id="sec4.2" disp-level="2"><title>Preparation of Naturally
+Competent Cells and Transformations</title><p>Competent cells were
+prepared as described previously with slight
+modifications. A 1 mL aliquot of the
+overnight <italic>B. subtilis</italic> LB culture was
+diluted into 15 mL of prewarmed SM1 medium and incubated at 37 °C
+with 225 rpm until it reached an OD<sub>600</sub> of 0.5–0.6,
+(∼4 h). An equal volume of prewarmed SM2 media was then added,
+and the culture was incubated for an additional 90 min. Cells were
+then portioned into 0.5 mL aliquots and used for transformation immediately
+or stored at −80 °C after adding glycerol to a final concentration
+of 10% (v/v). Transformation was performed by adding 100–500
+ng of linearized vector DNA to competent cells, incubating for 1 h
+at 37 °C at 225 rpm, and then plating on the appropriate selective
+media.</p></sec><sec id="sec4.3" disp-level="2"><title>Spore Protein−β-Glucuronidase Fusion Construct
+Design</title><p>N-terminal and C-terminal spore coat protein−β-glucuronidase
+(SP-GUS) were designed to enable homologous recombination following
+natural transformation. For N-terminal fusions of GUS to SPs, 2 kb
+of genomic homology were amplified from the +3-nucleotide position
+within the coding DNA sequence (CDS) of the SP to insert the GUS fusion
+at the native locus. The upstream homology arm was amplified with
+a C-terminal side primer overhang to introduce a flanking AscI cut
+site between the homology arm and a His<sub>6</sub> tag sequence.
+The His<sub>6</sub> tag sequence preceded a 3x­(4GS) linker sequence
+flanked by a NotI site and the GUS sequence. The GUS sequence was
+flanked by a coding SbfI site and a 3x­(4GS) linker sequence (no stop
+codon) that joined its downstream homology arm which includes the
+SP CDS and additional locus homology. For C-terminal constructs, 2
+kb of genomic homology were amplified from the nucleotide preceding
+the stop codon in each SP. A 3x­(4GS) linker was added to the SP CDS
+which was flanked by an AscI site preceding the GUS CDS. The GUS CDS
+was flanked by a NotI site, and a 3x­(4GS) linker to His<sub>6</sub> tag sequence followed by an SbfI site and the downstream homology
+arm. For sequences that contained AscI, NotI, or SbfI sites within
+the CDS or homology arms, other restriction enzyme cut sites were
+used on a case-by-case basis. All sequences are in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_001.pdf" ext-link-type="uri">Supplementary Data File 1</ext-link>. These constructs were then cloned
+into the pENTR vector backbone. For coexpression analysis of the top
+five anchors (CgeA, CotG, CotX, CotY, and SscA), the native promoters
+defined as the region encompassing 300 bp upstream of the SP CDS start
+codon and SP-GUS sequences for each were PCR-amplified from their
+individual pENTR vector and cloned into pBS1K. These vectors were
+then linearized and transformed into each of the following <italic>B. subtilis</italic> 168, <italic>B. subtilis</italic> (Δ<italic>sp</italic>), and <italic>B. subtilis</italic> (<italic>sp:sp-gusA</italic>). <italic>B. subtilis</italic> (Δ<italic>sp</italic>) strains were ordered from the BGSC:
+Δ<italic>cgeA</italic> (BGSC ID: BKE19780), Δ<italic>cotG</italic> (BKE36070), Δ<italic>cotX</italic> (BKE11760), Δ<italic>cotY</italic> (BKE11750), Δ<italic>sscA</italic> (BKE9958).</p></sec><sec id="sec4.4" disp-level="2"><title>Cotransformation for In Situ Expression of SP-GUS Fusions</title><p>Freshly prepared competent cells were portioned into 0.5 mL aliquots,
+to which 100 ng of linearized selection construct (pBS1K or pBS1C)
+and 3 μg of linearized pENTR-SP-GUS construct were added and
+gently mixed by pipetting followed by incubation at 37 °C and
+225 rpm for 1 h. Subsequently, 0.5 mL of LB was added to each transformation
+mixture and incubated for an additional hour. 0.2 mL fractions of
+the culture were then plated on individual 2 × SG sporulation
+plates containing an antibiotic for the primary marker (pBS1K = 10
+μg mL<sup>–1</sup> Kan, pBS1C = 5 μg mL<sup>–1</sup> Cm) and X-gluc (5-bromo-4-chloro-3-indolyl-β-<sc>d</sc>-glucuronic
+acid, 100 μg mL<sup>–1</sup>). Plates were then incubated
+at 37 °C for 96 h, during which they were observed for the formation
+of blue colonies. Blue colonies were colony-purified on 2 × SG
+plates, and SP-GUS integration was confirmed by colony PCR. Two ×
+SG sporulation plates were composed of 1.6% Difco Nutrient Broth,
+0.05% MgSO<sub>4</sub>·7H<sub>2</sub>O, 0.2% KCl, 1 mM CaNO<sub>3</sub>, 1 mM MnCl<sub>2</sub>, 0.1 μM FeSO<sub>4</sub>, 0.1%
+Glucose, and 1.5% w/v agar. An X-gluc
+stock (100 mg mL<sup>–1</sup> solution in dimethylformamide)
+was freshly prepared and added to the autoclaved agar to a final concentration
+of 100 μg mL<sup>–1</sup>.</p></sec><sec id="sec4.5" disp-level="2"><title>Imaging of GUS Activity
+on Sporulation Plates and Quantification
+of Promoter Activities</title><p>Overnight cultures of SP-GUS construct
+strains were spotted on 2 × SG sporulation plates containing
+X-gluc. Plates were incubated at 37 °C, and images were taken
+in a lightbox using an iPhone camera at the labeled time points. The
+magnitude of GUS activity was quantified using Fiji by averaging the
+pixel intensity of an ROI defined by colony boundaries after background
+subtraction using the color deconvolution tool.</p></sec><sec id="sec4.6" disp-level="2"><title>Sporulation
+and Spore Purification</title><p>Sporulation was
+performed by subculturing LB overnight cultures 1:200 into 2 mL of
+Difco Sporulation Media (DSM: 0.8% w/v Tryptone, 0.1% w/v KCl, 1 mM
+MgSO<sub>4</sub>, 10 μM MnCl<sub>2</sub>, 1 μM FeSO<sub>4</sub>, 0.5 mM CaCl<sub>2</sub>) and grown for 24 h at 37 °C
+and 225 rpm. Spores were harvested after 24 h in DSM through centrifugation
+at 21,000 × <italic>g</italic> for 2 min and washed 3 times with
+500 μL of water. Following the wash, the top layer of spores
+was carefully resuspended without disturbing the vegetative cells
+below and moved to a fresh tube for analysis.</p></sec><sec id="sec4.7" disp-level="2"><title>GUS Activity and Challenge
+Assays</title><p>Spore-displayed GUS
+activity was quantified spectrophotometrically with the substrate
+4-nitrophenyl β-glucopyranoside (NPG). Reactions were composed
+of 140 μL reaction buffer (0.1% v/v β-mercaptoethanol
+in PBS, pH = 7.4), 30 μL of substrate solution (4 mg mL<sup>–1</sup> NPG in PBS, pH = 7.4), and 30 μL of spores
+with a final OD<sub>600</sub> of 0.1–0.3. Reactions were performed
+at room temperature with continuous shaking in a 96-well flat-bottom
+plate and measuring the increase in absorbance at 405 nm using a SpectraMax
+M3 spectrophotometer (Molecular Devices, San Jose, CA). Purified spores,
+resuspended in PBS (pH 7.4), were incubated at 25, 37, 50, and 60
+°C for 15 min in a thermocycler, cooled to room temperature,
+and tested for activity using the GUS Activity Assay outlined above.
+Protease challenge of spores was performed by resuspending spores
+in PBS containing 0.1–1.0 mg mL<sup>–1</sup> trypsin,
+incubating at 37 °C for 1 h, and testing for activity using the
+GUS Activity Assay. GUS with an N-terminal His<sub>6</sub> tag was
+cloned into pACYC_Duet1, expressed in <italic>E. coli</italic>, and purified using Ni-NTA resin using standard methods to serve
+as a control for evaluating thermal stability.</p></sec><sec id="sec4.8" disp-level="2"><title>Flow Cytometry</title><p>Surface detection of spore-displayed
+SP-GUS was determined using immunohistochemistry and flow cytometry.
+Following sporulation, cells were transferred to 50 mL conical flasks
+and centrifuged at 2,400 × <italic>g</italic> for 10 min. The
+pellet was then transferred to a 1.5 mL Eppendorf tube and washed
+3× with PBS (pH = 7.4) with centrifugation done at 21,000 × <italic>g</italic> for 2 min. After the final centrifugation, the upper layer
+of the cell pellet (<xref rid="fig3" ref-type="fig">Figure 
+</xref>B) was isolated by gentle pipetting and resuspended in PBSA
+(2.0% w/v Bovine Serum Albumin in PBS, pH = 7.4) at an OD<sub>600</sub> = 1.0 for blocking. Following blocking, 50 μL fractions were
+pelleted and resuspended in 200 μL of chilled PBSA containing
+1 μg mL<sup>–1</sup> primary antibody (anti-His<sub>6</sub> tag mouse antibody, Invitrogen, Catalog # <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/MA121315" ext-link-type="uri">MA121315</ext-link> or anti-GUS rabbit
+antibody, Invitrogen, Catalog # A5790) and incubated for 1 h. This
+was followed by four washes with 200 μL of chilled PBSA and
+incubation with the secondary antibody in 200 μL of PBSA containing
+1 μg mL<sup>–1</sup> (AlexaFluor 467 goat antimouse,
+Invitrogen, Catalog # A32728 or AlexaFluor 467 goat antirabbit, Invitrogen,
+Catalog # A21245) for 1 h at 4 °C. Samples were then washed four
+additional times in chilled 200 μL PBSA before being analyzed
+using an Attune NxT Flow Cytometer (Invitrogen; Carlsbad, CA). 300,000
+events were collected for each sample using the lowest possible collection
+speed, 12.5 μL min<sup>–1</sup>, and five rinse cycles
+were used between each sample to prevent carryover. Sporulation efficiency
+of SP-GUS strains was performed by resuspending sporulation cultures
+with 1× SYBR Safe DNA Stain in PBS and incubating for 30 min
+in the dark. Following incubation, sporulation cultures were washed
+1× with PBS, resuspended in PBS, and immediately analyzed via
+flow cytometry. Gating for single spore events was based on the FSC-H
+profile of 1 and 2 μm calibration beads (ThermoFisher, Catalog
+# <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/nuccore/F13838" ext-link-type="uri">F13838</ext-link>). (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S5</ext-link>). Gating and analysis
+were done using FCS Express Software (De Novo Software; Pasadena,
+California).</p></sec><sec id="sec4.9" disp-level="2"><title>PETase Activity Assays and Imaging</title><p>DuraPETase was codon-optimized
+for <italic>B. subtilis</italic> and ordered as a gene
+fragment from Twist Biosciences. Standard cloning methods were used
+to insert DuraPETase into the pBS1K-SP-GUS constructs such that they
+replaced GUS, and these constructs were linearized and integrated
+into <italic>B. subtilis</italic>. DuraPETase was also
+cloned into pACYC_Duet1 with His<sub>66</sub> tag, expressed in <italic>E. coli</italic>, and purified using Ni-NTA resin using standard
+methods. To measure the activity of the spore-displayed PETase on
+a small, soluble molecule, we used <italic>para</italic>-nitrophenol
+acetate (pNPA, ThermoFisher Catalog # 128750050) as a substrate. A
+pNPA stock solution (100 mg mL<sup>–1</sup> in DMSO) was diluted
+to 1.0 mg mL<sup>–1</sup> in PETase Assay Buffer A (50 mM NaPO<sub>4</sub>, 90 mM NaCl, pH = 7.5). Washed spores were suspended to an
+OD<sub>600</sub> of ∼0.1–0.25 in PETase Assay Buffer
+A, and 20 μL of spores were added to 180 μL of PETase
+Assay Buffer containing 1.0 mg mL<sup>–1</sup> pNPA prealiquoted
+into a 96-well microplate. Reaction progression was evaluated by tracking
+the formation of the pNP product at 405 nm with a SpectraMax M3 spectrophotometer
+(Molecular Devices, San Jose, CA). The activity of the PETases on
+insoluble polyethylene terephthalate (PET) discs was evaluated by
+resuspending purified spores to OD<sub>600</sub> of ∼1.0 in
+PETase Assay Buffer B (100 mM KH<sub>2</sub>PO<sub>4</sub>, pH 8.0),
+adding a single 1.0 cm PET disc, and incubating at 50 °C with
+225 rpm shaking. After incubating for 48 h, relative PETase activity
+was measured spectrophotometrically by detecting TPA and MHET product
+formation at 260 nm. Standard curves of MHET and TPA and purified
+DuraPETase were used to validate assay conditions (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">Figure S9</ext-link>). PETase-treated discs were imaged using a Phenom
+G2 Pure Tabletop SEM operated at 5 kV. Discs were washed five times
+with PBS, air-dried overnight, dehydrated with a 5 min 100% ethanol
+bath, and sputter-coated with a gold–palladium mix prior to
+imaging.</p></sec></sec><sec id="sec21" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="au6c00594_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 651b/13417171/8ccd01a19d19/au6c00594_si_001.pdf?><?cloudpmc-bucket app?><?size 432525?></media></supplementary-material><supplementary-material id="sifile2" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="au6c00594_si_002.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 651b/13417171/497bba85d862/au6c00594_si_002.pdf?><?cloudpmc-bucket app?><?size 609566?></media></supplementary-material></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>We thank all past and present members of
+the Nair
+lab for their helpful discussions. We would also like to thank Prof.
+James A. Van Deventer (Tufts ChBE), Prof. Andrew Camilli (Tufts GSBS),
+and Prof. Neel Joshi (Northeastern CCB) for their thoughtful feedback
+on experimental designs. This work was supported by grants DP2HD091798,
+R21HD105934 (NIH), and CBET-2208390 (NSF) to N.U.N. The work conducted
+by the U.S. Department of Energy Joint Genome Institute award #503763,
+a DOE Office of Science User Facility, is supported by the Office
+of Science of the U.S. Department of Energy, operated under Contract
+No. DE-AC02-05CH11231.</p></sec><sec id="notes1" disp-level="1"><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/jacsau.6c00594?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/jacsau.6c00594</ext-link>.</p><list list-type="simple" id="silist1"><list-item><p>Sequence information
+on all 88 SP-GUS allele replacement
+constructs (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item><list-item><p>Details on spore protein fusion construct designs and
+loci; experimental results as figures and tables related to library
+construction and recombinant spore characterization (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/jacsau.6c00594/suppl_file/au6c00594_si_002.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes2" disp-level="1"><label>#.</label><p>Enrich Bio,
+Watertown, MA 02472, USA</p></sec><sec id="notes3" disp-level="1"><label>§.</label><p>Caravel
+Bio, Portland, OR 97239, USA.</p></sec><sec id="notes5" disp-level="1"><p>T.C.C., T.B.N.,
+J.A.L.: Conceptualization; formal analysis; investigation; methodology;
+data visualization; writingoriginal and revised draft. J.-F.C.,
+A.T., A.K.: Formal analysis; investigation; methodology; data visualization;
+writingediting and review. N.U.N.: Conceptualization; funding
+acquisition; supervision; writingoriginal, review, and editing.</p></sec><sec id="notes4" disp-level="1"><p>The authors
+declare the following competing financial interest(s): Tufts University
+has applied for a patent application based on this work. T.B.N. is
+a co-founder, and A.K. is an employee of Caravel Bio.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Chen H., Wu Y., Huang B., Han L.. Recent progress in microbial cell
+surface display systems and their application on biosensors. Biocell. 2023;47(6):1213–1223. doi: 10.32604/biocell.2023.028035.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.32604/biocell.2023.028035"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biocell&amp;title=Recent progress in microbial cell surface display systems and their application on biosensors&amp;author=H. Chen&amp;author=Y. Wu&amp;author=B. Huang&amp;author=L. Han&amp;volume=47&amp;issue=6&amp;publication_year=2023&amp;pages=1213-1223&amp;doi=10.32604/biocell.2023.028035&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Li Y., Wang X., Zhou N.-Y., Ding J.. Yeast surface display
+technology: Mechanisms, applications, and perspectives. Biotechnol. Adv. 2024;76:108422. doi: 10.1016/j.biotechadv.2024.108422.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.biotechadv.2024.108422"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39117125"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Adv.&amp;title=Yeast surface display technology: Mechanisms, applications, and perspectives&amp;author=Y. Li&amp;author=X. Wang&amp;author=N.-Y. Zhou&amp;author=J. Ding&amp;volume=76&amp;publication_year=2024&amp;pages=108422&amp;pmid=39117125&amp;doi=10.1016/j.biotechadv.2024.108422&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Wittrup K. D.. Protein
+engineering by cell-surface display. Curr. Opin.
+Biotechnol. 2001;12:395–399. doi: 10.1016/S0958-1669(00)00233-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0958-1669(00)00233-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11551469"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Opin. Biotechnol.&amp;title=Protein engineering by cell-surface display&amp;author=K. D. Wittrup&amp;volume=12&amp;publication_year=2001&amp;pages=395-399&amp;pmid=11551469&amp;doi=10.1016/S0958-1669(00)00233-0&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Jaroszewicz W., Morcinek-Orłowska J., Pierzynowska K., Gaffke L., Węgrzyn G.. Phage display and other peptide display
+technologies. FEMS Microbiol. Rev. 2022;46:fuab052. doi: 10.1093/femsre/fuab052.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/femsre/fuab052"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34673942"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=FEMS Microbiol. Rev.&amp;title=Phage display and other peptide display technologies&amp;author=W. Jaroszewicz&amp;author=J. Morcinek-Orłowska&amp;author=K. Pierzynowska&amp;author=L. Gaffke&amp;author=G. Węgrzyn&amp;volume=46&amp;publication_year=2022&amp;pages=fuab052&amp;pmid=34673942&amp;doi=10.1093/femsre/fuab052&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Slavny P., Hegde M., Doerner A., Parthiban K., McCafferty J., Zielonka S., Hoet R.. Advancements
+in mammalian
+display technology for therapeutic antibody development and beyond:
+Current landscape, challenges, and future prospects. Front. Immunol. 2024;15:1469329. doi: 10.3389/fimmu.2024.1469329.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fimmu.2024.1469329"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11459229"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39381002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Immunol.&amp;title=Advancements in mammalian display technology for therapeutic antibody development and beyond: Current landscape, challenges, and future prospects&amp;author=P. Slavny&amp;author=M. Hegde&amp;author=A. Doerner&amp;author=K. Parthiban&amp;author=J. McCafferty&amp;volume=15&amp;publication_year=2024&amp;pages=1469329&amp;pmid=39381002&amp;doi=10.3389/fimmu.2024.1469329&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Driks A.. Maximum shields:
+The assembly and function of the bacterial spore coat. Trends Microbiol. 2002;10:251–254. doi: 10.1016/S0966-842X(02)02373-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0966-842X(02)02373-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12088650"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Microbiol.&amp;title=Maximum shields: The assembly and function of the bacterial spore coat&amp;author=A. Driks&amp;volume=10&amp;publication_year=2002&amp;pages=251-254&amp;pmid=12088650&amp;doi=10.1016/S0966-842X(02)02373-9&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Chen H., Ullah J., Jia J.. Progress in Bacillus
+subtilis Spore
+Surface Display Technology towards Environment, Vaccine Development,
+and Biocatalysis. J. Mol. Microbiol. Biotechnol. 2017;27:159–167. doi: 10.1159/000475177.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1159/000475177"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28605732"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mol. Microbiol. Biotechnol.&amp;title=Progress in Bacillus subtilis Spore Surface Display Technology towards Environment, Vaccine Development, and Biocatalysis&amp;author=H. Chen&amp;author=J. Ullah&amp;author=J. Jia&amp;volume=27&amp;publication_year=2017&amp;pages=159-167&amp;pmid=28605732&amp;doi=10.1159/000475177&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Wang H., Wang Y., Yang R.. Recent progress
+in Bacillus subtilis
+spore-surface display: Concept, progress, and future. Appl. Microbiol. Biotechnol. 2017;101:933–949. doi: 10.1007/s00253-016-8080-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00253-016-8080-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28062973"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Microbiol. Biotechnol.&amp;title=Recent progress in Bacillus subtilis spore-surface display: Concept, progress, and future&amp;author=H. Wang&amp;author=Y. Wang&amp;author=R. Yang&amp;volume=101&amp;publication_year=2017&amp;pages=933-949&amp;pmid=28062973&amp;doi=10.1007/s00253-016-8080-9&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Isticato R.. Bacterial
+Spore-Based Delivery System: 20 Years of a Versatile Approach for
+Innovative Vaccines. Biomolecules. 2023;13:947. doi: 10.3390/biom13060947.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/biom13060947"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10296236"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37371527"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biomolecules&amp;title=Bacterial Spore-Based Delivery System: 20 Years of a Versatile Approach for Innovative Vaccines&amp;author=R. Isticato&amp;volume=13&amp;publication_year=2023&amp;pages=947&amp;pmid=37371527&amp;doi=10.3390/biom13060947&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Isticato R., Ricca E.. Spore Surface Display. Microbiol. Spectr. 2014;2:349–366. doi: 10.1128/microbiolspec.TBS-0011-2012.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/microbiolspec.TBS-0011-2012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26104345"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microbiol. Spectr.&amp;title=Spore Surface Display&amp;author=R. Isticato&amp;author=E. Ricca&amp;volume=2&amp;publication_year=2014&amp;pages=349-366&amp;pmid=26104345&amp;doi=10.1128/microbiolspec.TBS-0011-2012&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Isticato R., Cangiano G., Tran H. T., Ciabattini A., Medaglini D., Oggioni M. R., De Felice M., Pozzi G., Ricca E.. Surface display of recombinant proteins
+on Bacillus subtilis spores. J. Bacteriol. 2001;183:6294–6301. doi: 10.1128/JB.183.21.6294-6301.2001.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/JB.183.21.6294-6301.2001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC100119"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11591673"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=Surface display of recombinant proteins on Bacillus subtilis spores&amp;author=R. Isticato&amp;author=G. Cangiano&amp;author=H. T. Tran&amp;author=A. Ciabattini&amp;author=D. Medaglini&amp;volume=183&amp;publication_year=2001&amp;pages=6294-6301&amp;pmid=11591673&amp;doi=10.1128/JB.183.21.6294-6301.2001&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Kuwana R., Kasahara Y., Fujibayashi M., Takamatsu H., Ogasawara N., Watabe K.. Proteomics characterization
+of novel
+spore proteins of Bacillus subtilis. Microbiology. 2002;148:3971–3982. doi: 10.1099/00221287-148-12-3971.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1099/00221287-148-12-3971"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12480901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microbiology&amp;title=Proteomics characterization of novel spore proteins of Bacillus subtilis&amp;author=R. Kuwana&amp;author=Y. Kasahara&amp;author=M. Fujibayashi&amp;author=H. Takamatsu&amp;author=N. Ogasawara&amp;volume=148&amp;publication_year=2002&amp;pages=3971-3982&amp;pmid=12480901&amp;doi=10.1099/00221287-148-12-3971&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Ozin A. J., Henriques A. O., Yi H., Moran C. P. Jr.. Morphogenetic proteins SpoVID and
+SafA form a complex during assembly
+of the Bacillus subtilis spore coat. J. Bacteriol. 2000;182:1828–1833. doi: 10.1128/JB.182.7.1828-1833.2000.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/JB.182.7.1828-1833.2000"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC101864"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="10714986"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=Morphogenetic proteins SpoVID and SafA form a complex during assembly of the Bacillus subtilis spore coat&amp;author=A. J. Ozin&amp;author=A. O. Henriques&amp;author=H. Yi&amp;author=C. P. Moran&amp;volume=182&amp;publication_year=2000&amp;pages=1828-1833&amp;pmid=10714986&amp;doi=10.1128/JB.182.7.1828-1833.2000&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">McKenney P. T., Eichenberger P.. Dynamics of
+spore coat morphogenesis in Bacillus subtilis. Mol. Microbiol. 2012;83:245–260. doi: 10.1111/j.1365-2958.2011.07936.x.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1365-2958.2011.07936.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3256263"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22171814"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mol. Microbiol.&amp;title=Dynamics of spore coat morphogenesis in Bacillus subtilis&amp;author=P. T. McKenney&amp;author=P. Eichenberger&amp;volume=83&amp;publication_year=2012&amp;pages=245-260&amp;pmid=22171814&amp;doi=10.1111/j.1365-2958.2011.07936.x&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">McKenney P. T., Driks A., Eskandarian H. A., Grabowski P., Guberman J., Wang K. H., Gitai Z., Eichenberger P.. A Distance-Weighted
+Interaction Map Reveals a Previously Uncharacterized Layer of the
+Bacillus subtilis Spore Coat. Curr. Biol. 2010;20:934–938. doi: 10.1016/j.cub.2010.03.060.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cub.2010.03.060"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2920530"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20451384"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Biol.&amp;title=A Distance-Weighted Interaction Map Reveals a Previously Uncharacterized Layer of the Bacillus subtilis Spore Coat&amp;author=P. T. McKenney&amp;author=A. Driks&amp;author=H. A. Eskandarian&amp;author=P. Grabowski&amp;author=J. Guberman&amp;volume=20&amp;publication_year=2010&amp;pages=934-938&amp;pmid=20451384&amp;doi=10.1016/j.cub.2010.03.060&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Iwanicki A., Piątek I., Stasiłojć M., Grela A., Lęga T., Obuchowski M., Hinc K.. A system of vectors
+for Bacillus subtilis spore surface display. Microb. Cell Fact. 2014;13:30. doi: 10.1186/1475-2859-13-30.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/1475-2859-13-30"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4015724"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24568122"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microb. Cell Fact&amp;title=A system of vectors for Bacillus subtilis spore surface display&amp;author=A. Iwanicki&amp;author=I. Piątek&amp;author=M. Stasiłojć&amp;author=A. Grela&amp;author=T. Lęga&amp;volume=13&amp;publication_year=2014&amp;pages=30&amp;pmid=24568122&amp;doi=10.1186/1475-2859-13-30&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Bartels J., López Castellanos S., Radeck J., Mascher T.. Sporobeads:
+The Utilization of the Bacillus subtilis Endospore Crust as a Protein
+Display Platform. ACS Synth. Biol. 2018;7:452–461. doi: 10.1021/acssynbio.7b00285.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acssynbio.7b00285"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29284082"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Synth. Biol.&amp;title=Sporobeads: The Utilization of the Bacillus subtilis Endospore Crust as a Protein Display Platform&amp;author=J. Bartels&amp;author=S. López Castellanos&amp;author=J. Radeck&amp;author=T. Mascher&amp;volume=7&amp;publication_year=2018&amp;pages=452-461&amp;pmid=29284082&amp;doi=10.1021/acssynbio.7b00285&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Potot S. S., Serra C. R., Henriques A. O., Schyns G.. Display of recombinant
+proteins on Bacillus subtilis spores, using a coat-associated enzyme
+as the carrier. Appl. Environ. Microbiol. 2010;76:5926–5933. doi: 10.1128/AEM.01103-10.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/AEM.01103-10"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2935070"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20601499"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Environ. Microbiol.&amp;title=Display of recombinant proteins on Bacillus subtilis spores, using a coat-associated enzyme as the carrier&amp;author=S. S. Potot&amp;author=C. R. Serra&amp;author=A. O. Henriques&amp;author=G. Schyns&amp;volume=76&amp;publication_year=2010&amp;pages=5926-5933&amp;pmid=20601499&amp;doi=10.1128/AEM.01103-10&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Kodama T., Matsubayashi T., Yanagihara T., Komoto H., Ara K., Ozaki K., Kuwana R., Imamura D., Takamatsu H., Watabe K.. et al. A novel small protein of Bacillus subtilis involved
+in spore germination and spore coat assembly. Biosci., Biotechnol., Biochem. 2011;75:1119–1128. doi: 10.1271/bbb.110029.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1271/bbb.110029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21670523"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biosci., Biotechnol., Biochem.&amp;title=A novel small protein of Bacillus subtilis involved in spore germination and spore coat assembly&amp;author=T. Kodama&amp;author=T. Matsubayashi&amp;author=T. Yanagihara&amp;author=H. Komoto&amp;author=K. Ara&amp;volume=75&amp;publication_year=2011&amp;pages=1119-1128&amp;pmid=21670523&amp;doi=10.1271/bbb.110029&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Cui Y., Chen Y., Liu X., Dong S., Tian Y., Qiao Y., Mitra R., Han J., Li C., Han X.. et al. Computational Redesign of a PETase for Plastic Biodegradation
+under Ambient Condition by the GRAPE Strategy. ACS Catal. 2021;11:1340–1350. doi: 10.1021/acscatal.0c05126.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscatal.0c05126"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Catal.&amp;title=Computational Redesign of a PETase for Plastic Biodegradation under Ambient Condition by the GRAPE Strategy&amp;author=Y. Cui&amp;author=Y. Chen&amp;author=X. Liu&amp;author=S. Dong&amp;author=Y. Tian&amp;volume=11&amp;publication_year=2021&amp;pages=1340-1350&amp;doi=10.1021/acscatal.0c05126&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Bahrulolum H., Ahmadian G.. Bacillus subtilis surface display technology: Applications
+in bioprocessing and sustainable manufacturing. Biotechnol. Biofuels Bioprod. 2025;18:34. doi: 10.1186/s13068-025-02635-4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s13068-025-02635-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11909954"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40089785"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Biofuels Bioprod.&amp;title=Bacillus subtilis surface display technology: Applications in bioprocessing and sustainable manufacturing&amp;author=H. Bahrulolum&amp;author=G. Ahmadian&amp;volume=18&amp;publication_year=2025&amp;pages=34&amp;pmid=40089785&amp;doi=10.1186/s13068-025-02635-4&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Imamura D., Kuwana R., Takamatsu H., Watabe K.. Proteins involved in
+formation of the outermost layer of Bacillus subtilis spores. J. Bacteriol. 2011;193:4075–4080. doi: 10.1128/JB.05310-11.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/JB.05310-11"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3147665"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21665972"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=Proteins involved in formation of the outermost layer of Bacillus subtilis spores&amp;author=D. Imamura&amp;author=R. Kuwana&amp;author=H. Takamatsu&amp;author=K. Watabe&amp;volume=193&amp;publication_year=2011&amp;pages=4075-4080&amp;pmid=21665972&amp;doi=10.1128/JB.05310-11&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Irvine D. J., Read B. J.. Shaping humoral immunity to vaccines through antigen-displaying
+nanoparticles. Curr. Opin. Immunol. 2020;65:1–6. doi: 10.1016/j.coi.2020.01.007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.coi.2020.01.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7501207"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32200132"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Opin. Immunol.&amp;title=Shaping humoral immunity to vaccines through antigen-displaying nanoparticles&amp;author=D. J. Irvine&amp;author=B. J. Read&amp;volume=65&amp;publication_year=2020&amp;pages=1-6&amp;pmid=32200132&amp;doi=10.1016/j.coi.2020.01.007&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Cheng W.. The Density
+Code for the Development of a Vaccine? J. Pharm.
+Sci. 2016;105:3223–3232. doi: 10.1016/j.xphs.2016.07.020.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.xphs.2016.07.020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5102155"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27649885"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Pharm. Sci.&amp;title=The Density Code for the Development of a Vaccine?&amp;author=W. Cheng&amp;volume=105&amp;publication_year=2016&amp;pages=3223-3232&amp;pmid=27649885&amp;doi=10.1016/j.xphs.2016.07.020&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Nguyen B., Tolia N. H.. Protein-based antigen presentation platforms for nanoparticle
+vaccines. Npj Vaccines. 2021;6:70. doi: 10.1038/s41541-021-00330-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41541-021-00330-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8119681"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33986287"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Npj Vaccines&amp;title=Protein-based antigen presentation platforms for nanoparticle vaccines&amp;author=B. Nguyen&amp;author=N. H. Tolia&amp;volume=6&amp;publication_year=2021&amp;pages=70&amp;pmid=33986287&amp;doi=10.1038/s41541-021-00330-7&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Petrášek Z., Nidetzky B.. The Effect of Accessibility
+of Insoluble Substrate
+on the Overall Kinetics of Enzymatic Degradation. Biotechnol. Bioeng. 2025;122:895–907. doi: 10.1002/bit.28921.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/bit.28921"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11895425"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39763056"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Bioeng.&amp;title=The Effect of Accessibility of Insoluble Substrate on the Overall Kinetics of Enzymatic Degradation&amp;author=Z. Petrášek&amp;author=B. Nidetzky&amp;volume=122&amp;publication_year=2025&amp;pages=895-907&amp;pmid=39763056&amp;doi=10.1002/bit.28921&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Nicholson W. L., Setlow P.. Dramatic increase in negative superhelicity of plasmid
+DNA in the forespore compartment of sporulating cells of Bacillus
+subtilis. J. Bacteriol. 1990;172:7–14. doi: 10.1128/jb.172.1.7-14.1990.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/jb.172.1.7-14.1990"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC208394"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2104613"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=Dramatic increase in negative superhelicity of plasmid DNA in the forespore compartment of sporulating cells of Bacillus subtilis&amp;author=W. L. Nicholson&amp;author=P. Setlow&amp;volume=172&amp;publication_year=1990&amp;pages=7-14&amp;pmid=2104613&amp;doi=10.1128/jb.172.1.7-14.1990&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Klibanov A. M.. Enzyme
+stabilization by immobilization. Anal. Biochem. 1979;93:1–25. doi: 10.1016/S0003-2697(79)80110-4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0003-2697(79)80110-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35035"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Anal. Biochem.&amp;title=Enzyme stabilization by immobilization&amp;author=A. M. Klibanov&amp;volume=93&amp;publication_year=1979&amp;pages=1-25&amp;pmid=35035&amp;doi=10.1016/S0003-2697(79)80110-4&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Hernandez K., Fernandez-Lafuente R.. Control of
+protein immobilization: Coupling immobilization
+and site-directed mutagenesis to improve biocatalyst or biosensor
+performance. Enzyme Microb. Technol. 2011;48:107–122. doi: 10.1016/j.enzmictec.2010.10.003.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.enzmictec.2010.10.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22112819"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Enzyme Microb. Technol.&amp;title=Control of protein immobilization: Coupling immobilization and site-directed mutagenesis to improve biocatalyst or biosensor performance&amp;author=K. Hernandez&amp;author=R. Fernandez-Lafuente&amp;volume=48&amp;publication_year=2011&amp;pages=107-122&amp;pmid=22112819&amp;doi=10.1016/j.enzmictec.2010.10.003&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Garcia-Galan C., Berenguer-Murcia Á., Fernandez-Lafuente R., Rodrigues R. C.. Potential
+of Different Enzyme Immobilization Strategies
+to Improve Enzyme Performance. Adv. Synth. Catal. 2011;353:2885–2904. doi: 10.1002/adsc.201100534.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/adsc.201100534"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Synth. Catal.&amp;title=Potential of Different Enzyme Immobilization Strategies to Improve Enzyme Performance&amp;author=C. Garcia-Galan&amp;author=Á. Berenguer-Murcia&amp;author=R. Fernandez-Lafuente&amp;author=R. C. Rodrigues&amp;volume=353&amp;publication_year=2011&amp;pages=2885-2904&amp;doi=10.1002/adsc.201100534&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Lee C., Jang S.-H., Chung H.-S.. Improving
+the Stability of Cold-Adapted
+Enzymes by Immobilization. Catalysts. 2017;7:112. doi: 10.3390/catal7040112.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/catal7040112"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Catalysts&amp;title=Improving the Stability of Cold-Adapted Enzymes by Immobilization&amp;author=C. Lee&amp;author=S.-H. Jang&amp;author=H.-S. Chung&amp;volume=7&amp;publication_year=2017&amp;pages=112&amp;doi=10.3390/catal7040112&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Korza G., Camilleri E., Green J., Robinson J., Nagler K., Moeller R., Caimano M. J., Setlow P.. Analysis of the mRNAs
+in Spores of Bacillus subtilis. J. Bacteriol. 2019;201:10–1128. doi: 10.1128/JB.00007-19.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/JB.00007-19"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6456856"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30782632"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=Analysis of the mRNAs in Spores of Bacillus subtilis&amp;author=G. Korza&amp;author=E. Camilleri&amp;author=J. Green&amp;author=J. Robinson&amp;author=K. Nagler&amp;volume=201&amp;publication_year=2019&amp;pages=10-1128&amp;pmid=30782632&amp;doi=10.1128/JB.00007-19&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Hui Y., Cui Z., Sim S.. Stress-Tolerant,
+Recyclable, and Renewable Biocatalyst
+Platform Enabled by Engineered Bacterial Spores. ACS Synth. Biol. 2022;11:2857–2868. doi: 10.1021/acssynbio.2c00256.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acssynbio.2c00256"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35878063"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Synth. Biol.&amp;title=Stress-Tolerant, Recyclable, and Renewable Biocatalyst Platform Enabled by Engineered Bacterial Spores&amp;author=Y. Hui&amp;author=Z. Cui&amp;author=S. Sim&amp;volume=11&amp;publication_year=2022&amp;pages=2857-2868&amp;pmid=35878063&amp;doi=10.1021/acssynbio.2c00256&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Takamatsu H., Chikahiro Y., Kodama T., Koide H., Kozuka S., Tochikubo K., Watabe K.. A spore coat protein,
+CotS, of Bacillus
+subtilis is synthesized under the regulation of sigmaK and GerE during
+development and is located in the inner coat layer of spores. J. Bacteriol. 1998;180:2968–2974. doi: 10.1128/JB.180.11.2968-2974.1998.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/JB.180.11.2968-2974.1998"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC107266"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9603889"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=A spore coat protein, CotS, of Bacillus subtilis is synthesized under the regulation of sigmaK and GerE during development and is located in the inner coat layer of spores&amp;author=H. Takamatsu&amp;author=Y. Chikahiro&amp;author=T. Kodama&amp;author=H. Koide&amp;author=S. Kozuka&amp;volume=180&amp;publication_year=1998&amp;pages=2968-2974&amp;pmid=9603889&amp;doi=10.1128/JB.180.11.2968-2974.1998&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Anagnostopoulos C., Spizizen J.. Requirements for transformation
+in Bacillus subtilis. J. Bacteriol. 1961;81:741–746. doi: 10.1128/jb.81.5.741-746.1961.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1128/jb.81.5.741-746.1961"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC279084"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16561900"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Bacteriol.&amp;title=Requirements for transformation in Bacillus subtilis&amp;author=C. Anagnostopoulos&amp;author=J. Spizizen&amp;volume=81&amp;publication_year=1961&amp;pages=741-746&amp;pmid=16561900&amp;doi=10.1128/jb.81.5.741-746.1961&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Leighton T. J., Doi R. H.. The stability of
+messenger ribonucleic acid during
+sporulation in Bacillus subtilis. J. Biol. Chem. 1971;246:3189–3195. doi: 10.1016/S0021-9258(18)62213-6.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0021-9258(18)62213-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="4995746"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=The stability of messenger ribonucleic acid during sporulation in Bacillus subtilis&amp;author=T. J. Leighton&amp;author=R. H. Doi&amp;volume=246&amp;publication_year=1971&amp;pages=3189-3195&amp;pmid=4995746&amp;doi=10.1016/S0021-9258(18)62213-6&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="au6c00594_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 651b/13417171/8ccd01a19d19/au6c00594_si_001.pdf?><?cloudpmc-bucket app?><?size 432525?></media></supplementary-material><supplementary-material id="db_ds_supplementary-material2_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="au6c00594_si_002.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 651b/13417171/497bba85d862/au6c00594_si_002.pdf?><?cloudpmc-bucket app?><?size 609566?></media></supplementary-material></sec></sec></body></article>

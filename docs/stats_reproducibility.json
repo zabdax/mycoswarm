@@ -1,0 +1,276 @@
+{
+  "schema_version": "2.0",
+  "checklist_id": "MYCOSWARM-v1-2026-10-02",
+  "study_design": "simulation_experiment",
+  "specialist_review": {
+    "needed": "yes",
+    "areas": [
+      "mechanistic_claim_review",
+      "assumption_diagnostics"
+    ],
+    "requested": true
+  },
+  "items": [
+    {
+      "id": "question.estimand_alignment",
+      "category": "question",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Estimand (speedup ratio of capture times, engineered vs passive) fixed before analysis; band 10-50x pre-registered from proposal.",
+      "requested_action": "Check alignment among the question, target quantity, design, analysis, and interpretation"
+    },
+    {
+      "id": "design.unit_and_independence",
+      "category": "design",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Unit = one episode (fixed seeds, independent RNG streams). Limitation: source positions fixed across reps; obstacles vary by seed.",
+      "requested_action": "Identify the experimental or observational unit and assess dependence"
+    },
+    {
+      "id": "design.sample_size_precision",
+      "category": "design",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "n=12 episodes/group; precision via 5000-resample bootstrap 95% CIs.",
+      "requested_action": "Assess prospective sample-size or precision justification and assumptions"
+    },
+    {
+      "id": "design.allocation_randomization",
+      "category": "design",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Pre-declared seed blocks (11000s sweep, 12000s ablation, 13000s convergence). No allocation beyond RNG.",
+      "requested_action": "Assess sequence generation, allocation concealment, or sampling procedures as applicable"
+    },
+    {
+      "id": "design.blinding",
+      "category": "design",
+      "applicability": "not_applicable",
+      "status": "not_applicable",
+      "evidence_locations": [],
+      "note": "Simulation with scripted outcomes; no human observers.",
+      "requested_action": "Assess who was blinded or masked and likely consequences when blinding was infeasible"
+    },
+    {
+      "id": "data.inclusion_exclusion",
+      "category": "data",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "All episodes included; no exclusions. T_MAX=1200 never bound v1 runs (100% capture).",
+      "requested_action": "Trace prespecified inclusion, exclusion, attrition, and analysis populations"
+    },
+    {
+      "id": "data.missing_data",
+      "category": "data",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "No missing episodes. Corpus-level: 2/27 target docs unrecoverable (recorded, not imputed).",
+      "requested_action": "Assess missingness amounts, reasons, assumptions, methods, and sensitivity analyses"
+    },
+    {
+      "id": "data.outliers_transformations",
+      "category": "data",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "No outlier removal performed; no transformations. Raw per-rep values archived.",
+      "requested_action": "Check rules for exclusions, transformations, detection limits, and influential observations"
+    },
+    {
+      "id": "analysis.prespecification",
+      "category": "analysis",
+      "applicability": "applicable",
+      "status": "partly_documented",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "16 contrasts + ablation + convergence pre-declared. Same-dt verification added POST HOC after convergence failure \u2014 disclosed in manuscript 3.4.",
+      "requested_action": "Compare analyses with the protocol, registration, and statistical analysis plan"
+    },
+    {
+      "id": "analysis.method_design_alignment",
+      "category": "analysis",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Capture times are skewed/floor-bounded; Mann-Whitney U appropriate. Test selected during analysis, not pre-registered \u2014 disclosed.",
+      "requested_action": "Assess whether methods match the design, outcome type, estimand, and sampling structure"
+    },
+    {
+      "id": "analysis.assumptions_diagnostics",
+      "category": "analysis",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Shapiro-Wilk run on all 24 groups (results_pub/normality.json): 2/24 non-normal, confirming the non-parametric route. Mann-Whitney requires independence (independent RNG streams, satisfied), not normality. No outlier removal; no transformations.",
+      "requested_action": "Assess model assumptions, diagnostics, robustness, and fallback analyses"
+    },
+    {
+      "id": "analysis.multiplicity",
+      "category": "analysis",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Holm correction over all 16 contrasts; exact Holm p reported.",
+      "requested_action": "Assess outcome hierarchy, repeated looks, multiple comparisons, and error control"
+    },
+    {
+      "id": "analysis.clustering_repeated_measures",
+      "category": "analysis",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Episodes independent; shared fixed source geometry noted under unit_and_independence.",
+      "requested_action": "Assess clustering, pairing, repeated measures, nesting, and time dependence"
+    },
+    {
+      "id": "results.effect_sizes_uncertainty",
+      "category": "results",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Cliff's delta + bootstrap 95% CI for every contrast; CIs plotted.",
+      "requested_action": "Check effect estimates and compatible uncertainty intervals, not thresholded p-values alone"
+    },
+    {
+      "id": "results.denominators_flow",
+      "category": "results",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "All reps, all conditions reported including negatives (v0, Q-learn, convergence).",
+      "requested_action": "Reconcile denominators, participant or sample flow, exclusions, and analysis populations"
+    },
+    {
+      "id": "results.complete_outcomes_harms",
+      "category": "results",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Negative/null findings reported (v0 7.7x; Q-learn timeout; dt-sensitivity). No harms applicable.",
+      "requested_action": "Check all prespecified outcomes, null findings, adverse events, and deviations"
+    },
+    {
+      "id": "reproducibility.data_materials_access",
+      "category": "reproducibility",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Corpus + manifest + per-rep JSONs + seeds archived in-repo.",
+      "requested_action": "Assess data, materials, protocol, repository, and justified access restrictions"
+    },
+    {
+      "id": "reproducibility.code_environment_parameters",
+      "category": "reproducibility",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Python 3.12, NumPy 2.2.6, SciPy 1.15.3; scripts + argv seeds; matplotlib 3.10.9 figures.",
+      "requested_action": "Assess code, software versions, environments, seeds, parameters, and run instructions"
+    },
+    {
+      "id": "reproducibility.provenance_versions",
+      "category": "reproducibility",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Primary/robust/pub seed blocks; file manifest; ledger versions.",
+      "requested_action": "Trace data provenance, transformations, versioned artifacts, and accession identifiers"
+    },
+    {
+      "id": "ethics.approval_consent_governance",
+      "category": "ethics",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "No human/animal subjects. Engineered-organism designs remain computational with explicit stop rules; dual-use review deferred to wet-lab stage and flagged.",
+      "requested_action": "Assess approvals, consent, welfare, privacy, governance, and conflicts as applicable"
+    },
+    {
+      "id": "interpretation.claim_evidence_causality",
+      "category": "interpretation",
+      "applicability": "applicable",
+      "status": "partly_documented",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Causal language scoped to within-model effects; no real-world efficacy claimed. CLAIM-003 mechanisticflagged for expert review.",
+      "requested_action": "Check claim strength against design, evidence, uncertainty, alternatives, and generalizability"
+    },
+    {
+      "id": "integrity.deviations_selective_reporting",
+      "category": "integrity",
+      "applicability": "applicable",
+      "status": "verified_present",
+      "evidence_locations": [
+        "docs/manuscript.md",
+        "results_pub/"
+      ],
+      "note": "Deviation (post-hoc same-dt) disclosed; all conditions and failures reported; no cherry-picking.",
+      "requested_action": "Check unexplained deviations, outcome switching, selective reporting, and internal inconsistencies"
+    }
+  ]
+}

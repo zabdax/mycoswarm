@@ -1,0 +1,8 @@
+{
+  "train_final_mean_reward": 0.01778938547415213,
+  "test_capture_min": {
+    "random": 452.68,
+    "greedy": 8.84,
+    "qlearn": 1200.0
+  }
+}

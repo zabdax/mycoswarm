@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">3686</journal-id><journal-id journal-id-type="pmc-domain">acsomega</journal-id><journal-title-group><journal-title>ACS Omega</journal-title><abbrev-journal-title>ACS Omega</abbrev-journal-title></journal-title-group><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12529122</article-id><article-id pub-id-type="pmcaid">12529122</article-id><article-id pub-id-type="pmcaiid">12529122</article-id><article-id pub-id-type="pmid">41114275</article-id><article-id pub-id-type="doi">10.1021/acsomega.5c06026</article-id><title-group><article-title>LCI Engineering
+for Improved Polystyrene Binding:
+The Impact of Aromatic Amino Acid Substitutions</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Singab</surname><given-names initials="RA">Raghda A</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Meng</surname><given-names initials="S">Shuaiqi</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Schwaneberg</surname><given-names initials="U">Ulrich</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff2">‡</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+Lehrstuhl
+für Biotechnologie, RWTH Aachen University, Worringerweg 3, Aachen
+52074, Germany
+</aff><aff id="aff2">
+<label>‡</label>
+DWI-Leibniz
+Institut für Interaktive Materialien, Forckenbeckstrasse 50, Aachen
+52074, Germany
+</aff><aff id="aff3">
+<label>§</label>
+Microbiology
+and Immunology Department, Faculty of Pharmacy, Ain Shams University, African Union Organization St., Abbassia, Cairo
+11566, Egypt
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>u.schwaneberg@biotec.rwth-aachen.de</email>.</p></fn></author-notes><pub-date><day>30</day><month>9</month><year>2025</year></pub-date><volume>10</volume><issue>40</issue><fpage>47227</fpage><page-range>47227–47236</page-range><pub-history><event event-type="pmc-release"><date><day>17</day><month>10</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© 2025 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao5c06026.pdf" content-type="pmc-pdf"><?cloudpmc-path 658e/12529122/57628eb4850a/ao5c06026.pdf?><?cloudpmc-bucket app?><?size 6330238?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Polystyrene (PS) is a widely used synthetic polymer with
+applications
+in biosensing, medical devices, and packaging. PS often requires surface
+modifications to enhance biocompatibility, adhesion, and chemical
+functionality. Material-binding peptides (MBPs) provide a biobased
+and scalable approach for PS functionalization. Therefore, optimizing
+their binding properties can ensure stable and efficient binding under
+industrial application conditions. In this study, we systematically
+explored how aromatic amino acid substitutions (His, Phe, Trp, and
+Tyr) affect the PS binding ability of the MBP named liquid chromatography
+peak I (LCI). A total of 178 aromatic amino acid substitutions were
+evaluated across all 47 positions of LCI, resulting in the identification
+of 56 substitutions across 32 positions that improved the PS binding.
+Among these, the LCI-L4H variant showed the most impoved binding to
+PS and was further biophysically characterized to determine the surface
+coverage by surface plasmon resonance (SPR). SPR analysis showed that
+L4H increased the coating density from 7.90 to 9.18 pmol/cm<sup>2</sup> (5.52 × 10<sup>12</sup> molecules/cm<sup>2</sup>), which corresponds
+to surface coverage of approximately 82%. Molecular dynamics (MD)
+simulations revealed that the LCI-L4H variant is more compact in size
+and interacts more frequently through π–π interactions
+with PS. The high surface coverage and the diversity of the provided
+functional groups of LCI make the MBP-binding coating a promising
+alternative to chemical or physical methodologies used in PS functionalization.</p></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="abs1" xlink:href="ao5c06026_0009.jpg"><?cloudpmc-path blobs/658e/12529122/893e72db66f3/ao5c06026_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 534?><?original-width 992?><?scaled-height 356?><?scaled-width 661?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="ao5c06026_0007.jpg"><?cloudpmc-path blobs/658e/12529122/893e72db66f3/ao5c06026_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 534?><?original-width 992?><?scaled-height 356?><?scaled-width 661?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Jun 24; Accepted 2025 Sep 19; Revised 2025 Sep 16; Collection date 2025 Oct 14.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><label>1.</label><title>Introduction</title><p>Polystyrene (PS) is a
+widely used bulk polymer, with a production
+of 15.44 million tons in 2022, due to
+its favorable properties such as lightweight, low cost, ease of processing,
+and is often used in thermal and electrical insulation.<italic>
+−
+
+
+
+
+</italic> Common products with PS and PS-blends can therefore be found in
+packaging, construction, electronics, and medicine.<italic>
+,,,−
+
+
+
+
+
+
+</italic> In most applications, PS materials are often chemically modified
+to enhance wettability, adhesion, and printability.<italic>
+,
+</italic> Common
+functionalization techniques can be divided into chemical, physical,
+and more recently protein- or peptide-based methodologies. Chemical and physical methods are commonly used
+in various industrial applications.<italic>
+,−
+
+</italic> Plasma treatment is, for example, utilized in approximately 80%
+of semiconductor manufacturing processes.
+</p><p>Chemical surface modifications comprise oxidation, reduction,
+hydrolysis,
+and aminolysis, that introduce functional
+groups such as hydroxyl-(−OH),<italic>
+,
+</italic> carbonyl-(−CO), carboxyl-(−COOH),<italic>
+−
+
+</italic> sulfonic-(−SO<sub>3</sub>H),<italic>
+,
+</italic> and amino groups (−NH<sub>2</sub>). The latter modifications are
+applied by immersing the PS into chemical solutions (dip coating)
+or by spray coatings. Depending on the
+method and treatment conditions, the reported density of functional
+groups (−OH, −COOH) on a PS surface can reach 1.93 ×
+10<sup>14</sup> groups/cm<sup>2</sup>, covering approximately 25%
+of the surface.<italic>
+,,
+</italic>
+</p><p>Physical surface modifications are commonly achieved through
+plasma
+treatment.<italic>
+,,
+</italic> Other techniques include corona discharge, flame treatment, and
+radiation (laser, UV, and γ).<italic>
+,
+</italic> Plasma treatment
+uses gases, such as air, argon (Ar),<italic>
+,
+</italic> nitrogen (N<sub>2</sub>), oxygen­(O<sub>2</sub>), carbon dioxide (CO<sub>2</sub>), and ammonia (NH<sub>3</sub>), depending
+on intended functionalization. By applying
+energy, such as radio frequency, under low pressure, the gas ionizes
+and forms reactive species, such as radicals and excited molecules. For example, oxygen plasma produces reactive
+species such as hydroxyl radicals (OH<sup>•</sup>) and atomic
+oxygen (O), while nitrogen plasma generates
+species such as excited nitrogen molecules (N<sub>2</sub>)* and atomic
+nitrogen (N). These reactive species
+interact with the polymer surface and form surface-bound radicals,
+such as carbon-centered radicals (<sup>•</sup>C) and oxygen-bound
+radicals (<sup>•</sup>C–O);<italic>
+,
+</italic> with lifetimes ranging from microseconds to milliseconds. Radicals
+facilitate the introduction of functional groups like amine (−NH<sub>2</sub>), hydroxyl (−OH), and carboxyl (−COOH) groups. Plasma treatment was reported to achieve functional
+group densities (−NH<sub>2</sub>, −COOH) of up to 4.5
+× 10<sup>14</sup> groups/cm<sup>2</sup> on PS, which corresponds
+to 747.26 pmol/cm<sup>2</sup>. This range of functional group density
+covers up to 58% of the surface.<italic>
+,
+</italic> The stability
+of radicals generated during plasma treatment poses a main challenge
+for scale-up, as reactivity diminishes over time. In plasma-treated polymers, hydrophobic recovery occurs
+due to surface reorganization and functional group loss, gradually
+restoring hydrophobicity.<italic>
+,,
+</italic>
+</p><p>Material binding peptides (MBPs) are a promising alternative
+to
+the standard chemical and physical surface functionalization processes.
+MBPs allow the introduction of single and multiple functional groups
+within one peptide comprising sulfhydryl-, amino-, hydroxyl-, and
+carboxyl groups; in addition, secondary
+structures such as ß-strands or α-helices enable a 3-D
+positioning of functional groups to even control self-assembly processes.<italic>
+,
+</italic> MBPs can be classified into naturally occurring binding peptides
+(nMBPs), such as carbohydrate-binding modules (CBMs), and man-made
+or engineered MBPs (eMBPs), such as man-made polymer binding peptides
+identified, for instance, in phage-display libraries (usually short
+peptides with &lt;16 aas). nMBPs and
+eMBPs have been reported to bind to a variety of materials, including natural polymers,<italic>
+,
+</italic> man-made polymers,<italic>
+,
+</italic> ceramics, metals, and natural surfaces,
+such as hair, teeth, or plant leaves.<italic>
+,
+</italic> Specifically, the MBPs
+have been proven to bind to various plastics, such as PS, polyethylene
+terephthalate (PET), and polypropylene (PP).<italic>
+,,−
+
+
+</italic>
+</p><p>MBPs can be regarded as
+an energy- and resource-efficient coating
+method for biocompatible surface functionalization. MBP-based surface
+functionalization can be achieved from aqueous solutions at room temperature
+without requiring harsh conditions such as elevated temperatures or
+strong acids or bases.<italic>
+,,
+</italic> Although peptides are perceived as cost-intensive, their high surface
+affinity and functional density allow coatings with minimal quantities.
+For example, the MBP LCI formed a dense monolayer on PP, with 1-g
+LCI sufficient to cover over 600 m<sup>2</sup> of PP-surface. Furthermore,
+scalable coating processes such as dip and spray coating have successfully
+been employed for MBPs, allowing high-density surface coverage and
+large-scale coating at a cost of less than 1 euro cent per m<sup>2</sup>.<italic>
+,,,
+</italic> Interestingly, a surface coverage of up to &gt;90%
+within
+20 s was reported on carbon nanotubes.<italic>
+,
+</italic> This translates
+to low material cost per area, comparable to or even lower than some
+chemical functionalization approaches, especially when factoring in
+the avoidance of harsh solvents, waste generation, and postprocessing.
+Furthermore, unlike plasma treatment, peptides offer the unique ability
+to decorate surfaces with biologically functional moieties (e.g.,
+enzymes or targeting motifs), under mild aqueous conditions, with
+high specificity and minimal environmental burden.<italic>
+,
+</italic> MBPs like PB-TUP have been used to immobilize functional peptides
+on PS surfaces for biosensor and diagnostic applications, validating
+their utility in polymer functionalization.<italic>
+,
+</italic> This enables advanced applications such as biosensing and bioconjugation
+that are not feasible with conventional treatments. Hence, MBP coatings
+are not only a complementary alternative but also uniquely suited
+for functionalizing PS in advanced material applications. With developed
+directed evolution methodologies,<italic>
+−
+
+
+
+</italic> binding properties of MBPs, such as binding strength
+in the presence of surfactants<italic>
+,
+</italic> and material-specific
+binding, can be improved and tailored
+to application demands. As a protein engineering strategy, the KnowVolution
+process proved to successfully improve the material-specific binding
+of polylactic acid over PP by 2.3-fold and PS by 2.0-fold for the
+Cg-Def MB.<italic>
+,
+</italic>
+</p><p>Recycling mixed plastic
+is challenging and requires that employed
+catalysts can material-specifically target a specific polymer within
+a polymer blend. Inspired by cellulases in nature, which utilize CBM
+to recognize specific carbohydrate polymers, the MBP TA2 was fused
+with the cutinase Tcur1278. The fusion enhanced an efficient degradation
+of the Impranil polymer with up to 6.6-fold enhanced depolymerization. Multiplexed detection with three Alexa-fluorophores
+and sorting of PS-nanoparticles by flow cytometer was successfully
+achieved with the conjugates of the MBP LCI to Alexa-fluorophores.
+</p><p>PS interacts primarily through hydrophobic
+interactions, π–π
+stacking, and van der Waals forces.<italic>
+−
+
+
+</italic> PS dissolves in nonpolar solvents
+such as benzene and toluene.<italic>
+,
+</italic> The dominant role of
+aromatic residues in PS binding was first proposed in 1995, based
+on the analysis of peptides identified by phage display. The first reported binding motif was WXXW (where
+W is Tryptophan and X represents any amino acid). In 1996, additional motifs such as the WXXWXXXW motif and the WHXW motif (where H is Histidine) were identified, and later studies confirmed
+the prominent role of aromatic amino acids.<italic>
+,−
+
+</italic>
+</p><p>In this work, we used the peptide LCI, a 47-amino
+acid MBP with
+a four-stranded antiparallel β-sheet structure, to comprehensively
+investigate the influence of the aromatic amino acid substitutions
+(including Trp, Tyr, Phe, and His) on PS binding. Site-directed mutagenesis
+(SDM) was performed at all positions in LCI, generating a total of
+178 variants to systemically evaluate the contribution of individual
+residues. A fluorescence-based assay was then used to evaluate the
+binding of each variant, and a statistical analysis was conducted
+to determine amino acid preferences and structural distribution patterns.
+Key variants exhibiting improved PS binding were identified, with
+the most improved variant (LCI-L4H) subjected to surface plasmon resonance
+(SPR) for detailed binding characterization. A single substitution
+at position L4 could increase the surface coverage from 7.90 to 9.18
+pmol/cm<sup>2</sup>. Furthermore, molecular dynamics (MD) simulations
+were conducted to analyze the changes in binding modes, providing
+deeper insights into the impact of these substitutions. The simulations
+revealed that the LCI-L4H variant was more flexible than LCI-WT, enabling
+it to better adapt to the PS surface and present more aromatic residues
+for surface interactions.</p></sec><sec id="sec2" disp-level="1"><label>2.</label><title>Results and Discussion</title><p>The results
+section is divided into three parts. First, the LCI
+aromatic amino acid library was screened for PS binding to identify
+variants with improved binding properties, followed by a statistical
+analysis to evaluate their amino acid preferences and structural distribution.
+Second, the variant LCI-L4H, which showed the highest improvement
+in PS binding, was purified and characterized by SPR to determine
+the surface coverage. Finally, MD simulations were performed to investigate
+the binding interactions between the LCI and the amorphous PS surface.</p><sec id="sec2.1" disp-level="2"><label>2.1.</label><title>Screening of eGFP-LCI Aromatic Library for
+PS Binding</title><p>A screening system was first developed and validated
+in 96-well PS MTPs through fluorescent measurements based on the eGFP-LCI
+fusion protein (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S1, S2</ext-link>). eGFP-LCI
+was expressed in <italic>Escherichia coli</italic> BL21
+(DE3) gold, and clarified cell lysate in 50 mM Tris buffer (pH 8)
+was used for assay optimization (5 −50 μL; see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S3</ext-link>). When less than 15 μL of eGFP-LCI
+cell lysate was used, fluorescence detection was volume-dependent,
+which indicates that the well surface was not saturated. In order
+to eliminate false positives arising from enhanced eGFP-LCI expression,
+30 μL of lysate was used in the library screening. To evaluate
+the reproducibility of the screening system, a binding assay was performed
+using an MTP containing eGFP-LCI WT, which yielded a true coefficient
+of variation (CV) of 18.8% (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S4</ext-link>).
+Screening systems with CV below 20% have been routinely and successfully
+used in protein engineering campaigns.<italic>
+,
+</italic>
+</p><p>The
+binding of eGFP-LCI (178 variants) was tested on PS black MTPs in
+duplicates, with the initial fluorescence levels maintained above
+20,000 (gain 1000; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Table S1</ext-link>). The threshold
+for an improved variant was set at 1 + σ, where σ = 0.19.
+After the initial screening, 65 variants with improved PS binding
+were selected for rescreening in five replicates. After rescreening,
+56 of these variants showed improved PS binding compared to that of
+the WT (<xref rid="fig1" ref-type="fig">Figure 
+</xref>).</p><fig id="fig1" position="float"><?disp-level 3?><label>1</label><caption><p>Sequence
+logo of LCI variants with improved PS binding (generated
+using WebLogo; weblogo.berkeley.edu), illustrating positions and beneficial
+amino acid substitutions within the LCI that result in improved PS
+binding. Interestingly, all four aromatic amino acids seem to contribute
+equally since no specific amino acid occurs significantly more frequently
+than the other three.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="ao5c06026_0001.jpg"><?cloudpmc-path blobs/658e/12529122/6aa009913073/ao5c06026_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 426?><?original-width 2088?><?scaled-height 142?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao5c06026_0001.gif"><?cloudpmc-path blobs/658e/12529122/9a97d1c8aa0a/ao5c06026_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>As shown in <xref rid="fig1" ref-type="fig">Figure 
+</xref>, beneficial LCI variants with enhanced PS binding
+were distributed
+across 32 positions with occurrences ranging from 17 to 11 exchanges
+(17 × H, 14 × F/14 × W, 11 × Y). Interestingly,
+H occurred six times as the only beneficial substitution compared
+to 4 × F, 2 × W, and 2 × Y. At positions 2 and 21,
+all four aromatic amino acids contributed to the improved PS binding.</p><p>LCI is composed of 4 antiparallel β-sheets, and the contribution
+of different secondary structure elements to improved PS binding was
+analyzed based on the number of beneficial substitutions. Among the
+β-sheets, 27 substitutions were observed (9 × β-4,
+7 × β-1/7 × β-3, 4 × β-2), while
+the loops contributed 29 (11 × Loop-2, 6 × Loop-1, 7 ×
+Loop-4, 4 × Loop-3, and 1 × Loop-5). Interestingly, the
+beneficial variants were distributed across multiple positions of
+the peptide, suggesting that both loops and β-sheets contribute
+comparably to the overall binding improvement and that multiple binding
+modes may be involved. Moreover, the observed substitutions may not
+only strengthen direct interactions with the PS surface but also influence
+the peptide’s conformation, indirectly improving its binding
+efficiency.</p></sec><sec id="sec2.2" disp-level="2"><label>2.2.</label><title>Binding Characterization of Variants with
+Improved PS Binding</title><p>All 56 variants with improved PS binding
+were purified. After purification, their binding was evaluated using
+PS MTPs. Among these, five variants demonstrated a significant improvement
+in PS binding compared to WT (1.2- to 1.4-fold; <italic>P</italic>-value &lt;0.05, two-tailed unpaired <italic>t</italic> test; <xref rid="fig2" ref-type="fig">Figure 
+</xref>). The top variant
+L4H was selected for further characterization by SPR to quantify the
+surface coverage.</p><fig id="fig2" position="float"><?disp-level 3?><label>2</label><caption><p>Purified LCI variants with improved PS binding. The bar
+chart shows
+the fold improvement in PS binding for purified eGFP-LCI variants
+relative to the eGFP-LCI-WT calculated by fluorescence ratio eGFP-LCI
+variant vs eGFP-LCI-WT (excitation = 485 nm, emission = 520 nm). The
+red dashed line represents the baseline for the LCI WT at a fold improvement
+of 1.0. Error bars represent the standard deviation across 4 replicates.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="ao5c06026_0002.jpg"><?cloudpmc-path blobs/658e/12529122/9c298ae0014d/ao5c06026_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 524?><?original-width 1000?><?scaled-height 349?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao5c06026_0002.gif"><?cloudpmc-path blobs/658e/12529122/80cb150d3b70/ao5c06026_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>A concentration range from 50 to 2000 nM of eGFP-LCI
+WT and eGFP-LCI
+L4H was tested on PS-coated SPR chips to analyze binding interactions
+(<xref rid="fig3" ref-type="fig">Figure 
+</xref>). Additionally,
+eGFP alone was tested at a concentration of 500 nM and compared to
+both the eGFP-LCI WT and eGFP-LCI L4H variant. As shown in <xref rid="fig3" ref-type="fig">Figure 
+</xref>a, eGFP alone was
+washed off after 40 min, confirming that binding is mediated through
+the LCI peptide. For the eGFP-LCI WT, the maximum surface coverage
+was determined to be 286.2 ± 22.45 ng/cm<sup>2</sup>, corresponding
+to 7.90 ± 0.61 pmol/cm<sup>2</sup> based on the protein’s
+molecular weight (36.21 kDa). In contrast, the eGFP-LCI L4H variant
+showed improved binding, with a surface coverage of 332.7 ± 12.6
+ng/cm<sup>2</sup>, equivalent to 9.18 ± 0.34 pmol/cm<sup>2</sup> based on its molecular weight (36.24 kDa). This represents a 1.16-fold
+increase in surface coverage compared with the eGFP-LCI WT (<xref rid="fig3" ref-type="fig">Figure 
+</xref>b). The molecular
+surface coverage for LCI-WT is 4.75 × 10<sup>12</sup> molecules/cm<sup>2</sup>, and for the LCI-L4H variant, it is 5.52 × 10<sup>12</sup> molecules/cm<sup>2</sup>. To estimate the number of LCI molecules
+covering the PS surface per unit area, the LCI molecule was approximated
+to have a rectangular shape. The dimensions of LCI were determined
+using the PyMOL script Draw_Protein_Dimensions, yielding measurements
+of 40 × 20 × 20 Å. The LCI molecules were arranged
+with a spacing of 10 Å between them. Based on this model, the
+theoretical maximum surface density of LCI is 6.67 × 10<sup>12</sup> molecules/cm<sup>2</sup>, with the LCI-WT and LCI-L4H variants achieving
+71.2% and up to 82.8% coverage, respectively.</p><fig id="fig3" position="float"><?disp-level 3?><label>3</label><caption><p>(a) Comparison of surface
+coverages of the eGFP-LCI WT, eGFP-LCI
+L4H variant, and eGFP alone at a concentration of 500 nM. (b) Binding
+curve for eGFP-LCI WT and eGFP-LCI L4H on PS showing surface coverage
+as a function of concentration.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="ao5c06026_0003.jpg"><?cloudpmc-path blobs/658e/12529122/96e35c0ded2d/ao5c06026_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 610?><?original-width 1500?><?scaled-height 305?><?scaled-width 750?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao5c06026_0003.gif"><?cloudpmc-path blobs/658e/12529122/e72695c6396f/ao5c06026_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.3" disp-level="2"><label>2.3.</label><title>MD Simulations of LCI-WT and LCI-L4H Binding
+to PS</title><p>The LCI-WT and LCI-L4H were simulated for 100 ns to
+monitor their binding modes and any changes in secondary structure
+throughout the simulation. The simulations were conducted under constant
+temperature and pressure. Secondary structure alterations were tracked
+over time and visualized using VMD, as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S7</ext-link>. A series of analyses were conducted to compare
+the LCI-L4H variant with the LCI-WT, including root-mean-square fluctuation
+(RMSF), root-mean-square deviation (RMSD), and radius of gyration
+(Rg) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S8</ext-link>). Additionally, contact
+frequency maps were generated to compare the interactions between
+the peptides and the PS surface.</p><p>The Rg analysis showed that
+the LCI-L4H variant adopts a more compact structure when bound to
+PS, which may enhance its interaction with the polymer. RMSD analysis
+revealed that both LCI-WT and LCI-L4H reached equilibrium after approximately
+20 ns of simulation. RMSF analysis highlighted that LCI-L4H showed
+increased flexibility, especially in the N-terminal region (residues
+1–23), compared to LCI-WT. This increased flexibility could
+contribute to improved contact with the PS surface.</p><p>Furthermore,
+the contact frequency between the peptide residues
+and the polymer surface during the MD simulation was analyzed for
+both the LCI-WT and the LCI-L4H variant (<xref rid="fig4" ref-type="fig">Figure 
+</xref>). All simulations were performed in triplicate.
+The contact patterns were not entirely consistent across all runs
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S9</ext-link>). For instance, loop-2 in LCI-WT
+interacted with the PS surface in one simulation but not in the other
+two. However, the primary contact regions in both the LCI-WT and the
+LCI-L4H variant remained consistent across all simulations. As shown
+in the contact map (<xref rid="fig4" ref-type="fig">Figure 
+</xref>), residues A1-V5 and I24–E42 in LCI-WT exhibit stable
+interactions with the PS surface, suggesting that these regions contribute
+to the peptide’s interaction with PS. In comparison, the LCI-L4H
+variant showed similar but more extensive contact regions, particularly
+within residues V5–S15. This suggests that the L4H substitution
+may contribute to binding indirectly by influencing the orientation
+of adjacent residues, promoting closer and more frequent interactions
+with the PS surface. These findings indicate that the LCI-L4H variant
+exhibits improved surface interactions, which underlie the improved
+binding and surface coverage observed experimentally.</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>Binding contact frequency
+for LCI-WT and LCI-L4H variants over
+100 ns MD simulations. The heatmaps illustrate the binding contact
+frequency between PS and the LCI-WT or LCI-L4H variant over a 100
+ns MD simulation. The <italic>y</italic>-axis represents residue numbers,
+while the <italic>x</italic>-axis shows simulation time. Data represents
+the average of three independent simulation runs. The color scale
+bar on the right indicates the distance between residues and the PS
+surface (in nm), with red indicating closer contact (more frequent
+interactions) and green indicating less frequent. (a) The LCI-WT shows
+close contact between residues 1–5 and around 24–42,
+with red regions indicating close and frequent binding interactions.
+(b) The LCI-L4H variant demonstrates more consistent and frequent
+close contacts across several residues, particularly in the N-terminal
+region.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="ao5c06026_0004.jpg"><?cloudpmc-path blobs/658e/12529122/9ce1025bf3e2/ao5c06026_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 953?><?original-width 992?><?scaled-height 635?><?scaled-width 661?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao5c06026_0004.gif"><?cloudpmc-path blobs/658e/12529122/0c30dc07b8e6/ao5c06026_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We extracted the binding conformations of the LCI-L4H
+variant and
+LCI-WT (<xref rid="fig5" ref-type="fig">Figure 
+</xref>).
+A key difference is that, in the LCI-WT, only β-sheets 3 and
+4 interact with the PS surface. In contrast, the LCI-L4H variant is
+positioned closer to the surface and exhibits a larger contact area.
+Specifically, in the LCI-L4H variant, more aromatic amino acids (F12,
+F25, Y29, Y30, and W37) interact with the PS surface. In the LCI-WT,
+only Y29, Y30, and W37 are close enough to the PS surface to form
+π–π interactions. Across the three simulation runs,
+the variant presented more aromatic amino acids for surface interactions.
+Small peptides are highly dynamic, and local substitutions can affect
+molecular interactions within the peptide. In the LCI-L4H variant, the larger and aromatic side chain likely
+disrupts local β-sheet hydrogen bonding, leading to a reorganized
+conformation that promotes more extensive contact with the surface.
+This was further confirmed through performing circular dichroism (CD)
+spectroscopy for eGFP-LCI WT and eGFP-LCI L4H, which showed a slight
+decrease in the peak intensity for β-sheets, indicating slight
+destabilization in the β-sheets in the case of the variant (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S10</ext-link>). These findings highlight the importance
+of the peptide conformation and the role of aromatic amino acids in
+improving PS binding.</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>Binding poses of LCI-WT (a) and the LCI-L4H variant (b)
+on the
+PS surface. The zoomed-in view showed the aromatic amino acids potentially
+interacting with the PS surface.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="ao5c06026_0005.jpg"><?cloudpmc-path blobs/658e/12529122/835a3f20dda2/ao5c06026_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 574?><?original-width 1500?><?scaled-height 287?><?scaled-width 750?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao5c06026_0005.gif"><?cloudpmc-path blobs/658e/12529122/90ca817cc2fe/ao5c06026_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.4" disp-level="2"><label>2.4.</label><title>Binding Free Energy</title><p>MM/PBSA calculations
+were performed over three independent simulation runs to estimate
+the binding free energy of the LCI-WT and the LCI-L4H variant to the
+PS surface. As shown in <xref rid="tbl1" ref-type="table">Table 
+</xref>, the LCI-L4H variant displayed a slightly more favorable
+binding energy (−315.1 ± 23.5 kcal/mol) compared to the
+LCI-WT (−310.1 ± 17.5 kcal/mol). Despite overlapping standard
+deviations, the results suggest a trend toward improved surface interaction
+in the variant, consistent with the proposed role of aromatic substitutions
+in enhancing PS affinity.</p><table-wrap id="tbl1" position="float"><?disp-level 3?><label>1</label><caption><title>Binding Free Energy (Δ<italic>G</italic>) of LCI-WT and LCI-L4H Variants to the PS Calculated Using
+MM/PBSA Across Three Independent Molecular Dynamics Runs<sup/>
+</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="±" span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1">
+<bold>peptide</bold>
+</th><th align="center" colspan="1" rowspan="1">
+<bold>binding free energy</bold> (kcal/mol)</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">
+<bold>LCI-WT</bold>
+</td><td align="center" colspan="1" rowspan="1">–310.07 ± 17.47</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>LCI-L4H</bold>
+</td><td align="center" colspan="1" rowspan="1">–315.09 ± 23.49</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Values are reported in kcal/mol.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="sec3" disp-level="1"><label>3.</label><title>Conclusions</title><p>The systematic study of
+the four aromatic residues His, Trp, Tyr,
+and Phe at each LCI position (178 variants in total) proved that PS
+binding and surface coverage of eGFP-LCI fusion proteins can be improved
+through all four aromatic amino acids. The MBP LCI improved the surface
+coverage compared to eGFP, while the LCI-L4H variant increased the
+surface coverage from 7.90 to 9.18 pmol/cm<sup>2</sup> by a single
+substitution, achieving approximately 82% surface coverage. Interestingly,
+a similar number of beneficial substitutions can be found in loops
+(29) and β-sheets (27) despite the LCI consisting of 22 residues
+in loops and 25 residues in β-sheets. Being able to tune binding
+strength and surface coverage to PS through aromatic interactions
+is a protein design principle that can likely be extended to other
+natural and man-made polymers with aromatic building blocks, such
+as PET, polycarbonate, and poly­(3,4-ethylenedioxythiophene) polystyrene
+sulfonate (PEDOT:PSS). MBPs can provide multiple and different functionalities,
+such as sulfhydryl- or amino groups on a single MBP, which offers,
+in combination with tuning binding strength through aromatic interactions,
+applications in biosensors, (nano/micro-) plastic detection, and sustainable
+packaging solutions.</p></sec><sec id="sec4" disp-level="1"><label>4.</label><title>Experimental Section</title><sec id="sec4.1" disp-level="2"><label>4.1.</label><title>Materials</title><p>All chemicals were purchased
+from AppliChem GmbH (Darmstadt, Germany), Carl Roth GmbH (Karlsruhe,
+Germany), Fluka (Ulm, Germany), Macherey-Nagel (Düren, Germany),
+or Sigma-Aldrich Corp. (St. Louis, MO and Deisenhofen, Germany), unless
+specified. Salt-free oligonucleotides were obtained from Eurofins
+Scientific SE (Ebersberg, Germany) and Enzymes from New England Biolabs
+GmbH (Frankfurt am Main, Germany). Plasmid extraction and polymerase
+chain reaction (PCR) purification kits were purchased from Macherey-Nagel
+GmbH &amp; Co. KG (Düren, Germany) and Qiagen GmbH (Hilden,
+Germany). Black PS MTPs were obtained from Greiner Bio-One GmbH (Frickenhausen,
+Germany). The plasmid pET28a­(+) (Novagen, Darmstadt, Germany) was
+used, and the <italic>E. coli</italic> strain BL21-Gold
+(DE3) (Agilent Technologies, Santa Clara, CA) was used for protein
+expression.</p></sec><sec id="sec4.2" disp-level="2"><label>4.2.</label><title>Library Generation</title><p>Aromatic amino
+acid libraries were generated using SDM. In the LCI (sequence shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">Figure S11</ext-link>), 47 positions were individually
+substituted with His (p<italic>K</italic>
+<sub>a</sub> = 6), Tyr, Trp,
+or Phe, resulting in a total of 178 variants. The SDM protocol followed
+the conditions previously outlined. After
+amplification, the parental DNA was digested with 20 U of DpnI for
+16 h at 37 °C, purified using a PCR cleanup gel extraction kit,
+and transformed into <italic>E. coli</italic> BL21-Gold
+(DE3) for expression.</p></sec><sec id="sec4.3" disp-level="2"><label>4.3.</label><title>Library Screening</title><p>During the screening
+process, the LCI variants were cultured and expressed in 96-well plates
+to facilitate a high-throughput analysis. Expression was performed
+as previously outlined. For cell lysis,
+the <italic>E. coli</italic> BL21 (DE3) gold pellets
+were resuspended in lysozyme solution (150 μL; 1.5 mg/mL in
+50 mM Tris/HCl buffer, pH 8.0) and incubated at 37 °C, 900 rpm,
+and 70% humidity for 1 h. Following lysis, the mixture was centrifuged
+at 3200<italic>g</italic> for 30 min at 4 °C (Eppendorf centrifuge
+5810 R).</p><p>Screening of the eGFP-LCI library was performed using
+96-well black PS MTPs. For each well, 30 μL of eGFP-LCI cell
+lysate was mixed with 70 μL of Tris-HCl buffer (pH 8.0, 50 mM)
+and incubated on an MTP shaker (ELMI DTS-4, ELMI-Tech, Riga, Latvia)
+at room temperature for 10 min at 600 rpm. After incubation, wells
+were washed five times with 100 μL of Tris-HCl buffer (pH 8.0,
+50 mM) for 5 min at room temperature and 600 rpm. After removal of
+the liquid, the residual fluorescence from the bound eGFP-LCI was
+measured directly on the well surface using a 96-well MTP reader (CLARIOstar)
+with excitation at 485 nm, emission at 520 nm, and a gain setting
+of 1400, with 35 reads per well. eGFP alone was used as a negative
+control to exclude nonspecific binding. The improvement of PS binding
+was calculated by following <xref rid="eq1" ref-type="disp-formula">eq 
+</xref>.</p><disp-formula id="eq1"><label>1</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e805" display="block"><mml:mrow><mml:mi>improvement</mml:mi><mml:mspace width="0.25em"/><mml:mi>of</mml:mi><mml:mspace width="0.25em"/><mml:mi>PS</mml:mi><mml:mspace width="0.25em"/><mml:mi>binding</mml:mi></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi>FI</mml:mi><mml:mspace width="0.25em"/><mml:mi>of</mml:mi><mml:mspace width="0.25em"/></mml:mrow><mml:mi mathvariant="normal">V</mml:mi><mml:mo>−</mml:mo><mml:mi>FI</mml:mi><mml:mrow><mml:mspace width="0.25em"/><mml:mi>of</mml:mi><mml:mspace width="0.25em"/><mml:mi>eGFP</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi>FI</mml:mi><mml:mspace width="0.25em"/><mml:mi>of</mml:mi><mml:mspace width="0.25em"/><mml:mi>WT</mml:mi></mml:mrow><mml:mo>−</mml:mo><mml:mi>FI</mml:mi><mml:mspace width="0.25em"/><mml:mrow><mml:mi>of</mml:mi><mml:mspace width="0.25em"/><mml:mi>eGFP</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:math></disp-formula><p>where FI represents the fluorescence intensity,
+V represents the variant, WT refers to wild-type eGFP-LCI, and eGFP
+serves as the negative control.</p></sec><sec id="sec4.4" disp-level="2"><label>4.4.</label><title>Purification</title><p>The fusion proteins
+(eGFP-AP and the negative control eGFP) were expressed in <italic>E. coli</italic> BL21 (DE3) gold cells. Flask expression was
+carried out as previously described. The
+fusion proteins, which included an N-terminal His6-tag, were purified
+using a prepacked Ni-IDA 2000 column (Macherey-Nagel GmbH &amp; Co.
+KG, Düren, Germany). Desalting was performed using PD-10 Desalting
+Columns (Cytiva, Marlborough, MA) according to the manufacturer’s
+recommended protocol.</p></sec><sec id="sec4.5" disp-level="2"><label>4.5.</label><title>Surface Plasmon Resonance</title><p>SPR spectroscopy
+was used to evaluate the surface coverage of eGFP, eGFP-LCI WT, and
+eGFP-LCI L4H on PS-coated gold sensor chips, with protein concentrations
+ranging from 50 to 2000 nM. The measurements were conducted using
+the MP-SPR Navi 420A ILIVES four-channel SPR system (BioNavis Ltd.,
+Tampere, Finland) at a wavelength of 670 nm. To prepare the PS-coated
+SPR chips, a 0.2% PS solution (in chloroform) was applied to the surface
+of the pure gold chips. The PS solution (100 μL) was spin-coated
+at 3780 rpm (63 rps, gear 6) for 1 min using a KLM SC-10 spin coater
+(Schaefer-Tec, Germany).</p><p>Protein solutions in Tris-HCl buffer
+(50 mM, pH 8.0) were applied onto the PS-coated SPR chip at a flow
+rate of 20 μL/min for 10 min, followed by 30 min of Tris-HCl
+buffer (50 mM, pH 8.0) at the same flow rate. The amount of adsorbed
+protein was determined based on the sensor response in micro refractive
+index units (μRIU). The change in signal (ΔμRIU),
+calculated as the difference in baseline before and after protein
+injection, was converted into surface coverage (ng/cm<sup>2</sup>)
+using a conversion factor of 0.0518 ng/cm<sup>2</sup> per μRIU.
+This conversion factor was experimentally determined by our group
+based on blood plasma adsorption on bare gold. The binding data were then fitted into a one-to-one binding
+model using the GraphPad Prism software (Version 10). This model assumes
+that a single binding site on the surface interacts with a single
+ligand molecule, allowing determination of the maximum surface coverage.</p></sec><sec id="sec4.6" disp-level="2"><label>4.6.</label><title>MD Simulation</title><p>The amorphous PS model
+was initially generated using the CHARMM-GUI platform. The CHARMM-GUI polymer builder interface was utilized to create a disordered, amorphous
+configuration of PS molecules, suitable for simulating bulk polymer
+properties. Following the generation of the initial structure, GROMACS
+(version 2021) was used for model equilibration.
+The equilibration process ensured that the system reached a stable
+state suitable for further simulations. The target density of the
+amorphous PS model was maintained between 0.96 and 1.05 g/cm<sup>3</sup>, with the final density of the model approximating 0.99 g/cm<sup>3</sup>, which is within the acceptable range for PS (<xref rid="fig6" ref-type="fig">Figure 
+</xref>).</p><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>Amorphous PS polymer
+model. (a) Final structure of the amorphous
+PS surface. (b) Density profile of the PS system during equilibration.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="ao5c06026_0006.jpg"><?cloudpmc-path blobs/658e/12529122/b984daece3d8/ao5c06026_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 778?><?original-width 1750?><?scaled-height 311?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao5c06026_0006.gif"><?cloudpmc-path blobs/658e/12529122/aada23ac7be8/ao5c06026_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>All simulations were performed by the GROMACS (version
+2021) program with the CHARMM36 force
+field for both the peptide
+and polymer. In the MD simulation of
+the LCI-PS interaction, an amorphous PS surface was used. The peptide
+was placed 10 Å above the surface to allow natural, unbiased
+interactions during the simulation. The system was solvated in a triclinic
+box (160 × 160 × 150 Å) containing approximately 1,08,257
+SPC water molecules. The total system consisted of around 364185 atoms.
+The system was first energy minimized using the steepest descent algorithm
+with a maximum force tolerance of 500 kJ/mol/nm over 5000 steps. After
+energy minimization, the system was equilibrated at 300 K in two stages.
+First, an NVT ensemble was applied for 100 ps with a 1 fs time step
+using the V-rescale thermostat to maintain a constant temperature.
+Following the NVT equilibration, an NPT ensemble was used for 500
+ps with pressure coupling controlled by the Parrinello–Rahman
+barostat to maintain 1 bar pressure, and a time step of 2 fs was used
+during this phase. Production MD simulations were performed for 100
+ns with positional restraints applied to the backbone atoms of the
+PS layer. Each LCI-PS complex was simulated in three independent runs.
+Visualization and trajectory analysis were carried out using Visual
+Molecular Dynamics (VMD, Version 1.9.3) and PyMOL (The PyMOL Molecular Graphics System, Version 2.5.4 Schrodinger,
+LLC.).</p></sec><sec id="sec4.7" disp-level="2"><label>4.7.</label><title>Binding Free Energy Calculations</title><p>The binding free energies of the LCI-WT and the LCI-L4H variant to
+the PS surface were estimated using the molecular mechanics/Poisson–Boltzmann
+surface area (MM/PBSA) approach. MD simulations were run for 100
+ns, and the last 50 frames (corresponding to ∼10 ns) from each
+of the three independent runs were analyzed using the <italic>gmx_MMPBSA</italic> tool.
+</p></sec></sec><sec id="sec16" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao5c06026_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 658e/12529122/cbf18983d01c/ao5c06026_si_001.pdf?><?cloudpmc-bucket app?><?size 750936?></media></supplementary-material></sec><sec id="ACK-d14e861-autogenerated" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>The researcher
+R.A.S. was funded by a full scholarship from
+the Egyptian Ministry of Higher Education and Scientific Research.
+The authors gratefully acknowledge Gurudas Chakraborty and Arjuna
+Selvakumar for their support with circular dichroism (CD) spectroscopy
+measurements. The authors also acknowledge the financial support of
+the Werner Siemens Foundation in the frame of the WSS Research Center
+“catalaix”. Additionally, the authors acknowledge the
+RWTH Aachen University High-Performance Computing (HPC) Cluster for
+providing computational resources under projects 1770 and 1783. The
+TOC graphic was created with BioRender.com (Schwaneberg, U. 2025, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://BioRender.com/z55v7p9" ext-link-type="uri">https://BioRender.com/z55v7p9</ext-link>). Open access funding was provided by the Open Access Publication
+Fund of RWTH Aachen University.</p></sec><sec id="glossary1" sec-type="glossary" disp-level="1"><title>Glossary</title><def-list id="dl1"><title>Abbreviations</title><def-item><term>PS</term><def><p>polystyrene</p></def></def-item><def-item><term>MBPs</term><def><p>material-binding
+peptides</p></def></def-item><def-item><term>LCI</term><def><p>liquid
+chromatography
+peak I</p></def></def-item><def-item><term>SPR</term><def><p>surface
+plasmon resonance</p></def></def-item><def-item><term>MD</term><def><p>molecular dynamics</p></def></def-item><def-item><term>nMBPs</term><def><p>naturally occurring binding peptides</p></def></def-item><def-item><term>CBMs</term><def><p>carbohydrate-binding modules</p></def></def-item><def-item><term>eMBPs</term><def><p>engineered MBPs</p></def></def-item><def-item><term>PET</term><def><p>polyethylene terephthalate</p></def></def-item><def-item><term>PP</term><def><p>polypropylene</p></def></def-item><def-item><term>SDM</term><def><p>site-directed mutagenesis</p></def></def-item><def-item><term>eGFP</term><def><p>enhanced green
+fluorescent protein</p></def></def-item><def-item><term>MTP</term><def><p>microtiter plate</p></def></def-item><def-item><term>CV</term><def><p>coefficient of variation</p></def></def-item><def-item><term>μRIU</term><def><p>micro refractive index unit</p></def></def-item><def-item><term>RMSF</term><def><p>root-mean-square fluctuation</p></def></def-item><def-item><term>RMSD</term><def><p>root-mean-square deviation</p></def></def-item><def-item><term>Rg</term><def><p>radius of gyration</p></def></def-item><def-item><term>CD</term><def><p>circular dichroism</p></def></def-item></def-list></sec><sec id="notes-1" disp-level="1"><p>The Supporting Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acsomega.5c06026?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acsomega.5c06026</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Structural representation of the eGFP-LCI fusion protein;
+overview of the fluorescence-based binding assay; lysate volume optimization;
+binding assay deviation; comparison of surface coverages of eGFP-LCI
+variants using SPR; SPR binding profiles of eGFP-LCI WT and L4H with
+the PS surface; secondary structure of LCI -WT and LCI-L4H in MD simulation
+system; MD simulation analyses; contact frequency heatmaps for LCI-WT
+and LCI-L4H variants interacting with PS; CD spectra of eGFP, eGFP-LCI
+WT, and eGFP-LCI L4H; sequence of LCI-WT and a list of LCI variants
+with expression levels below saturation (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.5c06026/suppl_file/ao5c06026_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes-2" disp-level="1"><label>∥.</label><p>R.A.S. and S.M. contributed equally. The
+manuscript was written
+through contributions of all authors. All authors have given approval
+to the final version of the manuscript.</p></sec><sec id="notes-3" disp-level="1"><p>The authors
+declare no competing financial interest.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Che C. A., Van Geem K. M., Heynderickx P. M.. Enhancing sustainable waste management:
+Hydrothermal carbonization of polyethylene terephthalate and polystyrene
+plastics for energy recovery. Sci. Total Environ. 2024;946:174110.  doi: 10.1016/j.scitotenv.2024.174110.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2024.174110"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38909789"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Total Environ.&amp;title=Enhancing sustainable waste management: Hydrothermal carbonization of polyethylene terephthalate and polystyrene plastics for energy recovery&amp;author=C. A. Che&amp;author=K. M. Van Geem&amp;author=P. M. Heynderickx&amp;volume=946&amp;publication_year=2024&amp;pages=174110&amp;pmid=38909789&amp;doi=10.1016/j.scitotenv.2024.174110&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Gautam B., Tsai T.-H., Chen J.-T.. Towards
+sustainable solutions: A
+review of polystyrene upcycling and degradation techniques. Polym. Degrad. Stab. 2024;225:110779.  doi: 10.1016/j.polymdegradstab.2024.110779.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.polymdegradstab.2024.110779"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polym. Degrad. Stab.&amp;title=Towards sustainable solutions: A review of polystyrene upcycling and degradation techniques&amp;author=B. Gautam&amp;author=T.-H. Tsai&amp;author=J.-T. Chen&amp;volume=225&amp;publication_year=2024&amp;pages=110779&amp;doi=10.1016/j.polymdegradstab.2024.110779&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Arfin T., Mohammad F., Yusof N. A.. Applications
+of polystyrene and its
+role as a base in industrial chemistry. Polystyrene:
+Synth., Charact. Appl. 2015:269–280.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polystyrene: Synth., Charact. Appl.&amp;title=Applications of polystyrene and its role as a base in industrial chemistry&amp;author=T. Arfin&amp;author=F. Mohammad&amp;author=N. A. Yusof&amp;publication_year=2015&amp;pages=269-280&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Capricho J.
+C., Prasad K., Hameed N., Nikzad M., Salim N.. Upcycling
+Polystyrene. Polymers (Basel) 2022;14(22):5010.  doi: 10.3390/polym14225010.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/polym14225010"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9695542"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36433142"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymers (Basel)&amp;title=Upcycling Polystyrene&amp;author=J. C. Capricho&amp;author=K. Prasad&amp;author=N. Hameed&amp;author=M. Nikzad&amp;author=N. Salim&amp;volume=14&amp;issue=22&amp;publication_year=2022&amp;pages=5010&amp;pmid=36433142&amp;doi=10.3390/polym14225010&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Maafa I. M.. Pyrolysis
+of Polystyrene Waste: A Review. Polymers (Basel) 2021;13(2):225.  doi: 10.3390/polym13020225.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/polym13020225"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7827018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33440822"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymers (Basel)&amp;title=Pyrolysis of Polystyrene Waste: A Review&amp;author=I. M. Maafa&amp;volume=13&amp;issue=2&amp;publication_year=2021&amp;pages=225&amp;pmid=33440822&amp;doi=10.3390/polym13020225&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">
+
+Scheirs, J.
+; 
+Priddy, D. B.
+. 
+Modern Styrenic Polymers:
+Polystyrenes and Styrenic Copolymers
+2003, pp 1–24
+10.1002/0470867213.ch1.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/0470867213.ch1"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Chen Y., Gao Q., Wan H., Yi J., Wei Y., Liu P.. Surface modification
+and biocompatible improvement of polystyrene film by Ar, O2 and Ar+O2
+plasma. Appl. Surf. Sci. 2013;265:452–457. doi: 10.1016/j.apsusc.2012.11.027.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.apsusc.2012.11.027"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Surf. Sci.&amp;title=Surface modification and biocompatible improvement of polystyrene film by Ar, O2 and Ar+O2 plasma&amp;author=Y. Chen&amp;author=Q. Gao&amp;author=H. Wan&amp;author=J. Yi&amp;author=Y. Wei&amp;volume=265&amp;publication_year=2013&amp;pages=452-457&amp;doi=10.1016/j.apsusc.2012.11.027&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Dybka-Stępień K., Antolak H., Kmiotek M., Piechota D., Kozirog A.. Disposable
+Food Packaging and Serving Materials-Trends and Biodegradability. Polymers (Basel) 2021;13(20):3606.  doi: 10.3390/polym13203606.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/polym13203606"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8537343"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34685364"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymers (Basel)&amp;title=Disposable Food Packaging and Serving Materials-Trends and Biodegradability&amp;author=K. Dybka-Stępień&amp;author=H. Antolak&amp;author=M. Kmiotek&amp;author=D. Piechota&amp;author=A. Kozirog&amp;volume=13&amp;issue=20&amp;publication_year=2021&amp;pages=3606&amp;pmid=34685364&amp;doi=10.3390/polym13203606&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">
+
+Block, C.
+; 
+Brands, B.
+; 
+Gude, T.
+. 
+Packaging Materials 2. Polystyrene
+for Food Packaging ApplicationsUpdated Version
+International Life Sciences Institute
+2017.</named-content></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Hallinan D. T. Jr., Minelli M., Oparaji O., Sardano A., Iyiola O., Garcia A. R., Burnett D. J.. Effect of Polystyrene
+Synthesis Method on Water Sorption and Glass Transition. Membranes (Basel) 2022;12(11):1059.  doi: 10.3390/membranes12111059.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/membranes12111059"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9692681"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36363618"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Membranes (Basel)&amp;title=Effect of Polystyrene Synthesis Method on Water Sorption and Glass Transition&amp;author=D. T. Hallinan&amp;author=M. Minelli&amp;author=O. Oparaji&amp;author=A. Sardano&amp;author=O. Iyiola&amp;volume=12&amp;issue=11&amp;publication_year=2022&amp;pages=1059&amp;pmid=36363618&amp;doi=10.3390/membranes12111059&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">
+
+Satterthwaite, K.
+
+Plastics
+based on styrene. In Brydson’s Plast.
+Mater.; Elsevier, 2017; pp 311–328.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Brydson’s Plast. Mater.&amp;publication_year=2017&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Pilevar Z., Bahrami A., Beikzadeh S., Hosseini H., Jafari S. M.. Migration
+of styrene monomer from polystyrene packaging materials into foods:
+Characterization and safety evaluation. Trends
+Food Sci. Technol. 2019;91:248–261. doi: 10.1016/j.tifs.2019.07.020.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tifs.2019.07.020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Food Sci. Technol.&amp;title=Migration of styrene monomer from polystyrene packaging materials into foods: Characterization and safety evaluation&amp;author=Z. Pilevar&amp;author=A. Bahrami&amp;author=S. Beikzadeh&amp;author=H. Hosseini&amp;author=S. M. Jafari&amp;volume=91&amp;publication_year=2019&amp;pages=248-261&amp;doi=10.1016/j.tifs.2019.07.020&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Ramli
+Sulong N. H., Mustapa S. A. S., Abdul Rashid M. K.. Application
+of expanded polystyrene (EPS) in buildings and constructions: A review. J. Appl. Polym. Sci. 2019;136(20):47529.  doi: 10.1002/app.47529.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/app.47529"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Appl. Polym. Sci.&amp;title=Application of expanded polystyrene (EPS) in buildings and constructions: A review&amp;author=N. H. Ramli Sulong&amp;author=S. A. S. Mustapa&amp;author=M. K. Abdul Rashid&amp;volume=136&amp;issue=20&amp;publication_year=2019&amp;pages=47529&amp;doi=10.1002/app.47529&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Loos C., Syrovets T., Musyanovych A., Mailander V., Landfester K., Nienhaus G. U., Simmet T.. Functionalized polystyrene
+nanoparticles as a platform for studying bio-nano interactions. Beilstein J. Nanotechnol. 2014;5:2403–2412. doi: 10.3762/bjnano.5.250.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3762/bjnano.5.250"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4311717"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25671136"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Beilstein J. Nanotechnol.&amp;title=Functionalized polystyrene nanoparticles as a platform for studying bio-nano interactions&amp;author=C. Loos&amp;author=T. Syrovets&amp;author=A. Musyanovych&amp;author=V. Mailander&amp;author=K. Landfester&amp;volume=5&amp;publication_year=2014&amp;pages=2403-2412&amp;pmid=25671136&amp;doi=10.3762/bjnano.5.250&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Wang L., Yan L., Zhao P., Torimoto Y., Sadakata M., Li Q.. Surface modification
+of polystyrene with atomic oxygen radical anions-dissolved solution. Appl. Surf. Sci. 2008;254(13):4191–4200. doi: 10.1016/j.apsusc.2008.01.035.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.apsusc.2008.01.035"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Surf. Sci.&amp;title=Surface modification of polystyrene with atomic oxygen radical anions-dissolved solution&amp;author=L. Wang&amp;author=L. Yan&amp;author=P. Zhao&amp;author=Y. Torimoto&amp;author=M. Sadakata&amp;volume=254&amp;issue=13&amp;publication_year=2008&amp;pages=4191-4200&amp;doi=10.1016/j.apsusc.2008.01.035&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Booth J.-P., Mozetič M., Nikiforov A., Oehr C.. Foundations of plasma
+surface functionalization of polymers for industrial and biological
+applications. Plasma Sources Sci. Technol. 2022;31(10):103001.  doi: 10.1088/1361-6595/ac70f9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1088/1361-6595/ac70f9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Plasma Sources Sci. Technol.&amp;title=Foundations of plasma surface functionalization of polymers for industrial and biological applications&amp;author=J.-P. Booth&amp;author=M. Mozetič&amp;author=A. Nikiforov&amp;author=C. Oehr&amp;volume=31&amp;issue=10&amp;publication_year=2022&amp;pages=103001&amp;doi=10.1088/1361-6595/ac70f9&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Guruvenket S., Komath M., Vijayalakshmi S. P., Raichur A. M., Mohan
+Rao G.. Wettability enhancement of polystyrene with electron cyclotron resonance
+plasma with argon. J. Appl. Polym. Sci. 2003;90(6):1618–1623. doi: 10.1002/app.12816.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/app.12816"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Appl. Polym. Sci.&amp;title=Wettability enhancement of polystyrene with electron cyclotron resonance plasma with argon&amp;author=S. Guruvenket&amp;author=M. Komath&amp;author=S. P. Vijayalakshmi&amp;author=A. M. Raichur&amp;author=G. Mohan Rao&amp;volume=90&amp;issue=6&amp;publication_year=2003&amp;pages=1618-1623&amp;doi=10.1002/app.12816&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Zhianmanesh M., Gilmour A., Bilek M. M. M., Akhavan B.. Plasma surface functionalization:
+A comprehensive review of advances in the quest for bioinstructive
+materials and interfaces. Appl. Phys. Rev. 2023;10(2):021301.  doi: 10.1063/5.0130829.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1063/5.0130829"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Phys. Rev.&amp;title=Plasma surface functionalization: A comprehensive review of advances in the quest for bioinstructive materials and interfaces&amp;author=M. Zhianmanesh&amp;author=A. Gilmour&amp;author=M. M. M. Bilek&amp;author=B. Akhavan&amp;volume=10&amp;issue=2&amp;publication_year=2023&amp;pages=021301&amp;doi=10.1063/5.0130829&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Vassallo E., Pedroni M., Aloisio M., Pietralunga S. M., Donnini R., Saitta F., Fessas D.. Plasma Treatment
+of
+Different Biodegradable Polymers: A Method to Enhance Wettability
+and Adhesion Properties for Use in Industrial Packaging. Plasma. 2024;7(1):91–105. doi: 10.3390/plasma7010007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/plasma7010007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Plasma&amp;title=Plasma Treatment of Different Biodegradable Polymers: A Method to Enhance Wettability and Adhesion Properties for Use in Industrial Packaging&amp;author=E. Vassallo&amp;author=M. Pedroni&amp;author=M. Aloisio&amp;author=S. M. Pietralunga&amp;author=R. Donnini&amp;volume=7&amp;issue=1&amp;publication_year=2024&amp;pages=91-105&amp;doi=10.3390/plasma7010007&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Hambardzumyan A., Biltresse S., Dufrene Y., Marchand-Brynaert J.. An unprecedented
+surface oxidation of polystyrene substrates by wet chemistry under
+basic conditions. J. Colloid Interface Sci. 2002;252(2):443–449. doi: 10.1006/jcis.2002.8475.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1006/jcis.2002.8475"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16290810"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Colloid Interface Sci.&amp;title=An unprecedented surface oxidation of polystyrene substrates by wet chemistry under basic conditions&amp;author=A. Hambardzumyan&amp;author=S. Biltresse&amp;author=Y. Dufrene&amp;author=J. Marchand-Brynaert&amp;volume=252&amp;issue=2&amp;publication_year=2002&amp;pages=443-449&amp;pmid=16290810&amp;doi=10.1006/jcis.2002.8475&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Hori M.. Radical-controlled
+plasma processes. Rev. Mod. Plasma Phys. 2022;6(1):36.  doi: 10.1007/s41614-022-00084-2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s41614-022-00084-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Rev. Mod. Plasma Phys.&amp;title=Radical-controlled plasma processes&amp;author=M. Hori&amp;volume=6&amp;issue=1&amp;publication_year=2022&amp;pages=36&amp;doi=10.1007/s41614-022-00084-2&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Hetemi D., Pinson J.. Surface functionalisation
+of polymers. Chem. Soc. Rev. 2017;46(19):5701–5713. doi: 10.1039/C7CS00150A.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C7CS00150A"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28766657"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Soc. Rev.&amp;title=Surface functionalisation of polymers&amp;author=D. Hetemi&amp;author=J. Pinson&amp;volume=46&amp;issue=19&amp;publication_year=2017&amp;pages=5701-5713&amp;pmid=28766657&amp;doi=10.1039/C7CS00150A&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Debela A. M., Gonzalez C., Pucci M., Hudie S. M., Bazin I.. Surface Functionalization
+Strategies of Polystyrene for the Development Peptide-Based Toxin
+Recognition. Sensors (Basel) 2022;22(23):9538.  doi: 10.3390/s22239538.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/s22239538"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9735437"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36502240"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sensors (Basel)&amp;title=Surface Functionalization Strategies of Polystyrene for the Development Peptide-Based Toxin Recognition&amp;author=A. M. Debela&amp;author=C. Gonzalez&amp;author=M. Pucci&amp;author=S. M. Hudie&amp;author=I. Bazin&amp;volume=22&amp;issue=23&amp;publication_year=2022&amp;pages=9538&amp;pmid=36502240&amp;doi=10.3390/s22239538&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Eriksson J. C., Gölander C. G., Go C. G., Baszkin A.. Characterization of
+KMnO4/H2SO4-oxidized polyethylene
+surfaces by means of ESCA and 45Ca2+ adsorption. J. Colloid Interface Sci. 1984;100(2):381–392. doi: 10.1016/0021-9797(84)90443-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0021-9797(84)90443-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Colloid Interface Sci.&amp;title=Characterization of KMnO4/H2SO4-oxidized polyethylene surfaces by means of ESCA and 45Ca2+ adsorption&amp;author=J. C. Eriksson&amp;author=C. G. Gölander&amp;author=C. G. Go&amp;author=A. Baszkin&amp;volume=100&amp;issue=2&amp;publication_year=1984&amp;pages=381-392&amp;doi=10.1016/0021-9797(84)90443-0&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Zhu S., Panne U., Rurack K.. A rapid method for the assessment
+of the surface group density of carboxylic acid-functionalized polystyrene
+microparticles. Analyst. 2013;138(10):2924–2930. doi: 10.1039/c3an36578f.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/c3an36578f"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23531901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Analyst&amp;title=A rapid method for the assessment of the surface group density of carboxylic acid-functionalized polystyrene microparticles&amp;author=S. Zhu&amp;author=U. Panne&amp;author=K. Rurack&amp;volume=138&amp;issue=10&amp;publication_year=2013&amp;pages=2924-2930&amp;pmid=23531901&amp;doi=10.1039/c3an36578f&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Gibson H. W., Bailey F.. Chemical modification
+of polymers. 13. Sulfonation
+of polystyrene surfaces. Macromolecules. 1980;13(1):34–41. doi: 10.1021/ma60073a007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ma60073a007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Macromolecules&amp;title=Chemical modification of polymers. 13. Sulfonation of polystyrene surfaces&amp;author=H. W. Gibson&amp;author=F. Bailey&amp;volume=13&amp;issue=1&amp;publication_year=1980&amp;pages=34-41&amp;doi=10.1021/ma60073a007&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Rubin H.. Altering bacteriological
+plastic petri dishes for tissue culture use. Public Health Rep., (1896) 1966;81(9):843–844.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC1919907"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="4957946"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Public Health Rep., (1896)&amp;title=Altering bacteriological plastic petri dishes for tissue culture use&amp;author=H. Rubin&amp;volume=81&amp;issue=9&amp;publication_year=1966&amp;pages=843-844&amp;pmid=4957946&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Drobota M., Ursache S., Aflori M.. Surface functionalities of polymers
+for biomaterial applications. Polymers. 2022;14(12):2307.  doi: 10.3390/polym14122307.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/polym14122307"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9229900"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35745883"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymers&amp;title=Surface functionalities of polymers for biomaterial applications&amp;author=M. Drobota&amp;author=S. Ursache&amp;author=M. Aflori&amp;volume=14&amp;issue=12&amp;publication_year=2022&amp;pages=2307&amp;pmid=35745883&amp;doi=10.3390/polym14122307&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Nemani S. K., Annavarapu R. K., Mohammadian B., Raiyan A., Heil J., Haque M. A., Abdelaal A., Sojoudi H.. Surface Modification
+of Polymers: Methods and Applications. Adv.
+Mater. Interfaces. 2018;5(24):1801247.  doi: 10.1002/admi.201801247.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/admi.201801247"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Mater. Interfaces&amp;title=Surface Modification of Polymers: Methods and Applications&amp;author=S. K. Nemani&amp;author=R. K. Annavarapu&amp;author=B. Mohammadian&amp;author=A. Raiyan&amp;author=J. Heil&amp;volume=5&amp;issue=24&amp;publication_year=2018&amp;pages=1801247&amp;doi=10.1002/admi.201801247&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Dixon D., J Meenan B.. Atmospheric dielectric barrier discharge treatments
+of polyethylene, polypropylene, polystyrene and poly (ethylene terephthalate)
+for enhanced adhesion. J. Adhes. Sci. and Technol. 2012;26(20–21):2325–2337. doi: 10.1163/156856111X599481.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1163/156856111X599481"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Adhes. Sci. and Technol.&amp;title=Atmospheric dielectric barrier discharge treatments of polyethylene, polypropylene, polystyrene and poly (ethylene terephthalate) for enhanced adhesion&amp;author=D. Dixon&amp;author=B. J Meenan&amp;volume=26&amp;issue=20–21&amp;publication_year=2012&amp;pages=2325-2337&amp;doi=10.1163/156856111X599481&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Suganya A., Shanmugvelayutham G., Hidalgo-Carrillo J.. Plasma surface modified polystyrene
+and grafted with chitosan coating for improving the shelf lifetime
+of postharvest grapes. Plasma Chem. Plasma Process. 2018;38:1151–1168. doi: 10.1007/s11090-018-9908-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11090-018-9908-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Plasma Chem. Plasma Process.&amp;title=Plasma surface modified polystyrene and grafted with chitosan coating for improving the shelf lifetime of postharvest grapes&amp;author=A. Suganya&amp;author=G. Shanmugvelayutham&amp;author=J. Hidalgo-Carrillo&amp;volume=38&amp;publication_year=2018&amp;pages=1151-1168&amp;doi=10.1007/s11090-018-9908-0&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Boulares-Pender A., Prager-Duschke A., Elsner C., Buchmeiser M. R.. Surface-functionalization
+of plasma-treated polystyrene by hyperbranched polymers and use in
+biological applications. J. Appl. Polym. Sci. 2009;112(5):2701–2709. doi: 10.1002/app.29849.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/app.29849"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Appl. Polym. Sci.&amp;title=Surface-functionalization of plasma-treated polystyrene by hyperbranched polymers and use in biological applications&amp;author=A. Boulares-Pender&amp;author=A. Prager-Duschke&amp;author=C. Elsner&amp;author=M. R. Buchmeiser&amp;volume=112&amp;issue=5&amp;publication_year=2009&amp;pages=2701-2709&amp;doi=10.1002/app.29849&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Schenke-Layland K., Walles H.. Strategies
+in tissue engineering and regenerative medicine. Biotechnol. J. 2013;8(3):278–279. doi: 10.1002/biot.201300043.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/biot.201300043"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23460549"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. J.&amp;title=Strategies in tissue engineering and regenerative medicine&amp;author=K. Schenke-Layland&amp;author=H. Walles&amp;volume=8&amp;issue=3&amp;publication_year=2013&amp;pages=278-279&amp;pmid=23460549&amp;doi=10.1002/biot.201300043&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">
+
+Friedrich, J. F.
+
+The plasma chemistry
+of polymer surfaces: advanced techniques for surface design. in: Plasma
+Polymers; Wiley-VCH, 2012; pp 55–68.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=The plasma chemistry of polymer surfaces: advanced techniques for surface design. in: Plasma Polymers&amp;publication_year=2012&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Wang M. J., Chang Y. I., Poncin-Epaillard F.. Illustration
+of the interface between
+N2/CO2 plasmas and polystyrene surface. Surf.
+Interface Anal. 2005;37(3):325–331. doi: 10.1002/sia.2024.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sia.2024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Surf. Interface Anal.&amp;title=Illustration of the interface between N2/CO2 plasmas and polystyrene surface&amp;author=M. J. Wang&amp;author=Y. I. Chang&amp;author=F. Poncin-Epaillard&amp;volume=37&amp;issue=3&amp;publication_year=2005&amp;pages=325-331&amp;doi=10.1002/sia.2024&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Hegemann D., Brunner H., Oehr C.. Plasma treatment of polymers for
+surface and adhesion improvement. Instrum. Methods
+Phys. Res., Sect. B. 2003;208:281–286. doi: 10.1016/S0168-583X(03)00644-X.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0168-583X(03)00644-X"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Instrum. Methods Phys. Res., Sect. B&amp;title=Plasma treatment of polymers for surface and adhesion improvement&amp;author=D. Hegemann&amp;author=H. Brunner&amp;author=C. Oehr&amp;volume=208&amp;publication_year=2003&amp;pages=281-286&amp;doi=10.1016/S0168-583X(03)00644-X&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Hong Y., You X., Zeng Y., Chen Y., Huang Y., He W., Wang S., Wang C., Zhou G., Su X., Zhang W.. Air-plasma surface
+modification of epoxy resin substrate to improve
+electroless copper plating of printed circuit board. Vacuum. 2019;170:108967.  doi: 10.1016/j.vacuum.2019.108967.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.vacuum.2019.108967"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Vacuum&amp;title=Air-plasma surface modification of epoxy resin substrate to improve electroless copper plating of printed circuit board&amp;author=Y. Hong&amp;author=X. You&amp;author=Y. Zeng&amp;author=Y. Chen&amp;author=Y. Huang&amp;volume=170&amp;publication_year=2019&amp;pages=108967&amp;doi=10.1016/j.vacuum.2019.108967&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Primc G., Mozetič M.. Surface Modification of Polymers
+by Plasma Treatment
+for Appropriate Adhesion of Coatings. Materials. 2024;17(7):1494.  doi: 10.3390/ma17071494.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ma17071494"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11012850"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38612009"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Materials&amp;title=Surface Modification of Polymers by Plasma Treatment for Appropriate Adhesion of Coatings&amp;author=G. Primc&amp;author=M. Mozetič&amp;volume=17&amp;issue=7&amp;publication_year=2024&amp;pages=1494&amp;pmid=38612009&amp;doi=10.3390/ma17071494&amp;"/></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Wang M. J., Chang Y. I., Poncin-Epaillard F.. Acid and basic
+functionalities of
+nitrogen and carbon dioxide plasma-treated polystyrene. Surf. Interface Anal. 2005;37(3):348–355. doi: 10.1002/sia.2029.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/sia.2029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Surf. Interface Anal.&amp;title=Acid and basic functionalities of nitrogen and carbon dioxide plasma-treated polystyrene&amp;author=M. J. Wang&amp;author=Y. I. Chang&amp;author=F. Poncin-Epaillard&amp;volume=37&amp;issue=3&amp;publication_year=2005&amp;pages=348-355&amp;doi=10.1002/sia.2029&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">Wang M.-J., Chang Y.-I., Poncin-Epaillard F.. Effects of
+the addition of hydrogen
+in the nitrogen cold plasma: the surface modification of polystyrene. Langmuir. 2003;19(20):8325–8330. doi: 10.1021/la034023d.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/la034023d"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Langmuir&amp;title=Effects of the addition of hydrogen in the nitrogen cold plasma: the surface modification of polystyrene&amp;author=M.-J. Wang&amp;author=Y.-I. Chang&amp;author=F. Poncin-Epaillard&amp;volume=19&amp;issue=20&amp;publication_year=2003&amp;pages=8325-8330&amp;doi=10.1021/la034023d&amp;"/></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">Surya
+Arinda P., Joseph Djoko Herry Santjojo D., Masruroh M., Purnomo Sakti S.. Stability of Polystyrene Film Surface
+Wettability Modified Using Oxygen Plasma. Mater.
+Today: Proc. 2019;13:24–29. doi: 10.1016/j.matpr.2019.03.181.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.matpr.2019.03.181"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mater. Today: Proc.&amp;title=Stability of Polystyrene Film Surface Wettability Modified Using Oxygen Plasma&amp;author=P. Surya Arinda&amp;author=D. Joseph Djoko Herry Santjojo&amp;author=M. Masruroh&amp;author=S. Purnomo Sakti&amp;volume=13&amp;publication_year=2019&amp;pages=24-29&amp;doi=10.1016/j.matpr.2019.03.181&amp;"/></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Rübsam K., Stomps B., Böker A., Jakob F., Schwaneberg U.. Anchor peptides:
+A green and versatile method for polypropylene functionalization. Polymer. 2017;116:124–132. doi: 10.1016/j.polymer.2017.03.070.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.polymer.2017.03.070"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymer&amp;title=Anchor peptides: A green and versatile method for polypropylene functionalization&amp;author=K. Rübsam&amp;author=B. Stomps&amp;author=A. Böker&amp;author=F. Jakob&amp;author=U. Schwaneberg&amp;volume=116&amp;publication_year=2017&amp;pages=124-132&amp;doi=10.1016/j.polymer.2017.03.070&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Dedisch S., Wiens A., Davari M. D., Soder D., Rodriguez-Emmenegger C., Jakob F., Schwaneberg U.. Matter-tag:
+A universal immobilization
+platform for enzymes on polymers, metals, and silicon-based materials. Biotechnol. Bioeng. 2020;117(1):49–61. doi: 10.1002/bit.27181.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/bit.27181"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31549734"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Bioeng.&amp;title=Matter-tag: A universal immobilization platform for enzymes on polymers, metals, and silicon-based materials&amp;author=S. Dedisch&amp;author=A. Wiens&amp;author=M. D. Davari&amp;author=D. Soder&amp;author=C. Rodriguez-Emmenegger&amp;volume=117&amp;issue=1&amp;publication_year=2020&amp;pages=49-61&amp;pmid=31549734&amp;doi=10.1002/bit.27181&amp;"/></mixed-citation></ref><ref id="ref44"><mixed-citation id="cit44"><named-content content-type="citation-string">Mao M., Ahrens L., Luka J., Contreras F., Kurkina T., Bienstein M., de Passos M. S. P., Schirinzi G., Mehn D., Valsesia A.. et al. Material-specific
+binding peptides empower sustainable innovations in plant health,
+biocatalysis, medicine and microplastic quantification. Chem. Soc. Rev. 2024;53:6445–6510. doi: 10.1039/D2CS00991A.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D2CS00991A"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38747901"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Soc. Rev.&amp;title=Material-specific binding peptides empower sustainable innovations in plant health, biocatalysis, medicine and microplastic quantification&amp;author=M. Mao&amp;author=L. Ahrens&amp;author=J. Luka&amp;author=F. Contreras&amp;author=T. Kurkina&amp;volume=53&amp;publication_year=2024&amp;pages=6445-6510&amp;pmid=38747901&amp;doi=10.1039/D2CS00991A&amp;"/></mixed-citation></ref><ref id="ref45"><mixed-citation id="cit45"><named-content content-type="citation-string">Ruan Y., Sohail M., Zhao J., Hu F., Li Y., Wang P., Zhang L.. Applications of material-binding
+peptides: A review. ACS Biomater. Sci. Eng. 2022;8(11):4738–4750. doi: 10.1021/acsbiomaterials.2c00651.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acsbiomaterials.2c00651"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36229413"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Biomater. Sci. Eng.&amp;title=Applications of material-binding peptides: A review&amp;author=Y. Ruan&amp;author=M. Sohail&amp;author=J. Zhao&amp;author=F. Hu&amp;author=Y. Li&amp;volume=8&amp;issue=11&amp;publication_year=2022&amp;pages=4738-4750&amp;pmid=36229413&amp;doi=10.1021/acsbiomaterials.2c00651&amp;"/></mixed-citation></ref><ref id="ref46"><mixed-citation id="cit46"><named-content content-type="citation-string">Guillén D., Sánchez S., Rodríguez-Sanoja R.. Carbohydrate-binding
+domains: multiplicity of biological roles. Appl.
+Microbiol. Biotechnol. 2010;85:1241–1249. doi: 10.1007/s00253-009-2331-y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00253-009-2331-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19908036"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Microbiol. Biotechnol.&amp;title=Carbohydrate-binding domains: multiplicity of biological roles&amp;author=D. Guillén&amp;author=S. Sánchez&amp;author=R. Rodríguez-Sanoja&amp;volume=85&amp;publication_year=2010&amp;pages=1241-1249&amp;pmid=19908036&amp;doi=10.1007/s00253-009-2331-y&amp;"/></mixed-citation></ref><ref id="ref47"><mixed-citation id="cit47"><named-content content-type="citation-string">Levy I., Shoseyov O.. Cellulose-binding domains: biotechnological
+applications. Biotechnol. Adv. 2002;20(3–4):191–213. doi: 10.1016/S0734-9750(02)00006-X.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0734-9750(02)00006-X"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14550028"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Adv.&amp;title=Cellulose-binding domains: biotechnological applications&amp;author=I. Levy&amp;author=O. Shoseyov&amp;volume=20&amp;issue=3–4&amp;publication_year=2002&amp;pages=191-213&amp;pmid=14550028&amp;doi=10.1016/S0734-9750(02)00006-X&amp;"/></mixed-citation></ref><ref id="ref48"><mixed-citation id="cit48"><named-content content-type="citation-string">Weber J., Petrović D., Strodel B., Smits S. H., Kolkenbrock S., Leggewie C., Jaeger K.-E.. Interaction of carbohydrate-binding
+modules with poly (ethylene terephthalate) Appl. Microbiol. Biotechnol. 2019;103:4801–4812. doi: 10.1007/s00253-019-09760-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00253-019-09760-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6536475"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30993383"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Microbiol. Biotechnol.&amp;title=Interaction of carbohydrate-binding modules with poly (ethylene terephthalate)&amp;author=J. Weber&amp;author=D. Petrović&amp;author=B. Strodel&amp;author=S. H. Smits&amp;author=S. Kolkenbrock&amp;volume=103&amp;publication_year=2019&amp;pages=4801-4812&amp;pmid=30993383&amp;doi=10.1007/s00253-019-09760-9&amp;"/></mixed-citation></ref><ref id="ref49"><mixed-citation id="cit49"><named-content content-type="citation-string">Ribitsch D., Yebra A. O., Zitzenbacher S., Wu J., Nowitsch S., Steinkellner G., Greimel K., Doliska A., Oberdorfer G., Gruber C. C.. et al. Fusion of binding domains
+to Thermobifida cellulosilytica
+cutinase to tune sorption characteristics and enhancing PET hydrolysis. Biomacromolecules. 2013;14(6):1769–1776. doi: 10.1021/bm400140u.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/bm400140u"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23718548"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biomacromolecules&amp;title=Fusion of binding domains to Thermobifida cellulosilytica cutinase to tune sorption characteristics and enhancing PET hydrolysis&amp;author=D. Ribitsch&amp;author=A. O. Yebra&amp;author=S. Zitzenbacher&amp;author=J. Wu&amp;author=S. Nowitsch&amp;volume=14&amp;issue=6&amp;publication_year=2013&amp;pages=1769-1776&amp;pmid=23718548&amp;doi=10.1021/bm400140u&amp;"/></mixed-citation></ref><ref id="ref50"><mixed-citation id="cit50"><named-content content-type="citation-string">Apitius L., Buschmann S., Bergs C., Schönauer D., Jakob F., Pich A., Schwaneberg U.. Biadhesive
+peptides for assembling stainless steel and compound loaded micro-containers. Macromol. Biosci. 2019;19(9):1900125.  doi: 10.1002/mabi.201900125.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/mabi.201900125"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31361077"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Macromol. Biosci.&amp;title=Biadhesive peptides for assembling stainless steel and compound loaded micro-containers&amp;author=L. Apitius&amp;author=S. Buschmann&amp;author=C. Bergs&amp;author=D. Schönauer&amp;author=F. Jakob&amp;volume=19&amp;issue=9&amp;publication_year=2019&amp;pages=1900125&amp;pmid=31361077&amp;doi=10.1002/mabi.201900125&amp;"/></mixed-citation></ref><ref id="ref51"><mixed-citation id="cit51"><named-content content-type="citation-string">Dedisch S., Obstals F., de los Santos Pereira A., Bruns M., Jakob F., Schwaneberg U., Rodriguez-Emmenegger C.. Turning a
+killing mechanism into an adhesion and antifouling advantage. Adv. Mater. Interfaces. 2019;6(18):1900847.  doi: 10.1002/admi.201900847.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/admi.201900847"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Mater. Interfaces&amp;title=Turning a killing mechanism into an adhesion and antifouling advantage&amp;author=S. Dedisch&amp;author=F. Obstals&amp;author=A. de los Santos Pereira&amp;author=M. Bruns&amp;author=F. Jakob&amp;volume=6&amp;issue=18&amp;publication_year=2019&amp;pages=1900847&amp;doi=10.1002/admi.201900847&amp;"/></mixed-citation></ref><ref id="ref52"><mixed-citation id="cit52"><named-content content-type="citation-string">Meurer R. A., Kemper S., Knopp S., Eichert T., Jakob F., Goldbach H. E., Schwaneberg U., Pich A.. Biofunctional microgel-based
+fertilizers for controlled foliar delivery of nutrients to plants. Angew. Chem., Int. Ed. 2017;56(26):7380–7386. doi: 10.1002/anie.201701620.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/anie.201701620"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28524364"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Angew. Chem., Int. Ed.&amp;title=Biofunctional microgel-based fertilizers for controlled foliar delivery of nutrients to plants&amp;author=R. A. Meurer&amp;author=S. Kemper&amp;author=S. Knopp&amp;author=T. Eichert&amp;author=F. Jakob&amp;volume=56&amp;issue=26&amp;publication_year=2017&amp;pages=7380-7386&amp;pmid=28524364&amp;doi=10.1002/anie.201701620&amp;"/></mixed-citation></ref><ref id="ref53"><mixed-citation id="cit53"><named-content content-type="citation-string">Schwinges P., Pariyar S., Jakob F., Rahimi M., Apitius L., Hunsche M., Schmitt L., Noga G., Langenbach C., Schwaneberg U., Conrath U.. A bifunctional dermaseptin–thanatin
+dipeptide functionalizes the crop surface for sustainable pest management. Green Chem. 2019;21(9):2316–2325. doi: 10.1039/C9GC00457B.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C9GC00457B"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Green Chem.&amp;title=A bifunctional dermaseptin–thanatin dipeptide functionalizes the crop surface for sustainable pest management&amp;author=P. Schwinges&amp;author=S. Pariyar&amp;author=F. Jakob&amp;author=M. Rahimi&amp;author=L. Apitius&amp;volume=21&amp;issue=9&amp;publication_year=2019&amp;pages=2316-2325&amp;doi=10.1039/C9GC00457B&amp;"/></mixed-citation></ref><ref id="ref54"><mixed-citation id="cit54"><named-content content-type="citation-string">Rübsam K., Weber L., Jakob F., Schwaneberg U.. Directed evolution
+of polypropylene and polystyrene binding peptides. Biotechnol. Bioeng. 2018;115(2):321–330. doi: 10.1002/bit.26481.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/bit.26481"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29064564"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Bioeng.&amp;title=Directed evolution of polypropylene and polystyrene binding peptides&amp;author=K. Rübsam&amp;author=L. Weber&amp;author=F. Jakob&amp;author=U. Schwaneberg&amp;volume=115&amp;issue=2&amp;publication_year=2018&amp;pages=321-330&amp;pmid=29064564&amp;doi=10.1002/bit.26481&amp;"/></mixed-citation></ref><ref id="ref55"><mixed-citation id="cit55"><named-content content-type="citation-string">Liu Y., Liu Z., Guo X., Tong K., Niu Y., Shen Z., Weng H., Zhang F., Wu J.. Enhanced degradation
+activity of PET plastics by fusion protein of anchor peptide LCI and
+Thermobifida fusca cutinase. Enzyme Microb.
+Technol. 2025;184:110562.  doi: 10.1016/j.enzmictec.2024.110562.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.enzmictec.2024.110562"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39653629"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Enzyme Microb. Technol.&amp;title=Enhanced degradation activity of PET plastics by fusion protein of anchor peptide LCI and Thermobifida fusca cutinase&amp;author=Y. Liu&amp;author=Z. Liu&amp;author=X. Guo&amp;author=K. Tong&amp;author=Y. Niu&amp;volume=184&amp;publication_year=2025&amp;pages=110562&amp;pmid=39653629&amp;doi=10.1016/j.enzmictec.2024.110562&amp;"/></mixed-citation></ref><ref id="ref56"><mixed-citation id="cit56"><named-content content-type="citation-string">Wang Y., Akram E., Ding Y., He C., Zhang Y.. Fusion of
+Hydrophobic Anchor Peptides Promotes the Hydrolytic Activity of PETase
+but not the Extent of PET Depolymerization. ChemCatChem. 2025;17(3):e202401252.  doi: 10.1002/cctc.202401252.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cctc.202401252"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ChemCatChem.&amp;title=Fusion of Hydrophobic Anchor Peptides Promotes the Hydrolytic Activity of PETase but not the Extent of PET Depolymerization&amp;author=Y. Wang&amp;author=E. Akram&amp;author=Y. Ding&amp;author=C. He&amp;author=Y. Zhang&amp;volume=17&amp;issue=3&amp;publication_year=2025&amp;pages=e202401252&amp;doi=10.1002/cctc.202401252&amp;"/></mixed-citation></ref><ref id="ref57"><mixed-citation id="cit57"><named-content content-type="citation-string">Li W., Yan X., Xia W., Zhao L., Pei J.. One-step direct immobilization
+of engineered prenyltransferase on polystyrene for prenylated flavonoid
+production. Molecular Catalysis. 2025;579:115047.  doi: 10.1016/j.mcat.2025.115047.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.mcat.2025.115047"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecular Catalysis&amp;title=One-step direct immobilization of engineered prenyltransferase on polystyrene for prenylated flavonoid production&amp;author=W. Li&amp;author=X. Yan&amp;author=W. Xia&amp;author=L. Zhao&amp;author=J. Pei&amp;volume=579&amp;publication_year=2025&amp;pages=115047&amp;doi=10.1016/j.mcat.2025.115047&amp;"/></mixed-citation></ref><ref id="ref58"><mixed-citation id="cit58"><named-content content-type="citation-string">Care A., Bergquist P. L., Sunna A.. Solid-binding peptides: smart tools
+for nanobiotechnology. Trends Biotechnol. 2015;33(5):259–268. doi: 10.1016/j.tibtech.2015.02.005.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tibtech.2015.02.005"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25796487"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Biotechnol.&amp;title=Solid-binding peptides: smart tools for nanobiotechnology&amp;author=A. Care&amp;author=P. L. Bergquist&amp;author=A. Sunna&amp;volume=33&amp;issue=5&amp;publication_year=2015&amp;pages=259-268&amp;pmid=25796487&amp;doi=10.1016/j.tibtech.2015.02.005&amp;"/></mixed-citation></ref><ref id="ref59"><mixed-citation id="cit59"><named-content content-type="citation-string">Alvisi N., de Vries R.. Biomedical applications of solid-binding peptides and
+proteins. Materials Today Bio. 2023;19:100580.  doi: 10.1016/j.mtbio.2023.100580.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.mtbio.2023.100580"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9950531"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36846310"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Materials Today Bio.&amp;title=Biomedical applications of solid-binding peptides and proteins&amp;author=N. Alvisi&amp;author=R. de Vries&amp;volume=19&amp;publication_year=2023&amp;pages=100580&amp;pmid=36846310&amp;doi=10.1016/j.mtbio.2023.100580&amp;"/></mixed-citation></ref><ref id="ref60"><mixed-citation id="cit60"><named-content content-type="citation-string">Lu Y., Bourdeaux F., Nian B., Manimaran P., Verma B., Rommerskirchen M., Bold S., Zhu L., Ji Y., Schleifenbaum J. H., Schwaneberg U.. Engineered
+material-binding peptide empowers biocatalysis in stainless steel
+flow reactors for phosphate recovery. Chem. 2025;11:102395.  doi: 10.1016/j.chempr.2024.102395.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.chempr.2024.102395"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem.&amp;title=Engineered material-binding peptide empowers biocatalysis in stainless steel flow reactors for phosphate recovery&amp;author=Y. Lu&amp;author=F. Bourdeaux&amp;author=B. Nian&amp;author=P. Manimaran&amp;author=B. Verma&amp;volume=11&amp;publication_year=2025&amp;pages=102395&amp;doi=10.1016/j.chempr.2024.102395&amp;"/></mixed-citation></ref><ref id="ref61"><mixed-citation id="cit61"><named-content content-type="citation-string">Cui H., Zhang L., Söder D., Tang X., Davari M. D., Schwaneberg U.. Rapid and
+Oriented Immobilization of Laccases on Electrodes
+via a Methionine-Rich Peptide. ACS Catal. 2021;11(4):2445–2453. doi: 10.1021/acscatal.0c05490.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscatal.0c05490"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Catal.&amp;title=Rapid and Oriented Immobilization of Laccases on Electrodes via a Methionine-Rich Peptide&amp;author=H. Cui&amp;author=L. Zhang&amp;author=D. Söder&amp;author=X. Tang&amp;author=M. D. Davari&amp;volume=11&amp;issue=4&amp;publication_year=2021&amp;pages=2445-2453&amp;doi=10.1021/acscatal.0c05490&amp;"/></mixed-citation></ref><ref id="ref62"><mixed-citation id="cit62"><named-content content-type="citation-string">Lu Y., Hintzen K. W., Kurkina T., Ji Y., Schwaneberg U.. A Competitive
+High-Throughput Screening Platform for Designing Polylactic Acid-Specific
+Binding Peptides. Adv. Sci. 2023;10(29):2303195.  doi: 10.1002/advs.202303195.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/advs.202303195"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10582454"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37612817"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Sci.&amp;title=A Competitive High-Throughput Screening Platform for Designing Polylactic Acid-Specific Binding Peptides&amp;author=Y. Lu&amp;author=K. W. Hintzen&amp;author=T. Kurkina&amp;author=Y. Ji&amp;author=U. Schwaneberg&amp;volume=10&amp;issue=29&amp;publication_year=2023&amp;pages=2303195&amp;pmid=37612817&amp;doi=10.1002/advs.202303195&amp;"/></mixed-citation></ref><ref id="ref63"><mixed-citation id="cit63"><named-content content-type="citation-string">Yücesoy D. T., Khatayevich D., Moy V. T., Tamerler C., Zauscher S.. Rationally
+designed chimeric solid-binding peptides for tailoring solid interfaces. Med. Devices Sens. 2020;3(5):e10109.  doi: 10.1002/mds3.10065.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/mds3.10065"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Med. Devices Sens.&amp;title=Rationally designed chimeric solid-binding peptides for tailoring solid interfaces&amp;author=D. T. Yücesoy&amp;author=D. Khatayevich&amp;author=V. T. Moy&amp;author=C. Tamerler&amp;author=S. Zauscher&amp;volume=3&amp;issue=5&amp;publication_year=2020&amp;pages=e10109&amp;doi=10.1002/mds3.10065&amp;"/></mixed-citation></ref><ref id="ref64"><mixed-citation id="cit64"><named-content content-type="citation-string">Qiang X., Sun K., Xing L., Xu Y., Wang H., Zhou Z., Zhang J., Zhang F., Caliskan B., Wang M., Qiu Z.. Discovery of a polystyrene binding peptide isolated from phage display
+library and its application in peptide immobilization. Sci. Rep. 2017;7(1):2673.  doi: 10.1038/s41598-017-02891-x.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-017-02891-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5453990"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28572662"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=Discovery of a polystyrene binding peptide isolated from phage display library and its application in peptide immobilization&amp;author=X. Qiang&amp;author=K. Sun&amp;author=L. Xing&amp;author=Y. Xu&amp;author=H. Wang&amp;volume=7&amp;issue=1&amp;publication_year=2017&amp;pages=2673&amp;pmid=28572662&amp;doi=10.1038/s41598-017-02891-x&amp;"/></mixed-citation></ref><ref id="ref65"><mixed-citation id="cit65"><named-content content-type="citation-string">Cheng F., Zhu L., Schwaneberg U.. Directed evolution 2.0: improving and deciphering enzyme
+properties. Chem. Commun. (Camb) 2015;51(48):9760–9772. doi: 10.1039/C5CC01594D.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C5CC01594D"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25874672"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Commun. (Camb)&amp;title=Directed evolution 2.0: improving and deciphering enzyme properties&amp;author=F. Cheng&amp;author=L. Zhu&amp;author=U. Schwaneberg&amp;volume=51&amp;issue=48&amp;publication_year=2015&amp;pages=9760-9772&amp;pmid=25874672&amp;doi=10.1039/C5CC01594D&amp;"/></mixed-citation></ref><ref id="ref66"><mixed-citation id="cit66"><named-content content-type="citation-string">Dennig A., Shivange A. V., Marienhagen J., Schwaneberg U.. OmniChange:
+the sequence independent method for simultaneous site-saturation of
+five codons. PLoS One. 2011;6(10):e26222.  doi: 10.1371/journal.pone.0026222.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0026222"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3198389"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22039444"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=OmniChange: the sequence independent method for simultaneous site-saturation of five codons&amp;author=A. Dennig&amp;author=A. V. Shivange&amp;author=J. Marienhagen&amp;author=U. Schwaneberg&amp;volume=6&amp;issue=10&amp;publication_year=2011&amp;pages=e26222&amp;pmid=22039444&amp;doi=10.1371/journal.pone.0026222&amp;"/></mixed-citation></ref><ref id="ref67"><mixed-citation id="cit67"><named-content content-type="citation-string">Wong T. S., Tee K. L., Hauer B., Schwaneberg U.. Sequence saturation
+mutagenesis (SeSaM): a novel method for directed evolution. Nucleic Acids Res. 2004;32(3):e26.  doi: 10.1093/nar/gnh028.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nar/gnh028"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC373423"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14872057"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nucleic Acids Res.&amp;title=Sequence saturation mutagenesis (SeSaM): a novel method for directed evolution&amp;author=T. S. Wong&amp;author=K. L. Tee&amp;author=B. Hauer&amp;author=U. Schwaneberg&amp;volume=32&amp;issue=3&amp;publication_year=2004&amp;pages=e26&amp;pmid=14872057&amp;doi=10.1093/nar/gnh028&amp;"/></mixed-citation></ref><ref id="ref68"><mixed-citation id="cit68"><named-content content-type="citation-string">Yang J., Ruff A. J., Arlt M., Schwaneberg U.. Casting epPCR
+(cepPCR): A simple random mutagenesis method to generate high quality
+mutant libraries. Biotechnol. Bioeng. 2017;114(9):1921–1927. doi: 10.1002/bit.26327.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/bit.26327"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28464223"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Bioeng.&amp;title=Casting epPCR (cepPCR): A simple random mutagenesis method to generate high quality mutant libraries&amp;author=J. Yang&amp;author=A. J. Ruff&amp;author=M. Arlt&amp;author=U. Schwaneberg&amp;volume=114&amp;issue=9&amp;publication_year=2017&amp;pages=1921-1927&amp;pmid=28464223&amp;doi=10.1002/bit.26327&amp;"/></mixed-citation></ref><ref id="ref69"><mixed-citation id="cit69"><named-content content-type="citation-string">Rübsam K., Davari M. D., Jakob F., Schwaneberg U.. KnowVolution
+of the polymer-binding peptide LCI for improved polypropylene binding. Polymers. 2018;10(4):423.  doi: 10.3390/polym10040423.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/polym10040423"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6415234"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30966458"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymers&amp;title=KnowVolution of the polymer-binding peptide LCI for improved polypropylene binding&amp;author=K. Rübsam&amp;author=M. D. Davari&amp;author=F. Jakob&amp;author=U. Schwaneberg&amp;volume=10&amp;issue=4&amp;publication_year=2018&amp;pages=423&amp;pmid=30966458&amp;doi=10.3390/polym10040423&amp;"/></mixed-citation></ref><ref id="ref70"><mixed-citation id="cit70"><named-content content-type="citation-string">Lu Y., Hintzen K.-W., Kurkina T., Ji Y., Schwaneberg U.. Directed evolution
+of material binding peptide for polylactic acid-specific degradation
+in mixed plastic wastes. ACS catal. 2023;13(19):12746–12754. doi: 10.1021/acscatal.3c02142.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscatal.3c02142"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10564037"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37822861"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS catal.&amp;title=Directed evolution of material binding peptide for polylactic acid-specific degradation in mixed plastic wastes&amp;author=Y. Lu&amp;author=K.-W. Hintzen&amp;author=T. Kurkina&amp;author=Y. Ji&amp;author=U. Schwaneberg&amp;volume=13&amp;issue=19&amp;publication_year=2023&amp;pages=12746-12754&amp;pmid=37822861&amp;doi=10.1021/acscatal.3c02142&amp;"/></mixed-citation></ref><ref id="ref71"><mixed-citation id="cit71"><named-content content-type="citation-string">Islam S., Apitius L., Jakob F., Schwaneberg U.. Targeting
+microplastic particles in the void of diluted suspensions. Environ. Int. 2019;123:428–435. doi: 10.1016/j.envint.2018.12.029.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.envint.2018.12.029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30622067"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Int.&amp;title=Targeting microplastic particles in the void of diluted suspensions&amp;author=S. Islam&amp;author=L. Apitius&amp;author=F. Jakob&amp;author=U. Schwaneberg&amp;volume=123&amp;publication_year=2019&amp;pages=428-435&amp;pmid=30622067&amp;doi=10.1016/j.envint.2018.12.029&amp;"/></mixed-citation></ref><ref id="ref72"><mixed-citation id="cit72"><named-content content-type="citation-string">Bauten W., Noth M., Kurkina T., Contreras F., Ji Y., Desmet C., Serra M. A., Gilliland D., Schwaneberg U.. Plastibodies for multiplexed detection and sorting
+of microplastic particles in high-throughput. Sci. Total Environ. 2023;860:160450.  doi: 10.1016/j.scitotenv.2022.160450.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2022.160450"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36435257"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Total Environ.&amp;title=Plastibodies for multiplexed detection and sorting of microplastic particles in high-throughput&amp;author=W. Bauten&amp;author=M. Noth&amp;author=T. Kurkina&amp;author=F. Contreras&amp;author=Y. Ji&amp;volume=860&amp;publication_year=2023&amp;pages=160450&amp;pmid=36435257&amp;doi=10.1016/j.scitotenv.2022.160450&amp;"/></mixed-citation></ref><ref id="ref73"><mixed-citation id="cit73"><named-content content-type="citation-string">Liu L., Fokkink R., Koelmans A. A.. Sorption
+of polycyclic aromatic hydrocarbons
+to polystyrene nanoplastic. Environ. Toxicol.
+Chem. 2015;35(7):1650–1655. doi: 10.1002/etc.3311.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/etc.3311"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26588181"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Toxicol. Chem.&amp;title=Sorption of polycyclic aromatic hydrocarbons to polystyrene nanoplastic&amp;author=L. Liu&amp;author=R. Fokkink&amp;author=A. A. Koelmans&amp;volume=35&amp;issue=7&amp;publication_year=2015&amp;pages=1650-1655&amp;pmid=26588181&amp;doi=10.1002/etc.3311&amp;"/></mixed-citation></ref><ref id="ref74"><mixed-citation id="cit74"><named-content content-type="citation-string">Łojkowski M., Choińska E., Swieszkowski W.. The role of solvent solubility parameters
+in the formation of intermittent low and high molecular weight polystyrene
+rich structures in a thin film resulting from water vapor induced
+phase separation. Mater. Lett. 2022;321:132390.  doi: 10.1016/j.matlet.2022.132390.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.matlet.2022.132390"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mater. Lett.&amp;title=The role of solvent solubility parameters in the formation of intermittent low and high molecular weight polystyrene rich structures in a thin film resulting from water vapor induced phase separation&amp;author=M. Łojkowski&amp;author=E. Choińska&amp;author=W. Swieszkowski&amp;volume=321&amp;publication_year=2022&amp;pages=132390&amp;doi=10.1016/j.matlet.2022.132390&amp;"/></mixed-citation></ref><ref id="ref75"><mixed-citation id="cit75"><named-content content-type="citation-string">KRUSE R. L.. Styrene-polymer
+interaction parameters in high impact polystyrene. Adv. Chem. 1975;142:141–147. doi: 10.1021/ba-1975-0142.ch013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ba-1975-0142.ch013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Chem.&amp;title=Styrene-polymer interaction parameters in high impact polystyrene&amp;author=R. L. KRUSE&amp;volume=142&amp;publication_year=1975&amp;pages=141-147&amp;doi=10.1021/ba-1975-0142.ch013&amp;"/></mixed-citation></ref><ref id="ref76"><mixed-citation id="cit76"><named-content content-type="citation-string">Woo H., Kang S. H., Kwon Y., Choi Y., Kim J., Ha D. H., Tanaka M., Okochi M., Kim J. S., Kim H. K., Choi J.. Sensitive and specific capture of
+polystyrene and polypropylene microplastics using engineered peptide
+biosensors. RSC Adv. 2022;12(13):7680–7688. doi: 10.1039/D1RA08701K.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D1RA08701K"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8982333"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35424716"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=RSC Adv.&amp;title=Sensitive and specific capture of polystyrene and polypropylene microplastics using engineered peptide biosensors&amp;author=H. Woo&amp;author=S. H. Kang&amp;author=Y. Kwon&amp;author=Y. Choi&amp;author=J. Kim&amp;volume=12&amp;issue=13&amp;publication_year=2022&amp;pages=7680-7688&amp;pmid=35424716&amp;doi=10.1039/D1RA08701K&amp;"/></mixed-citation></ref><ref id="ref77"><mixed-citation id="cit77"><named-content content-type="citation-string">
+
+Danner, R. P.
+; 
+High, M. S.
+. 
+Fundamentals
+of polymer solution thermodynamics. In Handbook
+of polymer solution thermodynamics; AIChE/Wiley, 1993; Vol. 3–30.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Handbook of polymer solution thermodynamics&amp;publication_year=1993&amp;"/></mixed-citation></ref><ref id="ref78"><mixed-citation id="cit78"><named-content content-type="citation-string">Adey N. B., Mataragnon A. H., Rider J. E., Carter J. M., Kay B. K.. Characterization
+of phage that bind plastic from phage-displayed random peptide libraries. Gene. 1995;156(1):27–31. doi: 10.1016/0378-1119(95)00058-E.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0378-1119(95)00058-E"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="7737512"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Gene&amp;title=Characterization of phage that bind plastic from phage-displayed random peptide libraries&amp;author=N. B. Adey&amp;author=A. H. Mataragnon&amp;author=J. E. Rider&amp;author=J. M. Carter&amp;author=B. K. Kay&amp;volume=156&amp;issue=1&amp;publication_year=1995&amp;pages=27-31&amp;pmid=7737512&amp;doi=10.1016/0378-1119(95)00058-E&amp;"/></mixed-citation></ref><ref id="ref79"><mixed-citation id="cit79"><named-content content-type="citation-string">Gebhardt K., Lauvrak V., Babaie E., Eijsink V., Lindqvist B.. Adhesive peptides
+selected by phage display: characterization, applications and similarities
+with fibrinogen. Pept. Res. 1996;9(6):269–278.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9048419"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Pept. Res.&amp;title=Adhesive peptides selected by phage display: characterization, applications and similarities with fibrinogen&amp;author=K. Gebhardt&amp;author=V. Lauvrak&amp;author=E. Babaie&amp;author=V. Eijsink&amp;author=B. Lindqvist&amp;volume=9&amp;issue=6&amp;publication_year=1996&amp;pages=269-278&amp;pmid=9048419&amp;"/></mixed-citation></ref><ref id="ref80"><mixed-citation id="cit80"><named-content content-type="citation-string">Caparon M. H., De Ciechi P. A., Devine C. S., Olins P. O., Lee S. C.. Analysis
+of novel streptavidin-binding peptides, identified using a phage display
+library, shows that amino acids external to a perfectly conserved
+consensus sequence and to the presented peptides contribute to binding. Mol. Divers. 1996;1:241–246. doi: 10.1007/BF01715528.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/BF01715528"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9237215"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mol. Divers.&amp;title=Analysis of novel streptavidin-binding peptides, identified using a phage display library, shows that amino acids external to a perfectly conserved consensus sequence and to the presented peptides contribute to binding&amp;author=M. H. Caparon&amp;author=P. A. De Ciechi&amp;author=C. S. Devine&amp;author=P. O. Olins&amp;author=S. C. Lee&amp;volume=1&amp;publication_year=1996&amp;pages=241-246&amp;pmid=9237215&amp;doi=10.1007/BF01715528&amp;"/></mixed-citation></ref><ref id="ref81"><mixed-citation id="cit81"><named-content content-type="citation-string">Menendez A., Scott J. K.. The nature of target-unrelated peptides recovered in
+the screening of phage-displayed random peptide libraries with antibodies. Anal. Biochem. 2005;336(2):145–157. doi: 10.1016/j.ab.2004.09.048.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ab.2004.09.048"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15620878"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Anal. Biochem.&amp;title=The nature of target-unrelated peptides recovered in the screening of phage-displayed random peptide libraries with antibodies&amp;author=A. Menendez&amp;author=J. K. Scott&amp;volume=336&amp;issue=2&amp;publication_year=2005&amp;pages=145-157&amp;pmid=15620878&amp;doi=10.1016/j.ab.2004.09.048&amp;"/></mixed-citation></ref><ref id="ref82"><mixed-citation id="cit82"><named-content content-type="citation-string">Serizawa T., Sawada T., Matsuno H.. Highly specific
+affinities of short
+peptides against synthetic polymers. Langmuir. 2007;23(22):11127–11133. doi: 10.1021/la701822n.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/la701822n"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17910487"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Langmuir&amp;title=Highly specific affinities of short peptides against synthetic polymers&amp;author=T. Serizawa&amp;author=T. Sawada&amp;author=H. Matsuno&amp;volume=23&amp;issue=22&amp;publication_year=2007&amp;pages=11127-11133&amp;pmid=17910487&amp;doi=10.1021/la701822n&amp;"/></mixed-citation></ref><ref id="ref83"><mixed-citation id="cit83"><named-content content-type="citation-string">Vodnik M., Štrukelj B., Lunder M.. HWGMWSY, an unanticipated polystyrene
+binding peptide from random phage display libraries. Anal. Biochem. 2012;424(2):83–86. doi: 10.1016/j.ab.2012.02.013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ab.2012.02.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22370277"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Anal. Biochem.&amp;title=HWGMWSY, an unanticipated polystyrene binding peptide from random phage display libraries&amp;author=M. Vodnik&amp;author=B. Štrukelj&amp;author=M. Lunder&amp;volume=424&amp;issue=2&amp;publication_year=2012&amp;pages=83-86&amp;pmid=22370277&amp;doi=10.1016/j.ab.2012.02.013&amp;"/></mixed-citation></ref><ref id="ref84"><mixed-citation id="cit84"><named-content content-type="citation-string">Zou Z., Mate D. M., Rübsam K., Jakob F., Schwaneberg U.. Sortase-mediated
+high-throughput screening platform for directed enzyme evolution. ACS Comb. Sci. 2018;20(4):203–211. doi: 10.1021/acscombsci.7b00153.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscombsci.7b00153"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29363945"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Comb. Sci.&amp;title=Sortase-mediated high-throughput screening platform for directed enzyme evolution&amp;author=Z. Zou&amp;author=D. M. Mate&amp;author=K. Rübsam&amp;author=F. Jakob&amp;author=U. Schwaneberg&amp;volume=20&amp;issue=4&amp;publication_year=2018&amp;pages=203-211&amp;pmid=29363945&amp;doi=10.1021/acscombsci.7b00153&amp;"/></mixed-citation></ref><ref id="ref85"><mixed-citation id="cit85"><named-content content-type="citation-string">Schaefer C., Rost B.. Predict impact of single
+amino acid change upon protein structure. BMC
+Genomics. 2012;13(Suppl
+4):S4.  doi: 10.1186/1471-2164-13-S4-S4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/1471-2164-13-S4-S4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3395892"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22759652"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Genomics&amp;title=Predict impact of single amino acid change upon protein structure&amp;author=C. Schaefer&amp;author=B. Rost&amp;volume=13&amp;issue=Suppl 4&amp;publication_year=2012&amp;pages=S4&amp;pmid=22759652&amp;doi=10.1186/1471-2164-13-S4-S4&amp;"/></mixed-citation></ref><ref id="ref86"><mixed-citation id="cit86"><named-content content-type="citation-string">Söder D., Garay-Sarmiento M., Garay-Sarmiento M., Rahimi K., Obstals F., Dedisch S., Haraszti T., Davari M. D., Jakob F., Heß C., Schwaneberg U.. Unraveling the mechanism and kinetics
+of binding of an LCI-eGFP-polymer for antifouling coatings. Macromol. Biosci. 2021;21(9):2100158.  doi: 10.1002/mabi.202100158.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/mabi.202100158"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34145970"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Macromol. Biosci.&amp;title=Unraveling the mechanism and kinetics of binding of an LCI-eGFP-polymer for antifouling coatings&amp;author=D. Söder&amp;author=M. Garay-Sarmiento&amp;author=M. Garay-Sarmiento&amp;author=K. Rahimi&amp;author=F. Obstals&amp;volume=21&amp;issue=9&amp;publication_year=2021&amp;pages=2100158&amp;pmid=34145970&amp;doi=10.1002/mabi.202100158&amp;"/></mixed-citation></ref><ref id="ref87"><mixed-citation id="cit87"><named-content content-type="citation-string">Jo S., Kim T., Iyer V. G., Im W.. CHARMM-GUI: a web-based graphical
+user interface for CHARMM. J. Comput. Chem. 2008;29(11):1859–1865. doi: 10.1002/jcc.20945.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcc.20945"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18351591"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Comput. Chem.&amp;title=CHARMM-GUI: a web-based graphical user interface for CHARMM&amp;author=S. Jo&amp;author=T. Kim&amp;author=V. G. Iyer&amp;author=W. Im&amp;volume=29&amp;issue=11&amp;publication_year=2008&amp;pages=1859-1865&amp;pmid=18351591&amp;doi=10.1002/jcc.20945&amp;"/></mixed-citation></ref><ref id="ref88"><mixed-citation id="cit88"><named-content content-type="citation-string">Choi Y. K., Park S.-J., Park S., Kim S., Kern N. R., Lee J., Im W.. CHARMM-GUI polymer
+builder for modeling and simulation
+of synthetic polymers. J. Chem. Theory Comput. 2021;17(4):2431–2443. doi: 10.1021/acs.jctc.1c00169.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jctc.1c00169"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8078172"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33797913"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Theory Comput.&amp;title=CHARMM-GUI polymer builder for modeling and simulation of synthetic polymers&amp;author=Y. K. Choi&amp;author=S.-J. Park&amp;author=S. Park&amp;author=S. Kim&amp;author=N. R. Kern&amp;volume=17&amp;issue=4&amp;publication_year=2021&amp;pages=2431-2443&amp;pmid=33797913&amp;doi=10.1021/acs.jctc.1c00169&amp;"/></mixed-citation></ref><ref id="ref89"><mixed-citation id="cit89"><named-content content-type="citation-string">Abraham M. J., Murtola T., Schulz R., Páll S., Smith J. C., Hess B., Lindahl E.. GROMACS: High performance
+molecular simulations through multi-level parallelism from laptops
+to supercomputers. SoftwareX. 2015;1–2:19–25. doi: 10.1016/j.softx.2015.06.001.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.softx.2015.06.001"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=SoftwareX&amp;title=GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers&amp;author=M. J. Abraham&amp;author=T. Murtola&amp;author=R. Schulz&amp;author=S. Páll&amp;author=J. C. Smith&amp;volume=1–2&amp;publication_year=2015&amp;pages=19-25&amp;doi=10.1016/j.softx.2015.06.001&amp;"/></mixed-citation></ref><ref id="ref90"><mixed-citation id="cit90"><named-content content-type="citation-string">Best R. B., Zhu X., Shim J., Lopes P. E., Mittal J., Feig M., MacKerell A. D. Jr. Optimization of the additive CHARMM
+all-atom protein force field targeting improved sampling of the backbone
+ϕ, ψ and side-chain χ1 and χ2 dihedral angles. J. Chem. Theory Comput. 2012;8(9):3257–3273. doi: 10.1021/ct300400x.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ct300400x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3549273"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23341755"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Theory Comput.&amp;title=Optimization of the additive CHARMM all-atom protein force field targeting improved sampling of the backbone ϕ, ψ and side-chain χ1 and χ2 dihedral angles&amp;author=R. B. Best&amp;author=X. Zhu&amp;author=J. Shim&amp;author=P. E. Lopes&amp;author=J. Mittal&amp;volume=8&amp;issue=9&amp;publication_year=2012&amp;pages=3257-3273&amp;pmid=23341755&amp;doi=10.1021/ct300400x&amp;"/></mixed-citation></ref><ref id="ref91"><mixed-citation id="cit91"><named-content content-type="citation-string">Humphrey W., Dalke A., Schulten K.. VMD: visual
+molecular dynamics. J. Mol. Graph. 1996;14(1):33–38. doi: 10.1016/0263-7855(96)00018-5.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0263-7855(96)00018-5"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8744570"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mol. Graph.&amp;title=VMD: visual molecular dynamics&amp;author=W. Humphrey&amp;author=A. Dalke&amp;author=K. Schulten&amp;volume=14&amp;issue=1&amp;publication_year=1996&amp;pages=33-38&amp;pmid=8744570&amp;doi=10.1016/0263-7855(96)00018-5&amp;"/></mixed-citation></ref><ref id="ref92"><mixed-citation id="cit92"><named-content content-type="citation-string">Valdés-Tresanco M. S., Valdés-Tresanco M. E., Valiente P. A., Moreno E.. gmx_MMPBSA:
+A new tool to perform end-state free energy calculations with GROMACS. J. Chem. Theory Comput. 2021;17(10):6281–6291. doi: 10.1021/acs.jctc.1c00645.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jctc.1c00645"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34586825"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Theory Comput.&amp;title=gmx_MMPBSA: A new tool to perform end-state free energy calculations with GROMACS&amp;author=M. S. Valdés-Tresanco&amp;author=M. E. Valdés-Tresanco&amp;author=P. A. Valiente&amp;author=E. Moreno&amp;volume=17&amp;issue=10&amp;publication_year=2021&amp;pages=6281-6291&amp;pmid=34586825&amp;doi=10.1021/acs.jctc.1c00645&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao5c06026_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 658e/12529122/cbf18983d01c/ao5c06026_si_001.pdf?><?cloudpmc-bucket app?><?size 750936?></media></supplementary-material></sec></sec></body></article>

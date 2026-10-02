@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>ACS Synthetic Biology</journal-title><abbrev-journal-title>ACS Synth Biol</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12313053</article-id><article-id pub-id-type="pmcaid">12313053</article-id><article-id pub-id-type="pmcaiid">12313053</article-id><article-id pub-id-type="pmid">40602795</article-id><article-id pub-id-type="doi">10.1021/acssynbio.5c00209</article-id><title-group><article-title>Engineered Yeasts
+Displaying PETase and MHETase as
+Whole-Cell Biocatalysts for the Degradation of Polyethylene Terephthalate
+(PET)</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Jiang</surname><given-names initials="C">Caiping</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Zhai</surname><given-names initials="K">Kairui</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Wright</surname><given-names initials="RC">R Clay</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Chen</surname><given-names initials="J">Juhong</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff2">‡</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+Department
+of Biological Systems Engineering, Virginia
+Tech, Blacksburg, Virginia
+24061, United States
+</aff><aff id="aff2">
+<label>‡</label>
+Department
+of Bioengineering, University of California,
+Riverside, Riverside, California
+92521, United States
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>jchen@ucr.edu</email>.</p></fn></author-notes><pub-date><day>2</day><month>7</month><year>2025</year></pub-date><volume>14</volume><issue>7</issue><fpage>2810</fpage><page-range>2810–2820</page-range><pub-history><event event-type="pmc-release"><date><day>31</day><month>7</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© 2025 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY-NC-ND 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sb5c00209.pdf" content-type="pmc-pdf"><?cloudpmc-path 43b6/12313053/7305be5687b9/sb5c00209.pdf?><?cloudpmc-bucket app?><?size 8021494?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Due to its low cost of manufacturing, poly­(ethylene terephthalate)
+(PET, a polyester plastic) has been the most widely used plastic material
+for food packaging. However, PET is nonbiodegradable. It can take
+years to degrade when it is discarded into the environment. In recent
+years, plastic pollution has received much attention and has become
+a major environmental issue. In this study, we engineered yeast surfaces
+to display two PET-degrading enzymes (PETase and MHETase) to degrade
+PET plastics. The enzymes displayed on the yeast surface were characterized
+by using confocal microscopy and flow cytometry. The reaction conditions
+to degrade PET plastics using the engineered yeasts were optimal at
+pH 9 and 30 °C. In addition, the engineered yeasts showed great
+stability and reusability to degrade PET films. Furthermore, we demonstrated
+that the engineered yeasts as whole-cell catalysts can be used to
+degrade drinking water bottles into value-added products. This study
+provides a novel whole-cell biocatalyst using engineered yeasts to
+degrade plastic waste, offering a new strategy to solve plastic pollution
+and recycling challenges.</p><sec id="kwd-group1" sec-type="kwd-group" disp-level="2"><p><bold>Keywords:</bold> polyethylene terephthalate (PET), plastic waste, PETase, MHETase, whole-cell biocatalyst, yeast</p></sec></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="sb5c00209_0010.jpg"><?cloudpmc-path blobs/43b6/12313053/84287b7f3677/sb5c00209_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 558?><?original-width 698?><?scaled-height 558?><?scaled-width 698?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="sb5c00209_0008.jpg"><?cloudpmc-path blobs/43b6/12313053/84287b7f3677/sb5c00209_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 558?><?original-width 698?><?scaled-height 558?><?scaled-width 698?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Mar 18; Accepted 2025 Jun 25; Revised 2025 Jun 24; Collection date 2025 Jul 18.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><label>1.</label><title>Introduction</title><p>In the last century, the
+plastic industry has grown significantly.
+The total amount of plastic used exceeds 300 million tons every year,
+with an increase of 5% annually.<italic>
+,
+</italic> However, less than half
+of these plastics are reused or recycled. As a result, tons of plastic
+are discarded into nature. In the environment, plastic can take years
+to degrade. Without full degradation,
+microplastics, defined as plastic pieces with a size of 1–5
+mm, have been found everywhere around the world, including inside
+plants and humans.<italic>
+−
+
+</italic> With an increasing demand for plastic items, plastic
+pollution is becoming a bigger problem year after year. Some strategies
+(e.g., prevention measures, cleanup activities, and awareness instruments)
+have been used to address this issue. For example, the ban on plastic
+bags has been successful in reducing the use of plastic shopping bags
+in supermarkets and shopping malls. Unfortunately, it is still not
+feasible to remove all discarded plastics from the environment and
+fix the existing widespread plastic pollution, especially the most
+widely
+used plastic, polyethylene terephthalate (PET).</p><p>For chemical
+recycling, PET plastics are broken down to their monomers
+of terephthalic acid (TPA) and ethylene glycol (EG) that can be refined
+or remanufactured into high-value products, including gallic acid,
+pyrogallol, catechol, muconic acid, vanillic acid, and glycolic acid. Due to the utilization of high pressure and temperature,
+hazardous organic solvents, and catalysts, chemical methods have several
+disadvantages, including high cost, complicated processing steps,
+and poor compatibility with downstream purification processes.<italic>
+,
+</italic> Biodegradation of PET plastics using microorganisms or enzymes has
+emerged as an effective alternative approach to address these issues.<italic>
+,
+</italic> To perform environmentally friendly and green depolymerization of
+PET waste, researchers have discovered PET-degrading enzymes and improved
+their catalytic activities to green depolymerize PET waste. To date,
+about 50 PET-degrading enzymes (including lipases, cutinases, carboxylesterases,
+and esterases) from bacteria and fungi have been reported to degrade
+PET plastics.<italic>
+−
+
+</italic> Although these enzymes can degrade PET waste, there
+is an urgent need to develop more practical technologies to recycle
+plastic waste.</p><p>In 2016, Yoshida et al. discovered a bacterium
+() that can secrete
+new types
+of PET-degrading enzymes to efficiently degrade and assimilate PET
+as a carbon and energy source, including PET hydrolase (PETase) and
+mono­(2-hydroxyethyl) terephthalate (MHET) hydrolase (MHETase). Since then, the two PET-degrading enzymes have
+been widely studied as ideal enzymes to completely degrade PET waste.
+To date, numerous efforts have been made to improve the hydrolysis
+activities of PETase and MHETase to degrade PET waste. For example,
+chemical modification can improve enzymatic activity by providing
+PETase with a stable environment. Synthetic
+biology allows the fusion of multiple glutamic acid (Glu, E) and lysine
+(Lys, K) on the enzyme surfaces to protect the stability of PETase.<italic>
+,
+</italic> In addition, PETase has been displayed on the surface of bacterial
+cells to increase the tolerance of pH and thermal variations.<italic>
+−
+
+</italic> Although PETase and MHETase have gained significant attention as
+effective tools for reducing PET waste, the transition from theoretical
+to practical application faces significant challenges.</p><p>Cell
+surface display has become a highly promising strategy for
+expressing and engineering proteins inside and outside of the cell.
+Engineering cells to display a specific protein of interest on their
+cell surface, termed surface display systems, is attractive for many
+applications in microbiology and molecular biology. This strategy not only simplifies the synthesis process
+of the enzyme of interest, but also avoids the complex and costly
+processes of enzyme separation and purification that are generally
+necessary in alternative procedures.<italic>
+,
+</italic> Cell surface
+display systems were initially developed for filamentous phage by
+fusing peptides on the surface of capsid proteins without affecting
+the phage’s ability to infect bacteria. However, it is not feasible to incorporate large polypeptides
+and proteins on phage surfaces. Alternatively, bacterial surfaces
+can be used to express large-sized proteins.<italic>
+,
+</italic> Compared to bacterial systems, yeast offers structural robustness
+and several advantages for whole-cell biocatalysis, including higher
+resistance to fluctuations in pH and temperature, simplified genetic
+engineering, and greater stability across various bioprocessing environments. Yeast cells can also be produced economically
+in large quantities and hold Generally Recognized As Safe (GRAS) status,
+further enhancing their suitability for environmental and industrial
+applications, particularly in scalable enzyme display and practical
+PET degradation.
+</p><p>In this study,
+we developed engineered yeasts with the surface
+display of PET-degrading enzymes as whole-cell biocatalysts to degrade
+PET plastics. Using molecular engineering tools, we displayed PETase
+and MHETase on yeast surfaces ( <italic>EBY100</italic>) that were confirmed by using confocal microscopy
+and a flow cytometer. In addition, we identified optimal reaction
+conditions (pH and temperature) of the yeast-displayed PETase and
+MHETase to improve the PET degradation efficiency. Furthermore, our
+developed engineered yeasts displaying PET-degrading enzymes were
+applied to commercial postconsumer drinking water bottles. The engineered
+whole-cell biocatalysts demonstrated a significant breakdown rate
+and hold promise for resolving the current crisis of PET pollution,
+potentially providing a financially feasible and environmentally friendly
+alternative to chemical recycling.</p></sec><sec id="sec2" disp-level="1"><label>2.</label><title>Materials and Methods</title><sec id="sec2.1" disp-level="2"><label>2.1.</label><title>Materials and Chemicals</title><p>Bis­(2-hydroxyethyl)
+terephthalate (BHET), terephthalic acid (TPA), ethylene glycol (EG),
+glycine, and dithiothreitol (DTT) were purchased from Sigma-Aldrich
+(Saint Louis, MO). Mono­(2-hydroxyethyl) terephthalate (MHET) was purchased
+from Advanced ChemBlocks, Inc. (Hayward, CA). Q5 High-Fidelity 2X
+Master Mix, NEBuilder HiFi DNA Assembly Master Mix, OneTaq 2X Master
+Mix with Standard Buffer, Monarch Plasmid Miniprep Kit, Monarch DNA
+Gel Extraction Kit, and other reagents used in cloning work were purchased
+from New England BioLabs (Ipswich, MA). Commercial amorphous PET film
+(transparent, 0.25 mm thickness, catalog number ES30-FM-000145) was
+obtained from Goodfellow Corporation (Pittsburgh, PA). DyLight 488
+Anti-HA tag antibodies and other chemicals were purchased from Thermo
+Fisher Scientific (Waltham, MA).</p></sec><sec id="sec2.2" disp-level="2"><label>2.2.</label><title>Strains, Plasmids, and Media</title><p>The <italic>EBY100</italic> ( <italic>EBY100</italic>) was kindly
+provided by R. Clay Wright at Virginia Tech. The pCTcon2 plasmid (#
+41843) was purchased from Addgene (Watertown, MA). <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acssynbio.5c00209/suppl_file/sb5c00209_si_001.pdf" ext-link-type="uri">Table S1</ext-link> contains comprehensive information about the strains
+and plasmids used in this study. The primers (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acssynbio.5c00209/suppl_file/sb5c00209_si_001.pdf" ext-link-type="uri">Table S2</ext-link>) were designed for Gibson Assembly and synthesized
+by Sigma-Aldrich (St. Louis, MO). The yeast-codon-optimized genes
+for PETase and MHETase are synthesized by Twist Bioscience (San Francisco,
+CA) and are available in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acssynbio.5c00209/suppl_file/sb5c00209_si_001.pdf" ext-link-type="uri">Table S3</ext-link>.</p><p>Culture conditions: () Top 10 were cultured at
+37 °C in LB media supplemented with 100 μg/mL ampicillin
+if needed. <italic>EBY100</italic> was cultured at 30 °C in YPAD media. Engineered yeasts were
+selected in SDCAA plates. The proteins displayed on yeast surfaces
+were induced in SGCAA medium with galactose as the inducer.</p></sec><sec id="sec2.3" disp-level="2"><label>2.3.</label><title>Construction and Expression of PETase and
+MHETase on Yeast Surfaces</title><p>The codon-optimized genes for PETase
+and MHETase were amplified using Polymerase Chain Reaction (PCR).
+The PCR products were purified using the DNA Gel Extraction Kit and
+assembled into pCTcon2 backbone using NEBuilder HiFi DNA Assembly
+Master Mix. The plasmids of pCTcon2-PETase and pCTcon2-MHETase were
+transformed into Top 10 competent
+cells for amplification. The inserts
+were then confirmed using Sanger sequencing. The correct plasmids
+containing the genes coded for PETase and MHETase were then transformed
+into <italic>EBY100</italic> competent cells according to a previously reported method with minor
+modifications. The positive colonies
+on the SDCAA selective plates were confirmed by using yeast colony
+PCR.</p><p>To express PETase and MHETase on the yeast surface, a fresh
+colony was inoculated into SDCAA medium (5 mL) and incubated at 30
+°C overnight. The expression of PETase and MHETase was induced
+by inoculating the overnight culture into the SGCAA medium (OD<sub>600</sub> = 0.5) and incubated at 30 °C for 48 h. Engineered
+yeast with the pCTcon2 plasmid was used as a positive control. After
+incubation, the cells were harvested by centrifugation at 3000<italic>g</italic> for 10 min. They were then washed and resuspended in glycine-NaOH
+buffer (50 mM, pH 9) to obtain EY-pCTcon2, EY-PETase, and EY-MHETase.
+The wild-type yeasts as negative controls were cultured in YPAD media.</p></sec><sec id="sec2.4" disp-level="2"><label>2.4.</label><title>Characterization of PETase and MHETase on
+Yeast Surfaces</title><p>Anti-HA Tag antibodies were used to confirm
+the expression of PETase and MHETase on yeast surfaces following the
+procedure reported by Luo et al. with minor modifications. Wild-type, EY-pCTcon2, EY-PETase, and EY-MHETase
+(around 1 × 10<sup>7</sup> yeast cells) were centrifuged at 3000<italic>g</italic> for 2 min and resuspended in phosphate-buffered saline
+(PBS, 100 μL, pH 7.4, with 0.5% bovine serum albumin). Anti-HA
+Tag antibodies (1 μL) were added and gently rotated at room
+temperature for 1 h in the dark. Following the incubation, yeast cells
+were rinsed 3 times using PBS and subsequently resuspended in PBS
+(50 μL). The fluorescence immunostaining was characterized using
+a Confocal Laser Scanning Microscope (Nikon, Melville, NY) and Attune
+NxT Acoustic Focusing Cytometer (ThermoFisher Scientific, Waltham,
+MA).</p></sec><sec id="sec2.5" disp-level="2"><label>2.5.</label><title>Degradation of PET Plastics Using Whole-Cell
+Biocatalysts</title><p>The PET films were first cut into circular forms
+with a diameter of 7 mm by using a perforating machine (hole punch).
+Each film was treated in solutions (1% sodium dodecyl sulfate, SDS),
+20% ethanol, and distilled water for 1 h to guarantee complete cleaning.
+The films were then dried at 50 °C to remove any residues. Before
+degradation, PET films were preincubated in glycine-NaOH buffer (50
+mM, pH 9, 0.025% SDS, and 10% DMSO) for at least 1 h to increase the
+film hydrophilicity. The pH and temperature for the degradation conditions
+were optimized. For pH, PET degradation was performed in PBS (pH 6,
+7, and 8) and glycine-NaOH buffer (pH 9 and 10). Four temperatures
+(20, 30, 40, and 50 °C) were used to optimize the temperature.</p><p>For the PET degradation, engineered yeasts (4 × 107 yeast
+cells) were suspended in glycine-NaOH buffer (800 μL). The pretreated
+PET films were added to the engineered yeast and incubated at 30 or
+40 °C for 7 days. After the incubation, the reactions were stopped
+by adding an equal volume of 100% methanol (MeOH), followed by heating
+at 85 °C for 10 min. After centrifugation at 15,000<italic>g</italic> for 10 min, the degrading products (BHET, MHET, and TPA) in the
+supernatant were analyzed using high-performance liquid chromatography
+(HPLC). A Prominence LC-20 HPLC System (Shimadzu, Durham, NC) equipped
+with a ZORBAX Eclipse Plus C18 column (95Å, 5 μm, 4.6 ×
+150 mm) was employed to analyze BHET, MHET, and TPA.<italic>
+,,
+</italic> The mobile phase A consists of
+0.1% formic acid, and the mobile B is composed of acetonitrile (v/v
+= 8:2) at a flow rate of 0.8 mL·min<sup>–1</sup>. The
+injection volume was set to 5 μL. For the scanning electron
+microscopy (SEM) image, the treated PET films underwent a cleaning
+procedure involving a sequential wash with 1% SDS, 20% ethanol, and
+distilled water. After air-drying, the films were imaged by using
+SEM.</p><p>To degrade postconsumer drinking water bottles, we selected
+two
+types of postconsumer PET bottles: the Great Value Purified Drinking
+Water bottle and the Deer Park Spring Water bottle. Four different
+parts of the bottles were cut into circles with a diameter of 7 mm
+by using a hole punch, including the shoulder, body, transition to
+base, and base.</p></sec><sec id="sec2.6" disp-level="2"><label>2.6.</label><title>Stability and Reusability of Whole-Cell Biocatalysts
+to Degrade PET Films</title><p>To evaluate the stability and reusability
+of the whole-cell biocatalysts, we conducted a series of successive
+degradation cycles on PET films using engineered yeasts. For each
+cycle, the engineered yeasts were incubated with pretreated PET films
+in glycine-NaOH buffer (50 mm, pH 9, 0.025% SDS, and 10% DMSO) at
+30 °C for 3 days. After each degradation cycle, the engineered
+yeasts were separated from the reaction solution through centrifugation
+at 3000<italic>g</italic> for 5 min. They were subsequently rinsed
+with a glycine-NaOH buffer solution (50 mM, pH 9) to thoroughly remove
+any remaining substrate.</p><p>To obtain free PETase and MHETase fusions,
+the engineered yeasts (4 × 107 yeast cells) were subjected to
+centrifugation at 3000<italic>g</italic> for 5 min. Subsequently,
+they were washed and resuspended in glycine-NaOH buffer (50 mM, 800
+μL, pH 9, 0.025% SDS, and 10% DMSO) supplemented with DTT (100
+μM). The disulfide reduction reactions were gently shaken at
+37 °C for 2 h to ensure the detachment of PETase and MHETase
+fusions from the cell walls. Afterward, the supernatant, obtained
+through centrifugation at 4000<italic>g</italic> for 10 min at 4 °C,
+was utilized for the degradation of PET films.
+</p></sec><sec id="sec2.7" disp-level="2"><label>2.7.</label><title>Quantitative Determination of PET Degradation
+Products</title><p>Standard curves for quantitative analysis were established
+using known concentrations of terephthalic acid (TPA), mono-(2-hydroxyethyl)
+terephthalate (MHET), and bis­(2-hydroxyethyl) terephthalate (BHET).
+Each standard solution was injected in triplicate into the HPLC system
+to generate calibration curves by plotting peak area (in milliabsorbance
+units·seconds, mAU·s) against analyte concentration (μM).
+Linear regression analysis was performed to obtain the calibration
+equations for each compound. The concentrations of TPA, MHET, and
+BHET in experimental samples were calculated using their respective
+calibration equations:</p><disp-formula id="ueq1"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e405" display="block"><mml:mi>concentration</mml:mi><mml:mspace width="0.25em"/><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>μ</mml:mi><mml:mi mathvariant="normal">M</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">[</mml:mo><mml:mfrac><mml:mrow><mml:mrow><mml:mi>peak</mml:mi><mml:mspace width="0.25em"/><mml:mi>area</mml:mi></mml:mrow><mml:mo>−</mml:mo><mml:mi>intercept</mml:mi></mml:mrow><mml:mi>slope</mml:mi></mml:mfrac><mml:mo stretchy="true">]</mml:mo></mml:mrow></mml:math></disp-formula><p>Here, the slope and intercept values were
+obtained from the linear regression analysis of each standard curve.
+All experiments were conducted with three replicates, and the results
+are presented as mean ± standard deviation. Statistical analyses
+were carried out by using GraphPad Prism.</p></sec><sec id="sec2.8" disp-level="2"><label>2.8.</label><title>Determination of PET Crystallinity</title><p>The PET crystallinity of different parts from PET drinking water
+bottles was measured using a differential scanning calorimeter (DSC,
+TA-Q2000, New Castle, DE) equipped with a liquid nitrogen cooling
+system. The predried PET samples (around 5–6 mg) were placed
+in a Tzero aluminum pan, which was then sealed with a matched aluminum
+lid. The DSC analysis was performed by heating the sample from 35
+to 300 °C at a rate of 5 °C·min<sup>–1</sup>, followed by cooling from 300 to 35 °C at the same rate under
+a nitrogen atmosphere. The percentage of crystallinity was calculated
+on the first heat scan using the following equation:</p><disp-formula id="ueq2"><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e442" display="block"><mml:mi>crystallinity</mml:mi><mml:mspace width="0.25em"/><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>%</mml:mo><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">[</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msub><mml:mi>H</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:msub><mml:mo>−</mml:mo><mml:mi mathvariant="normal">Δ</mml:mi><mml:msub><mml:mi>H</mml:mi><mml:mi>cc</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msubsup><mml:mi>H</mml:mi><mml:mi mathvariant="normal">m</mml:mi><mml:mo>°</mml:mo></mml:msubsup></mml:mrow></mml:mfrac><mml:mo stretchy="true">]</mml:mo></mml:mrow><mml:mo>×</mml:mo><mml:mn>100</mml:mn></mml:math></disp-formula><p>where Δ<italic>H</italic>
+<sub>m</sub> is the enthalpy of melting the PET sample (J·g<sup>–1</sup>), Δ<italic>H</italic>
+<sub>cc</sub> is the enthalpy of cold
+crystallization (J·g<sup>–1</sup>), and Δ<italic>H</italic>
+<sub arrange="stack">m</sub>
+<sup arrange="stack">°</sup> is the enthalpy of melting 100% crystalline PET, which is 140 J·g<sup>–1</sup>.<italic>
+−
+
+</italic>
+</p></sec></sec><sec id="sec3" disp-level="1"><label>3.</label><title>Results and Discussion</title><sec id="sec3.1" disp-level="2"><label>3.1.</label><title>Degradation of PET Plastics Using Engineered
+Yeasts as Whole-Cell Biocatalysts</title><p>Among several types of
+plastics, polyethylene terephthalate (PET) is the most popular plastic
+produced globally with an annual production of approximately 359 million
+tons in 2020.<italic>
+,
+</italic> PET is a linear thermoplastic
+polyester made by a condensation reaction between two petroleum-derived
+small chemicals of terephthalic acid (TPA) and ethylene glycol (EG).<italic>
+,
+</italic> Although PETase and MHETase have been discovered to degrade PET,
+poor enzymatic activity limits their practical applications.</p><p>In this study, we genetically engineered yeast surfaces to display
+PETase and MHETase, which were then employed to degrade postconsumer
+drinking water bottles into high-value monomers, including TPA and
+EG (<xref rid="fig1" ref-type="fig">Figure 
+</xref>a). Yeast
+cells were specifically selected as the host for surface display due
+to their distinct advantages as biocatalysts. Unlike bacterial systems,
+yeast possesses a mechanically robust cell wall that enhances structural
+stability and enables repeated use under harsh reaction conditions. This protective barrier allows yeast to tolerate
+a wide range of environmental stresses. Moreover, yeast offers efficient
+and flexible genetic engineering tools, making it well suited for
+constructing strains that express complex enzyme systems.
+</p><fig id="fig1" position="float"><?disp-level 3?><label>1</label><caption><p>(a) Schematic illustration of whole-cell biocatalysts
+used to degrade
+drinking water bottles into value-added products (TPA and EG). (b)
+Expression of PET-degrading enzymes on yeast surfaces. (c) EY-PETase
+and EY-MHETase break down the PET plastic bottle into smaller components,
+including TPA and EG.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="sb5c00209_0001.jpg"><?cloudpmc-path blobs/43b6/12313053/c0d4ab4f906a/sb5c00209_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 966?><?original-width 2088?><?scaled-height 322?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0001.gif"><?cloudpmc-path blobs/43b6/12313053/020f5673963e/sb5c00209_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>We expressed PETase and MHETase on the surface
+of separate yeast
+strains using the pCTCon2 plasmid encoding an Aga2 fusion of PETase
+or MHETase. As shown in <xref rid="fig1" ref-type="fig">Figure 
+</xref>b, <italic>EBY100</italic> expresses Aga1 proteins (Aga1p) on the whole-cell
+surface, serving as anchors to link the Aga2 protein (Aga2p) coded
+from an expression plasmid (pCTcon2) through two disulfide bridges.
+The covalent bonds result in the tethering of PETase and MHETase on
+the yeast cell surface, generating EY-PETase and EY-MHETase.</p><p>The engineered yeasts displaying PETase and MHETase can break down
+PET plastics by breaking ester linkages, and the final products include
+TPA and EG. As shown in <xref rid="fig1" ref-type="fig">Figure 
+</xref>c, EY-PETase can efficiently convert PET polymers into mono­(2-hydroxyethyl)
+terephthalate (MHET), TPA, and a minor amount of bis­(2-hydroxyethyl)
+terephthalate (BHET), and sequentially cleave BHET into MHET and EG. The resulting MHET can be further degraded by
+EY-MHETase into TPA and EG. Both PETase
+and MHETase act synergistically for the complete hydrolysis of PET
+plastics. Therefore, EY-PETase and EY-MHETase can work synergistically
+to recycle PET plastics into the smallest high-value units (TPA and
+EG).</p></sec><sec id="sec3.2" disp-level="2"><label>3.2.</label><title>Construction of PET-Degrading Enzyme Expression
+Plasmids</title><p>Due to the high surface expression and eukaryotic
+protein engineering mechanisms, yeast display is superior to the traditional
+bacterial or phage display platforms. In addition, yeast can offer advantages in the low cost of production
+as well as high stability during storage. Although different yeast
+strains and yeast surface proteins have been used to display heterologous
+proteins, yeast Aga2p of the mating protein a-agglutinin is the most
+commonly used. As shown in <xref rid="fig2" ref-type="fig">Figure 
+</xref>a, <italic>EBY100</italic> expresses Aga1p on the whole-cell surface,
+serving as the anchor to link Aga2p through two disulfide bridges.
+The covalent binding results in the tethering of PETase and MHETase
+to the yeast cell surface. The gene encoding Aga1p is stably integrated
+into the yeast chromosome, while the gene encoding Aga2p is cloned
+into a yeast display plasmid vector (pCTcon2). The expression of Aga2p
+is controlled by a galactose-inducible promoter. To quantify and characterize
+the expressed PETase and MHETase on the yeast cell surface, a hemagglutinin
+(HA) tag is typically fused in-frame with the Aga2p coding sequence
+prior to either PETase or MHETase.</p><fig id="fig2" position="float"><?disp-level 3?><label>2</label><caption><p>(a) Schematic illustration of a yeast
+surface to display PETase
+and MHETase using yeast display technology. (b) Diagrams of control
+plasmids (i. wild-type and ii. pCTcon2) and plastic-degrading enzyme
+expression plasmids (iii. pPETase and iv. pMHETase), and their corresponding
+displayed protein fusions. (c) Confirmation of the transformation
+of plastic-degrading enzyme expression and control plasmids into yeast <italic>EBY100</italic> using yeast colony PCR and agarose gel electrophoresis.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="sb5c00209_0002.jpg"><?cloudpmc-path blobs/43b6/12313053/a0ddce638737/sb5c00209_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 730?><?original-width 2088?><?scaled-height 243?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0002.gif"><?cloudpmc-path blobs/43b6/12313053/5db93968ec28/sb5c00209_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>In previously reported studies, PETase and MHETase
+have shown the
+capability to degrade PET waste.<italic>
+,−
+
+
+
+</italic> To degrade plastics, we engineered yeast ( <italic>EBY100</italic>) to display PETase and MHETase on yeast
+cell surfaces. As shown in <xref rid="fig2" ref-type="fig">Figure 
+</xref>b, genes coding for these two PET-degrading enzymes
+(870 bp for PETase and 1809 bp for MHETase) were yeast-codon-optimized
+and then cloned into the pCTcon2 backbone in-frame after the Aga2p
+coding sequence and a hemagglutinin (HA) epitope tag, respectively.
+These plasmids were amplified in bacteria and confirmed by Sanger
+sequencing. The resulting PETase and MHETase expression plasmids were
+transformed into <italic>EBY100</italic> competent cells and transformants
+were selected using SDCAA media (excluding tryptophan), generating
+EY-PETase and EY-MHETase. Yeast colony
+PCR was used to confirm the transformation of these plasmids. Wild-type
+yeast and the engineered yeast with the pCTcon2 plasmid (named EY-pCTcon2)
+were used as negative and positive controls. The expected bands for
+the protein fusions (976 bp for Aga2p-HA-pCTcon2, 1660 bp for Aga2p-HA-PETase,
+and 2599 bp for Aga2p-HA-MHETase) were observed, and there was no
+band for the wild-type yeast (<xref rid="fig2" ref-type="fig">Figure 
+</xref>c). All of these results indicated that we constructed
+the PET-degrading enzyme expression plasmids and transformed them
+into yeast cells.</p></sec><sec id="sec3.3" disp-level="2"><label>3.3.</label><title>Characterization of the PETase and MHETase
+Expression on Yeast Surfaces</title><p>Generally, there are approximately
+5 × 104 copies of Aga1p on each yeast cell surface, but the covalent
+binding of Aga2p may be lower depending on the stability and solubility
+of PETase and MHETase. To quantify and
+characterize the expressed ligands on the yeast cell surface, an HA
+tag is typically fused in-frame with the Aga2p coding sequence before
+PETase and MHETase. Employing confocal microscopy and flow cytometry,
+we specifically targeted the HA tag with fluorescently labeled anti-HA
+antibodies, allowing for the precise and comprehensive visualization
+of PETase and MHETase expression on yeast surfaces. Wild-type yeast
+and EY-pCTcon2 were, respectively, utilized as negative and positive
+controls.</p><p>To express PET-degrading enzymes on yeast surfaces,
+SGCAA medium was used, in which galactose induced the expression of
+Aga2p-HA-PETase/MHETase fusions. The expressed PET-degrading enzymes
+on the yeast surfaces were confirmed by labeling HA tags with fluorescently
+labeled (DyLight 488) anti-HA antibodies (<xref rid="fig3" ref-type="fig">Figure 
+</xref>a). Compared to the wild-type yeast, all
+engineered yeasts (EY-pCTcon2, EY-PETase, and EY-MHETase) were stained
+green, indicating that the Aga2p-HA-pCTcon2/PETase/MHETase fusions
+successfully attached to the yeast surfaces (<xref rid="fig3" ref-type="fig">Figure 
+</xref>b). Afterward, the fluorescence intensities
+on the yeast surfaces were analyzed using a flow cytometer. As shown
+in <xref rid="fig3" ref-type="fig">Figure 
+</xref>c, the differences
+in fluorescence signal between wild-type yeast and engineered yeasts
+can be clearly observed, in which engineered yeasts have strong fluorescence
+intensities. All of these results indicated that PET-degrading enzymes
+(PETase and MHETase) have been successfully expressed on yeast surfaces.</p><fig id="fig3" position="float"><?disp-level 3?><label>3</label><caption><p>(a) Schematic
+illustration of the anti-HA Tag antibody binding
+assay on the yeast surface. (b, c) Confirmation of the PETase and
+MHETase fusion expressed on the yeast surface using confocal images
+and flow cytometric analysis. The fluorescence intensity was monitored
+at 520 nm upon excitation at 488 nm.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="sb5c00209_0003.jpg"><?cloudpmc-path blobs/43b6/12313053/e6c8370d23c7/sb5c00209_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1040?><?original-width 2088?><?scaled-height 347?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0003.gif"><?cloudpmc-path blobs/43b6/12313053/72dde4dedcec/sb5c00209_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec3.4" disp-level="2"><label>3.4.</label><title>Optimization of the PET Degradation Conditions
+Using Whole-Cell Biocatalysts</title><p>Enzymatic reactions are extremely
+sensitive to the conditions under which they take place. In particular,
+pH and temperature play crucial roles in influencing the efficiency
+and rate of enzymatic activities. To maximize the efficiency of PET
+degradation, we identified the optimal pH and temperature conditions
+for enzymatic activities of engineered yeasts that display PET-degrading
+enzymes. The hydrophilization of the PET films also plays an important
+role in PET degradation. Following a previously reported method, the
+PET films were pretreated by soaking in 1% SDS, 20% ethanol, and distilled
+water, respectively. And then they were preincubated in glycine-NaOH
+buffer (50 mM, pH 9, 0.025% SDS, and 10% DMSO) for at least 1 h.</p><p>To optimize the pH, PET plastics were degraded at a range of pH values
+(from 6 to 10) using various engineered yeasts, including wild-type,
+EY-pCTcon2, EY-PETase, EY-MHETase, and EY-PETase + EY-MHETase. The
+reaction solution without any yeasts was used as a control. After
+incubating for 7 days, the resulting products (BHET, MHET, and TPA)
+were analyzed using HPLC. As shown in <xref rid="fig4" ref-type="fig">Figure 
+</xref>a, a significant amount of degradation products
+was observed in groups containing EY-PETase (including EY-PETase and
+EY-PETase + EY-MHETase), whereas minimal degradation was detected
+in other groups. For the group of EY-PETase + EY-MHETase, less MHET
+was observed, as the EY-MHETase further degraded MHET into TPA and
+EG. The optimal pH for the degradation of plastics was 9. The optimal
+conditions observed for PET degradation at pH 9 align well
+with previous reports, indicating enhanced catalytic performance of
+PET-degrading enzymes such as PETase and MHETase under mildly alkaline
+conditions and moderate temperatures. At pH 9, catalytic residues
+within PETase and MHETase are likely in their optimal ionization states,
+facilitating efficient ester bond hydrolysis. This optimal ionization
+enhances the substrate binding affinity and catalytic turnover rates.
+Additionally, under slightly alkaline conditions, the PET surface
+tends to become more amorphous and hydrophilic, significantly improving
+enzyme accessibility to the ester linkages and thus enhancing degradation
+efficiency.<italic>
+,
+</italic> Afterward, we investigated the
+effects of temperature on PET degradation, including 20, 30, 40, and
+50 °C (<xref rid="fig4" ref-type="fig">Figure 
+</xref>b). Similarly, we observed that the concentration of degraded products
+increased from 20 to 40 °C, and declined at 50 °C. The degradation
+efficiency showed no significant difference between 30 and 40 °C
+for either EY-PETase or EY-PETase + EY-MHETase.</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>(a, b) Degradation of
+PET films occurred at different pH values
+(6, 7, 8, 9, and 10) and different temperatures (20, 30, 40, and 50
+°C). Following hydrophilization, the film solutions were inoculated
+with different yeasts (no yeast control, wild-type, EY-pCTcon2, EY-PETase,
+EY-MHETase, and EY-PETase + EY-MHETase) at equal cell density.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="sb5c00209_0004.jpg"><?cloudpmc-path blobs/43b6/12313053/52cd9d0e6995/sb5c00209_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1026?><?original-width 1500?><?scaled-height 513?><?scaled-width 750?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0004.gif"><?cloudpmc-path blobs/43b6/12313053/0437462647f9/sb5c00209_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec3.5" disp-level="2"><label>3.5.</label><title>Degradation of PET Films Using Whole-Cell
+Biocatalysts</title><p>Next, we applied the engineered yeasts to degrade
+PET films under optimal conditions. The pretreated PET films were
+incubated with the engineered yeasts at a pH of 9 and a temperature
+of 30 or 40 °C for 7 days. We collected samples daily throughout
+the reaction period and analyzed the degradation products (BHET, MHET,
+and TPA) using HPLC. As shown in <xref rid="fig5" ref-type="fig">Figure 
+</xref>a,b, the EY-PETase and EY-PETase + EY-MHETase
+group generated more degradation products than the controls, indicating
+that the PETase displayed on yeast surfaces can degrade PET films.
+Compared to EY-PETase, less MHET was detected in the EY-PETase +
+EY-MHETase group, as MHET was further degraded into TPA and EG by
+EY-MHETase. In addition, the degradation products gradually increased
+as the number of days increased at 30 °C. However, there was
+a decrease in enzyme activity by the fourth day at 40 °C. Most
+products were generated in the first 2 days. This could be explained
+by the PETase and MHETase losing their activity with the increase
+of the reaction time, and the PETase and MHETase were more stable
+at 30 °C. The identified optimal temperature of 30 °C
+represents a compromise between catalytic activity and enzyme stability.
+While elevated temperatures generally increase reaction kinetics,
+they may simultaneously promote enzyme denaturation or negatively
+impact the stability of the expression system. Our experimental results
+indicate that EY-PETase and EY-MHETase maintain stable enzymatic activity
+at 30 °C, effectively degrading PET without notable thermal
+inactivation.
+</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>(a, b) Degradation of
+PET films using engineered yeasts was carried
+out for 7 days at 30 and 40 °C, including control, wild-type,
+EY-pCTcon2, EY-PETase, EY-MHETase, and EY-PETase + EY-MHETase. (c)
+The corresponding SEM images of the degraded PET films were obtained
+using engineered yeasts.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="sb5c00209_0005.jpg"><?cloudpmc-path blobs/43b6/12313053/e215baf3b561/sb5c00209_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1300?><?original-width 1500?><?scaled-height 650?><?scaled-width 750?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0005.gif"><?cloudpmc-path blobs/43b6/12313053/edac09a52f86/sb5c00209_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The morphologies of PET films after degradation
+were characterized
+using scanning electron microscopy (SEM). Scratch-like linear structures
+were observed for the PET films when incubated with EY-PETase and
+EY-PETase + EY-MHETase, not in other groups (<xref rid="fig5" ref-type="fig">Figure 
+</xref>c). This phenomenon may be the result of
+the processive degradation of aligned polymer fibers by EY-PETase
+in the surface region of the PET films. The initial cleavage resulted
+in the formation of shorter polymer fragments, which, in turn, increased
+the number of sites that could be attacked by EY-PETase and EY-MHETase.
+The results suggested that the engineered yeasts have the potential
+to degrade postconsumer PET plastics.</p></sec><sec id="sec3.6" disp-level="2"><label>3.6.</label><title>Reusability and Stability Assays of the Whole-Cell
+Biocatalysts</title><p>Enzyme immobilization is a strategy to improve
+the stability and efficiency of an enzyme. To test whether the enzymatic
+activities of PETase and MHETase displayed on yeast surfaces can be
+improved, we compared the performance of the PET plastic degradation
+between immobilized PETase and MHETase against free ones. As shown
+in <xref rid="fig6" ref-type="fig">Figure 
+</xref>a, the free
+enzymes were obtained using dithiothreitol (DTT), which can break
+the disulfide bond between Aga1p and Aga2p. The same amount of PETase
+and MHETase from free enzymes or engineered yeasts was applied to
+degrade the pretreated PET films. After being incubated for 7 days
+under the optimal conditions, the resulting products were analyzed
+using HPLC (<xref rid="fig6" ref-type="fig">Figure 
+</xref>b). Similarly, the groups containing PETase, either in free enzymes
+or on engineered yeast surfaces, were able to degrade PET films. In
+addition, the groups of EY-PETase and EY-PETase + EY-MHETase generated
+about 20 times more products than the free enzymes, indicating that
+the total activity of the immobilized enzymes on the engineered yeast
+surfaces has been significantly improved.</p><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>(a) Free PETase and MHETase
+were obtained using dithiothreitol
+(DTT) which can break the disulfide bond between Aga1p and Aga2p.
+(b) Comparison of the degradation of PET films between free enzymes
+and engineered yeasts displayed one, including control, wild-type,
+EY-PETase, EY-MHETase, and EY-PETase + EY-MHETase. (c) Schedule illustration
+of the recycling of engineered yeasts. (d) Effects of recycling times
+on the PET film degradation using engineered yeasts, including control,
+EY-PETase, and EY-PETase + EY-MHETase.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="sb5c00209_0006.jpg"><?cloudpmc-path blobs/43b6/12313053/4b4183bd1b2c/sb5c00209_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 959?><?original-width 1750?><?scaled-height 384?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0006.gif"><?cloudpmc-path blobs/43b6/12313053/a9df0dfce3ac/sb5c00209_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Moreover, the immobilized enzymes can be easily
+reused. We next
+investigated the durability and effectiveness of the engineered yeasts
+in degrading PET films. Two groups of EY-PETase and EY-PETase + EY-MHETase
+were tested for their reusability, and wild-type yeast was used as
+a control. As shown in <xref rid="fig6" ref-type="fig">Figure 
+</xref>c, the engineered yeasts were recycled 4 times (a total of
+5 cycles) after incubating with PET films for 3 days under the optimal
+reaction conditions. After each cycle, the products were analyzed
+using HPLC. The product concentrations showed a gradual downward trend
+through successive recycling processes (<xref rid="fig6" ref-type="fig">Figure 
+</xref>d). For EY-PETase, approximately 40% of the
+initial activity was retained by Cycle 5. For the EY-PETase + EY-MHETase
+group, the TPA concentration in Cycle 5 was less than 30% of the initial
+value. However, the overall decline in total degradation performance
+is likely overestimated if judged solely by MHET levels, as MHET was
+further converted to TPA and EG by MHETase. Therefore, the lower MHET
+levels in the EY-PETase + EY-MHETase group reflect enhanced degradation
+completeness rather than reduced enzymatic activity. These results
+collectively demonstrate that engineered yeast surface display enhances
+PETase and MHETase activity and enables enzyme reuse, making this
+system promising for large-scale PET biorecycling.</p></sec><sec id="sec3.7" disp-level="2"><label>3.7.</label><title>Degradation of PET Water Bottles Using Whole-Cell
+Biocatalysts</title><p>According to Euromonitor International (London,
+England), PET plastics for beverage bottles account for 67% of the
+market share, and 44.7% for single-serve bottles in the United States. PET does not readily decompose when disposed
+of in the environment and is known for its semicrystalline property,
+which is distinguished by highly ordered and densely packed crystalline
+regions. This heightened degree of crystallinity leads to PET being
+extremely resistant to enzymatic degradation.<italic>
+,,
+</italic>
+</p><p>It is also important to investigate
+whether our engineered yeasts displaying PETase and MHETase can degrade
+semicrystalline postconsumer PET plastics, moving beyond amorphous
+films. Here, we applied our engineered yeasts to degrade two commercial
+drinking water bottles (Great Value and Deer Park). Because of the
+blow-mold expansion processing, drinking water bottles have high crystallinity,
+and are less susceptible to enzymatic degradation. We first measured
+the crystallinity of various sections of drinking water bottles, including
+shoulder, body, transition, and base. As shown in <xref rid="fig7" ref-type="fig">Figure 
+</xref>a,b, all sections of the drinking
+water bottles have a high crystallinity (from 28 to 31%).</p><fig id="fig7" position="float"><?disp-level 3?><label>7</label><caption><p>(a, b) Crystallinity
+(%) of the top-to-bottom sections of drinking
+water bottles (Great Value and Deer Park), including shoulder, body,
+transition, and base. (c, d) Degradation of drinking water bottles
+using engineered yeasts as whole-cell biocatalysts, including wild-type,
+EY-PETase, and EY-PETase + EY-MHETase.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="sb5c00209_0007.jpg"><?cloudpmc-path blobs/43b6/12313053/7e246a273c2d/sb5c00209_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 926?><?original-width 1750?><?scaled-height 370?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="sb5c00209_0007.gif"><?cloudpmc-path blobs/43b6/12313053/c9398b4e5a29/sb5c00209_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Next, we hole-punched the four sections of the
+drinking water bottles
+into small round punches with a diameter of 7 mm, respectively. As
+above, the punches were treated using 1% SDS, 20% ethanol, and distilled
+water and then preincubated in glycine-NaOH buffer (50 mM, pH 9, 0.025%
+SDS, and 10% DMSO) for at least 1 h. Under optimal conditions (a pH
+of 9 and a temperature of 30 °C), the pretreated punches were
+degraded using EY-PETase and EY-PETase + EY-MHETase for 7 days. In
+addition, wild-type yeasts were used as a negative control. After
+the incubation, the resulting monomers (BHET, MHET, and TPA) were
+measured using HPLC. The results showed that our engineered yeasts
+could degrade postconsumer PET drinking water bottles (<xref rid="fig7" ref-type="fig">Figure 
+</xref>c,d). Although the high crystallinity
+of the drinking water bottles only generated TPA product at a concentration
+of less than 20 μM. Our engineered yeast cells successfully
+partially degraded two highly crystalline, postconsumer drinking water
+bottles into valuable monomers such as TPA and likely EG, demonstrating
+the practical potential of this method for recycling PET waste. This
+innovative approach presents a promising strategy for addressing the
+growing plastic waste pollution crisis and contributes to the advancement
+of sustainable waste management solutions.</p></sec></sec><sec id="sec4" disp-level="1"><label>4.</label><title>Conclusions</title><p>In summary, we applied
+synthetic biology to genetically engineer
+yeast surfaces to display two PET-degrading enzymes (PETase and MHETase)
+that degrade PET plastics. The engineered yeasts displaying PETase
+and MHETase could be easily produced on a large scale through simple
+yeast cultivation. Afterward, the enzyme expression on the yeast surfaces
+was confirmed by using confocal microscopy and a flow cytometer. The
+optimized pH for the degradation of PET films is 9, and the temperature
+is 30 °C. Under the optimized degradation conditions, our developed
+engineered yeasts as whole-cell biocatalysts can degrade PET films
+at a rate more than 20 times that of free enzymes. In addition, the
+engineered yeasts can be reused and maintain 30% of the activity after
+4 cycles to degrade PET films. Furthermore, two postconsumer drinking
+water bottles with high crystallinity levels were partially degraded
+into value-added TPA and, likely, EG monomer products using our engineered
+yeasts, opening a promising avenue to recycle PET plastic wastes.
+For real-world applications, practical strategies for recovering and
+reusing engineered yeast cells could include immobilization methods
+such as encapsulation or attachment to solid supports, facilitating
+easy separation and recovery from reaction mixtures. Further investigations
+could also explore the development of cost-effective recycling systems,
+such as continuous-flow bioreactors or filtration-based approaches,
+to maximize yeast reusability and reduce operational costs. This innovative
+approach offers a promising avenue for addressing the increasing challenges
+of plastic waste pollution and for advancing sustainable solutions.</p></sec><sec id="sec20" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sb5c00209_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 43b6/12313053/5e1cfbca93ac/sb5c00209_si_001.pdf?><?cloudpmc-bucket app?><?size 178199?></media></supplementary-material></sec><sec id="ACK-d14e706-autogenerated" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>This work
+was financially supported by the United States Department
+of Agriculture National Institute of Food and Agriculture (2024-67021-42551).</p></sec><sec id="glossary1" sec-type="glossary" disp-level="1"><title>Glossary</title><def-list id="dl1"><title>Abbreviations</title><def-item><term>PET</term><def><p>polyethylene
+terephthalate</p></def></def-item><def-item><term>PETase</term><def><p>polyethylene terephthalate hydrolases</p></def></def-item><def-item><term>MHETase</term><def><p>mono­(2-hydroxyethyl) terephthalate
+hydrolase</p></def></def-item><def-item><term>TPA</term><def><p>terephthalic acid</p></def></def-item><def-item><term>EG</term><def><p>ethylene glycol</p></def></def-item><def-item><term>MHET</term><def><p>mono­(2-hydroxyethyl) terephthalate</p></def></def-item><def-item><term>BHET</term><def><p>bis­(2-hydroxyethyl) terephthalate</p></def></def-item><def-item><term>Glu, E</term><def><p>glutamic acid</p></def></def-item><def-item><term>Lys, K</term><def><p>lysine</p></def></def-item><def-item><term>DTT</term><def><p>dithiothreitol</p></def></def-item><def-item><term>PCR</term><def><p>polymerase chain reaction</p></def></def-item><def-item><term>PBS</term><def><p>phosphate-buffered
+saline</p></def></def-item><def-item><term>SDS</term><def><p>sodium
+dodecyl sulfate</p></def></def-item><def-item><term>DMSO</term><def><p>dimethyl sulfoxide</p></def></def-item><def-item><term>MeOH</term><def><p>methanol</p></def></def-item><def-item><term>HPLC</term><def><p>high-performance liquid chromatography</p></def></def-item><def-item><term>SEM</term><def><p>scanning electron microscopy</p></def></def-item><def-item><term>NaOH</term><def><p>sodium hydroxide</p></def></def-item><def-item><term>Aga1</term><def><p>aga1 proteins</p></def></def-item><def-item><term>Aga2</term><def><p>aga2 proteins</p></def></def-item><def-item><term>HA</term><def><p>tag hemagglutinin tag</p></def></def-item></def-list></sec><sec id="notes-1" disp-level="1"><p>The Supporting Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acssynbio.5c00209?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acssynbio.5c00209</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Strains and plasmids used in this study (Table S1);
+primers used in this study (Table S2); and codon-optimized DNA sequences
+for PETase and MHETase expression (Table S3) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acssynbio.5c00209/suppl_file/sb5c00209_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes-2" disp-level="1"><p>J.C., C.J.,
+and R.C.W. conceived the study and designed experiments. J.C., C.J.,
+K.Z., and R.C.W. performed data acquisition and analysis. All authors
+drafted, revised, and approved the manuscript content.</p></sec><sec id="notes-3" disp-level="1"><p>The authors
+declare no competing financial interest.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Matsuguma Y., Takada H., Kumata H., Kanke H., Sakurai S., Suzuki T., Itoh M., Okazaki Y., Boonyatumanond R., Zakaria M. P.. Microplastics in sediment cores from Asia and Africa
+as indicators of temporal trends in plastic pollution. Arch. Environ. Contam. Toxicol. 2017;73(2):230–239. doi: 10.1007/s00244-017-0414-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00244-017-0414-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28534067"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Arch. Environ. Contam. Toxicol.&amp;title=Microplastics in sediment cores from Asia and Africa as indicators of temporal trends in plastic pollution&amp;author=Y. Matsuguma&amp;author=H. Takada&amp;author=H. Kumata&amp;author=H. Kanke&amp;author=S. Sakurai&amp;volume=73&amp;issue=2&amp;publication_year=2017&amp;pages=230-239&amp;pmid=28534067&amp;doi=10.1007/s00244-017-0414-9&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Puscaselu R., Gutt G., Amariei S.. Biopolymer-based
+films enriched with
+stevia rebaudiana used for the development of edible and soluble packaging. Coatings. 2019;9(6):360.  doi: 10.3390/coatings9060360.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/coatings9060360"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Coatings&amp;title=Biopolymer-based films enriched with stevia rebaudiana used for the development of edible and soluble packaging&amp;author=R. Puscaselu&amp;author=G. Gutt&amp;author=S. Amariei&amp;volume=9&amp;issue=6&amp;publication_year=2019&amp;pages=360&amp;doi=10.3390/coatings9060360&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Chamas A., Moon H., Zheng J., Qiu Y., Tabassum T., Jang J. H., Abu-Omar M., Scott S. L., Suh S.. Degradation
+rates of plastics in the environment. ACS Sustainable
+Chem. Eng. 2020;8(9):3494–3511. doi: 10.1021/acssuschemeng.9b06635.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acssuschemeng.9b06635"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Sustainable Chem. Eng.&amp;title=Degradation rates of plastics in the environment&amp;author=A. Chamas&amp;author=H. Moon&amp;author=J. Zheng&amp;author=Y. Qiu&amp;author=T. Tabassum&amp;volume=8&amp;issue=9&amp;publication_year=2020&amp;pages=3494-3511&amp;doi=10.1021/acssuschemeng.9b06635&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Jiang J.-Q.. Occurrence
+of microplastics and its pollution in the environment: A review. Sustainable Prod. Consumption. 2018;13:16–23. doi: 10.1016/j.spc.2017.11.003.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.spc.2017.11.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sustainable Prod. Consumption&amp;title=Occurrence of microplastics and its pollution in the environment: A review&amp;author=J.-Q. Jiang&amp;volume=13&amp;publication_year=2018&amp;pages=16-23&amp;doi=10.1016/j.spc.2017.11.003&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Smith M., Love D. C., Rochman C. M., Neff R. A.. Microplastics
+in
+seafood and the implications for human health. Curr. Environ. Health Rep. 2018;5:375–386. doi: 10.1007/s40572-018-0206-z.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s40572-018-0206-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6132564"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30116998"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Curr. Environ. Health Rep.&amp;title=Microplastics in seafood and the implications for human health&amp;author=M. Smith&amp;author=D. C. Love&amp;author=C. M. Rochman&amp;author=R. A. Neff&amp;volume=5&amp;publication_year=2018&amp;pages=375-386&amp;pmid=30116998&amp;doi=10.1007/s40572-018-0206-z&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Li Y., Tao L., Wang Q., Wang F., Li G., Song M.. Potential
+health impact of microplastics: a review of environmental distribution,
+human exposure, and toxic effects. Environ.
+Health. 2023;1(4):249–257. doi: 10.1021/envhealth.3c00052.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/envhealth.3c00052"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11504192"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39474495"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Health&amp;title=Potential health impact of microplastics: a review of environmental distribution, human exposure, and toxic effects&amp;author=Y. Li&amp;author=L. Tao&amp;author=Q. Wang&amp;author=F. Wang&amp;author=G. Li&amp;volume=1&amp;issue=4&amp;publication_year=2023&amp;pages=249-257&amp;pmid=39474495&amp;doi=10.1021/envhealth.3c00052&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Muringayil
+Joseph T., Azat S., Ahmadi Z., Moini Jazani O., Esmaeili A., Kianfar E., Haponiuk J., Thomas S.. Polyethylene
+terephthalate (PET) recycling: A review. Case
+Stud. Chem. Environ. Eng. 2024;9:100673.  doi: 10.1016/j.cscee.2024.100673.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cscee.2024.100673"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Case Stud. Chem. Environ. Eng.&amp;title=Polyethylene terephthalate (PET) recycling: A review&amp;author=T. Muringayil Joseph&amp;author=S. Azat&amp;author=Z. Ahmadi&amp;author=O. Moini Jazani&amp;author=A. Esmaeili&amp;volume=9&amp;publication_year=2024&amp;pages=100673&amp;doi=10.1016/j.cscee.2024.100673&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Jehanno C., Flores I., Dove A. P., Müller A. J., Ruipérez F., Sardon H.. Organocatalysed depolymerisation
+of PET in a fully sustainable cycle using thermally stable protic
+ionic salt. Green Chem. 2018;20(6):1205–1212. doi: 10.1039/C7GC03396F.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C7GC03396F"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Green Chem.&amp;title=Organocatalysed depolymerisation of PET in a fully sustainable cycle using thermally stable protic ionic salt&amp;author=C. Jehanno&amp;author=I. Flores&amp;author=A. P. Dove&amp;author=A. J. Müller&amp;author=F. Ruipérez&amp;volume=20&amp;issue=6&amp;publication_year=2018&amp;pages=1205-1212&amp;doi=10.1039/C7GC03396F&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Wang Q., Yao X., Geng Y., Zhou Q., Lu X., Zhang S.. Deep eutectic
+solvents as highly active catalysts for the fast and mild glycolysis
+of poly (ethylene terephthalate)­(PET) Green
+Chem. 2015;17(4):2473–2479. doi: 10.1039/C4GC02401J.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C4GC02401J"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Green Chem.&amp;title=Deep eutectic solvents as highly active catalysts for the fast and mild glycolysis of poly (ethylene terephthalate)­(PET)&amp;author=Q. Wang&amp;author=X. Yao&amp;author=Y. Geng&amp;author=Q. Zhou&amp;author=X. Lu&amp;volume=17&amp;issue=4&amp;publication_year=2015&amp;pages=2473-2479&amp;doi=10.1039/C4GC02401J&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Then J., Wei R., Oeser T., Barth M., Belisário-Ferrari M. R., Schmidt J., Zimmermann W.. Ca2+ and Mg2+ binding site engineering
+increases the degradation of polyethylene terephthalate films by polyester
+hydrolases from Thermobifida fusca. Biotechnol
+J. 2015;10(4):592–598. doi: 10.1002/biot.201400620.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/biot.201400620"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25545638"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol J.&amp;title=Ca2+ and Mg2+ binding site engineering increases the degradation of polyethylene terephthalate films by polyester hydrolases from Thermobifida fusca&amp;author=J. Then&amp;author=R. Wei&amp;author=T. Oeser&amp;author=M. Barth&amp;author=M. R. Belisário-Ferrari&amp;volume=10&amp;issue=4&amp;publication_year=2015&amp;pages=592-598&amp;pmid=25545638&amp;doi=10.1002/biot.201400620&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Gimeno-Pérez M., Finnigan J. D., Echeverria C., Charnock S. J., Hidalgo A., Mate D. M.. A Coupled Ketoreductase-Diaphorase Assay for the Detection
+of Polyethylene Terephthalate-Hydrolyzing Activity. ChemSusChem. 2022;15(9):e202102750.  doi: 10.1002/cssc.202102750.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cssc.202102750"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9321771"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35315974"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ChemSusChem&amp;title=A Coupled Ketoreductase-Diaphorase Assay for the Detection of Polyethylene Terephthalate-Hydrolyzing Activity&amp;author=M. Gimeno-Pérez&amp;author=J. D. Finnigan&amp;author=C. Echeverria&amp;author=S. J. Charnock&amp;author=A. Hidalgo&amp;volume=15&amp;issue=9&amp;publication_year=2022&amp;pages=e202102750&amp;pmid=35315974&amp;doi=10.1002/cssc.202102750&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Kawai F., Kawabata T., Oda M.. Current knowledge on enzymatic PET
+degradation and its possible application to waste stream management
+and other fields. Appl. Microbiol. Biotechnol. 2019;103(11):4253–4268. doi: 10.1007/s00253-019-09717-y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s00253-019-09717-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6505623"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30957199"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Microbiol. Biotechnol.&amp;title=Current knowledge on enzymatic PET degradation and its possible application to waste stream management and other fields&amp;author=F. Kawai&amp;author=T. Kawabata&amp;author=M. Oda&amp;volume=103&amp;issue=11&amp;publication_year=2019&amp;pages=4253-4268&amp;pmid=30957199&amp;doi=10.1007/s00253-019-09717-y&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Joo S., Cho I. J., Seo H., Son H. F., Sagong H. Y., Shin T. J., Choi S. Y., Lee S. Y., Kim K. J.. Structural
+insight into molecular mechanism of poly (ethylene terephthalate)
+degradation. Nat. Commun. 2018;9:382.  doi: 10.1038/s41467-018-02881-1.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-018-02881-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5785972"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29374183"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=Structural insight into molecular mechanism of poly (ethylene terephthalate) degradation&amp;author=S. Joo&amp;author=I. J. Cho&amp;author=H. Seo&amp;author=H. F. Son&amp;author=H. Y. Sagong&amp;volume=9&amp;publication_year=2018&amp;pages=382&amp;pmid=29374183&amp;doi=10.1038/s41467-018-02881-1&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Huang Q.-S., Yan Z.-F., Chen X.-Q., Du Y.-Y., Li J., Liu Z.-Z., Xia W., Chen S., Wu J.. Accelerated
+biodegradation of polyethylene terephthalate by Thermobifida fusca
+cutinase mediated by Stenotrophomonas pavanii. Sci. Total Environ. 2022;808:152107.  doi: 10.1016/j.scitotenv.2021.152107.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.scitotenv.2021.152107"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34864034"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Total Environ.&amp;title=Accelerated biodegradation of polyethylene terephthalate by Thermobifida fusca cutinase mediated by Stenotrophomonas pavanii&amp;author=Q.-S. Huang&amp;author=Z.-F. Yan&amp;author=X.-Q. Chen&amp;author=Y.-Y. Du&amp;author=J. Li&amp;volume=808&amp;publication_year=2022&amp;pages=152107&amp;pmid=34864034&amp;doi=10.1016/j.scitotenv.2021.152107&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Yoshida S., Hiraga K., Takehana T., Taniguchi I., Yamaji H., Maeda Y., Toyohara K., Miyamoto K., Kimura Y., Oda K.. A bacterium that degrades
+and assimilates
+poly (ethylene terephthalate) Science. 2016;351(6278):1196–1199. doi: 10.1126/science.aad6359.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aad6359"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26965627"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=A bacterium that degrades and assimilates poly (ethylene terephthalate)&amp;author=S. Yoshida&amp;author=K. Hiraga&amp;author=T. Takehana&amp;author=I. Taniguchi&amp;author=H. Yamaji&amp;volume=351&amp;issue=6278&amp;publication_year=2016&amp;pages=1196-1199&amp;pmid=26965627&amp;doi=10.1126/science.aad6359&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Parrott M. C., DeSimone J. M.. Relieving PEGylation. Nature
+Chem. 2012;4(1):13–14. doi: 10.1038/nchem.1230.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nchem.1230"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4267756"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22169865"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature Chem.&amp;title=Relieving PEGylation&amp;author=M. C. Parrott&amp;author=J. M. DeSimone&amp;volume=4&amp;issue=1&amp;publication_year=2012&amp;pages=13-14&amp;pmid=22169865&amp;doi=10.1038/nchem.1230&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Szkolar L., Guilbaud J. B., Miller A. F., Gough J. E., Saiani A.. Enzymatically
+triggered peptide hydrogels for 3D cell encapsulation and culture. J. Pept. Sci. 2014;20(7):578–584. doi: 10.1002/psc.2666.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/psc.2666"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24920105"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Pept. Sci.&amp;title=Enzymatically triggered peptide hydrogels for 3D cell encapsulation and culture&amp;author=L. Szkolar&amp;author=J. B. Guilbaud&amp;author=A. F. Miller&amp;author=J. E. Gough&amp;author=A. Saiani&amp;volume=20&amp;issue=7&amp;publication_year=2014&amp;pages=578-584&amp;pmid=24920105&amp;doi=10.1002/psc.2666&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Chen K., Hu Y., Dong X., Sun Y.. Molecular insights into the enhanced
+performance of ekylated petase toward PET degradation. ACS Catal. 2021;11(12):7358–7370. doi: 10.1021/acscatal.1c01062.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscatal.1c01062"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Catal.&amp;title=Molecular insights into the enhanced performance of ekylated petase toward PET degradation&amp;author=K. Chen&amp;author=Y. Hu&amp;author=X. Dong&amp;author=Y. Sun&amp;volume=11&amp;issue=12&amp;publication_year=2021&amp;pages=7358-7370&amp;doi=10.1021/acscatal.1c01062&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Heyde S. A. H., Baath J. A., Westh P., Norholm M. H. H., Jensen K.. Surface display
+as a functional screening platform for detecting enzymes active on
+PET. Microb. Cell Fact. 2021;20(1):93.  doi: 10.1186/s12934-021-01582-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12934-021-01582-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8088578"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33933097"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microb. Cell Fact.&amp;title=Surface display as a functional screening platform for detecting enzymes active on PET&amp;author=S. A. H. Heyde&amp;author=J. A. Baath&amp;author=P. Westh&amp;author=M. H. H. Norholm&amp;author=K. Jensen&amp;volume=20&amp;issue=1&amp;publication_year=2021&amp;pages=93&amp;pmid=33933097&amp;doi=10.1186/s12934-021-01582-7&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Gercke D., Furtmann C., Tozakidis I. E. P., Jose J.. Highly Crystalline
+Post-Consumer PET Waste Hydrolysis by Surface Displayed PETase Using
+a Bacterial Whole-Cell Biocatalyst. ChemCatChem. 2021;13(15):3479–3489. doi: 10.1002/cctc.202100443.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cctc.202100443"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ChemCatChem.&amp;title=Highly Crystalline Post-Consumer PET Waste Hydrolysis by Surface Displayed PETase Using a Bacterial Whole-Cell Biocatalyst&amp;author=D. Gercke&amp;author=C. Furtmann&amp;author=I. E. P. Tozakidis&amp;author=J. Jose&amp;volume=13&amp;issue=15&amp;publication_year=2021&amp;pages=3479-3489&amp;doi=10.1002/cctc.202100443&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Zhu B., Ye Q., Seo Y., Wei N.. Enzymatic Degradation of Polyethylene
+Terephthalate Plastics by Bacterial Curli Display PETase. Environ. Sci. Technol. Lett. 2022;9(7):650–657. doi: 10.1021/acs.estlett.2c00332.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.estlett.2c00332"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Environ. Sci. Technol. Lett.&amp;title=Enzymatic Degradation of Polyethylene Terephthalate Plastics by Bacterial Curli Display PETase&amp;author=B. Zhu&amp;author=Q. Ye&amp;author=Y. Seo&amp;author=N. Wei&amp;volume=9&amp;issue=7&amp;publication_year=2022&amp;pages=650-657&amp;doi=10.1021/acs.estlett.2c00332&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Ueda M., Tanaka A.. Genetic immobilization
+of proteins on the yeast cell
+surface. Biotechnol. Adv. 2000;18(2):121–140. doi: 10.1016/S0734-9750(00)00031-8.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0734-9750(00)00031-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14538113"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Adv.&amp;title=Genetic immobilization of proteins on the yeast cell surface&amp;author=M. Ueda&amp;author=A. Tanaka&amp;volume=18&amp;issue=2&amp;publication_year=2000&amp;pages=121-140&amp;pmid=14538113&amp;doi=10.1016/S0734-9750(00)00031-8&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Liu A., Lang Q., Liang B., Shi J.. Sensitive detection
+of maltose and glucose based on dual enzyme-displayed bacteria electrochemical
+biosensor. Biosens. Bioelectron. 2017;87:25–30. doi: 10.1016/j.bios.2016.07.050.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bios.2016.07.050"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27513684"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biosens. Bioelectron.&amp;title=Sensitive detection of maltose and glucose based on dual enzyme-displayed bacteria electrochemical biosensor&amp;author=A. Liu&amp;author=Q. Lang&amp;author=B. Liang&amp;author=J. Shi&amp;volume=87&amp;publication_year=2017&amp;pages=25-30&amp;pmid=27513684&amp;doi=10.1016/j.bios.2016.07.050&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Fishilevich S., Amir L., Fridman Y., Aharoni A., Alfonta L.. Surface Display
+of Redox Enzymes in Microbial Fuel Cells. J.
+Am. Chem. Soc. 2009;131(34):12052–12053. doi: 10.1021/ja9042017.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ja9042017"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19663383"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Am. Chem. Soc.&amp;title=Surface Display of Redox Enzymes in Microbial Fuel Cells&amp;author=S. Fishilevich&amp;author=L. Amir&amp;author=Y. Fridman&amp;author=A. Aharoni&amp;author=L. Alfonta&amp;volume=131&amp;issue=34&amp;publication_year=2009&amp;pages=12052-12053&amp;pmid=19663383&amp;doi=10.1021/ja9042017&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Georgiou G., Stathopoulos C., Daugherty P. S., Nayak A. R., Iverson B. L., Curtiss R. III. Display of heterologous proteins
+on the surface of microorganisms: from the screening of combinatorial
+libraries to live recombinant vaccines. Nat.
+Biotechnol. 1997;15(1):29–34. doi: 10.1038/nbt0197-29.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nbt0197-29"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9035102"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Biotechnol.&amp;title=Display of heterologous proteins on the surface of microorganisms: from the screening of combinatorial libraries to live recombinant vaccines&amp;author=G. Georgiou&amp;author=C. Stathopoulos&amp;author=P. S. Daugherty&amp;author=A. R. Nayak&amp;author=B. L. Iverson&amp;volume=15&amp;issue=1&amp;publication_year=1997&amp;pages=29-34&amp;pmid=9035102&amp;doi=10.1038/nbt0197-29&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Francisco J. A., Earhart C. F., Georgiou G.. Transport
+and anchoring of beta-lactamase
+to the external surface of . Proc. Natl. Acad. Sci. U. S. A. 1992;89(7):2713–2717. doi: 10.1073/pnas.89.7.2713.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.89.7.2713"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC48732"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="1557377"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proc. Natl. Acad. Sci. U. S. A.&amp;title=Transport and anchoring of beta-lactamase to the external surface of&amp;author=J. A. Francisco&amp;author=C. F. Earhart&amp;author=G. Georgiou&amp;volume=89&amp;issue=7&amp;publication_year=1992&amp;pages=2713-2717&amp;pmid=1557377&amp;doi=10.1073/pnas.89.7.2713&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Francisco J. A., Stathopoulos C., Warren R. A. J., Kilburn D. G., Georgiou G.. Specific adhesion
+and hydrolysis of cellulose by intact expressing surface anchored cellulase or cellulose binding domains. Bio/Technology. 1993;11(4):491–495. doi: 10.1038/nbt0493-491.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nbt0493-491"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="7763519"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bio/Technology&amp;title=Specific adhesion and hydrolysis of cellulose by intact expressing surface anchored cellulase or cellulose binding domains&amp;author=J. A. Francisco&amp;author=C. Stathopoulos&amp;author=R. A. J. Warren&amp;author=D. G. Kilburn&amp;author=G. Georgiou&amp;volume=11&amp;issue=4&amp;publication_year=1993&amp;pages=491-495&amp;pmid=7763519&amp;doi=10.1038/nbt0493-491&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Shigechi H., Uyama K., Fujita Y., Matsumoto T., Ueda M., Tanaka A., Fukuda H., Kondo A.. Efficient
+ethanol production from starch through development of novel flocculent
+yeast strains displaying glucoamylase and co-displaying or secreting
+α-amylase. J. Mol. Catal. B:Enzym. 2002;17(3–5):179–187. doi: 10.1016/S1381-1177(02)00026-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S1381-1177(02)00026-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mol. Catal. B:Enzym.&amp;title=Efficient ethanol production from starch through development of novel flocculent yeast strains displaying glucoamylase and co-displaying or secreting α-amylase&amp;author=H. Shigechi&amp;author=K. Uyama&amp;author=Y. Fujita&amp;author=T. Matsumoto&amp;author=M. Ueda&amp;volume=17&amp;issue=3–5&amp;publication_year=2002&amp;pages=179-187&amp;doi=10.1016/S1381-1177(02)00026-7&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">He Y., Degraeve P., Oulahal N.. Bioprotective yeasts: Potential to
+limit postharvest spoilage and to extend shelf life or improve microbial
+safety of processed foods. Heliyon. 2024;10(3):e24929.  doi: 10.1016/j.heliyon.2024.e24929.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.heliyon.2024.e24929"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10839994"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38318029"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Heliyon&amp;title=Bioprotective yeasts: Potential to limit postharvest spoilage and to extend shelf life or improve microbial safety of processed foods&amp;author=Y. He&amp;author=P. Degraeve&amp;author=N. Oulahal&amp;volume=10&amp;issue=3&amp;publication_year=2024&amp;pages=e24929&amp;pmid=38318029&amp;doi=10.1016/j.heliyon.2024.e24929&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Hanahan D., Jessee J., Bloom F. R.. Plasmid
+transformation of and
+other bacteria. Methods Enzymol. 1991;204:63–113. doi: 10.1016/0076-6879(91)04006-A.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0076-6879(91)04006-A"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="1943786"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Methods Enzymol.&amp;title=Plasmid transformation of and other bacteria&amp;author=D. Hanahan&amp;author=J. Jessee&amp;author=F. R. Bloom&amp;volume=204&amp;publication_year=1991&amp;pages=63-113&amp;pmid=1943786&amp;doi=10.1016/0076-6879(91)04006-A&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Gietz R. D., Schiestl R. H.. High-efficiency
+yeast transformation using the LiAc/SS
+carrier DNA/PEG method. Nat. Protoc. 2007;2(1):31–34. doi: 10.1038/nprot.2007.13.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nprot.2007.13"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17401334"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Protoc.&amp;title=High-efficiency yeast transformation using the LiAc/SS carrier DNA/PEG method&amp;author=R. D. Gietz&amp;author=R. H. Schiestl&amp;volume=2&amp;issue=1&amp;publication_year=2007&amp;pages=31-34&amp;pmid=17401334&amp;doi=10.1038/nprot.2007.13&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Luo S., Yan L., Zhang X., Yuan L., Fang Q., Zhang Y.-A., Dai H.. Yeast surface display of capsid protein VP7 of grass carp reovirus:
+fundamental investigation for the development of vaccine against hemorrhagic
+disease. J. Microbiol. Biotechnol. 2015;25(12):2135–2145. doi: 10.4014/jmb.1505.05041.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4014/jmb.1505.05041"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26282690"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Microbiol. Biotechnol.&amp;title=Yeast surface display of capsid protein VP7 of grass carp reovirus: fundamental investigation for the development of vaccine against hemorrhagic disease&amp;author=S. Luo&amp;author=L. Yan&amp;author=X. Zhang&amp;author=L. Yuan&amp;author=Q. Fang&amp;volume=25&amp;issue=12&amp;publication_year=2015&amp;pages=2135-2145&amp;pmid=26282690&amp;doi=10.4014/jmb.1505.05041&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Jia Y. P., Samak N. A., Hao X. M., Chen Z., Yang G. M., Zhao X. H., Mu T. Z., Yang M. H., Xing J. M.. Nano-immobilization
+of PETase enzyme for enhanced polyethylene terephthalate biodegradation. Biochem. Eng. J. 2021;176:108205.  doi: 10.1016/j.bej.2021.108205.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bej.2021.108205"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biochem. Eng. J.&amp;title=Nano-immobilization of PETase enzyme for enhanced polyethylene terephthalate biodegradation&amp;author=Y. P. Jia&amp;author=N. A. Samak&amp;author=X. M. Hao&amp;author=Z. Chen&amp;author=G. M. Yang&amp;volume=176&amp;publication_year=2021&amp;pages=108205&amp;doi=10.1016/j.bej.2021.108205&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Vanella R., Ta D. T., Nash M. A.. Enzyme-mediated
+hydrogel encapsulation
+of single cells for high-throughput screening and directed evolution
+of oxidoreductases. Biotechnol. Bioeng. 2019;116(8):1878–1886. doi: 10.1002/bit.27002.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/bit.27002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31038214"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biotechnol. Bioeng.&amp;title=Enzyme-mediated hydrogel encapsulation of single cells for high-throughput screening and directed evolution of oxidoreductases&amp;author=R. Vanella&amp;author=D. T. Ta&amp;author=M. A. Nash&amp;volume=116&amp;issue=8&amp;publication_year=2019&amp;pages=1878-1886&amp;pmid=31038214&amp;doi=10.1002/bit.27002&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Tournier V., Topham C. M., Gilles A., David B., Folgoas C., Moya-Leclair E., Kamionka E., Desrousseaux M. L., Texier H., Gavalda S.. et al. An engineered PET depolymerase
+to break down and recycle plastic bottles. Nature. 2020;580(7802):216–219. doi: 10.1038/s41586-020-2149-4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-020-2149-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32269349"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=An engineered PET depolymerase to break down and recycle plastic bottles&amp;author=V. Tournier&amp;author=C. M. Topham&amp;author=A. Gilles&amp;author=B. David&amp;author=C. Folgoas&amp;volume=580&amp;issue=7802&amp;publication_year=2020&amp;pages=216-219&amp;pmid=32269349&amp;doi=10.1038/s41586-020-2149-4&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Thomsen T. B., Hunt C. J., Meyer A. S.. Influence of substrate crystallinity
+and glass transition temperature on enzymatic degradation of polyethylene
+terephthalate (PET) New Biotechnol. 2022;69:28–35. doi: 10.1016/j.nbt.2022.02.006.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.nbt.2022.02.006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35247624"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=New Biotechnol.&amp;title=Influence of substrate crystallinity and glass transition temperature on enzymatic degradation of polyethylene terephthalate (PET)&amp;author=T. B. Thomsen&amp;author=C. J. Hunt&amp;author=A. S. Meyer&amp;volume=69&amp;publication_year=2022&amp;pages=28-35&amp;pmid=35247624&amp;doi=10.1016/j.nbt.2022.02.006&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Lu H., Diaz D. J., Czarnecki N. J., Zhu C., Kim W., Shroff R., Acosta D. J., Alexander B. R., Cole H. O., Zhang Y.. et al. Machine learning-aided
+engineering of hydrolases for PET depolymerization. Nature. 2022;604(7907):662–667. doi: 10.1038/s41586-022-04599-z.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41586-022-04599-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35478237"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=Machine learning-aided engineering of hydrolases for PET depolymerization&amp;author=H. Lu&amp;author=D. J. Diaz&amp;author=N. J. Czarnecki&amp;author=C. Zhu&amp;author=W. Kim&amp;volume=604&amp;issue=7907&amp;publication_year=2022&amp;pages=662-667&amp;pmid=35478237&amp;doi=10.1038/s41586-022-04599-z&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Zhou J., Sun J., Ullah M., Wang Q., Zhang Y., Cao G., Chen L., Ullah M. W., Sun S.. Polyethylene terephthalate
+hydrolysate increased bacterial cellulose production. Carbohydr. Polym. 2023;300:120301.  doi: 10.1016/j.carbpol.2022.120301.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.carbpol.2022.120301"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36372499"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Carbohydr. Polym.&amp;title=Polyethylene terephthalate hydrolysate increased bacterial cellulose production&amp;author=J. Zhou&amp;author=J. Sun&amp;author=M. Ullah&amp;author=Q. Wang&amp;author=Y. Zhang&amp;volume=300&amp;publication_year=2023&amp;pages=120301&amp;pmid=36372499&amp;doi=10.1016/j.carbpol.2022.120301&amp;"/></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Chen S., Zheng Y., Han C., Liu H., Chen Y., Zhou J., Su S.. Production of a bioflocculant
+using
+old polyester fibre as a fermentation feedstock and its use in treatment
+of polyester alkali-peeling wastewater. J. Environ.
+Chem. Eng. 2021;9(4):105455.  doi: 10.1016/j.jece.2021.105455.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jece.2021.105455"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Environ. Chem. Eng.&amp;title=Production of a bioflocculant using old polyester fibre as a fermentation feedstock and its use in treatment of polyester alkali-peeling wastewater&amp;author=S. Chen&amp;author=Y. Zheng&amp;author=C. Han&amp;author=H. Liu&amp;author=Y. Chen&amp;volume=9&amp;issue=4&amp;publication_year=2021&amp;pages=105455&amp;doi=10.1016/j.jece.2021.105455&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">Benyathiar P., Kumar P., Carpenter G., Brace J., Mishra D. K.. Polyethylene
+Terephthalate (PET) Bottle-to-Bottle Recycling for the Beverage Industry:
+A Review. Polymers. 2022;14(12):2366.  doi: 10.3390/polym14122366.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/polym14122366"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9231234"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35745942"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Polymers&amp;title=Polyethylene Terephthalate (PET) Bottle-to-Bottle Recycling for the Beverage Industry: A Review&amp;author=P. Benyathiar&amp;author=P. Kumar&amp;author=G. Carpenter&amp;author=J. Brace&amp;author=D. K. Mishra&amp;volume=14&amp;issue=12&amp;publication_year=2022&amp;pages=2366&amp;pmid=35745942&amp;doi=10.3390/polym14122366&amp;"/></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">Sinha V., Patel M. R., Patel J. V.. PET waste
+management by chemical
+recycling: a review. J. Polym. Environ. 2010;18(1):8–25. doi: 10.1007/s10924-008-0106-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10924-008-0106-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Polym. Environ.&amp;title=PET waste management by chemical recycling: a review&amp;author=V. Sinha&amp;author=M. R. Patel&amp;author=J. V. Patel&amp;volume=18&amp;issue=1&amp;publication_year=2010&amp;pages=8-25&amp;doi=10.1007/s10924-008-0106-7&amp;"/></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Mishra R., Minc N., Peter M.. Cells under pressure: how yeast cells
+respond to mechanical forces. Trends Microbiol. 2022;30(5):495–510. doi: 10.1016/j.tim.2021.11.006.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tim.2021.11.006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35000797"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Microbiol.&amp;title=Cells under pressure: how yeast cells respond to mechanical forces&amp;author=R. Mishra&amp;author=N. Minc&amp;author=M. Peter&amp;volume=30&amp;issue=5&amp;publication_year=2022&amp;pages=495-510&amp;pmid=35000797&amp;doi=10.1016/j.tim.2021.11.006&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Shaw W. M., Khalil A. S., Ellis T.. A Multiplex MoClo Toolkit for Extensive
+and Flexible Engineering of . ACS Synth. Biol. 2023;12(11):3393–3405. doi: 10.1021/acssynbio.3c00423.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acssynbio.3c00423"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10661031"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37930278"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Synth. Biol.&amp;title=A Multiplex MoClo Toolkit for Extensive and Flexible Engineering of&amp;author=W. M. Shaw&amp;author=A. S. Khalil&amp;author=T. Ellis&amp;volume=12&amp;issue=11&amp;publication_year=2023&amp;pages=3393-3405&amp;pmid=37930278&amp;doi=10.1021/acssynbio.3c00423&amp;"/></mixed-citation></ref><ref id="ref44"><mixed-citation id="cit44"><named-content content-type="citation-string">
+
+Angelini, A.
+; 
+Chen, T.
+F.
+; 
+de Picciotto, S.
+; 
+Yang, N.
+J.
+; 
+Tzeng, A.
+; 
+Santos, M. S.
+; 
+Van Deventer, J. A.
+; 
+Traxlmayr, M. W.
+; 
+Wittrup, K. D.
+. 
+Protein Engineering and Selection
+Using Yeast Surface Display. In Yeast Surface
+Display: Methods, Protocols, and Applications; 
+Liu, B.
+, Ed.; Methods
+in Molecular Biology, 2015; Vol. 1319, pp 3–36.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-1-4939-2748-7_1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26060067"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Yeast Surface Display: Methods, Protocols, and Applications&amp;publication_year=2015&amp;"/></mixed-citation></ref><ref id="ref45"><mixed-citation id="cit45"><named-content content-type="citation-string">Austin H. P., Allen M. D., Donohoe B. S., Rorrer N. A., Kearns F. L., Silveira R. L., Pollard B. C., Dominick G., Duman R., El Omari K.. Characterization and engineering
+of a plastic-degrading
+aromatic polyesterase. Proc. Natl. Acad. Sci.
+U. S. A. 2018;115(19):E4350–E4357. doi: 10.1073/pnas.1718804115.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.1718804115"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5948967"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29666242"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proc. Natl. Acad. Sci. U. S. A.&amp;title=Characterization and engineering of a plastic-degrading aromatic polyesterase&amp;author=H. P. Austin&amp;author=M. D. Allen&amp;author=B. S. Donohoe&amp;author=N. A. Rorrer&amp;author=F. L. Kearns&amp;volume=115&amp;issue=19&amp;publication_year=2018&amp;pages=E4350-E4357&amp;pmid=29666242&amp;doi=10.1073/pnas.1718804115&amp;"/></mixed-citation></ref><ref id="ref46"><mixed-citation id="cit46"><named-content content-type="citation-string">Cherf G. M., Cochran J. R.. Applications of Yeast Surface Display for Protein Engineering. Methods Mol. Biol. 2015;1319:155–175. doi: 10.1007/978-1-4939-2748-7_8.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-1-4939-2748-7_8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4544684"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26060074"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Methods Mol. Biol.&amp;title=Applications of Yeast Surface Display for Protein Engineering&amp;author=G. M. Cherf&amp;author=J. R. Cochran&amp;volume=1319&amp;publication_year=2015&amp;pages=155-175&amp;pmid=26060074&amp;doi=10.1007/978-1-4939-2748-7_8&amp;"/></mixed-citation></ref><ref id="ref47"><mixed-citation id="cit47"><named-content content-type="citation-string">
+
+Xu, G.
+; 
+Tasumi, S.
+; 
+Pancer, Z.
+. 
+Yeast surface
+display of lamprey variable lymphocyte receptors.
+In Immune Receptors; Springer, 2011; pp 21–33.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-1-61779-139-0_2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3717520"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21701964"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Immune Receptors&amp;publication_year=2011&amp;"/></mixed-citation></ref><ref id="ref48"><mixed-citation id="cit48"><named-content content-type="citation-string">Atashgahi S., Sanchez-Andrea I., Heipieper H. J., Meer J. R. D., Stams A. J. M., Smidt H.. Prospects
+for harnessing biocide resistance for bioremediation
+and detoxification. Science. 2018;360(6390):743–746. doi: 10.1126/science.aar3778.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aar3778"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29773745"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Prospects for harnessing biocide resistance for bioremediation and detoxification&amp;author=S. Atashgahi&amp;author=I. Sanchez-Andrea&amp;author=H. J. Heipieper&amp;author=J. R. D. Meer&amp;author=A. J. M. Stams&amp;volume=360&amp;issue=6390&amp;publication_year=2018&amp;pages=743-746&amp;pmid=29773745&amp;doi=10.1126/science.aar3778&amp;"/></mixed-citation></ref><ref id="ref49"><mixed-citation id="cit49"><named-content content-type="citation-string">Bornscheuer U. T.. Feeding
+on plastic. Science. 2016;351(6278):1154–1155. doi: 10.1126/science.aaf2853.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aaf2853"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26965614"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Feeding on plastic&amp;author=U. T. Bornscheuer&amp;volume=351&amp;issue=6278&amp;publication_year=2016&amp;pages=1154-1155&amp;pmid=26965614&amp;doi=10.1126/science.aaf2853&amp;"/></mixed-citation></ref><ref id="ref50"><mixed-citation id="cit50"><named-content content-type="citation-string">Yang Y., Yang J., Jiang L.. Comment on
+“A bacterium that
+degrades and assimilates poly­(ethylene terephthalate)”. Science. 2016;353(6301):759.  doi: 10.1126/science.aaf8305.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aaf8305"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27540159"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Comment on “A bacterium that degrades and assimilates poly­(ethylene terephthalate)”&amp;author=Y. Yang&amp;author=J. Yang&amp;author=L. Jiang&amp;volume=353&amp;issue=6301&amp;publication_year=2016&amp;pages=759&amp;pmid=27540159&amp;doi=10.1126/science.aaf8305&amp;"/></mixed-citation></ref><ref id="ref51"><mixed-citation id="cit51"><named-content content-type="citation-string">Yoshida S., Hiraga K., Takehana T., Taniguchi I., Yamaji H., Maeda Y., Toyohara K., Miyamoto K., Kimura Y., Oda K.. Response to Comment on “A
+bacterium that degrades and assimilates poly­(ethylene terephthalate)”. Science. 2016;353(6301):759.  doi: 10.1126/science.aaf8625.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aaf8625"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27540160"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=Response to Comment on “A bacterium that degrades and assimilates poly­(ethylene terephthalate)”&amp;author=S. Yoshida&amp;author=K. Hiraga&amp;author=T. Takehana&amp;author=I. Taniguchi&amp;author=H. Yamaji&amp;volume=353&amp;issue=6301&amp;publication_year=2016&amp;pages=759&amp;pmid=27540160&amp;doi=10.1126/science.aaf8625&amp;"/></mixed-citation></ref><ref id="ref52"><mixed-citation id="cit52"><named-content content-type="citation-string">Zhu J. B., Watson E. M., Tang J., Chen E. Y. X.. A synthetic polymer
+system with repeatable chemical recyclability. Science. 2018;360(6387):398–403. doi: 10.1126/science.aar5498.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.aar5498"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29700260"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=A synthetic polymer system with repeatable chemical recyclability&amp;author=J. B. Zhu&amp;author=E. M. Watson&amp;author=J. Tang&amp;author=E. Y. X. Chen&amp;volume=360&amp;issue=6387&amp;publication_year=2018&amp;pages=398-403&amp;pmid=29700260&amp;doi=10.1126/science.aar5498&amp;"/></mixed-citation></ref><ref id="ref53"><mixed-citation id="cit53"><named-content content-type="citation-string">Könning D., Kolmar H.. Beyond antibody engineering: directed evolution of
+alternative binding scaffolds and enzymes using yeast surface display. Microb. Cell Fact. 2018;17(1):32.  doi: 10.1186/s12934-018-0881-3.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s12934-018-0881-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6389260"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29482656"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microb. Cell Fact.&amp;title=Beyond antibody engineering: directed evolution of alternative binding scaffolds and enzymes using yeast surface display&amp;author=D. Könning&amp;author=H. Kolmar&amp;volume=17&amp;issue=1&amp;publication_year=2018&amp;pages=32&amp;pmid=29482656&amp;doi=10.1186/s12934-018-0881-3&amp;"/></mixed-citation></ref><ref id="ref54"><mixed-citation id="cit54"><named-content content-type="citation-string">Wei R., Zimmermann W.. Biocatalysis
+as a green route for recycling the recalcitrant
+plastic polyethylene terephthalate. Microb.
+Biotechnol. 2017;10(6):1302–1307. doi: 10.1111/1751-7915.12714.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/1751-7915.12714"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5658586"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28401691"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microb. Biotechnol.&amp;title=Biocatalysis as a green route for recycling the recalcitrant plastic polyethylene terephthalate&amp;author=R. Wei&amp;author=W. Zimmermann&amp;volume=10&amp;issue=6&amp;publication_year=2017&amp;pages=1302-1307&amp;pmid=28401691&amp;doi=10.1111/1751-7915.12714&amp;"/></mixed-citation></ref><ref id="ref55"><mixed-citation id="cit55"><named-content content-type="citation-string">Samir A., Ashour F. H., Hakim A. A. A., Bassyouni M.. Recent advances
+in biodegradable polymers for sustainable applications. npj Mater. Degrad. 2022;6(1):68.  doi: 10.1038/s41529-022-00277-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41529-022-00277-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=npj Mater. Degrad.&amp;title=Recent advances in biodegradable polymers for sustainable applications&amp;author=A. Samir&amp;author=F. H. Ashour&amp;author=A. A. A. Hakim&amp;author=M. Bassyouni&amp;volume=6&amp;issue=1&amp;publication_year=2022&amp;pages=68&amp;doi=10.1038/s41529-022-00277-7&amp;"/></mixed-citation></ref><ref id="ref56"><mixed-citation id="cit56"><named-content content-type="citation-string">Giraldo-Narcizo S., Guenani N., Sánchez-Pérez A. M., Guerrero A.. Accelerated Polyethylene Terephthalate (PET) Enzymatic
+Degradation by Room Temperature Alkali Pre-treatment for Reduced Polymer
+Crystallinity. ChemBioChem. 2023;24(1):e202200503.  doi: 10.1002/cbic.202200503.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cbic.202200503"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10286761"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36341520"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ChemBioChem.&amp;title=Accelerated Polyethylene Terephthalate (PET) Enzymatic Degradation by Room Temperature Alkali Pre-treatment for Reduced Polymer Crystallinity&amp;author=S. Giraldo-Narcizo&amp;author=N. Guenani&amp;author=A. M. Sánchez-Pérez&amp;author=A. Guerrero&amp;volume=24&amp;issue=1&amp;publication_year=2023&amp;pages=e202200503&amp;pmid=36341520&amp;doi=10.1002/cbic.202200503&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sb5c00209_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 43b6/12313053/5e1cfbca93ac/sb5c00209_si_001.pdf?><?cloudpmc-bucket app?><?size 178199?></media></supplementary-material></sec></sec></body></article>

@@ -1,0 +1,11 @@
+{
+  "mean_visits_per_source": [
+    30142.0,
+    29824.3,
+    29858.7,
+    30105.7,
+    29817.2
+  ],
+  "sequestered_frac": 0.0,
+  "note": "run-tumble walkers visit but cannot envelop (proposal_1.md:3-5)"
+}

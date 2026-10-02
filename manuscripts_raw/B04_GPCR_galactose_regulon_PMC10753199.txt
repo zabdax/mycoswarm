@@ -1,0 +1,275 @@
+# Reshaping the yeast galactose regulon via GPCR signaling cascade
+
+## Abstract
+
+SummaryDynamically regulated systems are preferable to control metabolic pathways for an improved strain performance with better productivity. Here, we harnessed to the G protein-coupled receptor (GPCR) signaling pathway to reshape the yeast galactose regulon. The galactose-regulated (GAL) system was coupled with the GPCR signaling pathway for mating pheromone via a synthetic transcription factor. In this study, we refabricated the dynamic range, sensitivity, and response time of the GAL system to α factor by modulating the key components of the GPCR signaling cascade. A series of engineered yeasts with self-secretion of α factor were constructed to achieve quorum-sensing behaviors. In addition, we also repurposed the GAL system to make it responsive to heat shock. Taken together, our work showcases the great potential of synthetic biology in creating user-defined metabolic controls. We envision that the plasticity of our genetic design would be of significant interest for the future fabrication of novel gene expression systems.Keywords: GPCR, galactose regulon, quorum sensing, metabolic control, synthetic biology
+
+## Abstract
+
+Graphical abstract
+
+## Abstract
+
+Highlights•A synthetic transcription factor was constructed to reshape the yeast galactose regulon•Key components of the GPCR signaling pathway were modulated to improve the output•A variety of user-defined metabolic controls were developed•Different degrees of quorum-sensing behaviors were obtained by tuning the circuits
+
+## Abstract
+
+MotivationTo avoid suboptimal product yields, it is necessary to fine-tune the timing of the expression of target metabolic pathways. Traditional dynamic regulation has limited controllability. Therefore, a tunable and customizable dynamic regulation system is needed. We use the G protein-coupled receptor signaling pathway to reshape the output of the yeast galactose regulon. This model allows us to build a variety of user-defined metabolic controls including quorum-sensing behavior. The plasticity of our genetic design also enables the GAL system to sense and record a physical stimulus such as heat shock.
+
+## Abstract
+
+To achieve an improved yeast strain performance with better productivity, metabolic engineers use dynamically regulated systems to decouple growth and production phases during fermentation. Fan et al. use the G protein-coupled receptor signaling pathway to reshape the yeast galactose regulon and construct a variety of user-defined metabolic controls.
+
+
+## Introduction
+
+
+Microbial synthesis of natural products, chemicals, and drugs from renewable feedstocks is considered a sustainable alternative to chemical approaches.1,2,3,4 To avoid suboptimal product yield, it is necessary to fine-tune the timing of targeted metabolic pathways to alleviate bottlenecks and to minimize the metabolic burden during the production process. Ideally, the desired pathways should be triggered for expression at an appropriate time, expressed in a balanced manner, and dynamically respond to changing environments. As some pathways involved in by-product formation are also essential to support cell growth, restricting these by-product pathways during the production phase is preferable. Numerous strategies for dynamic regulation of metabolic pathways have been developed in the model microorganism of Escherichia coli.5,6,7 For instance, an Esa quorum-sensing circuit that autonomously switches gene expression from ON to OFF was used to dynamically downregulate endogenous genes to accumulate the targeted product.8 A muconic acid-responsive biosensor was used to allow cells to adapt to fermentation conditions before increasing flux through the muconic acid pathway.9
+
+In the eukaryotic “workhorse” Saccharomyces cerevisiae, metabolic engineers still often rely on constitutive expression systems such as PTEF1 and PPGK1,10 which suffer poor control over enzyme expressions at different growth phases. The most commonly used tightly inducible promoters are galactose-regulated (GAL) promoters, but galactose is considered too expensive for use, and the process of changing medium is difficult in large-scale cultures.11 With the advancement of synthetic biology, more alternative and controllable expression systems have been established in S. cerevisiae. For instance, the tetracycline regulatory system (Tet-on and Tet-off), which is originally from bacteria, has been used to regulate gene expression in S. cerevisiae.12 However, chemical-inducible systems with expensive inducers are not suitable for the downstream industrial processes. As inspired by quorum-sensing from bacteria, autonomous circuits in response to cell density were recently established in S. cerevisiae,13,14,15 with the potential for the separation of growth from biochemical production. By rewiring the native G protein-coupled receptor (GPCR) signaling pathway of the pheromone-mediated communication system in S. cerevisiae, the engineered cell-cell communication system affords dynamic control of gene expressions.14,15
+
+In this study, we reprogrammed the yeast galactose regulon to achieve diverse expression profiles by coupling with the mating pheromone GPCR signaling pathway (Figure 1). To prevent the Ste12-mediated mating responses,16 a synthetic transcription factor (sTF) based on the pheromone responsive domain (PRD) from Ste1217 and the DNA binding domain (DBD) of Gal418 was implemented (Figure 1A). By employing various α factor transcription modules, the signal inputs from different stimuli could be sensed and recorded as α factor accumulation, which can be further transduced through the endogenous GPCR-mediated mating process to drive the gene-of-interest (GOI) expression under the GAL system via the action of sTF (Figure 1B). Due to the intrinsic feature of our genetic circuit that requires α factor accumulation to exceed a threshold, engineered yeast cells with self-secretion of α factor are expected to act in quorum-sensing like behaviors (Figure 1B). We demonstrated that self-expression of the α factor under the glucose-repressible promoters enabled the engineered yeasts to behave in growth-dependent expression, which outperforms conventional glucose-dependent systems under continuous glucose feeding. Furthermore, we also showcased that the genetic circuit could be repurposed to sense transient physical stimuli such as heat shock, and the resulting strain could give a lasting signal output in response to heat shock. Taken together, we successfully applied synthetic biology principles to reshape the yeast galactose regulon with diverse expression profiles, showcasing the great potential of synthetic biology in creating user-defined metabolic controls. We envision that the methodology developed here would be generalizable to fabricating useful genetic circuits in other eukaryotic organisms.
+
+Schematic design of harnessing the yeast GPCR signaling cascade to reshape the yeast galactose regulon
+
+(A) Coupling the GPCR signaling cascade with the GAL system using a synthetic transcription factor. The synthetic transcription factor (sTF) was created by fusing the pheromone responsive domain (PRD; 216–688) from Ste12 to the DNA binding domain (DBD; 1–147) of Gal4. By employing various α factor transcription modules, the signal inputs from different stimuli could be sensed and recorded as α factor accumulation, which can be further transduced through the endogenous GPCR-mediated mating process to drive the gene-of-interest (GOI) expression under the GAL system.
+
+(B) The performance of the GAL system can be user defined by different input types of α factor synthesis in response to metabolites or physical stimuli.
+
+
+## Results
+
+
+
+## Coupling the GPCR signaling pathway with the yeast galactose regulon
+
+
+According to the literature, the yeast GPCR-mediated mating process involves the upregulation of more than 100 genes.16 To avoid the unwanted expression of genes involved in the native mating process,14,15 we intentionally fused the PRD from the Ste12 (216–688aa)17 to the DBD of Gal4 (1–147aa),18 so that the mating signal from α factor can be transduced to the hybrid Gal4-Ste12 by mitogen-activated protein kinase (MAPK) Fus3-mediated posttranscriptional phosphorylation of PRD domain,19 which eventually gives signal output under the GAL system. We first constructed an engineered yeast strain with Δfar1 Δgal80 Δgal4 as the starting chassis for the subsequent strain constructions. Here, the far1 gene was deleted to prevent α factor-triggered G1 arrest,20 whereas Δgal80 and Δgal4 deletions completely abolished the yeast native galactose regulation network that consists of Gal80 as the switch and Mig1 as the rheostat.21 Subsequently, we swapped the DBD of Ste12 with that of Gal4 to yield Δste12:sTF by CRISPR-Cas9-mediated genome editing. However, we found that the sTF-mediated gene circuit in strain Sc-Base (Δfar1 Δgal80 Δgal4 PSTE12-sTF) was extremely leaky when transformed with a plasmid expressing enhanced green fluorescent protein (EGFP) under the GAL1 promoter (Figure 2A).
+
+Modulating the key components of the GPCR signaling cascade to improve the circuit performance
+
+(A) Gpa1 overexpression improves the tightness of the sTF-mediated gene circuit. A moderate and constitutive PTEF2 was used to drive Gpa1 expression.
+
+(B) Overexpression of Ste2 enhances the maximum signal output of the sTF-mediated gene circuit. The output signal of EGFP and OD600 were collected after 6-h cultivation.
+
+(C) Time course of EGFP signal output of the engineered strains ScB1 and ScB2. Both yeast cells were treated with 1,000 nM of α factor.
+
+(D) Disruption of Bar1 improves the sensitivity of the sTF-mediated gene circuit. The output signal of EGFP and OD600 were collected after 6-h cultivation.
+
+(E) Time course of EGFP signal output of the engineered strains ScB3 and ScB4. Both yeast cells were treated with 1,000 nM of α factor.
+
+(F) Dynamic range, EC50, and hillslope of genetic circuit with different designs. Data represent the average and standard deviation of three independent experiments.
+
+In S. cerevisiae, the heterotrimeric guanine nucleotide-binding protein (G protein) mediates the mating pheromone signal transduction: the GDP-bound Gα subunit (Gpa1) sequesters the Gβγ subunits, preventing their activation of the downstream effectors.22 The basal activity of the signal cascade can be reduced by overexpression of Gα, which leads to rapid sequestration of free Gβγ activity.23 In this study, we further overexpressed the Gα subunit of Gpa1 under a moderate and constitutive TEF2 promoter.24 As shown in Figure 2A, the leaky issue was properly solved in strain Sc-B1 (Δfar1 Δgal80 Δgal4 PSTE12-sTF PTEF2-Gpa1), confirming the effectiveness of modulating Gα level in addressing the basal activity of the pheromone signal cascade. Subsequently, we characterized the dose-response curve of the engineered strain Sc-B1 to different concentrations of α factor. As shown in Figures 2B and 2A, clear dose-dependent expression of EGFP to different concentrations of synthetic α factor was observed, suggesting that the engineering GAL circuit acts in an α factor-dependent manner. Overall, our data indicated that the designed sTF (Gal4-Ste12) could successfully transduce α factor-dependent signals to the GAL system.
+
+
+## Modulating the GPCR signaling pathway to improve the circuit performance
+
+
+Although the GPCR dose-response is a complex output system, the GPCR sensing system is unable to benefit from the positive feedback in its natural environment after disrupting Ste12.25 Based on the results from Figure S1, the transcriptional activity of PSte2 in the sTF strain did not exhibit a substantial increase upon pheromone activation when compared to that of the control with the native Ste12, which might correlate with the low signal output in strain Sc-B1 when treated with 103 nM α factor (Figure 2B). In addition, we also observed that the signal output was much reduced when the α factor was increased from 103 nM to 104 nM. According to the literature, the α factor receptor complexes enter the cell by receptor-mediated endocytosis, and Ste2 receptors need to be resynthesized26; thus the low abundance of Ste2 in the sTF strain likely affected the signal recognition at a high concentration of 104 nM α factor. To further improve the magnitude of signal output, we next constructed a second version of the engineered yeast with Ste2 under a constitutive promoter of PTEF2 (Sc-B2: Δfar1 Δgal80 Δgal4 PSTE12-sTF PTEF2-Gpa1 PTEF2-Ste2). Unexpectedly, the improvement in signal output by increasing the Ste2 abundance occurred only at high concentrations of α factor stimulation (Figure 2B). These findings indicated that even in the absence of a positive feedback system, the robustness of the GPCR response at concentrations below 10 nM was not altered by the low abundance of Ste2. In addition, we also observed that the signal response rate increased with the abundance of Ste2 at high α factor concentrations (Figures 2C and S2). Overall, the magnitude of maximum signal output could be improved by the enhanced abundance of Ste2, which helped to address a partial activation of the downstream signal cascade.
+
+Considering the aspartyl protease Bar1 actively cleaves and inactivates α factor,27 we further investigated the effect of Δbar1 on the circuit performance. Since the GPCR signaling pathway is only activated when the rate of α factor synthesis exceeds its degradation by Bar1, abolishing the Bar1 could substantially improve the sensitivity of our genetic circuits in strain Sc-B3 (Sc-B1 with Δbar1) and ScB4 (Sc-B2 with Δbar1) (Figure 2D). In particular, we found that a reduction in the half-maximal effective concentration (EC50) of strain Sc-B3 was observed, and the dynamic output range of Sc-B3 was unchanged when compared to Sc-B1 (Figure 2F). The observed increase in the detection limit of Sc-B3 suggested that the deletion of Bar1 prolonged the dose duration and resulted in a significant signal output even at low doses of α factor stimuli. Alternatively, the low α factor concentration was sufficient to saturate the Ste2 receptor, to contribute to an increase in the number of agonist-receptor complexes. Meanwhile, the unchanged dynamic output range indicated that the low Ste2 level limits the signal output magnitude.
+
+Furthermore, the yeast Sc-B4 with a high expression level of Ste2 showed a much stronger response to high pheromone concentrations in terms of a faster response rate and a higher signal output (Figures 2E and S2). In contrast, increasing the abundance of Ste2 reduced the number of agonist-receptor complexes under lower dose stimulation compared to Sc-B3. Similarly, the EC50 of strain Sc-B4 was altered by the elimination of Bar1, whereas the dynamic range was not much changed when compared to Sc-B2, indicating that the high expression level of Ste2 is beneficial to further enhance the robustness of the sTF strain (Figure 2F). Taken together, our results showed that the signal outputs in the sTF strain could be altered by modulating the key components involved in the GPCR signaling cascade.
+
+
+## Quorum-sensing-like behaviors achieved by self-secretion of α factor
+
+
+Glucose-repressible promoters are widely used to control metabolic pathways in a glucose-dependent manner.28,29 As depicted in Figure 3A, the periodic repression of the bioproduction process during continuous feeding or pulse feeding of glucose is not a desirable feature for industrial applications. For instance, glucose replenishment results in a rapid decrease in ADH2 mRNA abundance,30 which is expected to attenuate the expression levels of biosynthetic genes under PADH2. In contrast, harnessing the α factor as a secondary messenger solves the abovementioned issues as the bioproduction process would continue once a sufficient amount of α factor is accumulated in the culture (Figure 3A). Therefore, we sought to establish autonomous expression systems in the yeast via self-secreting α factor under glucose-responsive promoters.
+
+Quorum-sensing behavior achieved by glucose-repressible control of α factor
+
+(A) Comparison of conventional glucose-responsive systems to GPCR-mediated signal recording systems during the batch and fed-batch phase.
+
+(B) Glucose-responsive control of α factor level enables quorum-sensing behavior. The glucose-repressible promoters PADH2 and PHXT7 were used to achieve glucose-dependent expression profiles.
+
+(C) Fluorescence microscopy analysis of EGFP distribution profile under different stages of growth. Strain Sc-ADH2α was periodically harvested for fluorescence microscopy analysis.
+
+(D) Overexpression of Sst2 reduces the sensitivity of the autonomous expression system. All experiments were carried out in shake tubes, and data represent the average and standard deviation of three independent experiments.
+
+In this study, we chose PADH2 (a tight glucose-repressible promoter)31 and PHXT7 (a leaky glucose-repressible promoter)31 to control the α factor expression, so that the GAL system can respond to glucose depletion during the batch process. The MFα1 gene32 (a single copy of α factor) coupled with different promoters was directly integrated at the Bar1 locus of strain Sc-B4, and the resulting strains were designated as Sc-ADH2α and Sc-HXT7α, respectively. As shown in Figure 3B, distinct EGFP expressions were observed in our engineered yeasts with autonomous α factor synthesis. Since the yeast PADH2 promoter is repressed in the presence of glucose, α factor synthesis is only initiated once the medium is depleted of glucose.33 As shown in Figure 3B, strain Sc-ADH2α displayed a clear advantage of delayed EGFP expression over Sc-HXT7α as the EGFP signal in strain Sc-ADH2α was fully repressed in the early 12 h. However, as the PHXT7 promoter is not tightly repressed by glucose, α factor accumulation in strain Sc-HXT7α rapidly exceeds the threshold during the glucose-consuming phase, resulting in a nearly constitutive expression of EGFP. Furthermore, we also confirmed that the yeast spent medium from Sc-ADH2α contains a sufficient amount of α factor in triggering the reporter gene of strain Sc-B4 without self-secretion of α factor (Figure S4). Based on the results from fluorescence microscopy analysis (Figure 3C), the initial fluorescence of Sc-ADH2α within 4 h was high after transferring from the preculture, and it gradually decreased to the basal expression level. We reasoned that this phenomenon is attributed to the dilution of α factor levels, followed by the dephosphorylation of signal transduction proteins. These findings confirmed that the reversible phosphorylation of sTF mediated by the GPCR pathway and the genetic circuit could regain the “quiescent” state when diluted to a low cell density.
+
+To achieve more dynamic expression profiles for specific applications, we sought to further tune the quorum-sensing behaviors by modulating the GTPase-activating protein Sst2. The Sst2 is reported to stimulate GTP hydrolysis on Gpa1, thereby downregulating the pheromone response pathway.34 Sst2 is also the major noise regulator,35 which could dynamically regulate the noise levels at different stages of pheromone stimulation, resulting in different outputs at the timescale and transcriptional level.36 We first constructed Sc-ADH2αΔsst2 and Sc-HXT7αΔsst2, and our data suggested that Δsst2 had a marginal effect on the performance of quorum-sensing circuits (Figure S3). Characterization of PSST2 revealed that its promoter activity in the sTF-derived strain was substantially lower than that in the wild-type Ste12 strain (Figure S5), which explains the subtle difference in strain performance after deleting Sst2. To further diversify the quorum-sensing behavior, we replaced the native PSST2 with a stronger promoter PTEF2, and the engineered strain Sc-ADH2αSst2OE resulted in a more delayed expression of EGFP (Figure 3D), albeit with a compromised maximum signal output. Interestingly, overexpression of the noise regulator Sst2 addressed the leaky expression of EGFP in strain Sc-HXT7α, and quorum-sensing behavior was obtained in strain Sc-HXT7αSst2OE (Figure 3D). With the Sst2 knockout or overexpression, the engineered strains showed different signal memory effects and maximum response signals when compared to their parents. Therefore, Sst2 is an interesting component involved in the GPCR-mediated signaling cascade to modulate the circuit behaviors, and future fine-tuning of the Sst2 levels is expected to obtain even more diverse quorum-sensing profiles.
+
+
+## Expanding the genetic circuit to sense transient physical stimuli
+
+
+To further broaden the utility of our genetic circuits for future metabolic engineering applications, we also attempted to engineer the GPCR-mediated genetic circuit to make it respond to the physical stimulus of heat shock (Figure 4A). Physical stimuli-triggered gene regulations are of particular interest to metabolic engineers. For instance, temperature-regulated temporal controls of metabolic pathways were recently established to replace chemical inducers with cold shock.37,38 In this study, we chose the promoters from heat shock-related genes such as Hsp104, CPR6, Hsp82, and SSA339,40 to govern the expression of α factor via heat stimuli. However, we observed that all the strains (Sc-HSP104α, Sc-CPR6α, Sc-HSP82α, Sc-SSA3α) were leaky in EGFP expressions (Figure 4B). Among them, Sc-SSA3α with low background output was chosen for a proof-of-concept investigation of heat shock-triggered gene expressions. As shown in Figure 4C, there was a noticeable elevated EGFP expression in strain Sc-SSA3α upon exposure to heat shock at 37°C for 2 h. Due to the inherent memory of α factor accumulation, the pulse of heat shock was recorded in the form of α factor accumulation to give a lasting signal output, which is expected to outperform the conventional heat-inducible promoters40 or hybrid transcription factor41 that only give transient outputs. However, to meet the requirement for the future accurate engineering of metabolic pathways, more efforts are still required to address the leaky issue by identifying more stringent heat-responsive promoters for controlling α factor expression.
+
+Expanding the genetic design for sensing transient heat stimuli
+
+(A) Schematic diagram of heat shock-triggered genetic circuit.
+
+(B) Screening different endogenous heat shock-responsive promoters for controlling the α factor level. Two temperature conditions (30°C and 37°C) were used to cultivate the yeast cells.
+
+(C) The EGFP expression profiles of heat shock-mediated genetic circuit. Strain Sc-SSA3α was first cultivated at the normal temperature at 30°C. After 6-h cultivation, the yeast cells were then treated with 2-h heat shock at 37°C and then shifted to 30°C. The control strains were continuously maintained under the normal conditions at 30°C. Data represent the average and standard deviation of three independent experiments.
+
+
+## Discussion
+
+
+The GAL system only controls a few genes involved in galactose utilization such as GAL1, GAL2, GAL7, and GAL10, which is far less than the mating process-related genes (upregulation of more than 100 genes). To avoid the unwanted expression of genes involved in the mating process, we fused the PRD from the Ste12 to the DBD of Gal4, so that the mating signal from the α factor can be transduced by the GPCR signaling pathway to the GAL system. Since the refactored GAL system functions in a glucose-containing medium, galactose utilization-related genes are dispensable, and these loci can be used as the neutral sites for the future integration of heterologous metabolic modules. However, the initial engineered strain with the sTF-mediated gene circuit (Sc-Base Δfar1 Δgal80 Δgal4 PSTE12-sTF) was leaky. The natural pheromone GPCR signaling pathway in yeast is a complex activation process.42,43 The yeast cells transform into the mating form at critical pheromone concentrations,25 and the pheromone pathway achieves a linear relationship with downstream responses through noise inhibition, pheromone sensitivity, and receptor occupancy.44 In this study, we managed to address the basal activity of the GPCR signaling cascade by overexpression of Gα encoded by Gpa1.23 As the increase of free Gβγ could cause constitutive activation of the mating pathway at a pheromone-free stable state,45 reducing the amount of Gβγ might be implemented to address the basal level of the GPCR signaling cascade.
+
+In the yeast mating pathway, multiple regulatory pathways involving negative feedback exist to achieve precise modulation of the mating signaling,36 and the negative feedback plays an important role in inhibiting the pathway activity in the absence of a stimulus.46 Due to the removal of the native Ste12 DBD, negative feedback regulation mediated by Ste12 is nearly abolished in our sTF system, and the signaling levels are largely dependent on changes in the levels of α factor. Regardless of the changed expression of GPCR-related key components after abolishing the native Ste12, our experiments showed that the sTF-derived strain remains robust in response to the α factor stimulation as demonstrated by dose-response curves. In particular, the Bar1 knockout to prevent active degradation of α factor substantially increased the detection limits of α factor. Upon the removal of Bar1 restriction, strains with a basal Ste2 expression showed a faster response to low α factor concentrations, whereas increasing the Ste2 expression level substantially enhanced the magnitude of signal output. Thus, the sensitivity, response time, and dynamic range of GAL systems could be intentionally refabricated by modulating the components of the GPCR signaling cascade.
+
+In this study, the engineered yeasts with α factor under glucose-repressible promoters are of particular interest for biochemical productions under fed-batch conditions, which addresses the periodical repression by direct use of traditional glucose-dependent promoters.28,29 Although we have demonstrated the reversibility of our genetic circuit when diluted to a low cell density, future work might be dedicated to modulating the half-life of phosphorylated sTF such as the dephosphorylation process mediated by signal transduction proteins, which are important to change the timing and duration of the “quiescent” state. For instance, since the transcriptional regulator Dig1 plays a major role in repressing the PRD activity of Ste12,47,48,49 fine-tuning the Dig1 level is expected to change the sensitivity of the GPCR signaling cascade. Moreover, by mimicking the native GPCR system with positive feedback,50 it will be possible to develop engineered circuits with further introduction of positive feedback loops, to record long-term memory of transient signal stimuli in a “switch-like” bistability. In addition, we also demonstrated that the yeast GAL system could be repurposed to record transient signals from physical stimuli such as heat shock. In the future, other physical stimuli such as light can be similarly implemented by harnessing optogenetic control of α factor synthesis. Throughout the work, we only tested MFα1 with a single copy of α factor, and further increasing the α factor copies in a natural tandem way32 would possibly result in synthetic gene circuits with a much faster accumulation of α factor for a shorter response time. It is also noteworthily that the engineered strains are compatible with all the commercially available GAL expression plasmids, which can be readily “plugged in” to our system. In the future, synthetic biology might further expand the repertoire of synthetic promoters with different efficiencies,51 which will offer new opportunities for developing more controllable and accurate GPCR-mediated quorum-sensing profiles that suit dynamic regulation of metabolic pathways.
+
+In summary, we successfully harnessed the GPCR signaling cascade to reshape the yeast galactose regulon with diverse expression profiles, showcasing the great potential of synthetic biology in creating user-defined metabolic controls. The genetic devices reported here might hold great promise for future metabolic engineering and biosensor applications.52,53,54 Given that GPCRs are widely distributed in nature,55,56 the plasticity of our genetic circuits would offer a variety of user-defined expression profiles, which are of significant interest to the synthetic biology and metabolic engineering community.
+
+
+## Limitations of the study
+
+
+Our method takes advantage of sTF to bridge the GPCR signaling pathway with the GAL system. Although the fusion of PRD from Ste12 and DBD of Gal4 resulted in a functional sTF in yeast, the transcriptional activity of sTF is comparably lower than that of Gal4, which limits its applications such as overproduction of industrial enzymes. In the future, increasing the abundance of sTF or engineering the PRD activity of sTF might be required to further enhance the magnitude of signal outputs and achieve more dynamic profiles for specific applications.
+
+
+## STAR★Methods
+
+
+
+## Key resources table
+
+
+
+## Resource availability
+
+
+
+## Lead contact
+
+
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact Jifeng Yuan (jfyuan@xmu.edu.cn).
+
+
+## Materials availability
+
+
+The yeast strains, CRISPR plasmids, and yeast expression vectors will be made available by lead contact Jifeng Yuan (jfyuan@xmu.edu.cn) upon request.
+
+
+## Data and code availability
+
+
+All of the sequencing data used in this paper were obtained from publicly available sources, and are listed in the key resources table.
+
+scCURE has been deposited at Github (see the key resources table for the DOI). The scCURE original code and full tutorials are available at https://github.com/Hao-Zou-lab/scCURE.
+
+Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.
+
+
+## Experimental model and subject details
+
+
+
+## Media and culture
+
+
+E. coli TOP10 was used for routine transformations and the strain was cultivated at 37°C in Luria-Bertani (LB) medium. S. cerevisiae CEN.PK2-1C from EUROSCARF was used as the parental strain for all yeast strain constructions. Yeast peptone dextrose (YPD) medium was used for culturing the parental yeast strains and the engineered strains without plasmid. Synthetic complete (SC) medium with appropriate dropouts were used for maintaining engineered strains with different auxotrophic selection markers.
+
+
+## Engineered strain construction
+
+
+All yeast strains were generated on the background of CEN.PK2-1C MATa strain. Yeast transformations were performed with standard lithium acetate transformation protocol or electroporation. In general, we transformed approximately 200 ng of the Cas9 plasmid, 200 ng of sgRNA plasmid, and 500 ng of repair DNA. Replacements and integrations were validated by diagnostic PCR. For specific details, see the ‘‘method details’’.
+
+
+## Method details
+
+
+
+## Genome editing
+
+
+Oligonucleotides used for plasmid constructions are listed in Table S1. To achieve markerless genetic manipulation of yeast chromosomes, we implemented a CRISPR/Cas9-mediated genome engineering approach.57 For the Far1 disruption, PCR assembled fragment with 39 bp homologous regions to the Far1 locus was cotransformed with pRS426-gFar1 into the yeast competent cells harboring p414-TEF-Cas9, and the transformed cells were plated on SC-Ura-Trp for selection. The positive disruption of the Far1 gene was further verified by diagnostic PCR analysis. After removal of gRNA-expressing plasmid by 5-fluoroorotic acid (5-FOA) treatment, successive rounds of genetic modifications were implemented in a similar way, to further yield Δgal80, Δgal4, Δste12:sTF, PTEF2-Gpa1, PTEF2-Ste2, Δbar1, PHXT7:MFα1, PADH2:MFα1, Δsst2, PTEF2-Sst2, PHSP104:MFα1, PCPR6:MFα1, PHSP82:MFα1 and PSSA3:MFα1, and Δgal7-10-1:PGAL1:EGFP. The flowchart of yeast strain construction is provided in Figure S6. All the plasmids and engineered strains can be found in Table S2.
+
+
+## Evaluation the performance of gene circuits using EGFP reporter gene
+
+
+Plasmid pRS425Gal1-EGFP58 containing the signal “receiver” module of EGFP gene under PGAL1 promoter was transformed into the recipient cells by heat-shock method. To collect the dose-response curves for different concentrations of Sc peptide (α-factor: WHWLQLKPGQPMY, synthesized by GenScript), experiments were carried out as following. 14 mL sterile tubes containing 2 mL SC-Leu medium with 2% glucose were inoculated with fresh overnight cultures to an initial OD600 of 2. Different concentrations of α-factor were then supplemented (0, 0.001, 0.01, 0.1, 1, 10, 100, 1000, 10000 nM). 100 μL of cell culture was periodically taken for measuring OD600 by a microplate reader to determine the cell density and green fluorescence intensities were recorded with excitation/emission at 476/512 nm.
+
+For characterization of the relative expression levels of Ste2 and Sst2, the PSTE2 and PSST2 promoters were amplified from the genomic DNA of S. cerevisiae, cut with SacI/BamHI, and inserted into pRS425Gal1-EGFP cut with the same enzyme pair. The resulting plasmids were designated as pRS425Ste2-EGFP and pRS425Sst2-EGFP, respectively. Upon transforming to the recipient cells, the EGFP signal outputs in the yeast cells were compared under the condition with or without 1 μM Sc α-factor.
+
+
+## Engineered GPCR systems to detect different stimuli
+
+
+Strains with α-factor under glucose-repressible promoters were integrated with the PGAL1-EGFP expression cassette at the gal7-10-1 locus.59 14 mL sterile tubes containing 2 mL YPD medium were inoculated with fresh overnight cultures to an initial OD600 of 0.1. The cell cultures were incubated at 30°C and 200 rpm, and 100 μL of cell culture in YPD were collected by centrifugation at 3000g and resuspended with equal volume water before measuring OD600 and green fluorescence intensities. Fluorescence microscopy analysis was carried out using an inverted fluorescence microscope (Olympus IX51).
+
+For heat-responsive control of α-factor levels, experiments were carried out as following. Strains with α-factor under heat-responsive promoters were transformed with pRS425Gal1-EGFP. 14 mL sterile tubes containing 2 mL SC-Leu medium with 2% glucose were inoculated with fresh overnight cultures to an initial OD600 of 0.1. The cell cultures were incubated at 30°C and 200 rpm. After 6 h cultivation, the cell cultures were shifted to 37°C for heat treatment for 2 h. The remaining experiments were carried out at 30°C and 200 rpm. The OD600 and green fluorescence intensities were measured as mentioned above.
+
+
+## Quantification and statistical analysis
+
+
+Data were analyzed using GraphPad Prism version 9.0.1 and Excel Office. Statistical significance between EGFP signals was determined using one-way analysis of variance (ANOVA) in GraphPad Prism. All the statistical details of experiments can be found in the figure legends and results. Figures were generated by using Adobe Illustrator 2020.
+
+
+## Acknowledgments
+
+
+This work was supported by the National Natural Science Foundation of China (grant no. 32270087), Xiamen University (grant no. 0660X2510200), Daan Gene (20223160A0063), and ZhenSheng Biotech.
+
+
+## Author contributions
+
+
+J.Y. conceived of the project and designed the experiments. C.F. performed the experiments and collected the data. J.Y. and C.F. interpreted the data. J.Y. and C.F. wrote the paper.
+
+
+## Declaration of interests
+
+
+The authors declare no competing financial interests.
+
+Published: November 20, 2023
+
+
+## Footnotes
+
+
+Supplemental information can be found online at https://doi.org/10.1016/j.crmeth.2023.100647.
+
+
+## Supplemental information
+
+
+
+## Document S1. Tables S1–S3 and Figures S1–S6
+
+
+
+## Document S2. Article plus supplemental information
+
+
+
+## References
+
+
+
+## Associated Data
+
+
+
+## Supplementary Materials
+
+
+
+## Document S1. Tables S1–S3 and Figures S1–S6
+
+
+
+## Document S2. Article plus supplemental information
+
+
+
+## Data Availability Statement
+
+
+All of the sequencing data used in this paper were obtained from publicly available sources, and are listed in the key resources table.
+
+scCURE has been deposited at Github (see the key resources table for the DOI). The scCURE original code and full tutorials are available at https://github.com/Hao-Zou-lab/scCURE.
+
+Any additional information required to reanalyze the data reported in this paper is available from the lead contact upon request.

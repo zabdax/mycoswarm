@@ -1,0 +1,3466 @@
+# The Impact of Phenotypic Heterogeneity on Chemotactic Self-Organisation
+
+## Abstract
+
+The capacity to aggregate through chemosensitive movement forms a paradigm of self-organisation, with examples spanning cellular and animal systems. A basic mechanism assumes a phenotypically homogeneous population that secretes its own attractant, with the well known system introduced more than five decades ago by Keller and Segel proving resolutely popular in modelling studies. The typical assumption of population phenotypic homogeneity, however, often lies at odds with the heterogeneity of natural systems, where populations may comprise distinct phenotypes that vary according to their chemotactic ability, attractant secretion, etc. To initiate an understanding into how this diversity can impact on autoaggregation, we propose a simple extension to the classical Keller and Segel model, in which the population is divided into two distinct phenotypes: those performing chemotaxis and those producing attractant. Using a combination of linear stability analysis and numerical simulations, we demonstrate that switching between these phenotypic states alters the capacity of a population to self-aggregate. Further, we show that switching based on the local environment (population density or chemoattractant level) leads to diverse patterning and provides a route through which a population can effectively curb the size and density of an aggregate. We discuss the results in the context of real world examples of chemotactic aggregation, as well as theoretical aspects of the model such as global existence and blow-up of solutions.Supplementary InformationThe online version contains supplementary material available at 10.1007/s11538-022-01099-z.
+
+
+## Introduction
+
+
+Chemotaxis describes a motility response in which a cell or organism steers itself according to the concentration gradient of a chemical orienteering signal, termed a chemoattractant (repellent) when movement is up (down) the gradient. At the level of a population, chemotaxis can lead to self-organisation, driving a dispersed population into aggregated groups. This process relies on self-reinforcement, for example a population in which each member secretes its own attractant. Such “autocrine signalling” allows attraction between near neighbours, leading to localised accumulations that steadily grow in size. Numerous examples of this collective organisation can be cited, spanning the natural world from microscopic to macroscopic: in microbiology, both bacteria and slime molds use chemotaxis to form multicellular aggregation mounds (Budrene and Berg 1991, 1995; Bonner 2009); during embryonic development, chemotactic self-organisation in the mesenchyme is a key component of hair and feather morphogenesis in the skin (Lin et al. 2009; Glover et al. 2017; Bailleul et al. 2019; Ho et al. 2019); during immune responses, activated neutrophils start to produce chemoattractants that recruit other immune cells (Afonso et al. 2012; Lämmermann et al. 2013; Glaser et al. 2021); in the animal world, marine invertebrates such as starfish (Hall et al. 2017) and sea cucumbers (Marquet et al. 2018) release water-borne factors to attract neighbours, a prelude to mass spawning. For further examples, we refer the reader to Painter (2019).
+
+A large modelling literature has, naturally, emerged. At a population level, the majority of models rely on the partial differential equation (PDE) framework introduced by Keller and Segel (1970), and a “minimal” model can be formulated with straightforward functional forms and featuring a single (we assume cellular) population and its chemoattractant, see Fig. 1a. Following a non-dimensionalisation (see Appendix A), this minimal model is given by the following PDE system1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\left\{ \begin{array}{ll} \dfrac{\partial n}{\partial t}=\nabla \cdot \left( D \nabla n-\chi n \nabla s \right) ,\\ \dfrac{\partial s}{\partial t}=\nabla ^2 s + n - s, \end{array}\right. } \quad \textbf{x}\in \Omega . \end{aligned}$$\end{document}∂n∂t=∇·D∇n-χn∇s,∂s∂t=∇2s+n-s,x∈Ω.Here, the real, non-negative functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n \equiv n(\textbf{x},t)$$\end{document}n≡n(x,t) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s \equiv s(\textbf{x},t)$$\end{document}s≡s(x,t) represent, respectively, the density of cells and the concentration of chemoattractant at time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t \in {\mathbb {R}}_{+}$$\end{document}t∈R+ and at position \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\textbf{x} \in \Omega $$\end{document}x∈Ω. The set \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega $$\end{document}Ω is an open and bounded subset of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbb {R}}^d$$\end{document}Rd with smooth boundary \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\partial \Omega $$\end{document}∂Ω and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$d \ge 1$$\end{document}d≥1 depending on the biological problem under study.
+
+The population dynamics are governed by diffusion (modelling random movement) and chemotactic advection according to the gradient of the attractant, while the chemoattractant is produced by the population, decays and diffuses. For an initially dispersed (i.e. spatially uniform) population to aggregate requires that \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi > D$$\end{document}χ>D. This effectively stipulates that the positive feedback process in which a population secretes its own attractant must overcome the homogenising tendencies of diffusion. Models based on (1) have received significant interest for their patterning and mathematical properties, see the reviews in (Horstmann 2003; Hillen and Painter 2009; Bellomo et al. 2015; Painter 2019). Mathematical interest has particularly centred on the question of global existence or blow-up (singularity formation), where for the formulation (1) blow-up has been shown to occur in the biologically relevant case of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$d \ge 2$$\end{document}d≥2. While indicative of self-aggregation, the formation of singularities is problematic and artificial in the context of applications, where one naturally expects the growth of an aggregate to be curbed, for example due to lack of space. Consequently, various plausible “regularisations” have been proposed (for example see  Hillen and Painter 2009).
+
+An implicit assumption underlying (1) and related models is phenotypic homogeneity of the cell population: members are assumed, as a first approximation, identical with regards to their ability to perform chemotaxis, grow, produce/secrete attractant, etc. This, however, ignores the typical phenotypic heterogeneity observed within populations: for example, a spectrum of phenotypes whereby population members express different behaviours to different degrees. Chemotactic heterogeneity has been shown for E. coli populations which, when subjected to an attractant-filled “T-maze” structure, spatially sort according to chemotactic ability (Salek et al. 2019). Performing chemotaxis, however, demands energy expenditure and the need to balance energy expenditure against energy intake leads to the natural conclusion that high activity in one area must be compensated by lower activity elsewhere, i.e. a trade-off (Keegstra et al. 2022). The negative relationship between chemotaxis and growth investment observed for bacteria (Ni et al. 2020) provide one such trade-off, but given that numerous functions demand significant energy – movement, growth, protein synthesis, internal molecule and organelle transport, signal transduction, etc. – a wide variety of trade-offs will be necessary (Keegstra et al. 2022).
+
+Intra-population phenotypic heterogeneity can also arise through anti-cooperative behaviours, exemplified by “cheater” strains within the slime mold D. discoideum. These “social amoebae” (Bonner 2009) are famous for the multicellular phase to their lifecycle, starvation inducing auto-aggregation in response to the chemoattractant cAMP, ultimately manifesting in a differentiated fruiting body in which the majority of the population are preserved as “spores”, but at the cost of a sacrificed 20% in the supporting “stalk”. Cheater strains aim to minimise their stalk contribution, feasibly through a spectrum of strategies that include limiting or avoiding the energy-consuming production of cAMP necessary for aggregation (Shaulsky and Kessin 2007). Intra-population phenotypic heterogeneity also extends to large organisms, where the heterogeneity extends from natural variability to distinctly different sub-populations, for example males and females. In the context of chemotactic heterogeneity, for example, only male sea cucumbers release pheromone attractants during the aggregation leading to spawning (Marquet et al. 2018).
+
+Motivated by the examples cited above, in this paper we address the following question: How does phenotypic heterogeneity impact on autoaggregation of a population? To this end, we consider a simple extension of the system (1) whereby the population is subdivided into distinct chemotactic and secreting phenotypes, with the possibility of switching between them. Following the formulation of the model (Sect. 2), we use linear stability analysis to derive conditions under which patterning is possible (Sect. 3), and carry out numerical simulations to determine the patterning properties (Sect. 4). We conclude with a discussion (Sect. 5), in the process proposing some future model extensions and speculating on the analytical properties of the model in the context of global existence and blow-up of solutions.Fig. 1a Assumptions underlying the classical minimal autoaggregation model, whereby a population comprises identical members that are both chemosensitive and secrete the chemoattractant signal. b Assumptions underlying our binary phenotype model. Here the population is subdivided into distinct chemotactic and secreting phenotypes, with the possibility of switching between these two phenotypic states (Color figure online)
+
+a Assumptions underlying the classical minimal autoaggregation model, whereby a population comprises identical members that are both chemosensitive and secrete the chemoattractant signal. b Assumptions underlying our binary phenotype model. Here the population is subdivided into distinct chemotactic and secreting phenotypes, with the possibility of switching between these two phenotypic states (Color figure online)
+
+
+## Model Formulation
+
+
+We investigate an extension of the basic model (1) such that, based on the idea of a trade-off between chemotactic sensitivity and attractant secretion, a binary variable \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p \in \{0, 1\}$$\end{document}p∈{0,1} is introduced to describe the cell phenotypic state: cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p=0$$\end{document}p=0 produce the chemoattractant but have negligible chemotactic sensitivity, whereas cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p=1$$\end{document}p=1 do not produce the chemoattractant but are chemotactically sensitive, see Fig. 1b. As a result, denoting the chemotactic sensitivity of cells in the phenotypic state p as \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi _{p}$$\end{document}χp and the rate of attractant production of cells in the phenotypic state p as \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha _{p}$$\end{document}αp, we assume\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \chi _0 = 0, \quad \chi _1 \in {\mathbb {R}}^*_+, \quad \alpha _0 \in {\mathbb {R}}^*_+, \quad \alpha _1 = 0\,, \end{aligned}$$\end{document}χ0=0,χ1∈R+∗,α0∈R+∗,α1=0,where \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\mathbb {R}}^*_+$$\end{document}R+∗ is the set of positive real numbers.
+
+The dynamics of the density of cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p \in \{0, 1\}$$\end{document}p∈{0,1} at time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t \ge 0$$\end{document}t≥0, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_p \equiv n_{p}(\textbf{x},t)$$\end{document}np≡np(x,t), and the local concentration of chemoattractant, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s \equiv s(\textbf{x},t)$$\end{document}s≡s(x,t), are governed by the following system of partial differential equations (PDEs)2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\left\{ \begin{array}{ll} \dfrac{\partial n_0}{\partial t} =D_n\nabla ^2 n_0 -{\gamma _{01}(\rho ,s)} \, n_0 + {\gamma _{10}(\rho ,s)} \, n_1,\\ \dfrac{\partial n_1}{\partial t} =\nabla \cdot \left( D_n \nabla n_1-\chi _1 n_1 \nabla s \right) + {\gamma _{01}(\rho ,s)} \, n_0-{\gamma _{10}(\rho ,s)} \, n_1, \\ {\rho (\textbf{x},t):= n_0(\textbf{x},t) + n_1(\textbf{x},t)}, \\ \dfrac{\partial s}{\partial t} =D_s\nabla ^2 s + \alpha _0 \, n_0 - \eta \, s, \end{array}\right. } \quad \textbf{x}\in \Omega . \end{aligned}$$\end{document}∂n0∂t=Dn∇2n0-γ01(ρ,s)n0+γ10(ρ,s)n1,∂n1∂t=∇·Dn∇n1-χ1n1∇s+γ01(ρ,s)n0-γ10(ρ,s)n1,ρ(x,t):=n0(x,t)+n1(x,t),∂s∂t=Ds∇2s+α0n0-ηs,x∈Ω.Here, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D_\text {n} \in {\mathbb {R}}^*_+$$\end{document}Dn∈R+∗ is the rate of random motion of the cells, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D_\text {s} \in {\mathbb {R}}^*_+$$\end{document}Ds∈R+∗ is the diffusion rate of the chemoattractant, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\eta \in {\mathbb {R}}^*_+$$\end{document}η∈R+∗ is the decay rate of the chemoattractant. Generally, eukaryotic cells utilise membrane extensions (pseudopods) to move, whereby the pseudopods anchor the cell to the substrate (or other cells) and permit traction. In the absence of signals promoting directed motion, these pseudopods typically extend in random directions (Van Haastert and Devreotes 2004) and the inherent random motion is often described using diffusion terms in mathematical models of chemotaxing populations (Painter 2019). To account for this, we have assumed that while cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p=0$$\end{document}p=0 do not undergo directed motion, they still undergo a degree of random motion and are not completely stationary. For convenience, we assume this inherent degree of randomness is the same for the two phenotypic states, however this could be relaxed at the cost of an additional parameter. The additional kinetic terms on the right-hand sides of the PDEs (2) for \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 describe potential switching between phenotypes, that is, the functions\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\gamma _{01}}: {\mathbb {R}}^2_+ \rightarrow {\mathbb {R}}^*_+ \quad \text {and} \quad {\gamma _{10}}: {\mathbb {R}}^2_+ \rightarrow {\mathbb {R}}^*_+ \end{aligned}$$\end{document}γ01:R+2→R+∗andγ10:R+2→R+∗represent the rate of switching from phenotypic state 0 (state 1) to phenotypic state 1 (state 0). A switching dependence according to the total cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\rho $$\end{document}ρ could result from a cell changing phenotype following direct contacts at the cell surface, or mediated through a secreted quorum-sensing factor (Striednig and Hilbi 2022) that provides cell density information. To maximise the generality of the modelling framework, we do not make specific assumptions on these functions and will utilise classical forms based on Hill functions, thus ensuring that switching rates remain bounded.
+
+For the analysis and numerical simulations that follow, we will assume zero-flux conditions at the boundary \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\partial \Omega $$\end{document}∂Ω, i.e.3\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mathbf{{u}}\cdot \nabla n_0=0, \quad \mathbf{{u}} \cdot \nabla n_1 = 0, \quad \mathbf{{u}} \cdot \nabla s=0,\quad \textbf{x}\in \partial \Omega \end{aligned}$$\end{document}u·∇n0=0,u·∇n1=0,u·∇s=0,x∈∂Ωwhere \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mathbf{{u}}$$\end{document}u is the unit normal to \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\partial \Omega $$\end{document}∂Ω that points outwards from \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega $$\end{document}Ω. Moreover, initially we simply assume\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} n_0(\textbf{x},0)\ge 0, \quad n_1(\textbf{x},0)\ge 0, \quad s(\textbf{x},0) \ge 0 \quad \forall \, \textbf{x} \in \Omega . \end{aligned}$$\end{document}n0(x,0)≥0,n1(x,0)≥0,s(x,0)≥0∀x∈Ω.We remark that, when subject to boundary conditions (3), the PDE system (2) is such that the total cell number is conserved, i.e.4\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \int _{\Omega } \rho (\textbf{x},t)\,\textrm{d}{} \textbf{x} = \int _{\Omega } \rho (\textbf{x},0)\,\textrm{d}{} \textbf{x} \quad \forall \, t \ge 0. \end{aligned}$$\end{document}∫Ωρ(x,t)dx=∫Ωρ(x,0)dx∀t≥0.Thus, also the mean of the total cell density over \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega $$\end{document}Ω is conserved. This leads to a further notable quantity \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sigma \in {\mathbb {R}}_+$$\end{document}σ∈R+ with5\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \dfrac{1}{\vert \Omega \vert } \int _{\Omega } \rho (\textbf{x},0)\,\textrm{d}{} \textbf{x} =: \sigma , \end{aligned}$$\end{document}1|Ω|∫Ωρ(x,0)dx=:σ,where \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\vert \Omega \vert $$\end{document}|Ω| is the measure of the set \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega $$\end{document}Ω.
+
+
+## Dimensionless Model
+
+
+As detailed in Appendix B, the PDE system (2) subject to boundary conditions (3) can be rewritten in the following dimensionless form6\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\left\{ \begin{array}{ll} \dfrac{\partial n_0}{\partial t} =D\nabla ^2 n_0 {{-\mu _{01}(\rho ,s) \, n_0 +\mu _{10}(\rho ,s) \, n_1,}}\\ \dfrac{\partial n_1}{\partial t} =D \nabla ^2 n_1 -\chi \nabla \cdot \left( n_1 \nabla s\right) {{+\mu _{01}(\rho ,s) \, n_0 -\mu _{10}(\rho ,s) \, n_1}}, \\ {\rho (\textbf{x},t):= n_0(\textbf{x},t) + n_1(\textbf{x},t)}, \\ \dfrac{\partial s}{\partial t} =\nabla ^2 s+ n_0 -s, \end{array}\right. } \quad \textbf{x}\in \Omega \end{aligned}$$\end{document}∂n0∂t=D∇2n0-μ01(ρ,s)n0+μ10(ρ,s)n1,∂n1∂t=D∇2n1-χ∇·n1∇s+μ01(ρ,s)n0-μ10(ρ,s)n1,ρ(x,t):=n0(x,t)+n1(x,t),∂s∂t=∇2s+n0-s,x∈Ωsubject to boundary conditions (3).
+
+Here, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D \in {\mathbb {R}}^*_+$$\end{document}D∈R+∗ is the dimensionless rate of random motion of the cells, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi \in {\mathbb {R}}^*_+$$\end{document}χ∈R+∗ is the dimensionless chemotactic sensitivity, and7\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mu _{01}: {\mathbb {R}}^2_+ \rightarrow {\mathbb {R}}^*_+ \quad \text {and} \quad \mu _{10}: {\mathbb {R}}^2_+ \rightarrow {\mathbb {R}}^*_+ \end{aligned}$$\end{document}μ01:R+2→R+∗andμ10:R+2→R+∗are the dimensionless phenotypic switching functions. Furthermore, upon nondimensionalisation, the conservation relation (5) reduces to8\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \dfrac{1}{\vert \Omega \vert } \int _{\Omega } \rho (\textbf{x},0)\,\textrm{d}{} \textbf{x} = 1. \end{aligned}$$\end{document}1|Ω|∫Ωρ(x,0)dx=1.
+
+
+## Definitions of Phenotypic Switching Functions
+
+
+The definitions of the the phenotypic switching functions, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10, considered here are listed in Table 1. Case A corresponds to environment-independent phenotypic switching, with an identical (constant) switching rate, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗, in either direction (i.e. from phenotypic state 0 to phenotypic state 1, and vice versa). Cases \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2 each describe density-dependent phenotypic switching: in Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1 the rate of switching from phenotypic state 0 (state 1) to phenotypic state 1 (state 0) increases (decreases) with the total cell density; in Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2 these relationships are reversed. Cases \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2 are equivalent to \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2, but where the switching rate now depends on the attractant concentration. In Cases B and C, the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗ denotes the maximum rate of switching, while the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q \in {\mathbb {R}}^*_+$$\end{document}q∈R+∗ determines the steepness of the step for the Hill function forms that are used to define \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10.
+
+
+## Linear Stability Analysis of Positive Uniform Steady States
+
+
+In this section, we summarise the results of linear stability analysis of the positive uniform steady states of the PDE system (6), complemented with definition9\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {G(n_0,n_1,\rho ,s)}:= -\mu _{01}(\rho ,s) \, n_0 +\mu _{10}(\rho ,s) \, n_1, \end{aligned}$$\end{document}G(n0,n1,ρ,s):=-μ01(ρ,s)n0+μ10(ρ,s)n1,and subject to boundary conditions (3) and condition (8), which we carried out to identify conditions under which patterning (i.e. formation of cell aggregates) is possible. The parameter regimes that lead to aggregations of the cell population in the minimal model (1) have been identified through performing linear stability analysis at the homogeneous steady state of the system and this method can also be applied to investigate patterning in similar chemotactic systems. We explore the conditions under which diffusion/chemotaxis-driven patterning is possible, that is, that the positive uniform steady states of (6) are stable to small spatially homogeneous perturbations but unstable to small spatially nonhomogeneous perturbations due to the presence of diffusion/chemotaxis (Murray 2001).To distil the essence of the problem, we focus on the case where the spatial domain is a 1D interval of length \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L \in {\mathbb {R}}^*_+$$\end{document}L∈R+∗, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Omega := (0, L)$$\end{document}Ω:=(0,L) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\textbf{x} \equiv x$$\end{document}x≡x. Extension to higher spatial dimensions is straightforward, but adds little in terms of insight into the mechanisms that underpin the formation of cellular aggregates. The full details of the analysis are provided in Appendix C.
+
+When phenotypic switching does not occur (i.e. when \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}\equiv 0$$\end{document}μ01≡0 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}\equiv 0$$\end{document}μ10≡0), positive uniform steady states are of the form10\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} (n^{\star }_0,n^{\star }_1,s^{\star }) = ({\overline{n}}, 1- {\overline{n}}, {\overline{n}}), \quad 0< {\overline{n}} = \dfrac{1}{\vert \Omega \vert } \int _{\Omega } n_0(x,0) \, \textrm{d}x<1, \end{aligned}$$\end{document}(n0⋆,n1⋆,s⋆)=(n¯,1-n¯,n¯),0<n¯=1|Ω|∫Ωn0(x,0)dx<1,whereas when phenotypic switching occurs (i.e. when assumptions (7) hold) for all the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1, the unique positive uniform steady state is11\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} (n^{\star }_0,n^{\star }_1,s^{\star }) = ({\overline{n}}, 1- {\overline{n}}, {\overline{n}}), \quad {\overline{n}} = 0.5. \end{aligned}$$\end{document}(n0⋆,n1⋆,s⋆)=(n¯,1-n¯,n¯),n¯=0.5.In the former case, the positive uniform steady states (10) cannot be driven unstable by small spatially nonhomogeneous perturbations and, therefore, cell aggregates are not expected to form.
+
+On the other hand, in the latter case, we introduce the definitions12\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} H_0:=\left[ \frac{\partial G}{\partial n_0}\right] _{ss}, \qquad H_1:=\left[ \frac{\partial G}{\partial n_1}\right] _{ss}, \qquad H_s:=\left[ \frac{\partial G}{\partial s}\right] _{ss}, \end{aligned}$$\end{document}H0:=∂G∂n0ss,H1:=∂G∂n1ss,Hs:=∂G∂sss,where \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$[]_{ss}$$\end{document}[]ss indicates that the functions inside the square brackets are evaluated at the steady state (11). Note that, under assumptions (7), we have \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${H_1 - H_0 > 0}$$\end{document}H1-H0>0. Furthermore, for the positive uniform steady state (11) to be stable with respect to small spatially homogeneous perturbations, we require that13\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} H_1-H_0-H_s \ge 0. \end{aligned}$$\end{document}H1-H0-Hs≥0.Then the conditions for the positive uniform steady state (11) to be driven unstable by small spatially nonhomogeneous perturbations (i.e. for the formation of cell aggregates to occur) depend on the form of the function \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_1$$\end{document}H1 and the value of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ. In more detail:If \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are such that \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_1<0$$\end{document}H1<0 then a sufficient condition for the formation of cell aggregates to occur is that 14\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \chi >\frac{D(H_{1}-H_{0}-H_{s})}{H_{1} (1-{\overline{n}})}, \end{aligned}$$\end{document}χ>D(H1-H0-Hs)H1(1-n¯), then the perturbation modes labelled by the indices \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m \in {\mathbb {N}}$$\end{document}m∈N such that the following condition on the domain size is satisfied 15\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} L>\sqrt{\frac{2D m^2 \pi ^2}{-\left[ (H_{1}-H_{0}) +D\right] +\sqrt{\left[ (H_{1}-H_{0}) -D\right] ^2+4 H_{1}\chi (1-{\overline{n}})+4H_{s}D}}}\nonumber \\ \end{aligned}$$\end{document}L>2Dm2π2-(H1-H0)+D+(H1-H0)-D2+4H1χ(1-n¯)+4HsD can grow into aggregation patterns.On the other hand, if \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are such that \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_1>0$$\end{document}H1>0, the following condition holds 16\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \chi >\frac{\left[ (H_1-H_0-H_s)+(H_1-H_0)^2\right] (D+1)+(3D+1)(H_1-H_0)+2D}{(-H_1)(1-{\overline{n}})}.\nonumber \\ \end{aligned}$$\end{document}χ>(H1-H0-Hs)+(H1-H0)2(D+1)+(3D+1)(H1-H0)+2D(-H1)(1-n¯). Note, in this case the conditions on domain size are less easily calculated, and have therefore been omitted.Explicit forms of conditions (14)–(16) for the particular choices of the phenotypic switching functions considered here are summarised in Table 1.Table 1Different forms of phenotypic switching functions investigated along with the resulting conditions (14)-(15). Note that here \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗ (i.e. assumptions (7) hold) and, according to (11), \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\overline{n}}=0.5$$\end{document}n¯=0.5. Note that for the specific parameter setting used to produce the results shown in Fig. 4 for the phenotypic switching Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$B_1$$\end{document}B1 we have that as q increases, the minimum domain length that permits patterns L also increasesCaseSwitching functionsConditions on chemotactic sensitivityConditions on domain sizeA\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mu _{01}&\equiv \mu \\ \mu _{10}&\equiv \mu \end{aligned}$$\end{document}μ01≡μμ10≡μ\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\displaystyle {\chi > \frac{2D}{(1-{\overline{n}})}}$$\end{document}χ>2D(1-n¯)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\displaystyle {L>\sqrt{\frac{2D m^2 \pi ^2}{-(2\mu +D)+\sqrt{(2\mu -D)^2+4\mu \chi (1-{\overline{n}}) }}}}$$\end{document}L>2Dm2π2-(2μ+D)+(2μ-D)2+4μχ(1-n¯)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mu _{01}&:=\frac{\mu \rho ^q}{1 +\rho ^q} \\ \mu _{10}&:=\frac{\mu }{1 + \rho ^q}\\ \rho&:=n_0+n_1\end{aligned}$$\end{document}μ01:=μρq1+ρqμ10:=μ1+ρqρ:=n0+n1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned}&\displaystyle {\chi> \frac{4D}{ (2-q)(1-{\overline{n}})}}&(q<2)\\&\displaystyle {\chi> \frac{4\left[ \mu ^2 (D +1)+4\mu D+2\mu +2D\right] }{\mu (q-2)(1-{\overline{n}})} }&(q>2) \end{aligned}$$\end{document}χ>4D(2-q)(1-n¯)(q<2)χ>4μ2(D+1)+4μD+2μ+2Dμ(q-2)(1-n¯)(q>2)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned}&\displaystyle {L>\sqrt{\frac{2D m^2 \pi ^2}{-\left( \mu +D\right) +\sqrt{\left( \mu -D\right) ^2+\mu (2-q)\chi (1-{\overline{n}})}}}}&(q<2)\\&\text {Not calculated symbolically{*}}&(q>2) \end{aligned} $$\end{document}L>2Dm2π2-μ+D+μ-D2+μ(2-q)χ(1-n¯)(q<2)Not calculated symbolically*(q>2)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mu _{01}&:=\frac{\mu }{1 +\rho ^q} \\ \mu _{10}&:=\frac{\mu \rho ^q}{1 + \rho ^q}\\ \rho&:=n_0+n_1\end{aligned}$$\end{document}μ01:=μ1+ρqμ10:=μρq1+ρqρ:=n0+n1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\displaystyle {\chi > \frac{4 D}{(q+2) (1-{\overline{n}})}}$$\end{document}χ>4D(q+2)(1-n¯)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\displaystyle {L>\sqrt{\frac{2D \pi ^2}{-\left( \mu +D\right) +\sqrt{\left( \mu -D\right) ^2+ \mu (q+2)\chi (1-{\overline{n}})}}}}$$\end{document}L>2Dπ2-μ+D+μ-D2+μ(q+2)χ(1-n¯)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mu _{01}&:=\frac{\mu s^q}{{\overline{n}}^q + s^q} \\ \mu _{10}&:=\frac{\mu {\overline{n}}^q}{{\overline{n}}^q + s^q} \end{aligned}$$\end{document}μ01:=μsqn¯q+sqμ10:=μn¯qn¯q+sq\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\displaystyle {\chi > \frac{D\left( 4{\overline{n}}+q\right) }{ 2{\overline{n}} (1-{\overline{n}})}}$$\end{document}χ>D4n¯+q2n¯(1-n¯)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\displaystyle {L>\sqrt{\frac{2D m^2 \pi ^2}{-\left( \mu +D\right) +\sqrt{\left( \mu -D\right) ^2+2\mu \chi (1-{\overline{n}})-\frac{\mu q}{{\overline{n}}}D}}}}$$\end{document}L>2Dm2π2-μ+D+μ-D2+2μχ(1-n¯)-μqn¯D\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mu _{01}&:=\frac{\mu {\overline{n}}^q}{{\overline{n}}^q + s^q} \\ \mu _{10}&:=\frac{\mu s^q}{{\overline{n}}^q + s^q} \end{aligned}$$\end{document}μ01:=μn¯qn¯q+sqμ10:=μsqn¯q+sq\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned}&\displaystyle {\chi > \frac{D\left( 4{\overline{n}}-q\right) }{ 2{\overline{n}} (1-{\overline{n}})}}& (q\le 4{\overline{n}})\\ \end{aligned}$$\end{document}χ>D4n¯-q2n¯(1-n¯)(q≤4n¯)\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned}&\displaystyle {L>\sqrt{\frac{2D m^2 \pi ^2}{-\left( \mu +D\right) +\sqrt{\left( \mu -D\right) ^2+2\mu \chi (1-{\overline{n}})+\frac{\mu q}{{\overline{n}}}D}}}}&(q\le 4{\overline{n}})\\ \end{aligned}$$\end{document}L>2Dm2π2-μ+D+μ-D2+2μχ(1-n¯)+μqn¯D(q≤4n¯)
+
+If \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are such that \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_1<0$$\end{document}H1<0 then a sufficient condition for the formation of cell aggregates to occur is that 14\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \chi >\frac{D(H_{1}-H_{0}-H_{s})}{H_{1} (1-{\overline{n}})}, \end{aligned}$$\end{document}χ>D(H1-H0-Hs)H1(1-n¯), then the perturbation modes labelled by the indices \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m \in {\mathbb {N}}$$\end{document}m∈N such that the following condition on the domain size is satisfied 15\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} L>\sqrt{\frac{2D m^2 \pi ^2}{-\left[ (H_{1}-H_{0}) +D\right] +\sqrt{\left[ (H_{1}-H_{0}) -D\right] ^2+4 H_{1}\chi (1-{\overline{n}})+4H_{s}D}}}\nonumber \\ \end{aligned}$$\end{document}L>2Dm2π2-(H1-H0)+D+(H1-H0)-D2+4H1χ(1-n¯)+4HsD can grow into aggregation patterns.
+
+On the other hand, if \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are such that \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$H_1>0$$\end{document}H1>0, the following condition holds 16\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \chi >\frac{\left[ (H_1-H_0-H_s)+(H_1-H_0)^2\right] (D+1)+(3D+1)(H_1-H_0)+2D}{(-H_1)(1-{\overline{n}})}.\nonumber \\ \end{aligned}$$\end{document}χ>(H1-H0-Hs)+(H1-H0)2(D+1)+(3D+1)(H1-H0)+2D(-H1)(1-n¯). Note, in this case the conditions on domain size are less easily calculated, and have therefore been omitted.
+
+Different forms of phenotypic switching functions investigated along with the resulting conditions (14)-(15). Note that here \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗ (i.e. assumptions (7) hold) and, according to (11), \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\overline{n}}=0.5$$\end{document}n¯=0.5. Note that for the specific parameter setting used to produce the results shown in Fig. 4 for the phenotypic switching Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$B_1$$\end{document}B1 we have that as q increases, the minimum domain length that permits patterns L also increases
+
+
+## Remark 1
+
+
+Commenting on the constant switching function case (Case A in Table 1) for its simplicity, we note that the condition placed on the chemotactic sensitivity is more stringent than under the minimal formulation of the model (see Sect. 1). This is logical, given the division into separate chemotacting and secreting phenotypes: population members actively performing chemotaxis do not reinforce the signal until transitioning into the secreting phenotype, at which point they are no longer actively climbing the attractant gradient. Notably, the rate of phenotypic transition does not impact on the minimal chemotactic sensitivity condition, but it can alter whether self-aggregation will occur through the domain size condition: slow transitioning phenotypes will demand larger domains for pattern formation to occur. The above observations generally hold for the more complicated switching functions, although greater subtleties can arise.
+
+
+## Numerical Simulations
+
+
+We carry out numerical simulations of the PDE system (6), complemented with definition (9) and subject to boundary conditions (3) and condition (8). We consider both one- and two-dimensional spatial domains. The full details of the initial conditions and the set-up of numerical simulations are provided in Appendix D. We investigate the various forms for the phenotypic switching functions, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10, listed in Table 1.
+
+
+## Autoaggregation in 1D
+
+
+We first consider a one-dimensional setting, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\textbf{x} \equiv x$$\end{document}x≡x, and study the patterns that emerge under each choice of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 defined in Table 1. The corresponding results of numerical simulations are summarised in Fig. 2, where the top row of panels displays the plot of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1(x,t)$$\end{document}n1(x,t), for the same choice of initial conditions and parameter values, except for the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 and the chemotactic sensitivity, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ. In the bottom row of panels we display the corresponding cell densities after a simulation time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0(x,500)$$\end{document}n0(x,500) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1(x,500)$$\end{document}n1(x,500). The value of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ is chosen in each case so as to ensure that the conditions for pattern formation listed in Table 1 are satisfied.
+
+In all cases we observe the formation of cell density aggregations, where the height and width of peaks varies with the choice of phenotypic switching functions. These results support the idea that phenotypic switching naturally curbs the density of aggregates. Generally, the chemotactic phenotype forms a concentrated group at the core of the aggregate, while the secreting phenotype is more diffusely spread about the centre.Fig. 2Comparing the effects of different phenotypic switching functions in 1D. Top row: Each panel displays the spatial distributions of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 over time. Bottom row: Each panel displays the spatial distributions of the cell densities \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 (black) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 (blue) at the end of simulations, i.e. at \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1, with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=1$$\end{document}q=1. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi =$$\end{document}χ= 10 (Case A), 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.1 (Color figure online)Fig. 3Investigating the role of the model parameters in 1D. Each panel displays the spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 over time. The functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are taken to be those of Case A in Table 1, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}\equiv \mu _{10}\equiv \mu $$\end{document}μ01≡μ10≡μ. For each panel we have the general parameter setting \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L=40$$\end{document}L=40, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D=1$$\end{document}D=1, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi =10$$\end{document}χ=10, while the value of one of these parameters is varied in each case as highlighted by the panel titles. The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.1 (Color figure online)
+
+Comparing the effects of different phenotypic switching functions in 1D. Top row: Each panel displays the spatial distributions of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 over time. Bottom row: Each panel displays the spatial distributions of the cell densities \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 (black) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 (blue) at the end of simulations, i.e. at \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1, with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=1$$\end{document}q=1. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi =$$\end{document}χ= 10 (Case A), 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.1 (Color figure online)
+
+Investigating the role of the model parameters in 1D. Each panel displays the spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 over time. The functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are taken to be those of Case A in Table 1, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}\equiv \mu _{10}\equiv \mu $$\end{document}μ01≡μ10≡μ. For each panel we have the general parameter setting \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$L=40$$\end{document}L=40, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D=1$$\end{document}D=1, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi =10$$\end{document}χ=10, while the value of one of these parameters is varied in each case as highlighted by the panel titles. The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.1 (Color figure online)
+
+To further investigate the role of model parameters, we consider the constant phenotypic switching case (i.e. Case A in Table 1) and perform simulations while varying one parameter at a time; the results are displayed in Fig. 3. This confirms the results of linear stability analysis summarised in Sect. 3, in particular the instability condition and minimum domain length provided in Table 1 for Case A. As expected from the characteristic wavelength associated with the fastest growing mode, increasing the domain length L leads to the emergence of a larger number of aggregates, Fig. 3 (top row). Increasing the random cell movement parameter D both reduces the number of peaks that form and increases the time taken for patterns to emerge from the uniform initial distribution of cells, Fig. 3 (second row). Too large a value of D leads to the elimination of pattern formation, since the value of D determines the counter-aggregation diffusion and thereby influences the minimal condition for \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ to have pattern formation. Although the instability condition on \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ is independent of the value of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ, altering \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ does impact on the minimum domain length and, consequently, we observe a loss of pattern formation when the rate of switching becomes too low, Fig. 3 (third row). Changing the rate of phenotypic switching also impacts on the timescale of pattern formation, with slower switching leading to slower evolution towards the aggregated state. Finally, we investigate the role of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ, where from the linear stability analysis we expect pattern formation beyond a critical \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ. This is again confirmed by the simulation results, Fig. 3 (bottom row). We note that while the linear stability analysis predicts the dynamics when close to the uniform steady state, it becomes less relevant when patterns have formed. Here, numerical simulations indicate dynamics in which nearby aggregates, consisting of both cell phenotypes, merge leading over time to a reduction in the number of aggregates. This behaviour is well known within chemotaxis-type models, for example see (Potapov and Hillen 2005). Overall, the results of Fig. 3 corroborate the conditions for patterning established via linear stability analysis.
+
+
+## Oscillating Patterns and Extinction Scenarios in 1D
+
+
+We investigate further the cases of environment-dependent phenotypic switching functions given in Table 1 for step-like changes from a negligible rate of switching to a maximum rate of switching, as some threshold in total cell density (Cases B) or attractant concentration (Cases C) is breached. Specifically, we consider the same general parameter setting as for Fig. 2, but with q increased (from \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=1$$\end{document}q=1 to \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=30$$\end{document}q=30) to generate the step-like change and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ chosen to satisfy conditions for instability provided in Table 1. Results are displayed in Fig. 4.Fig. 4Comparing the effects of different step-like phenotypic switching functions in 1D. Top row: Each panel displays the spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 over time. Bottom row: Each panel displays the spatial distributions of the cell densities \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 (black) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 (blue) at three simulation times, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=498$$\end{document}t=498, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=499$$\end{document}t=499, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500 or \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=1$$\end{document}t=1, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=3$$\end{document}t=3, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1 (Cases B and C), with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=30$$\end{document}q=30. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ is equal to 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 75 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.1. The full time evolution of the cell densities for each case are provided in Supplementary Material video SM1 (Color figure online)
+
+Comparing the effects of different step-like phenotypic switching functions in 1D. Top row: Each panel displays the spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 over time. Bottom row: Each panel displays the spatial distributions of the cell densities \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 (black) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 (blue) at three simulation times, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=498$$\end{document}t=498, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=499$$\end{document}t=499, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500 or \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=1$$\end{document}t=1, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=3$$\end{document}t=3, and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1 (Cases B and C), with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=30$$\end{document}q=30. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ is equal to 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 75 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.1. The full time evolution of the cell densities for each case are provided in Supplementary Material video SM1 (Color figure online)
+
+Introducing step-like switching with respect to the total population density (Cases B) can profoundly impact on the form and nature of aggregates. For the setting in which high total cell densities trigger a switch from the chemotactic to secreting state (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), we observe a significant flattening of the peaks: the maximum density within each aggregate decreases and the peak broadens. This suggests that controlling the balance of secreting and chemotactic cells according to the total population level can be used as an effective means of balancing the density of aggregates. In the reverse setting, where high total densities trigger a switch from the secreting state to the chemotactic state (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), we find evidence of novel patterning. Specifically, non-stationary patterning in which complementary aggregates of each individual cell phenotype undergo (apparently) sustained oscillations in time. Spatio-temporal oscillations often arise in situations in which the corresponding linear stability analysis indicates the presence of eigenvalues with both a positive real part and non-zero imaginary components (for example see Tania et al. 2012). To understand whether this is the case here, we calculate the eigenvalues for this setting. Specifically, we calculate the eigenvalues, i.e. the roots of (C6), for various values of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ, under Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1 with other parameters as listed in Fig. 4. As shown in Fig. 9, as the values of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ are altered we do indeed observe complex eigenvalues that switch from a negative to positive real part.
+
+Introducing a step-like switching according to the chemoattractant concentration (Cases C) reveals the possibility of further dynamics. For the setting in which higher attractant concentrations trigger a switch from secreting to chemotactic (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), self-organisation occurs as previously, but again with relatively low aggregate densities and a secreting phenotype spread almost uniformly through space. Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2, where a higher attractant concentration triggers a switch from chemotactic to secreting, demonstrates the possibility of extinction scenarios: rapid evolution to a population dominated by the chemotaxis phenotype. Here a feedback loop is formed, in which as the number of cells with secreting phenotype drops, so does the overall level of attractant and phenotypic switching is increasingly weighted towards the chemotactic state.
+
+
+## Emergence of Patterns in 2D
+
+
+To consider a more biologically relevant situation, we now turn to a two dimensional setting, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\textbf{x} \equiv (x,y)$$\end{document}x≡(x,y). We note that the transition into two spatial dimensions raises immediate (analytical) questions regarding global existence and blow-up of solutions: for the corresponding minimal model (A1), blow-up typically occurs in two dimensions for scenarios in which autoaggregation is predicted (e.g. see the reviews (Horstmann 2003; Hillen and Painter 2009; Bellomo et al. 2015)). In the 2D setting, we again investigate the emergence of patterns under each definition of the phenotypic switching functions listed in Table 1. Results are displayed in Fig. 5, where in each column from top to bottom we plot the spatial distributions of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 for each phenotypic switching case at the same time-step (\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500). Parameters are as in Fig. 2.
+
+As predicted from the linear stability analysis, if parameters are selected to satisfy the instability conditions, we observe pattern formation. Specifically, we see the emergence of a spot-like pattern of aggregates, although the size and sharpness of aggregates varies with the form of phenotypic switching. Comparing the distribution of the densities of cells in the two phenotypic states, we observe that the distribution of the chemotactic state is generally concentrated in a sharper peak at the core of each aggregate, with the secreting state more dispersed about the centre.
+
+In comparison to the constant switching form, total cell density dependent and chemoattractant dependent switching forms lead to reduced densities within cell aggregates, clearest within Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1. Notably, none of the switching cases that have been considered here lead to numerical blow-up phenomena, defined as instances in which the numerical solutions form densities and/or gradients that lead to numerical instability and simulation failure. This hints that the introduction of switching between chemotactic and secreting phenotypic states may lead to global existence of solutions, although caution is noted given the numerical nature of the study. We return to this in the discussion, where we also exploit radial symmetry scenarios to perform more refined simulations.Fig. 5Comparing the effects of different phenotypic switching functions in 2D. Top row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Bottom row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1, with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=1$$\end{document}q=1. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ is equal to 10 (Case A), 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.2. The full time evolution corresponding to each panel is provided in Supplementary Material video SM2 (Color figure online)
+
+Comparing the effects of different phenotypic switching functions in 2D. Top row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Bottom row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1, with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=1$$\end{document}q=1. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ is equal to 10 (Case A), 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1), 10 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_2$$\end{document}C2). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.2. The full time evolution corresponding to each panel is provided in Supplementary Material video SM2 (Color figure online)
+
+We also consider two dimensional equivalents for the results displayed in Fig. 4, i.e. where step-like phenotypic switching functions were selected. The results are shown in Fig. 6, where again each column displays the density of the two phenotypes, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_2$$\end{document}n2, at \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=500$$\end{document}t=500. For comparison, we additionally plot the density of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=490$$\end{document}t=490, i.e. the density at an earlier time instant. Similar phenomena to those observed in one dimension are observed. For Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1 we see a two-dimensional analogue to the oscillating pattern, with aggregated single cell phenotype structures that undergo sustained temporal dynamics. For Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2 we observe the evolution to relatively low-density cell aggregates, in which the peak density at the core of the aggregate remains bounded at a relatively low level with respect to the uniform density. In this scenario there is a notable distribution of the two phenotypes, with the secreting phenotype centered at the core of an aggregate and encapsulated by a chemotaxing ring at the periphery. This is distinct from the standard arrangement (chemotactic phenotype concentrated in a high density peak at the centre) and arises through a transition from chemotaxis to secretion behaviour as an individual reaches the higher density at the centre of an aggregate. For Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1 we see the emergence of low-density aggregates where, as in the one-dimensional setting, the secreting phenotype is spread almost uniformly in space while the chemotactic phenotype forms spot-like patterns.Fig. 6Comparing the effects of different step-like phenotypic switching functions in 2D. Top row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Middle row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T. Bottom row Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at a previous time instant, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T-10=490$$\end{document}t=T-10=490. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1 (Cases B and C), with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=30$$\end{document}q=30. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ equal to 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 75 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.2. The full time evolution corresponding to each panel is provided in Supplementary Material video SM3 (Color figure online)
+
+Comparing the effects of different step-like phenotypic switching functions in 2D. Top row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. Middle row: Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T. Bottom row Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at a previous time instant, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T-10=490$$\end{document}t=T-10=490. Each column displays the results of simulations carried out using the definitions of the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 given in Table 1 (Cases B and C), with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu =1$$\end{document}μ=1 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q=30$$\end{document}q=30. The values of the parameter \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ used to perform simulations are such that the conditions for pattern formation provided in Table 1 are satisfied, that is, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ equal to 15 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_1$$\end{document}B1), 5 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2), 75 (Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {C}_1$$\end{document}C1). The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.2. The full time evolution corresponding to each panel is provided in Supplementary Material video SM3 (Color figure online)
+
+The two sets of simulation results under Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2 (displayed in Figs. 5 and 6) suggest that this form of phenotypic switching is particularly effective for controlling the density and width of cell aggregates: for example, leading to densities only a few times larger than the uniform steady state density, as compared to several hundred times under constant switching forms (Fig. 5). We investigate this further, considering a range of parameter settings for Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2. Results are shown in Fig. 7, where each panel displays the density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 obtained under a distinct parameter setting (cf. panel titles). Note that we have omitted here the figures for the corresponding densities \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0, where in all cases the aggregates consist of cells of both phenotypes. The top row explores the impact of increasing the chemotactic sensitivity, where we observe a transition from low-density stripe-like patterns at low \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ, to ring-like structures with a peaked centre for moderate values of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ, and to sharp high-density peaks at higher \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi $$\end{document}χ. The transitions under increasing \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ (middle row) or q (bottom row) show this patterning in reverse, with the transition from high-density spots to lower-density rings and/or stripes as the parameters are increased. Overall, these results indicate that density-dependent phenotypic switching functions can lead to a broad spectrum of spatial patterning, with regimes of spatio-temporal patterning for certain functional forms, or allow for a spectrum between stripe-like and spot-like patterns.Fig. 7Investigating the role of the model parameters in 2D. Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. The functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are taken to be those of Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2 in Table 1. For each panel, the parameter setting investigated is highlighted by the panel titles. The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.2. The full time evolution corresponding to each panel is provided in Supplementary Material video SM4 (Color figure online)
+
+Investigating the role of the model parameters in 2D. Each panel displays the 2D spatial distribution of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at the time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t=T$$\end{document}t=T with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T:=500$$\end{document}T:=500. The functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}$$\end{document}μ01 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{10}$$\end{document}μ10 are taken to be those of Case \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\hbox {B}_2$$\end{document}B2 in Table 1. For each panel, the parameter setting investigated is highlighted by the panel titles. The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.2. The full time evolution corresponding to each panel is provided in Supplementary Material video SM4 (Color figure online)
+
+
+## Discussion and Conclusions
+
+
+Overview of results We have developed a simple model to describe the dynamics of a phenotypically heterogeneous population of cells that interacts with some chemoattractant. Intra-population phenotypic heterogeneity is incorporated into the model by assuming the population to be composed of individuals in two distinct phenotypic states, with the possibility of switching between these states. Individuals in one phenotypic state perform chemotaxis but do not secrete attractant, whilst individuals in the other phenotypic state secrete attractant but do not display chemotaxis.
+
+Using a combination of linear stability analysis and numerical simulations, we have shown that pattern formation can occur in the form of cell density aggregates that contain a mixture of the two phenotypic states. Moreover, when the rate of switching between these phenotypic states depends on the local environment – the total cell density or the attractant concentration – a range of dynamical behaviours can be observed, including oscillations in space and time, pattern structures that range from stripes to spots, or “phenotype extinction” scenarios in which the cell population evolves to one in which all members occupy the same phenotypic state.
+
+Discussion of results in the context of chemotactic aggregation Notably, our results indicate that a level of transitioning between phenotypic states is an essential criterion for autoaggregation within the system: when switching is negligible, aggregation is not possible. Certain systems, however, may preclude this transitioning: for example, an ecological population featuring a division into male and female members. In the context of aggregation scenarios, many marine invertebrates employ chemical aggregation to achieve higher population densities prior to broadcast swarming (simultaneous release of gametes into the water column). Recent studies in certain sea cucumbers suggest that only the males release the aggregating pheromones, but that these attract nearby members of both sexes (Marquet et al. 2018). In this respect, the modelling here suggests that male to male attraction is essential for aggregation to occur in this system.
+
+The inherent cost attached to some labour (movement, protein synthesis, etc.) leads naturally to the question of energy balance, i.e. that individuals must balance their energy expenditure with the rate at which energy can be generated. Intra-population phenotypic diversity may then results from a trade-off: individuals in a phenotypic state that allows them to perform one task at a high level have less energy for other tasks (Keegstra et al. 2022). The trade-off considered here is between performing chemotaxis and both producing and secreting an attractant. In particular, we have shown that a division of labour between the time spent in the phenotypic state enabling individuals to perform chemotaxis and the time spent in the phenotypic state enabling individuals to produce and secrete the attractant can still lead to successful aggregation of the population, provided there is a non-negligible degree of transition between these phenotypic states. Here, we have concentrated on energy trade-offs related to the chemoattractant secretion and chemotactic movement of cells. However, we should note that the approach taken here has been phenomenological in spirit and a plausible future extension would be to explicitly account for energetics. One way to do this would be to initially formulate a model at the discrete level, for example through a random walk for an individual cell, but in which its movement and secretion behaviour depend on an internal variable that represents its energy reserve. Accounting for a dependency on the state of an internal variable has a rich history in the modelling of chemotaxis behaviour (e.g. Erban and Othmer 2004) and, using similar methods that we have employed before (Bubba et al. 2020; Macfarlane et al. 2020; Chaplain et al. 2020; Macfarlane et al. 2022), we could then derive the continuum limit as a PDE model that can further be analysed. We considered here the trade-off to be between cell motility and chemoattractant secretion, however, other trade-offs could exist in the population such as proliferation-migrations trade-offs. Such trade-offs have been observed in cancer growth, that is the “go-or-grow” hypothesis, and have been studied extensively both experimentally and theoretically (Corcoran and Del Maestro 2003; Gallaher et al. 2019; Giese et al. 1996; Hatzikirou et al. 2012; Hoek et al. 2008; Pham et al. 2012; Stepien et al. 2018; Vittadello et al. 2020; Zhigun et al. 2018; Stinner et al. 2016; Dhruv et al. 2013; Giese et al. 2003; Wang et al. 2012; Xie et al. 2014). In fact, mathematical models of the form developed in this manuscript can also be used to study these proliferation-migration trade-offs (Macfarlane et al. 2022; Lorenzi and Painter 2022). In this work, we considered that cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p=0$$\end{document}p=0 would still undergo a degree of random motion, however, an alternative model would be to consider a phenotypic transition into a sessile population (i.e. with neither random or directed movement terms). An investigation into the effects that this would have on the solutions to the system would be of interest.
+
+Acquiring an aggregated state can be essential for many populations, whether as a prelude to tissue morphogenesis during embryonic development or as a key stage within the life-cycle of some unicellular or multicellular organisms. Yet aggregating can also be risky: within an ecological context, as an example, reaching a high density state could lead to the depletion of local resources and starvation. Consequently, while a mechanism for aggregating may be crucial, it may be similarly important to have some counter-aggregation mechanism in place, preventing the population from over-accumulating at a location. An upper bound to the density of individuals can certainly arise from considerations of “volume-filling” (i.e. individuals being unable to occupy the same space) (Hillen and Painter 2009), but for many aggregates the density lies far below such extreme conditions, see, for instance, Mittal et al. (2003). Our results support the idea that allowing individuals in the population to transition between chemotactic and secreting phenotypes according to the local environment provides an effective means of controlling the density of aggregates. The greatest control was found in the case of responses to total density, specifically whereby individuals transition from performing chemotaxis to performing secretion as the local density surpasses some threshold. Under this scenario, low density aggregates are readily achieved, as well as the capacity to arrange into a diversity of two-dimensional structures from spots to labyrinthine stripes.Fig. 8Investigating the possibility of having no numerical blow-up in the radially symmetric case. Top row: Each panel displays the 2D radial distance of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at four increasing time instants, as described by the legend. Bottom row: Each panel displays the 2D radial distance of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 at four increasing time instants, as described by the legend. In each case, phenotypic switching is of the form of Case A given in Table 1, and each column displays the simulation results obtained for different value of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗. The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.3 (Color figure online)
+
+Investigating the possibility of having no numerical blow-up in the radially symmetric case. Top row: Each panel displays the 2D radial distance of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_1$$\end{document}n1 at four increasing time instants, as described by the legend. Bottom row: Each panel displays the 2D radial distance of the cell density \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n_0$$\end{document}n0 at four increasing time instants, as described by the legend. In each case, phenotypic switching is of the form of Case A given in Table 1, and each column displays the simulation results obtained for different value of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗. The full details of the initial conditions and numerical simulation set-up are provided in Appendix D.3 (Color figure online)
+
+Discussion of results in the context of PDE models for chemotaxis PDE models for chemotaxis that comprise two or more populations have been extensively explored by numerous authors, from both applied and theoretical perspectives. Avoiding a detailed discussion, we restrict to highlighting a few particularly relevant examples. From an applied perspective, the study presented in Tania et al. (2012) features two populations of forager and scrounger type, where foragers follow (and consume) a nutrient, and scroungers follow the foragers. “Behavioural switching” analogous to the population transition terms considered here were employed to describe shifting between these two behaviour types and, despite the absence of an autocrine relationship between the foragers and the attractant, spatio-temporal oscillations were observed. Two population systems have also been considered in the context of “autocrine-paracrine” relationships, where two populations can produce and respond to their own attractant (autocrine), but also respond to the attractant produced by the other population (paracrine): see (Painter 2009) in the context of differential-chemotaxis induced sorting, or Knútsdóttir et al. (2014) in the context of tumour-macrophage signalling.
+
+From a more theoretical perspective, the model (2) sits closely to the general “p-populations, q-chemicals” models that were described in Wolansky (2002): the addition in the model here lies in the possibility to switch between populations. A substantial literature has emerged on the analytical properties, particularly regarding blow-up of solutions, for example see (Espejo et al. 2012; Tello and Winkler 2012; Kurganov and Lukáčová-Medvidová 2014; Fu et al. 2016; Wang et al. 2017). These studies raise the question of blow-up in this system, and we briefly comment on the numerically-obtained insights from the present study. For the minimal model (1), blow-up is dimensionally-dependent: in one space dimension, solutions exist globally, but in two or more dimensions finite-time blow-up can occur (e.g. see the reviews in Horstmann 2003; Hillen and Painter 2009; Bellomo et al. 2015). The studies conducted here, however, suggest that switching between secreting and chemotactic states curbs the rate at which aggregates accumulate, leading to the question as to whether the model permits global existence. To explore this in further depth, we exploit the convenience of a radially symmetric (two dimensions) setting, thereby reducing to an effectively one-dimensional structure for numerical simulations, which permits computation for a highly refined spatial discretisation (see Appendix D.3 for details). Concentrating on the case of constant rate of phenotypic switching (i.e. Case A given in Table 1 whereby \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu _{01}\equiv \mu _{10}\equiv \mu $$\end{document}μ01≡μ10≡μ with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu \in {\mathbb {R}}^*_+$$\end{document}μ∈R+∗), we track the cell densities over time, computing until there is negligible change to the solution profile or, if relevant, numerical blow-up occurs. The results are displayed in Fig. 8, under a range of values of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ. In all cases solutions are found to evolve to smooth profiles and no numerical blow-up was observed. Increasing \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\mu $$\end{document}μ generates a sharper profile, however the maximum density remains bounded. A similar boundedness to the computed solutions was found to occur in a spherically symmetric (three dimensional) setting (data not shown). While exercising caution given the numerical nature of this study, these results suggest that the model studied here may admit globally existing non-uniform solutions.
+
+Possible generalisations of the model The mathematical model defined by the PDE system (2) subject to the boundary conditions (3) relies on the assumption that the cell phenotypic state is binary. Hence, as a first generalisation of this model, we could consider the case in which the population is subdivided into a discrete spectrum of \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$P+1$$\end{document}P+1 phenotypes, labelled by the index \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$p \in \mathcal {P}:= \{ 0, \ldots , P\},$$\end{document}p∈P:={0,…,P}, which vary according to both their chemotactic ability and their rate of attractant production. The generalised model would then comprise the following PDE system17\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\left\{ \begin{array}{ll} \displaystyle {\dfrac{\partial n_p}{\partial t}=\nabla \cdot \left( D_n \nabla n_p - \chi _p n_p \nabla s \right) + \sum _{q\in \mathcal{{P}}, q\ne p} \Big (\gamma _{qp}(\rho ,s) n_q - \gamma _{pq}(\rho ,s) n_p \Big )},\\ \displaystyle {\rho (\textbf{x},t):= \sum _{p\in \mathcal{{P}}} n_p(\textbf{x},t)}, \\ \displaystyle {\dfrac{\partial s}{\partial t} =D_s\nabla ^2 s + \sum _{p\in \mathcal{{P}}} \alpha _p n_p - \eta \, s}, \end{array}\right. } \textbf{x}\in \Omega , \nonumber \\ \end{aligned}$$\end{document}∂np∂t=∇·Dn∇np-χpnp∇s+∑q∈P,q≠p(γqp(ρ,s)nq-γpq(ρ,s)np),ρ(x,t):=∑p∈Pnp(x,t),∂s∂t=Ds∇2s+∑p∈Pαpnp-ηs,x∈Ω,subject to the following zero-flux boundary conditions\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mathbf{{u}} \cdot \nabla n_p =0, \quad \mathbf{{u}} \cdot \nabla s=0,\quad x\in \partial \Omega , \quad p=0, \ldots , \mathcal {P}. \end{aligned}$$\end{document}u·∇np=0,u·∇s=0,x∈∂Ω,p=0,…,P.In analogy with the case of model (2), the function \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\gamma _{qp}(\rho , s)$$\end{document}γqp(ρ,s), with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\gamma _{qp}: {\mathbb {R}}^2_+ \rightarrow {\mathbb {R}}_+$$\end{document}γqp:R+2→R+, models the rate at which cells switch from phenotype p to phenotype \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$q \ne p$$\end{document}q≠p.
+
+As a further generalisation, in the vein of Macfarlane et al. (2022), Lorenzi and Painter (2022), Lorenzi et al. (2021), we could also consider the case where the cell phenotypic state varies along a continuum and is thus described by a continuous variable \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\theta \in {\mathbb {R}}$$\end{document}θ∈R. In this case, the dynamics of the density of cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\theta $$\end{document}θ at time \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t \ge 0$$\end{document}t≥0, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$n \equiv n(\theta ,\textbf{x},t)$$\end{document}n≡n(θ,x,t), and the local concentration of the chemoattractant would be governed by the following system of partial integro-differential equations18\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} {\left\{ \begin{array}{ll} \displaystyle {\dfrac{\partial n}{\partial t}=\nabla _{\textbf{x}}\cdot \left( D_n \nabla _{\textbf{x}} n - \chi (y) n \nabla _{\textbf{x}} s \right) } \\ \displaystyle {\qquad \quad + \int _{{\mathbb {R}}} \gamma (\theta ,\theta ',\rho ,s) \, n(\theta ',\textbf{x},t) \, \textrm{d}\theta ' - n \int _{{\mathbb {R}}} \gamma (\theta ',\theta ,\rho ,s) \, \textrm{d}\theta '},\\ \displaystyle {\rho \equiv \rho (\textbf{x},t):= \int _{{\mathbb {R}}} n(\theta ,\textbf{x},t) \, \textrm{d}\theta }, \\ \displaystyle {\dfrac{\partial s}{\partial t} =D_s\nabla ^2_{\textbf{x}} s + \int _{{\mathbb {R}}} \alpha (\theta ) \, n(\theta ,\textbf{x},t) \, \textrm{d}\theta - \eta \, s}, \end{array}\right. } \; \textbf{x}\in \Omega , \end{aligned}$$\end{document}∂n∂t=∇x·Dn∇xn-χ(y)n∇xs+∫Rγ(θ,θ′,ρ,s)n(θ′,x,t)dθ′-n∫Rγ(θ′,θ,ρ,s)dθ′,ρ≡ρ(x,t):=∫Rn(θ,x,t)dθ,∂s∂t=Ds∇x2s+∫Rα(θ)n(θ,x,t)dθ-ηs,x∈Ω,subject to the following zero-flux boundary conditions\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} \mathbf{{u}} \cdot \nabla _{\textbf{x}} n = 0, \quad \mathbf{{u}} \cdot \nabla _{\textbf{x}} s=0,\quad \textbf{x} \in \partial \Omega . \end{aligned}$$\end{document}u·∇xn=0,u·∇xs=0,x∈∂Ω.Here, the functions \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\chi : {\mathbb {R}} \rightarrow {\mathbb {R}}^*_+$$\end{document}χ:R→R+∗ and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\alpha : {\mathbb {R}} \rightarrow {\mathbb {R}}^*_+$$\end{document}α:R→R+∗ model, respectively, the chemotactic sensitivity and the rate of attractant production of cells in the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\theta $$\end{document}θ. Moreover, the function \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\gamma (\theta , \theta ',\rho ,s)$$\end{document}γ(θ,θ′,ρ,s), with \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\gamma : {\mathbb {R}}^2 \times {\mathbb {R}}^2_+ \rightarrow {\mathbb {R}}_+$$\end{document}γ:R2×R+2→R+, models the rate of switching from the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\theta '$$\end{document}θ′ to the phenotypic state \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\theta $$\end{document}θ.
+
+Analysis and numerical simulation of the generalised models (17) and (18), which are expected to pose a series of analytical and numerical challenges that make these models interesting mathematical objects per se, will allow for further investigation into how phenotypic heterogeneity shapes the emergence of chemotactic self-organisation in different biological contexts.
+
+
+## Supplementary Information
+
+
+Below is the link to the electronic supplementary material.Supplementary file 1 (mp4 11445 KB)Supplementary file 2 (mp4 4449 KB)Supplementary file 3 (mp4 8553 KB)Supplementary file 4 (mp4 7620 KB)Supplementary file 5 (pdf 80 KB)
+
+Supplementary file 1 (mp4 11445 KB)
+
+Supplementary file 2 (mp4 4449 KB)
+
+Supplementary file 3 (mp4 8553 KB)
+
+Supplementary file 4 (mp4 7620 KB)
+
+Supplementary file 5 (pdf 80 KB)

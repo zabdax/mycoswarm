@@ -1,0 +1,10 @@
+claim_id,location,claim_type,claim_summary,evidence_ids,support_level,alignment_issue,limitation,requested_action
+CLAIM-001,Abstract:results;Results:3.1,primary_outcome,Speedup CIs inside 10-50x band (edge 10.0-19.4x; network 19.0-41.9x),RES-STATS;FIG-CI,supported,none,"Assumed soil D/chi/EC50; dt-sensitive absolutes; see evidence_legend.md",
+CLAIM-002,Results:3.1,primary_outcome,All 16 contrasts Holm-significant U=0 p<=.0006 delta=-1.00,RES-STATS,supported,none,n=12 episodes per group; simulation episodes not physical replicates,
+CLAIM-003,Results:3.2,mechanistic,Ablation: branching redundant under guidance; depletion required,RES-ABLATION,supported,none,Single condition (network/lam200/K0.1); needs wider ablation grid,
+CLAIM-004,Results:3.3,secondary_outcome,Bacteria visit ~30k times yet sequester 0% with 0% retention,RES-BACT,supported,none,Washout rate assumed; adhesion/biofilm not modeled,
+CLAIM-005,Results:3.4,methods,Absolute times dt-sensitive (p=.012); ratio holds at matched dt (10.6x p<.0001),RES-CONV;RES-SAMEDT,supported,none,No clean continuum limit; ratios-only claim,
+CLAIM-006,Results:3.3,generalization,Independent seed sets reproduce band (edge ~17x network ~23x),RES-ROBUST;RES-SWEEP,supported,none,Same model and params; independent only in RNG seeds,
+CLAIM-007,Results:3.1,other,Tabular Q-learner failed; real DQN (2000 eps) wins 7.36 vs greedy 8.84 on all 10 seeds,RES-DQN,supported,none,Single-source 2-D test; multi-source 3-D policy untested,
+CLAIM-008,Discussion,other,Five critical evidence gaps bound the work (no Kd/D/chi/EC50/fungal-GPCR),CORPUS;LEDGER,partly_supported,scope,Gap-absence claims rest on corpus search scope; search bounds documented in Methods 2.1,Search bounds stated in Methods 2.1; reviewer to confirm adequacy
+CLAIM-009,Results:3.4,methods,Computed tortuosity 0.85±0.03; Morris ranking chi>grain>K>lam (range-normalized); solver TDD 4/4,RES-DEFF;RES-MORRIS,supported,none,Morris on capture time at one condition family; Deff specific to 15% matrices,

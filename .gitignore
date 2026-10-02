@@ -1,0 +1,7 @@
+# dev-only / machine-local — excluded from release
+skills/
+.pytest_cache/
+__pycache__/
+agents/
+C:\Windows\Temp\opencode/
+results_dqn*/model.pt

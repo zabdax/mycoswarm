@@ -1,0 +1,37 @@
+{
+  "checklist_id": "MYCOSWARM-v1-2026-10-02",
+  "errors": [],
+  "gap_item_ids_by_category": {
+    "analysis": [
+      "analysis.prespecification"
+    ],
+    "interpretation": [
+      "interpretation.claim_evidence_causality"
+    ]
+  },
+  "item_count": 22,
+  "item_ids_missing_requested_action": [],
+  "notice": "This is a structured completeness and consistency audit, not a statistical reanalysis, reproducibility claim, quality score, or publication recommendation. A qualified specialist must evaluate methods outside the reviewer's competence.",
+  "schema_version": "2.0",
+  "specialist_review": {
+    "declared_areas": [
+      "mechanistic_claim_review",
+      "assumption_diagnostics"
+    ],
+    "declared_needed": "yes",
+    "declared_requested": true,
+    "recheck_recommended": true,
+    "trigger_item_ids": [
+      "interpretation.claim_evidence_causality"
+    ]
+  },
+  "status": "VALID_WITH_REVIEW_GAPS",
+  "status_counts": {
+    "not_applicable": 1,
+    "partly_documented": 2,
+    "verified_present": 19
+  },
+  "study_design": "simulation_experiment",
+  "valid": true,
+  "warnings": []
+}

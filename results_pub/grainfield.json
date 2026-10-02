@@ -1,0 +1,58 @@
+[
+  {
+    "inoc": "edge",
+    "field": "analytic",
+    "chi": 0.0,
+    "mean_tall": 81.525,
+    "frac": 1.0
+  },
+  {
+    "inoc": "edge",
+    "field": "analytic",
+    "chi": 1.0,
+    "mean_tall": 5.765625,
+    "frac": 1.0
+  },
+  {
+    "inoc": "edge",
+    "field": "solver",
+    "chi": 0.0,
+    "mean_tall": 81.525,
+    "frac": 1.0
+  },
+  {
+    "inoc": "edge",
+    "field": "solver",
+    "chi": 1.0,
+    "mean_tall": 9.28125,
+    "frac": 1.0
+  },
+  {
+    "inoc": "network",
+    "field": "analytic",
+    "chi": 0.0,
+    "mean_tall": 57.60937500000001,
+    "frac": 1.0
+  },
+  {
+    "inoc": "network",
+    "field": "analytic",
+    "chi": 1.0,
+    "mean_tall": 2.1500000000000004,
+    "frac": 1.0
+  },
+  {
+    "inoc": "network",
+    "field": "solver",
+    "chi": 0.0,
+    "mean_tall": 57.60937500000001,
+    "frac": 1.0
+  },
+  {
+    "inoc": "network",
+    "field": "solver",
+    "chi": 1.0,
+    "mean_tall": 3.8916666666666666,
+    "frac": 1.0
+  }
+]

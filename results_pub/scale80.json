@@ -1,0 +1,28 @@
+[
+  {
+    "inoc": "edge",
+    "chi": 0.0,
+    "mean_tall": 255.5875,
+    "mean_frac": 1.0
+  },
+  {
+    "inoc": "edge",
+    "chi": 1.0,
+    "mean_tall": 17.115625,
+    "mean_frac": 1.0,
+    "speedup": 14.932992514150081
+  },
+  {
+    "inoc": "network",
+    "chi": 0.0,
+    "mean_tall": 239.25625000000002,
+    "mean_frac": 1.0
+  },
+  {
+    "inoc": "network",
+    "chi": 1.0,
+    "mean_tall": 9.234375,
+    "mean_frac": 1.0,
+    "speedup": 25.9093062605753
+  }
+]
